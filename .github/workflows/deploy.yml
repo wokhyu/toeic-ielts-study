@@ -44,7 +44,7 @@ jobs:
           HAS_SUPABASE: ${{ secrets.VITE_SUPABASE_URL != '' && secrets.VITE_SUPABASE_ANON_KEY != '' }}
         run: echo "::warning::VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY are not set; the site is deployed in preview-only mode."
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
 
       - uses: actions/upload-pages-artifact@v4
         with:
