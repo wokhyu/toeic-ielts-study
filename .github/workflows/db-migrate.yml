@@ -1,0 +1,45 @@
+name: db-migrate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'supabase/migrations/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Never run two migrations against the database at the same time.
+concurrency:
+  group: db-migrate
+  cancel-in-progress: false
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    env:
+      # Session pooler connection string (IPv4), stored as an environment secret.
+      SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+      SUPABASE_CLI: supabase@3.1.0
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+
+      - name: Check secret
+        run: |
+          if [ -z "$SUPABASE_DB_URL" ]; then
+            echo "::error::Set the SUPABASE_DB_URL secret in the 'production' environment (see README)."
+            exit 1
+          fi
+
+      - name: Pending migrations (dry run)
+        run: npx -y "$SUPABASE_CLI" db push --remote="$SUPABASE_DB_URL" --dry-run --yes
+
+      - name: Apply migrations
+        run: npx -y "$SUPABASE_CLI" db push --remote="$SUPABASE_DB_URL" --yes
