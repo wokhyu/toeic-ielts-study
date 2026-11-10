@@ -19,7 +19,7 @@ Kết luận áp dụng:
 - Bài test đầu vào chấm tự động ngay lập tức (giống Prep) và cho phép bỏ qua nếu đã có điểm thi thật.
 - Không tự host đề thi thử full test. Trang Điểm thi thử dẫn link tới nguồn chính thức (ETS, British Council), người học tự nhập điểm vào web.
 - Flashcard dùng 4 mức chấm Again / Hard / Good / Easy giống Anki.
-- Bảng xếp hạng xếp theo streak và % hoàn thành giống Duolingo, nhưng chỉ so sánh trong nhóm, tách riêng TOEIC và IELTS.
+- Bảng xếp hạng xếp theo streak và % hoàn thành giống Duolingo, nhưng chỉ so sánh giữa những người cùng khóa, tách riêng TOEIC và IELTS.
 
 ## 2. Stack
 
@@ -35,43 +35,43 @@ Kết luận áp dụng:
 
 ## 3. Luồng người dùng
 
-1. Mở web, đăng nhập bằng magic link gửi qua email.
-2. Lần đầu đăng nhập: nhập tên hiển thị và mã mời nhóm.
-3. Chọn chương trình TOEIC hoặc IELTS.
-4. Đã có điểm thi thật: nhập điểm, hệ thống xếp nhánh theo `scoring.json`. Chưa có: làm bài test đầu vào (khoảng 40 phút), Listening phát bằng TTS.
-5. Xem kết quả: số câu đúng, nhánh A/B/C và điểm mục tiêu. Ngày bắt đầu lộ trình là thứ Hai gần nhất.
-6. Vào trang Hôm nay, tick từng nhiệm vụ khi làm xong.
-7. Ôn flashcard theo chủ đề của tuần.
+1. Mở web, xem danh sách khóa học (TOEIC, IELTS, Ôn tập 11). Có thể xem trước lộ trình và làm thử bài test mà không cần tài khoản.
+2. Đăng ký bằng email + mật khẩu và tên hiển thị, xác nhận email.
+3. Bấm "Đăng ký khóa này". Yêu cầu ở trạng thái chờ duyệt cho tới khi admin duyệt.
+4. Admin duyệt (có thể gán luôn nhánh A/B/C và ngày bắt đầu). Người học thấy nút "Vào học".
+5. Khóa TOEIC/IELTS chưa có nhánh: nhập điểm thi thật hoặc làm bài test đầu vào (Listening đọc bằng TTS). Hệ thống xếp nhánh theo `scoring.json`, ngày bắt đầu là thứ Hai gần nhất.
+6. Hằng ngày vào trang Hôm nay, tick nhiệm vụ đã làm; ôn flashcard; nhập điểm thi thử ở tuần 4, 8, 12.
+7. Khóa Ôn tập 11: luyện từng chủ đề (chấm ngay, xem lời giải), thi thử có bấm giờ, ôn lại câu sai và câu đã đánh dấu.
+8. Admin xem tiến độ từng người: % hoàn thành, streak, tiến độ theo tuần, kết quả test, điểm thi thử, flashcard, kết quả Ôn tập 11 theo môn.
 
 ## 4. Các trang
 
-- **Đăng nhập** (`/login`): ô email, nút gửi magic link, dòng trạng thái đã gửi.
-- **Onboarding** (`/onboarding`): bước 1 nhập tên và mã mời; bước 2 chọn chương trình; bước 3 nhập điểm thật hoặc chuyển sang làm bài test.
-- **Bài test** (`/placement/:program`): từng câu kèm nút phát audio, thanh tiến độ; với IELTS có thêm bước tự chấm Writing/Speaking theo bảng 4 tiêu chí; cuối bài hiện kết quả và giải thích từng câu.
-- **Hôm nay** (`/today`): tuần, ngày, tổng phút; danh sách nhiệm vụ có checkbox; đánh dấu nhiệm vụ nhóm; trọng tâm tuần.
-- **Lộ trình** (`/roadmap`): 12 tuần dạng accordion, % hoàn thành từng tuần, lọc theo nhánh.
-- **Nhóm** (`/group`): bảng xếp hạng theo chương trình (streak, % hoàn thành, số nhiệm vụ đã xong), mã mời để chia sẻ.
-- **Điểm thi thử** (`/scores`): form nhập điểm theo kỹ năng, biểu đồ đường qua các lần thi, link tới đề chính thức.
-- **Flashcard** (`/flashcards`): chọn tuần, lật thẻ, 4 nút chấm, số thẻ đến hạn hôm nay.
+Đường dẫn dùng hash (`#/...`).
 
-## 5. Schema database
+- **Khóa học** (`/khoa-hoc`): thẻ từng khóa, trạng thái đăng ký, nút vào học hoặc xem trước.
+- **Đăng nhập / Đăng ký / Đổi mật khẩu** (`/dang-nhap`, `/dang-ky`, `/doi-mat-khau`).
+- **TOEIC, IELTS** (`/c/toeic/...`, `/c/ielts/...`): Hôm nay, Lộ trình 12 tuần, Bài test, Flashcard, Điểm thi thử (biểu đồ + link đề chính thức), Xếp hạng trong khóa.
+- **Xem trước** (`/xem-truoc/:program/...`): lộ trình và bài test, không lưu kết quả.
+- **Ôn tập 11** (`/c/on-tap-11/...`): cây chủ đề kèm tiến độ, luyện tập theo chủ đề, thi thử (chọn chủ đề, số câu, thời gian, dạng câu), kết quả và xem lại bài, ôn lại câu sai.
+- **Admin** (`/admin`): yêu cầu đang chờ duyệt, danh sách người dùng; `/admin/nguoi-dung/:id`: quyền, trạng thái từng khóa, tiến độ chi tiết; `/admin/duyet-dap-an`: gán đáp án cho câu Ôn tập 11 còn thiếu.
 
-Chi tiết trong `supabase/migrations/0001_init.sql`.
+## 5. Phân quyền và database
 
-- `groups` (id uuid PK, name text, invite_code text unique, created_at)
-- `profiles` (id uuid PK → auth.users, display_name text, group_id → groups, program text, track text, start_date date, created_at)
-- `task_progress` (user_id → profiles, task_id text, program text, completed_at timestamptz; PK là cặp user_id + task_id)
-- `placement_results` (id, user_id, program, answers jsonb, correct_count int, track text, taken_at)
-- `mock_scores` (id, user_id, program, week int, listening, reading, writing, speaking, total numeric, taken_at)
-- `flashcard_reviews` (user_id, card_id text, ease numeric, interval_days int, reps int, due_date date; PK là cặp user_id + card_id)
-- RPC `join_group(code)`: gắn người dùng vào nhóm có mã mời tương ứng.
-- RPC `get_leaderboard(program)`: trả về tên hiển thị, số nhiệm vụ đã xong, số ngày có học và streak của các thành viên cùng nhóm.
+Chi tiết trong `supabase/migrations/`.
 
-Nội dung học (đề, lộ trình, từ vựng) là file JSON tĩnh bundle cùng frontend. Database chỉ lưu id nhiệm vụ và id thẻ, nên cập nhật nội dung không cần migrate dữ liệu.
+- `courses`: toeic, ielts, on-tap-11 (`kind` roadmap hoặc question_bank).
+- `profiles`: tên hiển thị, `role` learner hoặc admin. Người dùng chỉ sửa được `display_name`.
+- `enrollments`: (user, course) với trạng thái pending / approved / rejected / revoked, nhánh, ngày bắt đầu. Người học chỉ tự gửi yêu cầu (`request_enrollment`) và chỉnh nhánh/ngày bắt đầu của mình; duyệt chỉ qua `admin_set_enrollment`.
+- `task_progress`, `placement_results`, `mock_scores`, `flashcard_reviews`: dữ liệu của từng người, gắn với khóa.
+- `ot_*`: ngân hàng câu hỏi Ôn tập 11. Đáp án và lời giải nằm ở `ot_question_keys`, chỉ admin đọc trực tiếp. Người học chấm bài, xem lời giải, thi thử qua các hàm `security definer` (`ot_answer_practice`, `ot_start_exam`, `ot_submit_exam`, ...). Trong lúc có bài thi đang mở, không xem được đáp án bằng chế độ luyện tập.
+- Hàm admin: `admin_list_users`, `admin_set_enrollment`, `admin_set_role` (không tự hạ quyền chính mình), `ot_admin_set_key`.
+- `get_leaderboard(course)`: số nhiệm vụ đã xong, số ngày có học và streak (theo giờ Việt Nam) của những người cùng khóa.
+
+Nội dung TOEIC/IELTS là file JSON tĩnh bundle cùng frontend; database chỉ lưu id nhiệm vụ và id thẻ. Câu hỏi Ôn tập 11 KHÔNG nằm trong repo: chúng được nạp vào Supabase bằng `scripts/import-on-tap-11.ts`.
 
 ## 6. Giới hạn của gói miễn phí
 
-- **Supabase Free:** project bị tạm dừng sau khoảng 1 tuần không có truy cập; vào dashboard bấm khôi phục là chạy lại. Giới hạn cụ thể về dung lượng DB và số email Auth mỗi giờ thay đổi theo thời gian `[không chắc về con số hiện tại]`; xem trang Pricing của Supabase. Email magic link mặc định bị giới hạn tần suất; nhóm lớn nên cấu hình SMTP riêng.
-- **GitHub Pages:** chỉ host trang tĩnh, repo public; có giới hạn băng thông mềm hằng tháng, nhóm nhỏ không chạm tới.
+- **Supabase Free:** project bị tạm dừng sau khoảng 1 tuần không có truy cập; vào dashboard bấm khôi phục là chạy lại. Giới hạn cụ thể về dung lượng DB, Storage và số email Auth mỗi giờ thay đổi theo thời gian `[không chắc về con số hiện tại]`; xem trang Pricing của Supabase. Email xác nhận mặc định bị giới hạn tần suất; nhóm lớn nên cấu hình SMTP riêng.
+- **GitHub Pages:** chỉ host trang tĩnh; có giới hạn băng thông mềm hằng tháng, nhóm nhỏ không chạm tới.
 - **Web Speech API:** chất lượng và giọng đọc phụ thuộc trình duyệt và hệ điều hành; Chrome và Edge có nhiều giọng nhất.
-- **Rủi ro:** anon key của Supabase lộ trong bundle là bình thường, vì quyền truy cập được chặn bằng RLS. Mọi bảng mới PHẢI bật RLS trước khi dùng.
+- **Rủi ro:** anon key của Supabase lộ trong bundle là bình thường, vì quyền truy cập được chặn bằng RLS. Mọi bảng mới PHẢI bật RLS trước khi dùng. Service role key chỉ dùng trên máy cá nhân khi import, không bao giờ đưa vào repo hay biến `VITE_*`.
