@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "toeic-v001",
+    "program": "toeic",
+    "week": 1,
+    "word": "agenda",
+    "ipa": "/əˈdʒendə/",
+    "pos": "n",
+    "meaning_vi": "chương trình nghị sự, lịch họp",
+    "example": "Please read the agenda before the meeting."
+  },
+  {
+    "id": "toeic-v002",
+    "program": "toeic",
+    "week": 1,
+    "word": "memo",
+    "ipa": "/ˈmemoʊ/",
+    "pos": "n",
+    "meaning_vi": "bản ghi nhớ nội bộ",
+    "example": "The manager sent a memo about the new dress code."
+  },
+  {
+    "id": "toeic-v003",
+    "program": "toeic",
+    "week": 1,
+    "word": "deadline",
+    "ipa": "/ˈdedlaɪn/",
+    "pos": "n",
+    "meaning_vi": "hạn chót",
+    "example": "We must meet the deadline for the report."
+  },
+  {
+    "id": "toeic-v004",
+    "program": "toeic",
+    "week": 1,
+    "word": "colleague",
+    "ipa": "/ˈkɑːliːɡ/",
+    "pos": "n",
+    "meaning_vi": "đồng nghiệp",
+    "example": "My colleague will cover my shift on Friday."
+  },
+  {
+    "id": "toeic-v005",
+    "program": "toeic",
+    "week": 1,
+    "word": "supervisor",
+    "ipa": "/ˈsuːpərvaɪzər/",
+    "pos": "n",
+    "meaning_vi": "người giám sát, quản lý trực tiếp",
+    "example": "Ask your supervisor to approve the request."
+  },
+  {
+    "id": "toeic-v006",
+    "program": "toeic",
+    "week": 1,
+    "word": "assignment",
+    "ipa": "/əˈsaɪnmənt/",
+    "pos": "n",
+    "meaning_vi": "nhiệm vụ được giao",
+    "example": "She completed the assignment ahead of schedule."
+  },
+  {
+    "id": "toeic-v007",
+    "program": "toeic",
+    "week": 1,
+    "word": "attend",
+    "ipa": "/əˈtend/",
+    "pos": "v",
+    "meaning_vi": "tham dự",
+    "example": "All staff are required to attend the training."
+  },
+  {
+    "id": "toeic-v008",
+    "program": "toeic",
+    "week": 1,
+    "word": "postpone",
+    "ipa": "/poʊstˈpoʊn/",
+    "pos": "v",
+    "meaning_vi": "hoãn lại",
+    "example": "The meeting was postponed until next week."
+  },
+  {
+    "id": "toeic-v009",
+    "program": "toeic",
+    "week": 1,
+    "word": "reschedule",
+    "ipa": "/ˌriːˈskedʒuːl/",
+    "pos": "v",
+    "meaning_vi": "sắp xếp lại lịch",
+    "example": "Can we reschedule the call for Thursday?"
+  },
+  {
+    "id": "toeic-v010",
+    "program": "toeic",
+    "week": 1,
+    "word": "submit",
+    "ipa": "/səbˈmɪt/",
+    "pos": "v",
+    "meaning_vi": "nộp",
+    "example": "Submit your timesheet by Friday noon."
+  },
+  {
+    "id": "toeic-v011",
+    "program": "toeic",
+    "week": 1,
+    "word": "supplies",
+    "ipa": "/səˈplaɪz/",
+    "pos": "n",
+    "meaning_vi": "văn phòng phẩm, đồ dùng",
+    "example": "Office supplies are kept in the storage room."
+  },
+  {
+    "id": "toeic-v012",
+    "program": "toeic",
+    "week": 1,
+    "word": "photocopier",
+    "ipa": "/ˈfoʊtoʊkɑːpiər/",
+    "pos": "n",
+    "meaning_vi": "máy photocopy",
+    "example": "The photocopier on the third floor is out of order."
+  },
+  {
+    "id": "toeic-v013",
+    "program": "toeic",
+    "week": 1,
+    "word": "extension",
+    "ipa": "/ɪkˈstenʃən/",
+    "pos": "n",
+    "meaning_vi": "số máy lẻ; sự gia hạn",
+    "example": "You can reach me at extension 214."
+  },
+  {
+    "id": "toeic-v014",
+    "program": "toeic",
+    "week": 1,
+    "word": "workload",
+    "ipa": "/ˈwɜːrkloʊd/",
+    "pos": "n",
+    "meaning_vi": "khối lượng công việc",
+    "example": "Our workload increases at the end of the quarter."
+  },
+  {
+    "id": "toeic-v015",
+    "program": "toeic",
+    "week": 1,
+    "word": "reminder",
+    "ipa": "/rɪˈmaɪndər/",
+    "pos": "n",
+    "meaning_vi": "lời nhắc",
+    "example": "I set a reminder for the client call."
+  },
+  {
+    "id": "toeic-v016",
+    "program": "toeic",
+    "week": 1,
+    "word": "remotely",
+    "ipa": "/rɪˈmoʊtli/",
+    "pos": "adv",
+    "meaning_vi": "từ xa",
+    "example": "Many employees now work remotely twice a week."
+  },
+  {
+    "id": "toeic-v017",
+    "program": "toeic",
+    "week": 1,
+    "word": "in charge of",
+    "ipa": "/ɪn tʃɑːrdʒ əv/",
+    "pos": "phr",
+    "meaning_vi": "phụ trách",
+    "example": "Mr. Lee is in charge of the budget."
+  },
+  {
+    "id": "toeic-v018",
+    "program": "toeic",
+    "week": 1,
+    "word": "on behalf of",
+    "ipa": "/ɑːn bɪˈhæf əv/",
+    "pos": "phr",
+    "meaning_vi": "thay mặt cho",
+    "example": "I am writing on behalf of the sales team."
+  },
+  {
+    "id": "toeic-v019",
+    "program": "toeic",
+    "week": 1,
+    "word": "cubicle",
+    "ipa": "/ˈkjuːbɪkl/",
+    "pos": "n",
+    "meaning_vi": "ô làm việc ngăn vách",
+    "example": "His cubicle is next to the window."
+  },
+  {
+    "id": "toeic-v020",
+    "program": "toeic",
+    "week": 1,
+    "word": "efficient",
+    "ipa": "/ɪˈfɪʃənt/",
+    "pos": "adj",
+    "meaning_vi": "hiệu quả",
+    "example": "The new filing system is more efficient."
+  },
+  {
+    "id": "toeic-v021",
+    "program": "toeic",
+    "week": 2,
+    "word": "applicant",
+    "ipa": "/ˈæplɪkənt/",
+    "pos": "n",
+    "meaning_vi": "người nộp đơn",
+    "example": "Each applicant must submit a résumé."
+  },
+  {
+    "id": "toeic-v022",
+    "program": "toeic",
+    "week": 2,
+    "word": "candidate",
+    "ipa": "/ˈkændɪdət/",
+    "pos": "n",
+    "meaning_vi": "ứng viên",
+    "example": "We interviewed five candidates for the role."
+  },
+  {
+    "id": "toeic-v023",
+    "program": "toeic",
+    "week": 2,
+    "word": "qualification",
+    "ipa": "/ˌkwɑːlɪfɪˈkeɪʃən/",
+    "pos": "n",
+    "meaning_vi": "bằng cấp, trình độ",
+    "example": "A degree in accounting is a required qualification."
+  },
+  {
+    "id": "toeic-v024",
+    "program": "toeic",
+    "week": 2,
+    "word": "résumé",
+    "ipa": "/ˈrezəmeɪ/",
+    "pos": "n",
+    "meaning_vi": "sơ yếu lý lịch",
+    "example": "Please attach your résumé to the e-mail."
+  },
+  {
+    "id": "toeic-v025",
+    "program": "toeic",
+    "week": 2,
+    "word": "recruit",
+    "ipa": "/rɪˈkruːt/",
+    "pos": "v",
+    "meaning_vi": "tuyển dụng",
+    "example": "The firm plans to recruit ten engineers."
+  },
+  {
+    "id": "toeic-v026",
+    "program": "toeic",
+    "week": 2,
+    "word": "hire",
+    "ipa": "/haɪər/",
+    "pos": "v",
+    "meaning_vi": "thuê, tuyển",
+    "example": "We hired a new receptionist last month."
+  },
+  {
+    "id": "toeic-v027",
+    "program": "toeic",
+    "week": 2,
+    "word": "promote",
+    "ipa": "/prəˈmoʊt/",
+    "pos": "v",
+    "meaning_vi": "thăng chức; quảng bá",
+    "example": "She was promoted to senior manager."
+  },
+  {
+    "id": "toeic-v028",
+    "program": "toeic",
+    "week": 2,
+    "word": "resign",
+    "ipa": "/rɪˈzaɪn/",
+    "pos": "v",
+    "meaning_vi": "từ chức, nghỉ việc",
+    "example": "He resigned to start his own business."
+  },
+  {
+    "id": "toeic-v029",
+    "program": "toeic",
+    "week": 2,
+    "word": "retire",
+    "ipa": "/rɪˈtaɪər/",
+    "pos": "v",
+    "meaning_vi": "nghỉ hưu",
+    "example": "Ms. Grant will retire after thirty years."
+  },
+  {
+    "id": "toeic-v030",
+    "program": "toeic",
+    "week": 2,
+    "word": "benefits",
+    "ipa": "/ˈbenɪfɪts/",
+    "pos": "n",
+    "meaning_vi": "phúc lợi",
+    "example": "The benefits include health insurance."
+  },
+  {
+    "id": "toeic-v031",
+    "program": "toeic",
+    "week": 2,
+    "word": "salary",
+    "ipa": "/ˈsæləri/",
+    "pos": "n",
+    "meaning_vi": "lương (theo tháng/năm)",
+    "example": "The salary is paid on the last day of the month."
+  },
+  {
+    "id": "toeic-v032",
+    "program": "toeic",
+    "week": 2,
+    "word": "probation",
+    "ipa": "/proʊˈbeɪʃən/",
+    "pos": "n",
+    "meaning_vi": "thời gian thử việc",
+    "example": "New staff have a three-month probation period."
+  },
+  {
+    "id": "toeic-v033",
+    "program": "toeic",
+    "week": 2,
+    "word": "orientation",
+    "ipa": "/ˌɔːriənˈteɪʃən/",
+    "pos": "n",
+    "meaning_vi": "buổi định hướng nhân viên mới",
+    "example": "Orientation begins at 9 A.M. on Monday."
+  },
+  {
+    "id": "toeic-v034",
+    "program": "toeic",
+    "week": 2,
+    "word": "performance review",
+    "ipa": "/pərˈfɔːrməns rɪˈvjuː/",
+    "pos": "n",
+    "meaning_vi": "đánh giá hiệu suất",
+    "example": "Performance reviews take place every December."
+  },
+  {
+    "id": "toeic-v035",
+    "program": "toeic",
+    "week": 2,
+    "word": "personnel",
+    "ipa": "/ˌpɜːrsəˈnel/",
+    "pos": "n",
+    "meaning_vi": "nhân sự",
+    "example": "All personnel must wear ID badges."
+  },
+  {
+    "id": "toeic-v036",
+    "program": "toeic",
+    "week": 2,
+    "word": "reference",
+    "ipa": "/ˈrefrəns/",
+    "pos": "n",
+    "meaning_vi": "người giới thiệu, thư giới thiệu",
+    "example": "Please provide two professional references."
+  },
+  {
+    "id": "toeic-v037",
+    "program": "toeic",
+    "week": 2,
+    "word": "vacancy",
+    "ipa": "/ˈveɪkənsi/",
+    "pos": "n",
+    "meaning_vi": "vị trí còn trống",
+    "example": "There is a vacancy in the marketing department."
+  },
+  {
+    "id": "toeic-v038",
+    "program": "toeic",
+    "week": 2,
+    "word": "experienced",
+    "ipa": "/ɪkˈspɪriənst/",
+    "pos": "adj",
+    "meaning_vi": "có kinh nghiệm",
+    "example": "We are looking for an experienced designer."
+  },
+  {
+    "id": "toeic-v039",
+    "program": "toeic",
+    "week": 2,
+    "word": "eligible",
+    "ipa": "/ˈelɪdʒəbl/",
+    "pos": "adj",
+    "meaning_vi": "đủ điều kiện",
+    "example": "Full-time staff are eligible for a bonus."
+  },
+  {
+    "id": "toeic-v040",
+    "program": "toeic",
+    "week": 2,
+    "word": "job opening",
+    "ipa": "/dʒɑːb ˈoʊpənɪŋ/",
+    "pos": "n",
+    "meaning_vi": "cơ hội việc làm",
+    "example": "Job openings are posted on our website."
+  },
+  {
+    "id": "toeic-v041",
+    "program": "toeic",
+    "week": 3,
+    "word": "campaign",
+    "ipa": "/kæmˈpeɪn/",
+    "pos": "n",
+    "meaning_vi": "chiến dịch",
+    "example": "The advertising campaign starts in May."
+  },
+  {
+    "id": "toeic-v042",
+    "program": "toeic",
+    "week": 3,
+    "word": "advertise",
+    "ipa": "/ˈædvərtaɪz/",
+    "pos": "v",
+    "meaning_vi": "quảng cáo",
+    "example": "We advertise mainly on social media."
+  },
+  {
+    "id": "toeic-v043",
+    "program": "toeic",
+    "week": 3,
+    "word": "consumer",
+    "ipa": "/kənˈsuːmər/",
+    "pos": "n",
+    "meaning_vi": "người tiêu dùng",
+    "example": "Consumers prefer eco-friendly packaging."
+  },
+  {
+    "id": "toeic-v044",
+    "program": "toeic",
+    "week": 3,
+    "word": "survey",
+    "ipa": "/ˈsɜːrveɪ/",
+    "pos": "n",
+    "meaning_vi": "cuộc khảo sát",
+    "example": "The survey showed high customer satisfaction."
+  },
+  {
+    "id": "toeic-v045",
+    "program": "toeic",
+    "week": 3,
+    "word": "target",
+    "ipa": "/ˈtɑːrɡɪt/",
+    "pos": "v",
+    "meaning_vi": "nhắm đến",
+    "example": "The product targets young professionals."
+  },
+  {
+    "id": "toeic-v046",
+    "program": "toeic",
+    "week": 3,
+    "word": "launch",
+    "ipa": "/lɔːntʃ/",
+    "pos": "v",
+    "meaning_vi": "ra mắt",
+    "example": "The company will launch a new app next month."
+  },
+  {
+    "id": "toeic-v047",
+    "program": "toeic",
+    "week": 3,
+    "word": "promotion",
+    "ipa": "/prəˈmoʊʃən/",
+    "pos": "n",
+    "meaning_vi": "khuyến mãi; sự thăng chức",
+    "example": "The summer promotion offers 30 percent off."
+  },
+  {
+    "id": "toeic-v048",
+    "program": "toeic",
+    "week": 3,
+    "word": "discount",
+    "ipa": "/ˈdɪskaʊnt/",
+    "pos": "n",
+    "meaning_vi": "giảm giá",
+    "example": "Members receive a 10 percent discount."
+  },
+  {
+    "id": "toeic-v049",
+    "program": "toeic",
+    "week": 3,
+    "word": "revenue",
+    "ipa": "/ˈrevənuː/",
+    "pos": "n",
+    "meaning_vi": "doanh thu",
+    "example": "Revenue grew by 12 percent this year."
+  },
+  {
+    "id": "toeic-v050",
+    "program": "toeic",
+    "week": 3,
+    "word": "competitor",
+    "ipa": "/kəmˈpetɪtər/",
+    "pos": "n",
+    "meaning_vi": "đối thủ cạnh tranh",
+    "example": "Our prices are lower than our competitors'."
+  },
+  {
+    "id": "toeic-v051",
+    "program": "toeic",
+    "week": 3,
+    "word": "brand",
+    "ipa": "/brænd/",
+    "pos": "n",
+    "meaning_vi": "thương hiệu",
+    "example": "The brand is popular with teenagers."
+  },
+  {
+    "id": "toeic-v052",
+    "program": "toeic",
+    "week": 3,
+    "word": "market share",
+    "ipa": "/ˈmɑːrkɪt ʃer/",
+    "pos": "n",
+    "meaning_vi": "thị phần",
+    "example": "We aim to increase our market share in Asia."
+  },
+  {
+    "id": "toeic-v053",
+    "program": "toeic",
+    "week": 3,
+    "word": "sales representative",
+    "ipa": "/seɪlz ˌreprɪˈzentətɪv/",
+    "pos": "n",
+    "meaning_vi": "nhân viên kinh doanh",
+    "example": "A sales representative will contact you soon."
+  },
+  {
+    "id": "toeic-v054",
+    "program": "toeic",
+    "week": 3,
+    "word": "client",
+    "ipa": "/ˈklaɪənt/",
+    "pos": "n",
+    "meaning_vi": "khách hàng (dịch vụ)",
+    "example": "We met the client to discuss the contract."
+  },
+  {
+    "id": "toeic-v055",
+    "program": "toeic",
+    "week": 3,
+    "word": "feedback",
+    "ipa": "/ˈfiːdbæk/",
+    "pos": "n",
+    "meaning_vi": "phản hồi",
+    "example": "Customer feedback helps us improve."
+  },
+  {
+    "id": "toeic-v056",
+    "program": "toeic",
+    "week": 3,
+    "word": "exceed",
+    "ipa": "/ɪkˈsiːd/",
+    "pos": "v",
+    "meaning_vi": "vượt quá",
+    "example": "Sales exceeded our expectations."
+  },
+  {
+    "id": "toeic-v057",
+    "program": "toeic",
+    "week": 3,
+    "word": "strategy",
+    "ipa": "/ˈstrætədʒi/",
+    "pos": "n",
+    "meaning_vi": "chiến lược",
+    "example": "The new marketing strategy focuses on video."
+  },
+  {
+    "id": "toeic-v058",
+    "program": "toeic",
+    "week": 3,
+    "word": "brochure",
+    "ipa": "/broʊˈʃʊr/",
+    "pos": "n",
+    "meaning_vi": "tờ quảng cáo, sách giới thiệu",
+    "example": "Pick up a brochure at the front desk."
+  },
+  {
+    "id": "toeic-v059",
+    "program": "toeic",
+    "week": 3,
+    "word": "demand",
+    "ipa": "/dɪˈmænd/",
+    "pos": "n",
+    "meaning_vi": "nhu cầu",
+    "example": "Demand for electric cars is rising."
+  },
+  {
+    "id": "toeic-v060",
+    "program": "toeic",
+    "week": 3,
+    "word": "affordable",
+    "ipa": "/əˈfɔːrdəbl/",
+    "pos": "adj",
+    "meaning_vi": "giá phải chăng",
+    "example": "The hotel offers affordable rooms."
+  },
+  {
+    "id": "toeic-v061",
+    "program": "toeic",
+    "week": 4,
+    "word": "purchase",
+    "ipa": "/ˈpɜːrtʃəs/",
+    "pos": "v",
+    "meaning_vi": "mua",
+    "example": "You can purchase tickets online."
+  },
+  {
+    "id": "toeic-v062",
+    "program": "toeic",
+    "week": 4,
+    "word": "order",
+    "ipa": "/ˈɔːrdər/",
+    "pos": "n",
+    "meaning_vi": "đơn hàng",
+    "example": "Your order will ship within two days."
+  },
+  {
+    "id": "toeic-v063",
+    "program": "toeic",
+    "week": 4,
+    "word": "invoice",
+    "ipa": "/ˈɪnvɔɪs/",
+    "pos": "n",
+    "meaning_vi": "hóa đơn",
+    "example": "The invoice must be paid within 30 days."
+  },
+  {
+    "id": "toeic-v064",
+    "program": "toeic",
+    "week": 4,
+    "word": "receipt",
+    "ipa": "/rɪˈsiːt/",
+    "pos": "n",
+    "meaning_vi": "biên lai",
+    "example": "Keep your receipt for any returns."
+  },
+  {
+    "id": "toeic-v065",
+    "program": "toeic",
+    "week": 4,
+    "word": "refund",
+    "ipa": "/ˈriːfʌnd/",
+    "pos": "n",
+    "meaning_vi": "tiền hoàn lại",
+    "example": "You will receive a full refund."
+  },
+  {
+    "id": "toeic-v066",
+    "program": "toeic",
+    "week": 4,
+    "word": "exchange",
+    "ipa": "/ɪksˈtʃeɪndʒ/",
+    "pos": "v",
+    "meaning_vi": "đổi hàng",
+    "example": "You may exchange the item within 14 days."
+  },
+  {
+    "id": "toeic-v067",
+    "program": "toeic",
+    "week": 4,
+    "word": "warranty",
+    "ipa": "/ˈwɔːrənti/",
+    "pos": "n",
+    "meaning_vi": "bảo hành",
+    "example": "The laptop comes with a two-year warranty."
+  },
+  {
+    "id": "toeic-v068",
+    "program": "toeic",
+    "week": 4,
+    "word": "in stock",
+    "ipa": "/ɪn stɑːk/",
+    "pos": "phr",
+    "meaning_vi": "còn hàng",
+    "example": "The blue model is currently in stock."
+  },
+  {
+    "id": "toeic-v069",
+    "program": "toeic",
+    "week": 4,
+    "word": "out of stock",
+    "ipa": "/aʊt əv stɑːk/",
+    "pos": "phr",
+    "meaning_vi": "hết hàng",
+    "example": "That size is out of stock."
+  },
+  {
+    "id": "toeic-v070",
+    "program": "toeic",
+    "week": 4,
+    "word": "shipping",
+    "ipa": "/ˈʃɪpɪŋ/",
+    "pos": "n",
+    "meaning_vi": "vận chuyển",
+    "example": "Shipping is free for orders over $50."
+  },
+  {
+    "id": "toeic-v071",
+    "program": "toeic",
+    "week": 4,
+    "word": "deliver",
+    "ipa": "/dɪˈlɪvər/",
+    "pos": "v",
+    "meaning_vi": "giao hàng",
+    "example": "The package will be delivered on Monday."
+  },
+  {
+    "id": "toeic-v072",
+    "program": "toeic",
+    "week": 4,
+    "word": "inventory",
+    "ipa": "/ˈɪnvəntɔːri/",
+    "pos": "n",
+    "meaning_vi": "hàng tồn kho",
+    "example": "We check our inventory every Friday."
+  },
+  {
+    "id": "toeic-v073",
+    "program": "toeic",
+    "week": 4,
+    "word": "supplier",
+    "ipa": "/səˈplaɪər/",
+    "pos": "n",
+    "meaning_vi": "nhà cung cấp",
+    "example": "We changed suppliers to reduce costs."
+  },
+  {
+    "id": "toeic-v074",
+    "program": "toeic",
+    "week": 4,
+    "word": "catalog",
+    "ipa": "/ˈkætəlɔːɡ/",
+    "pos": "n",
+    "meaning_vi": "danh mục sản phẩm",
+    "example": "Browse our online catalog."
+  },
+  {
+    "id": "toeic-v075",
+    "program": "toeic",
+    "week": 4,
+    "word": "merchandise",
+    "ipa": "/ˈmɜːrtʃəndaɪz/",
+    "pos": "n",
+    "meaning_vi": "hàng hóa",
+    "example": "All merchandise is 20 percent off today."
+  },
+  {
+    "id": "toeic-v076",
+    "program": "toeic",
+    "week": 4,
+    "word": "checkout",
+    "ipa": "/ˈtʃekaʊt/",
+    "pos": "n",
+    "meaning_vi": "quầy thanh toán",
+    "example": "Please pay at the checkout."
+  },
+  {
+    "id": "toeic-v077",
+    "program": "toeic",
+    "week": 4,
+    "word": "bulk",
+    "ipa": "/bʌlk/",
+    "pos": "n",
+    "meaning_vi": "số lượng lớn",
+    "example": "We buy paper in bulk to save money."
+  },
+  {
+    "id": "toeic-v078",
+    "program": "toeic",
+    "week": 4,
+    "word": "defective",
+    "ipa": "/dɪˈfektɪv/",
+    "pos": "adj",
+    "meaning_vi": "bị lỗi",
+    "example": "Return any defective items to the store."
+  },
+  {
+    "id": "toeic-v079",
+    "program": "toeic",
+    "week": 4,
+    "word": "place an order",
+    "ipa": "/pleɪs ən ˈɔːrdər/",
+    "pos": "phr",
+    "meaning_vi": "đặt hàng",
+    "example": "I'd like to place an order for 50 chairs."
+  },
+  {
+    "id": "toeic-v080",
+    "program": "toeic",
+    "week": 4,
+    "word": "backorder",
+    "ipa": "/ˈbækɔːrdər/",
+    "pos": "n",
+    "meaning_vi": "đơn hàng chờ (do hết hàng)",
+    "example": "The printer is on backorder until June."
+  },
+  {
+    "id": "toeic-v081",
+    "program": "toeic",
+    "week": 5,
+    "word": "itinerary",
+    "ipa": "/aɪˈtɪnəreri/",
+    "pos": "n",
+    "meaning_vi": "lịch trình chuyến đi",
+    "example": "Your itinerary has been e-mailed to you."
+  },
+  {
+    "id": "toeic-v082",
+    "program": "toeic",
+    "week": 5,
+    "word": "reservation",
+    "ipa": "/ˌrezərˈveɪʃən/",
+    "pos": "n",
+    "meaning_vi": "sự đặt chỗ",
+    "example": "I made a reservation for two nights."
+  },
+  {
+    "id": "toeic-v083",
+    "program": "toeic",
+    "week": 5,
+    "word": "accommodation",
+    "ipa": "/əˌkɑːməˈdeɪʃən/",
+    "pos": "n",
+    "meaning_vi": "chỗ ở",
+    "example": "The company pays for accommodation."
+  },
+  {
+    "id": "toeic-v084",
+    "program": "toeic",
+    "week": 5,
+    "word": "departure",
+    "ipa": "/dɪˈpɑːrtʃər/",
+    "pos": "n",
+    "meaning_vi": "sự khởi hành",
+    "example": "Departure is scheduled for 8 A.M."
+  },
+  {
+    "id": "toeic-v085",
+    "program": "toeic",
+    "week": 5,
+    "word": "arrival",
+    "ipa": "/əˈraɪvl/",
+    "pos": "n",
+    "meaning_vi": "sự đến nơi",
+    "example": "Please call us upon arrival."
+  },
+  {
+    "id": "toeic-v086",
+    "program": "toeic",
+    "week": 5,
+    "word": "boarding pass",
+    "ipa": "/ˈbɔːrdɪŋ pæs/",
+    "pos": "n",
+    "meaning_vi": "thẻ lên máy bay",
+    "example": "Show your boarding pass at the gate."
+  },
+  {
+    "id": "toeic-v087",
+    "program": "toeic",
+    "week": 5,
+    "word": "delay",
+    "ipa": "/dɪˈleɪ/",
+    "pos": "n",
+    "meaning_vi": "sự chậm trễ",
+    "example": "The flight had a two-hour delay."
+  },
+  {
+    "id": "toeic-v088",
+    "program": "toeic",
+    "week": 5,
+    "word": "luggage",
+    "ipa": "/ˈlʌɡɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "hành lý",
+    "example": "Each passenger may bring one piece of luggage."
+  },
+  {
+    "id": "toeic-v089",
+    "program": "toeic",
+    "week": 5,
+    "word": "destination",
+    "ipa": "/ˌdestɪˈneɪʃən/",
+    "pos": "n",
+    "meaning_vi": "điểm đến",
+    "example": "Tokyo is a popular business destination."
+  },
+  {
+    "id": "toeic-v090",
+    "program": "toeic",
+    "week": 5,
+    "word": "round-trip",
+    "ipa": "/ˌraʊnd ˈtrɪp/",
+    "pos": "adj",
+    "meaning_vi": "khứ hồi",
+    "example": "A round-trip ticket costs $450."
+  },
+  {
+    "id": "toeic-v091",
+    "program": "toeic",
+    "week": 5,
+    "word": "business trip",
+    "ipa": "/ˈbɪznəs trɪp/",
+    "pos": "n",
+    "meaning_vi": "chuyến công tác",
+    "example": "He is on a business trip in Seoul."
+  },
+  {
+    "id": "toeic-v092",
+    "program": "toeic",
+    "week": 5,
+    "word": "reimburse",
+    "ipa": "/ˌriːɪmˈbɜːrs/",
+    "pos": "v",
+    "meaning_vi": "hoàn trả chi phí",
+    "example": "Travel expenses will be reimbursed."
+  },
+  {
+    "id": "toeic-v093",
+    "program": "toeic",
+    "week": 5,
+    "word": "expense",
+    "ipa": "/ɪkˈspens/",
+    "pos": "n",
+    "meaning_vi": "chi phí",
+    "example": "Record all expenses during the trip."
+  },
+  {
+    "id": "toeic-v094",
+    "program": "toeic",
+    "week": 5,
+    "word": "check in",
+    "ipa": "/tʃek ɪn/",
+    "pos": "phr v",
+    "meaning_vi": "làm thủ tục nhận phòng/lên máy bay",
+    "example": "You can check in two hours before the flight."
+  },
+  {
+    "id": "toeic-v095",
+    "program": "toeic",
+    "week": 5,
+    "word": "fare",
+    "ipa": "/fer/",
+    "pos": "n",
+    "meaning_vi": "giá vé",
+    "example": "Train fares rise in January."
+  },
+  {
+    "id": "toeic-v096",
+    "program": "toeic",
+    "week": 5,
+    "word": "layover",
+    "ipa": "/ˈleɪoʊvər/",
+    "pos": "n",
+    "meaning_vi": "thời gian quá cảnh",
+    "example": "We have a three-hour layover in Dubai."
+  },
+  {
+    "id": "toeic-v097",
+    "program": "toeic",
+    "week": 5,
+    "word": "aisle seat",
+    "ipa": "/aɪl siːt/",
+    "pos": "n",
+    "meaning_vi": "ghế cạnh lối đi",
+    "example": "I'd prefer an aisle seat, please."
+  },
+  {
+    "id": "toeic-v098",
+    "program": "toeic",
+    "week": 5,
+    "word": "confirm",
+    "ipa": "/kənˈfɜːrm/",
+    "pos": "v",
+    "meaning_vi": "xác nhận",
+    "example": "Please confirm your booking by e-mail."
+  },
+  {
+    "id": "toeic-v099",
+    "program": "toeic",
+    "week": 5,
+    "word": "venue",
+    "ipa": "/ˈvenjuː/",
+    "pos": "n",
+    "meaning_vi": "địa điểm tổ chức",
+    "example": "The venue is close to the airport."
+  },
+  {
+    "id": "toeic-v100",
+    "program": "toeic",
+    "week": 5,
+    "word": "travel agency",
+    "ipa": "/ˈtrævl ˈeɪdʒənsi/",
+    "pos": "n",
+    "meaning_vi": "đại lý du lịch",
+    "example": "The travel agency booked our hotel."
+  },
+  {
+    "id": "toeic-v101",
+    "program": "toeic",
+    "week": 6,
+    "word": "account",
+    "ipa": "/əˈkaʊnt/",
+    "pos": "n",
+    "meaning_vi": "tài khoản",
+    "example": "I opened a savings account last week."
+  },
+  {
+    "id": "toeic-v102",
+    "program": "toeic",
+    "week": 6,
+    "word": "balance",
+    "ipa": "/ˈbæləns/",
+    "pos": "n",
+    "meaning_vi": "số dư",
+    "example": "Check your balance at any ATM."
+  },
+  {
+    "id": "toeic-v103",
+    "program": "toeic",
+    "week": 6,
+    "word": "deposit",
+    "ipa": "/dɪˈpɑːzɪt/",
+    "pos": "v",
+    "meaning_vi": "gửi tiền",
+    "example": "She deposited her paycheck on Friday."
+  },
+  {
+    "id": "toeic-v104",
+    "program": "toeic",
+    "week": 6,
+    "word": "withdraw",
+    "ipa": "/wɪðˈdrɔː/",
+    "pos": "v",
+    "meaning_vi": "rút tiền",
+    "example": "You can withdraw up to $500 a day."
+  },
+  {
+    "id": "toeic-v105",
+    "program": "toeic",
+    "week": 6,
+    "word": "transaction",
+    "ipa": "/trænˈzækʃən/",
+    "pos": "n",
+    "meaning_vi": "giao dịch",
+    "example": "Each transaction is recorded online."
+  },
+  {
+    "id": "toeic-v106",
+    "program": "toeic",
+    "week": 6,
+    "word": "loan",
+    "ipa": "/loʊn/",
+    "pos": "n",
+    "meaning_vi": "khoản vay",
+    "example": "The bank approved our loan."
+  },
+  {
+    "id": "toeic-v107",
+    "program": "toeic",
+    "week": 6,
+    "word": "interest rate",
+    "ipa": "/ˈɪntrəst reɪt/",
+    "pos": "n",
+    "meaning_vi": "lãi suất",
+    "example": "Interest rates fell this quarter."
+  },
+  {
+    "id": "toeic-v108",
+    "program": "toeic",
+    "week": 6,
+    "word": "budget",
+    "ipa": "/ˈbʌdʒɪt/",
+    "pos": "n",
+    "meaning_vi": "ngân sách",
+    "example": "The project is within budget."
+  },
+  {
+    "id": "toeic-v109",
+    "program": "toeic",
+    "week": 6,
+    "word": "audit",
+    "ipa": "/ˈɔːdɪt/",
+    "pos": "n",
+    "meaning_vi": "cuộc kiểm toán",
+    "example": "The annual audit starts next week."
+  },
+  {
+    "id": "toeic-v110",
+    "program": "toeic",
+    "week": 6,
+    "word": "statement",
+    "ipa": "/ˈsteɪtmənt/",
+    "pos": "n",
+    "meaning_vi": "bản sao kê",
+    "example": "Your monthly statement is available online."
+  },
+  {
+    "id": "toeic-v111",
+    "program": "toeic",
+    "week": 6,
+    "word": "investment",
+    "ipa": "/ɪnˈvestmənt/",
+    "pos": "n",
+    "meaning_vi": "khoản đầu tư",
+    "example": "Real estate is a long-term investment."
+  },
+  {
+    "id": "toeic-v112",
+    "program": "toeic",
+    "week": 6,
+    "word": "profit",
+    "ipa": "/ˈprɑːfɪt/",
+    "pos": "n",
+    "meaning_vi": "lợi nhuận",
+    "example": "Profits rose by 8 percent."
+  },
+  {
+    "id": "toeic-v113",
+    "program": "toeic",
+    "week": 6,
+    "word": "expenditure",
+    "ipa": "/ɪkˈspendɪtʃər/",
+    "pos": "n",
+    "meaning_vi": "khoản chi tiêu",
+    "example": "We must reduce expenditure on travel."
+  },
+  {
+    "id": "toeic-v114",
+    "program": "toeic",
+    "week": 6,
+    "word": "accountant",
+    "ipa": "/əˈkaʊntənt/",
+    "pos": "n",
+    "meaning_vi": "kế toán viên",
+    "example": "Our accountant prepares the tax forms."
+  },
+  {
+    "id": "toeic-v115",
+    "program": "toeic",
+    "week": 6,
+    "word": "fiscal year",
+    "ipa": "/ˈfɪskl jɪr/",
+    "pos": "n",
+    "meaning_vi": "năm tài chính",
+    "example": "The fiscal year ends in March."
+  },
+  {
+    "id": "toeic-v116",
+    "program": "toeic",
+    "week": 6,
+    "word": "transfer",
+    "ipa": "/trænsˈfɜːr/",
+    "pos": "v",
+    "meaning_vi": "chuyển khoản",
+    "example": "Transfer the payment to this account."
+  },
+  {
+    "id": "toeic-v117",
+    "program": "toeic",
+    "week": 6,
+    "word": "overdue",
+    "ipa": "/ˌoʊvərˈduː/",
+    "pos": "adj",
+    "meaning_vi": "quá hạn",
+    "example": "The payment is two weeks overdue."
+  },
+  {
+    "id": "toeic-v118",
+    "program": "toeic",
+    "week": 6,
+    "word": "estimate",
+    "ipa": "/ˈestɪmət/",
+    "pos": "n",
+    "meaning_vi": "bản ước tính",
+    "example": "We received an estimate for the repairs."
+  },
+  {
+    "id": "toeic-v119",
+    "program": "toeic",
+    "week": 6,
+    "word": "shareholder",
+    "ipa": "/ˈʃerhoʊldər/",
+    "pos": "n",
+    "meaning_vi": "cổ đông",
+    "example": "Shareholders will meet in April."
+  },
+  {
+    "id": "toeic-v120",
+    "program": "toeic",
+    "week": 6,
+    "word": "financial",
+    "ipa": "/faɪˈnænʃl/",
+    "pos": "adj",
+    "meaning_vi": "thuộc về tài chính",
+    "example": "She works as a financial advisor."
+  },
+  {
+    "id": "toeic-v121",
+    "program": "toeic",
+    "week": 7,
+    "word": "manufacture",
+    "ipa": "/ˌmænjuˈfæktʃər/",
+    "pos": "v",
+    "meaning_vi": "sản xuất",
+    "example": "The plant manufactures car parts."
+  },
+  {
+    "id": "toeic-v122",
+    "program": "toeic",
+    "week": 7,
+    "word": "assembly line",
+    "ipa": "/əˈsembli laɪn/",
+    "pos": "n",
+    "meaning_vi": "dây chuyền lắp ráp",
+    "example": "Workers on the assembly line wear gloves."
+  },
+  {
+    "id": "toeic-v123",
+    "program": "toeic",
+    "week": 7,
+    "word": "warehouse",
+    "ipa": "/ˈwerhaʊs/",
+    "pos": "n",
+    "meaning_vi": "nhà kho",
+    "example": "The goods are stored in the warehouse."
+  },
+  {
+    "id": "toeic-v124",
+    "program": "toeic",
+    "week": 7,
+    "word": "shipment",
+    "ipa": "/ˈʃɪpmənt/",
+    "pos": "n",
+    "meaning_vi": "lô hàng",
+    "example": "The shipment arrived damaged."
+  },
+  {
+    "id": "toeic-v125",
+    "program": "toeic",
+    "week": 7,
+    "word": "logistics",
+    "ipa": "/ləˈdʒɪstɪks/",
+    "pos": "n",
+    "meaning_vi": "hậu cần, vận tải",
+    "example": "She manages logistics for the region."
+  },
+  {
+    "id": "toeic-v126",
+    "program": "toeic",
+    "week": 7,
+    "word": "output",
+    "ipa": "/ˈaʊtpʊt/",
+    "pos": "n",
+    "meaning_vi": "sản lượng",
+    "example": "Output increased after the upgrade."
+  },
+  {
+    "id": "toeic-v127",
+    "program": "toeic",
+    "week": 7,
+    "word": "quality control",
+    "ipa": "/ˈkwɑːləti kənˈtroʊl/",
+    "pos": "n",
+    "meaning_vi": "kiểm soát chất lượng",
+    "example": "Every item passes quality control."
+  },
+  {
+    "id": "toeic-v128",
+    "program": "toeic",
+    "week": 7,
+    "word": "facility",
+    "ipa": "/fəˈsɪləti/",
+    "pos": "n",
+    "meaning_vi": "cơ sở, nhà máy",
+    "example": "The new facility opens in July."
+  },
+  {
+    "id": "toeic-v129",
+    "program": "toeic",
+    "week": 7,
+    "word": "equipment",
+    "ipa": "/ɪˈkwɪpmənt/",
+    "pos": "n",
+    "meaning_vi": "thiết bị",
+    "example": "The equipment must be inspected monthly."
+  },
+  {
+    "id": "toeic-v130",
+    "program": "toeic",
+    "week": 7,
+    "word": "machinery",
+    "ipa": "/məˈʃiːnəri/",
+    "pos": "n",
+    "meaning_vi": "máy móc",
+    "example": "Heavy machinery is operated by trained staff."
+  },
+  {
+    "id": "toeic-v131",
+    "program": "toeic",
+    "week": 7,
+    "word": "capacity",
+    "ipa": "/kəˈpæsəti/",
+    "pos": "n",
+    "meaning_vi": "công suất, sức chứa",
+    "example": "The factory is running at full capacity."
+  },
+  {
+    "id": "toeic-v132",
+    "program": "toeic",
+    "week": 7,
+    "word": "inspect",
+    "ipa": "/ɪnˈspekt/",
+    "pos": "v",
+    "meaning_vi": "kiểm tra",
+    "example": "Inspectors will inspect the site on Monday."
+  },
+  {
+    "id": "toeic-v133",
+    "program": "toeic",
+    "week": 7,
+    "word": "procedure",
+    "ipa": "/prəˈsiːdʒər/",
+    "pos": "n",
+    "meaning_vi": "quy trình",
+    "example": "Follow the safety procedure at all times."
+  },
+  {
+    "id": "toeic-v134",
+    "program": "toeic",
+    "week": 7,
+    "word": "forklift",
+    "ipa": "/ˈfɔːrklɪft/",
+    "pos": "n",
+    "meaning_vi": "xe nâng",
+    "example": "Only licensed staff may drive the forklift."
+  },
+  {
+    "id": "toeic-v135",
+    "program": "toeic",
+    "week": 7,
+    "word": "raw materials",
+    "ipa": "/rɔː məˈtɪriəlz/",
+    "pos": "n",
+    "meaning_vi": "nguyên liệu thô",
+    "example": "Raw materials prices have risen."
+  },
+  {
+    "id": "toeic-v136",
+    "program": "toeic",
+    "week": 7,
+    "word": "distribute",
+    "ipa": "/dɪˈstrɪbjuːt/",
+    "pos": "v",
+    "meaning_vi": "phân phối",
+    "example": "We distribute products to 20 countries."
+  },
+  {
+    "id": "toeic-v137",
+    "program": "toeic",
+    "week": 7,
+    "word": "malfunction",
+    "ipa": "/mælˈfʌŋkʃən/",
+    "pos": "n",
+    "meaning_vi": "sự trục trặc",
+    "example": "A malfunction stopped the production line."
+  },
+  {
+    "id": "toeic-v138",
+    "program": "toeic",
+    "week": 7,
+    "word": "streamline",
+    "ipa": "/ˈstriːmlaɪn/",
+    "pos": "v",
+    "meaning_vi": "tinh gọn (quy trình)",
+    "example": "We streamlined the packing process."
+  },
+  {
+    "id": "toeic-v139",
+    "program": "toeic",
+    "week": 7,
+    "word": "shift",
+    "ipa": "/ʃɪft/",
+    "pos": "n",
+    "meaning_vi": "ca làm việc",
+    "example": "The night shift starts at 10 P.M."
+  },
+  {
+    "id": "toeic-v140",
+    "program": "toeic",
+    "week": 7,
+    "word": "on schedule",
+    "ipa": "/ɑːn ˈskedʒuːl/",
+    "pos": "phr",
+    "meaning_vi": "đúng tiến độ",
+    "example": "Production is on schedule."
+  },
+  {
+    "id": "toeic-v141",
+    "program": "toeic",
+    "week": 8,
+    "word": "insurance",
+    "ipa": "/ɪnˈʃʊrəns/",
+    "pos": "n",
+    "meaning_vi": "bảo hiểm",
+    "example": "The company provides dental insurance."
+  },
+  {
+    "id": "toeic-v142",
+    "program": "toeic",
+    "week": 8,
+    "word": "policy",
+    "ipa": "/ˈpɑːləsi/",
+    "pos": "n",
+    "meaning_vi": "hợp đồng bảo hiểm; chính sách",
+    "example": "Read the policy carefully before signing."
+  },
+  {
+    "id": "toeic-v143",
+    "program": "toeic",
+    "week": 8,
+    "word": "coverage",
+    "ipa": "/ˈkʌvərɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "phạm vi bảo hiểm",
+    "example": "The plan offers full coverage for surgery."
+  },
+  {
+    "id": "toeic-v144",
+    "program": "toeic",
+    "week": 8,
+    "word": "claim",
+    "ipa": "/kleɪm/",
+    "pos": "n",
+    "meaning_vi": "yêu cầu bồi thường",
+    "example": "File a claim within 30 days."
+  },
+  {
+    "id": "toeic-v145",
+    "program": "toeic",
+    "week": 8,
+    "word": "premium",
+    "ipa": "/ˈpriːmiəm/",
+    "pos": "n",
+    "meaning_vi": "phí bảo hiểm",
+    "example": "Premiums are deducted from your salary."
+  },
+  {
+    "id": "toeic-v146",
+    "program": "toeic",
+    "week": 8,
+    "word": "appointment",
+    "ipa": "/əˈpɔɪntmənt/",
+    "pos": "n",
+    "meaning_vi": "cuộc hẹn",
+    "example": "I have a dental appointment at 3."
+  },
+  {
+    "id": "toeic-v147",
+    "program": "toeic",
+    "week": 8,
+    "word": "prescription",
+    "ipa": "/prɪˈskrɪpʃən/",
+    "pos": "n",
+    "meaning_vi": "đơn thuốc",
+    "example": "Take this prescription to the pharmacy."
+  },
+  {
+    "id": "toeic-v148",
+    "program": "toeic",
+    "week": 8,
+    "word": "pharmacy",
+    "ipa": "/ˈfɑːrməsi/",
+    "pos": "n",
+    "meaning_vi": "nhà thuốc",
+    "example": "The pharmacy is open until 9 P.M."
+  },
+  {
+    "id": "toeic-v149",
+    "program": "toeic",
+    "week": 8,
+    "word": "clinic",
+    "ipa": "/ˈklɪnɪk/",
+    "pos": "n",
+    "meaning_vi": "phòng khám",
+    "example": "The clinic offers free flu shots."
+  },
+  {
+    "id": "toeic-v150",
+    "program": "toeic",
+    "week": 8,
+    "word": "physician",
+    "ipa": "/fɪˈzɪʃən/",
+    "pos": "n",
+    "meaning_vi": "bác sĩ",
+    "example": "Consult your physician before exercising."
+  },
+  {
+    "id": "toeic-v151",
+    "program": "toeic",
+    "week": 8,
+    "word": "symptom",
+    "ipa": "/ˈsɪmptəm/",
+    "pos": "n",
+    "meaning_vi": "triệu chứng",
+    "example": "Fever is a common symptom of flu."
+  },
+  {
+    "id": "toeic-v152",
+    "program": "toeic",
+    "week": 8,
+    "word": "check-up",
+    "ipa": "/ˈtʃek ʌp/",
+    "pos": "n",
+    "meaning_vi": "khám sức khỏe định kỳ",
+    "example": "Employees get a free annual check-up."
+  },
+  {
+    "id": "toeic-v153",
+    "program": "toeic",
+    "week": 8,
+    "word": "medical leave",
+    "ipa": "/ˈmedɪkl liːv/",
+    "pos": "n",
+    "meaning_vi": "nghỉ phép ốm",
+    "example": "She is on medical leave this week."
+  },
+  {
+    "id": "toeic-v154",
+    "program": "toeic",
+    "week": 8,
+    "word": "wellness program",
+    "ipa": "/ˈwelnəs ˈproʊɡræm/",
+    "pos": "n",
+    "meaning_vi": "chương trình chăm sóc sức khỏe",
+    "example": "Join our wellness program for free gym access."
+  },
+  {
+    "id": "toeic-v155",
+    "program": "toeic",
+    "week": 8,
+    "word": "patient",
+    "ipa": "/ˈpeɪʃənt/",
+    "pos": "n",
+    "meaning_vi": "bệnh nhân",
+    "example": "The patient was discharged yesterday."
+  },
+  {
+    "id": "toeic-v156",
+    "program": "toeic",
+    "week": 8,
+    "word": "treatment",
+    "ipa": "/ˈtriːtmənt/",
+    "pos": "n",
+    "meaning_vi": "sự điều trị",
+    "example": "The treatment takes six weeks."
+  },
+  {
+    "id": "toeic-v157",
+    "program": "toeic",
+    "week": 8,
+    "word": "deductible",
+    "ipa": "/dɪˈdʌktəbl/",
+    "pos": "n",
+    "meaning_vi": "mức khấu trừ (bảo hiểm)",
+    "example": "The deductible is $200 per year."
+  },
+  {
+    "id": "toeic-v158",
+    "program": "toeic",
+    "week": 8,
+    "word": "enroll",
+    "ipa": "/ɪnˈroʊl/",
+    "pos": "v",
+    "meaning_vi": "đăng ký tham gia",
+    "example": "Enroll in the health plan by May 1."
+  },
+  {
+    "id": "toeic-v159",
+    "program": "toeic",
+    "week": 8,
+    "word": "hazard",
+    "ipa": "/ˈhæzərd/",
+    "pos": "n",
+    "meaning_vi": "mối nguy hiểm",
+    "example": "Wet floors are a safety hazard."
+  },
+  {
+    "id": "toeic-v160",
+    "program": "toeic",
+    "week": 8,
+    "word": "recover",
+    "ipa": "/rɪˈkʌvər/",
+    "pos": "v",
+    "meaning_vi": "hồi phục",
+    "example": "He recovered quickly after surgery."
+  },
+  {
+    "id": "toeic-v161",
+    "program": "toeic",
+    "week": 9,
+    "word": "contract",
+    "ipa": "/ˈkɑːntrækt/",
+    "pos": "n",
+    "meaning_vi": "hợp đồng",
+    "example": "Both parties signed the contract."
+  },
+  {
+    "id": "toeic-v162",
+    "program": "toeic",
+    "week": 9,
+    "word": "agreement",
+    "ipa": "/əˈɡriːmənt/",
+    "pos": "n",
+    "meaning_vi": "thỏa thuận",
+    "example": "We reached an agreement on the price."
+  },
+  {
+    "id": "toeic-v163",
+    "program": "toeic",
+    "week": 9,
+    "word": "terms",
+    "ipa": "/tɜːrmz/",
+    "pos": "n",
+    "meaning_vi": "điều khoản",
+    "example": "Please review the terms and conditions."
+  },
+  {
+    "id": "toeic-v164",
+    "program": "toeic",
+    "week": 9,
+    "word": "clause",
+    "ipa": "/klɔːz/",
+    "pos": "n",
+    "meaning_vi": "điều khoản (cụ thể)",
+    "example": "The contract includes a cancellation clause."
+  },
+  {
+    "id": "toeic-v165",
+    "program": "toeic",
+    "week": 9,
+    "word": "negotiate",
+    "ipa": "/nɪˈɡoʊʃieɪt/",
+    "pos": "v",
+    "meaning_vi": "đàm phán",
+    "example": "We negotiated a lower rent."
+  },
+  {
+    "id": "toeic-v166",
+    "program": "toeic",
+    "week": 9,
+    "word": "renew",
+    "ipa": "/rɪˈnuː/",
+    "pos": "v",
+    "meaning_vi": "gia hạn",
+    "example": "The lease must be renewed every year."
+  },
+  {
+    "id": "toeic-v167",
+    "program": "toeic",
+    "week": 9,
+    "word": "expire",
+    "ipa": "/ɪkˈspaɪər/",
+    "pos": "v",
+    "meaning_vi": "hết hạn",
+    "example": "The contract expires on December 31."
+  },
+  {
+    "id": "toeic-v168",
+    "program": "toeic",
+    "week": 9,
+    "word": "comply with",
+    "ipa": "/kəmˈplaɪ wɪð/",
+    "pos": "phr v",
+    "meaning_vi": "tuân thủ",
+    "example": "All products must comply with safety rules."
+  },
+  {
+    "id": "toeic-v169",
+    "program": "toeic",
+    "week": 9,
+    "word": "regulation",
+    "ipa": "/ˌreɡjuˈleɪʃən/",
+    "pos": "n",
+    "meaning_vi": "quy định",
+    "example": "New regulations take effect in June."
+  },
+  {
+    "id": "toeic-v170",
+    "program": "toeic",
+    "week": 9,
+    "word": "legal",
+    "ipa": "/ˈliːɡl/",
+    "pos": "adj",
+    "meaning_vi": "thuộc pháp luật, hợp pháp",
+    "example": "Our legal team reviewed the document."
+  },
+  {
+    "id": "toeic-v171",
+    "program": "toeic",
+    "week": 9,
+    "word": "attorney",
+    "ipa": "/əˈtɜːrni/",
+    "pos": "n",
+    "meaning_vi": "luật sư",
+    "example": "Her attorney advised her not to sign."
+  },
+  {
+    "id": "toeic-v172",
+    "program": "toeic",
+    "week": 9,
+    "word": "binding",
+    "ipa": "/ˈbaɪndɪŋ/",
+    "pos": "adj",
+    "meaning_vi": "có tính ràng buộc",
+    "example": "This agreement is legally binding."
+  },
+  {
+    "id": "toeic-v173",
+    "program": "toeic",
+    "week": 9,
+    "word": "breach",
+    "ipa": "/briːtʃ/",
+    "pos": "n",
+    "meaning_vi": "sự vi phạm",
+    "example": "Late delivery is a breach of contract."
+  },
+  {
+    "id": "toeic-v174",
+    "program": "toeic",
+    "week": 9,
+    "word": "obligation",
+    "ipa": "/ˌɑːblɪˈɡeɪʃən/",
+    "pos": "n",
+    "meaning_vi": "nghĩa vụ",
+    "example": "The supplier has an obligation to deliver on time."
+  },
+  {
+    "id": "toeic-v175",
+    "program": "toeic",
+    "week": 9,
+    "word": "signature",
+    "ipa": "/ˈsɪɡnətʃər/",
+    "pos": "n",
+    "meaning_vi": "chữ ký",
+    "example": "Your signature is required on page 3."
+  },
+  {
+    "id": "toeic-v176",
+    "program": "toeic",
+    "week": 9,
+    "word": "draft",
+    "ipa": "/dræft/",
+    "pos": "n",
+    "meaning_vi": "bản nháp",
+    "example": "Send me the draft by tomorrow."
+  },
+  {
+    "id": "toeic-v177",
+    "program": "toeic",
+    "week": 9,
+    "word": "confidential",
+    "ipa": "/ˌkɑːnfɪˈdenʃl/",
+    "pos": "adj",
+    "meaning_vi": "bảo mật",
+    "example": "This information is strictly confidential."
+  },
+  {
+    "id": "toeic-v178",
+    "program": "toeic",
+    "week": 9,
+    "word": "liable",
+    "ipa": "/ˈlaɪəbl/",
+    "pos": "adj",
+    "meaning_vi": "chịu trách nhiệm pháp lý",
+    "example": "The tenant is liable for any damage."
+  },
+  {
+    "id": "toeic-v179",
+    "program": "toeic",
+    "week": 9,
+    "word": "amend",
+    "ipa": "/əˈmend/",
+    "pos": "v",
+    "meaning_vi": "sửa đổi",
+    "example": "The contract was amended to include a bonus."
+  },
+  {
+    "id": "toeic-v180",
+    "program": "toeic",
+    "week": 9,
+    "word": "effective",
+    "ipa": "/ɪˈfektɪv/",
+    "pos": "adj",
+    "meaning_vi": "có hiệu lực; hiệu quả",
+    "example": "The new policy is effective immediately."
+  },
+  {
+    "id": "toeic-v181",
+    "program": "toeic",
+    "week": 10,
+    "word": "software",
+    "ipa": "/ˈsɔːftwer/",
+    "pos": "n",
+    "meaning_vi": "phần mềm",
+    "example": "Install the software on all computers."
+  },
+  {
+    "id": "toeic-v182",
+    "program": "toeic",
+    "week": 10,
+    "word": "upgrade",
+    "ipa": "/ˈʌpɡreɪd/",
+    "pos": "n",
+    "meaning_vi": "sự nâng cấp",
+    "example": "The system upgrade will take two hours."
+  },
+  {
+    "id": "toeic-v183",
+    "program": "toeic",
+    "week": 10,
+    "word": "install",
+    "ipa": "/ɪnˈstɔːl/",
+    "pos": "v",
+    "meaning_vi": "cài đặt",
+    "example": "A technician will install the new printer."
+  },
+  {
+    "id": "toeic-v184",
+    "program": "toeic",
+    "week": 10,
+    "word": "database",
+    "ipa": "/ˈdeɪtəbeɪs/",
+    "pos": "n",
+    "meaning_vi": "cơ sở dữ liệu",
+    "example": "Customer details are stored in a database."
+  },
+  {
+    "id": "toeic-v185",
+    "program": "toeic",
+    "week": 10,
+    "word": "password",
+    "ipa": "/ˈpæswɜːrd/",
+    "pos": "n",
+    "meaning_vi": "mật khẩu",
+    "example": "Change your password every 90 days."
+  },
+  {
+    "id": "toeic-v186",
+    "program": "toeic",
+    "week": 10,
+    "word": "access",
+    "ipa": "/ˈækses/",
+    "pos": "n",
+    "meaning_vi": "quyền truy cập",
+    "example": "Only managers have access to this file."
+  },
+  {
+    "id": "toeic-v187",
+    "program": "toeic",
+    "week": 10,
+    "word": "technical support",
+    "ipa": "/ˈteknɪkl səˈpɔːrt/",
+    "pos": "n",
+    "meaning_vi": "hỗ trợ kỹ thuật",
+    "example": "Call technical support if the system crashes."
+  },
+  {
+    "id": "toeic-v188",
+    "program": "toeic",
+    "week": 10,
+    "word": "encrypt",
+    "ipa": "/ɪnˈkrɪpt/",
+    "pos": "v",
+    "meaning_vi": "mã hóa",
+    "example": "All data is encrypted before it is sent."
+  },
+  {
+    "id": "toeic-v189",
+    "program": "toeic",
+    "week": 10,
+    "word": "back up",
+    "ipa": "/bæk ʌp/",
+    "pos": "phr v",
+    "meaning_vi": "sao lưu",
+    "example": "Back up your files every Friday."
+  },
+  {
+    "id": "toeic-v190",
+    "program": "toeic",
+    "week": 10,
+    "word": "compatible",
+    "ipa": "/kəmˈpætəbl/",
+    "pos": "adj",
+    "meaning_vi": "tương thích",
+    "example": "The app is compatible with all phones."
+  },
+  {
+    "id": "toeic-v191",
+    "program": "toeic",
+    "week": 10,
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "pos": "n",
+    "meaning_vi": "thiết bị",
+    "example": "Turn off all devices during the presentation."
+  },
+  {
+    "id": "toeic-v192",
+    "program": "toeic",
+    "week": 10,
+    "word": "network",
+    "ipa": "/ˈnetwɜːrk/",
+    "pos": "n",
+    "meaning_vi": "mạng lưới",
+    "example": "The office network will be down tonight."
+  },
+  {
+    "id": "toeic-v193",
+    "program": "toeic",
+    "week": 10,
+    "word": "troubleshoot",
+    "ipa": "/ˈtrʌblʃuːt/",
+    "pos": "v",
+    "meaning_vi": "khắc phục sự cố",
+    "example": "IT staff troubleshoot problems remotely."
+  },
+  {
+    "id": "toeic-v194",
+    "program": "toeic",
+    "week": 10,
+    "word": "user-friendly",
+    "ipa": "/ˌjuːzər ˈfrendli/",
+    "pos": "adj",
+    "meaning_vi": "dễ sử dụng",
+    "example": "The new interface is very user-friendly."
+  },
+  {
+    "id": "toeic-v195",
+    "program": "toeic",
+    "week": 10,
+    "word": "download",
+    "ipa": "/ˈdaʊnloʊd/",
+    "pos": "v",
+    "meaning_vi": "tải xuống",
+    "example": "Download the form from our website."
+  },
+  {
+    "id": "toeic-v196",
+    "program": "toeic",
+    "week": 10,
+    "word": "feature",
+    "ipa": "/ˈfiːtʃər/",
+    "pos": "n",
+    "meaning_vi": "tính năng",
+    "example": "The phone has a new camera feature."
+  },
+  {
+    "id": "toeic-v197",
+    "program": "toeic",
+    "week": 10,
+    "word": "innovative",
+    "ipa": "/ˈɪnəveɪtɪv/",
+    "pos": "adj",
+    "meaning_vi": "đổi mới, sáng tạo",
+    "example": "They designed an innovative product."
+  },
+  {
+    "id": "toeic-v198",
+    "program": "toeic",
+    "week": 10,
+    "word": "outdated",
+    "ipa": "/ˌaʊtˈdeɪtɪd/",
+    "pos": "adj",
+    "meaning_vi": "lỗi thời",
+    "example": "Our computers are outdated."
+  },
+  {
+    "id": "toeic-v199",
+    "program": "toeic",
+    "week": 10,
+    "word": "cybersecurity",
+    "ipa": "/ˌsaɪbərsɪˈkjʊrəti/",
+    "pos": "n",
+    "meaning_vi": "an ninh mạng",
+    "example": "We hired a cybersecurity expert."
+  },
+  {
+    "id": "toeic-v200",
+    "program": "toeic",
+    "week": 10,
+    "word": "update",
+    "ipa": "/ˈʌpdeɪt/",
+    "pos": "n",
+    "meaning_vi": "bản cập nhật",
+    "example": "An update is available for your app."
+  },
+  {
+    "id": "toeic-v201",
+    "program": "toeic",
+    "week": 11,
+    "word": "conference",
+    "ipa": "/ˈkɑːnfərəns/",
+    "pos": "n",
+    "meaning_vi": "hội nghị",
+    "example": "The conference attracts 2,000 visitors."
+  },
+  {
+    "id": "toeic-v202",
+    "program": "toeic",
+    "week": 11,
+    "word": "keynote speaker",
+    "ipa": "/ˈkiːnoʊt ˈspiːkər/",
+    "pos": "n",
+    "meaning_vi": "diễn giả chính",
+    "example": "The keynote speaker is a famous CEO."
+  },
+  {
+    "id": "toeic-v203",
+    "program": "toeic",
+    "week": 11,
+    "word": "register",
+    "ipa": "/ˈredʒɪstər/",
+    "pos": "v",
+    "meaning_vi": "đăng ký",
+    "example": "Register online before May 10."
+  },
+  {
+    "id": "toeic-v204",
+    "program": "toeic",
+    "week": 11,
+    "word": "registration",
+    "ipa": "/ˌredʒɪˈstreɪʃən/",
+    "pos": "n",
+    "meaning_vi": "sự đăng ký",
+    "example": "Registration closes on Friday."
+  },
+  {
+    "id": "toeic-v205",
+    "program": "toeic",
+    "week": 11,
+    "word": "attendee",
+    "ipa": "/əˌtenˈdiː/",
+    "pos": "n",
+    "meaning_vi": "người tham dự",
+    "example": "Each attendee receives a name badge."
+  },
+  {
+    "id": "toeic-v206",
+    "program": "toeic",
+    "week": 11,
+    "word": "exhibition",
+    "ipa": "/ˌeksɪˈbɪʃən/",
+    "pos": "n",
+    "meaning_vi": "triển lãm",
+    "example": "The exhibition runs for three days."
+  },
+  {
+    "id": "toeic-v207",
+    "program": "toeic",
+    "week": 11,
+    "word": "booth",
+    "ipa": "/buːθ/",
+    "pos": "n",
+    "meaning_vi": "gian hàng",
+    "example": "Visit our booth at the trade fair."
+  },
+  {
+    "id": "toeic-v208",
+    "program": "toeic",
+    "week": 11,
+    "word": "trade fair",
+    "ipa": "/treɪd fer/",
+    "pos": "n",
+    "meaning_vi": "hội chợ thương mại",
+    "example": "We will display new products at the trade fair."
+  },
+  {
+    "id": "toeic-v209",
+    "program": "toeic",
+    "week": 11,
+    "word": "workshop",
+    "ipa": "/ˈwɜːrkʃɑːp/",
+    "pos": "n",
+    "meaning_vi": "hội thảo thực hành",
+    "example": "The workshop covers time management."
+  },
+  {
+    "id": "toeic-v210",
+    "program": "toeic",
+    "week": 11,
+    "word": "session",
+    "ipa": "/ˈseʃən/",
+    "pos": "n",
+    "meaning_vi": "phiên, buổi",
+    "example": "The afternoon session starts at 2."
+  },
+  {
+    "id": "toeic-v211",
+    "program": "toeic",
+    "week": 11,
+    "word": "organizer",
+    "ipa": "/ˈɔːrɡənaɪzər/",
+    "pos": "n",
+    "meaning_vi": "người tổ chức",
+    "example": "The organizers thanked the volunteers."
+  },
+  {
+    "id": "toeic-v212",
+    "program": "toeic",
+    "week": 11,
+    "word": "host",
+    "ipa": "/hoʊst/",
+    "pos": "v",
+    "meaning_vi": "tổ chức, đăng cai",
+    "example": "Our city will host the summit."
+  },
+  {
+    "id": "toeic-v213",
+    "program": "toeic",
+    "week": 11,
+    "word": "sponsor",
+    "ipa": "/ˈspɑːnsər/",
+    "pos": "n",
+    "meaning_vi": "nhà tài trợ",
+    "example": "The event has three main sponsors."
+  },
+  {
+    "id": "toeic-v214",
+    "program": "toeic",
+    "week": 11,
+    "word": "banquet",
+    "ipa": "/ˈbæŋkwɪt/",
+    "pos": "n",
+    "meaning_vi": "tiệc lớn",
+    "example": "A banquet will follow the award ceremony."
+  },
+  {
+    "id": "toeic-v215",
+    "program": "toeic",
+    "week": 11,
+    "word": "caterer",
+    "ipa": "/ˈkeɪtərər/",
+    "pos": "n",
+    "meaning_vi": "đơn vị cung cấp tiệc",
+    "example": "The caterer will arrive at 5 P.M."
+  },
+  {
+    "id": "toeic-v216",
+    "program": "toeic",
+    "week": 11,
+    "word": "audience",
+    "ipa": "/ˈɔːdiəns/",
+    "pos": "n",
+    "meaning_vi": "khán giả",
+    "example": "The audience asked many questions."
+  },
+  {
+    "id": "toeic-v217",
+    "program": "toeic",
+    "week": 11,
+    "word": "presentation",
+    "ipa": "/ˌpriːzenˈteɪʃən/",
+    "pos": "n",
+    "meaning_vi": "bài thuyết trình",
+    "example": "Her presentation lasted 30 minutes."
+  },
+  {
+    "id": "toeic-v218",
+    "program": "toeic",
+    "week": 11,
+    "word": "award ceremony",
+    "ipa": "/əˈwɔːrd ˈserəmoʊni/",
+    "pos": "n",
+    "meaning_vi": "lễ trao giải",
+    "example": "The award ceremony is on Saturday night."
+  },
+  {
+    "id": "toeic-v219",
+    "program": "toeic",
+    "week": 11,
+    "word": "panel discussion",
+    "ipa": "/ˈpænl dɪˈskʌʃn/",
+    "pos": "n",
+    "meaning_vi": "buổi tọa đàm",
+    "example": "The panel discussion features four experts."
+  },
+  {
+    "id": "toeic-v220",
+    "program": "toeic",
+    "week": 11,
+    "word": "networking",
+    "ipa": "/ˈnetwɜːrkɪŋ/",
+    "pos": "n",
+    "meaning_vi": "giao lưu, xây dựng quan hệ",
+    "example": "The event offers great networking opportunities."
+  },
+  {
+    "id": "toeic-v221",
+    "program": "toeic",
+    "week": 12,
+    "word": "portion",
+    "ipa": "/ˈpɔːrʃn/",
+    "pos": "n",
+    "meaning_vi": "khẩu phần",
+    "example": "The portions here are very generous."
+  },
+  {
+    "id": "toeic-v222",
+    "program": "toeic",
+    "week": 12,
+    "word": "menu",
+    "ipa": "/ˈmenjuː/",
+    "pos": "n",
+    "meaning_vi": "thực đơn",
+    "example": "The menu changes every season."
+  },
+  {
+    "id": "toeic-v223",
+    "program": "toeic",
+    "week": 12,
+    "word": "appetizer",
+    "ipa": "/ˈæpɪtaɪzər/",
+    "pos": "n",
+    "meaning_vi": "món khai vị",
+    "example": "We ordered soup as an appetizer."
+  },
+  {
+    "id": "toeic-v224",
+    "program": "toeic",
+    "week": 12,
+    "word": "main course",
+    "ipa": "/meɪn kɔːrs/",
+    "pos": "n",
+    "meaning_vi": "món chính",
+    "example": "The main course is grilled salmon."
+  },
+  {
+    "id": "toeic-v225",
+    "program": "toeic",
+    "week": 12,
+    "word": "beverage",
+    "ipa": "/ˈbevərɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "đồ uống",
+    "example": "Beverages are not included in the price."
+  },
+  {
+    "id": "toeic-v226",
+    "program": "toeic",
+    "week": 12,
+    "word": "dessert",
+    "ipa": "/dɪˈzɜːrt/",
+    "pos": "n",
+    "meaning_vi": "món tráng miệng",
+    "example": "Would you like to see the dessert menu?"
+  },
+  {
+    "id": "toeic-v227",
+    "program": "toeic",
+    "week": 12,
+    "word": "chef",
+    "ipa": "/ʃef/",
+    "pos": "n",
+    "meaning_vi": "đầu bếp",
+    "example": "The chef trained in Paris."
+  },
+  {
+    "id": "toeic-v228",
+    "program": "toeic",
+    "week": 12,
+    "word": "ingredient",
+    "ipa": "/ɪnˈɡriːdiənt/",
+    "pos": "n",
+    "meaning_vi": "nguyên liệu",
+    "example": "We use only fresh local ingredients."
+  },
+  {
+    "id": "toeic-v229",
+    "program": "toeic",
+    "week": 12,
+    "word": "cuisine",
+    "ipa": "/kwɪˈziːn/",
+    "pos": "n",
+    "meaning_vi": "ẩm thực",
+    "example": "The restaurant serves Thai cuisine."
+  },
+  {
+    "id": "toeic-v230",
+    "program": "toeic",
+    "week": 12,
+    "word": "dine",
+    "ipa": "/daɪn/",
+    "pos": "v",
+    "meaning_vi": "ăn tối, dùng bữa",
+    "example": "Guests can dine on the terrace."
+  },
+  {
+    "id": "toeic-v231",
+    "program": "toeic",
+    "week": 12,
+    "word": "patron",
+    "ipa": "/ˈpeɪtrən/",
+    "pos": "n",
+    "meaning_vi": "khách quen",
+    "example": "Patrons receive a free drink on Fridays."
+  },
+  {
+    "id": "toeic-v232",
+    "program": "toeic",
+    "week": 12,
+    "word": "bill",
+    "ipa": "/bɪl/",
+    "pos": "n",
+    "meaning_vi": "hóa đơn thanh toán",
+    "example": "Can we have the bill, please?"
+  },
+  {
+    "id": "toeic-v233",
+    "program": "toeic",
+    "week": 12,
+    "word": "tip",
+    "ipa": "/tɪp/",
+    "pos": "n",
+    "meaning_vi": "tiền boa",
+    "example": "A 10 percent tip is customary."
+  },
+  {
+    "id": "toeic-v234",
+    "program": "toeic",
+    "week": 12,
+    "word": "vegetarian",
+    "ipa": "/ˌvedʒəˈteriən/",
+    "pos": "adj",
+    "meaning_vi": "ăn chay",
+    "example": "We offer several vegetarian dishes."
+  },
+  {
+    "id": "toeic-v235",
+    "program": "toeic",
+    "week": 12,
+    "word": "specialty",
+    "ipa": "/ˈspeʃəlti/",
+    "pos": "n",
+    "meaning_vi": "món đặc sản",
+    "example": "Seafood is the house specialty."
+  },
+  {
+    "id": "toeic-v236",
+    "program": "toeic",
+    "week": 12,
+    "word": "cater",
+    "ipa": "/ˈkeɪtər/",
+    "pos": "v",
+    "meaning_vi": "cung cấp đồ ăn (cho sự kiện)",
+    "example": "They cater weddings and conferences."
+  },
+  {
+    "id": "toeic-v237",
+    "program": "toeic",
+    "week": 12,
+    "word": "renovate",
+    "ipa": "/ˈrenəveɪt/",
+    "pos": "v",
+    "meaning_vi": "cải tạo, sửa sang",
+    "example": "The restaurant was renovated last year."
+  },
+  {
+    "id": "toeic-v238",
+    "program": "toeic",
+    "week": 12,
+    "word": "review",
+    "ipa": "/rɪˈvjuː/",
+    "pos": "n",
+    "meaning_vi": "bài đánh giá",
+    "example": "The café received excellent reviews."
+  },
+  {
+    "id": "toeic-v239",
+    "program": "toeic",
+    "week": 12,
+    "word": "seating",
+    "ipa": "/ˈsiːtɪŋ/",
+    "pos": "n",
+    "meaning_vi": "chỗ ngồi",
+    "example": "Outdoor seating is available in summer."
+  },
+  {
+    "id": "toeic-v240",
+    "program": "toeic",
+    "week": 12,
+    "word": "complimentary",
+    "ipa": "/ˌkɑːmplɪˈmentri/",
+    "pos": "adj",
+    "meaning_vi": "miễn phí (tặng kèm)",
+    "example": "Complimentary coffee is served after dinner."
+  }
+]

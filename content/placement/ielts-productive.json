@@ -1,0 +1,89 @@
+{
+  "writing": {
+    "prompt": "Some people believe that university students should be required to study subjects outside their main field, such as art or history. Others think students should focus only on their chosen subject. Discuss both views and give your own opinion.",
+    "min_words": 150,
+    "minutes": 20,
+    "rubric": [
+      {
+        "name": "Task Response (trả lời đúng đề)",
+        "levels": {
+          "A": "Chỉ nêu ý kiến chung chung, chưa bàn đủ cả hai quan điểm, ý chưa được giải thích.",
+          "B": "Bàn được cả hai quan điểm và nêu ý kiến riêng, nhưng có ý giải thích còn sơ sài hoặc ví dụ chưa rõ.",
+          "C": "Bàn đầy đủ cả hai quan điểm, ý kiến riêng rõ ràng xuyên suốt, mỗi ý đều có giải thích và ví dụ cụ thể."
+        }
+      },
+      {
+        "name": "Coherence & Cohesion (mạch lạc, liên kết)",
+        "levels": {
+          "A": "Chưa chia đoạn rõ, ý nhảy cóc, dùng rất ít từ nối hoặc dùng sai.",
+          "B": "Có mở bài, thân bài, kết luận; dùng từ nối đúng nhưng còn lặp (firstly, secondly, moreover).",
+          "C": "Mỗi đoạn có câu chủ đề rõ; liên kết tự nhiên bằng đại từ, từ thay thế và từ nối đa dạng."
+        }
+      },
+      {
+        "name": "Lexical Resource (từ vựng)",
+        "levels": {
+          "A": "Vốn từ hạn chế, lặp từ nhiều, sai chính tả làm khó hiểu.",
+          "B": "Đủ từ để diễn đạt ý, có cố gắng dùng từ học thuật nhưng đôi khi sai collocation.",
+          "C": "Từ vựng chính xác, đa dạng, paraphrase được đề bài, ít lỗi chính tả."
+        }
+      },
+      {
+        "name": "Grammatical Range & Accuracy (ngữ pháp)",
+        "levels": {
+          "A": "Chủ yếu câu đơn, lỗi thì và chia động từ xuất hiện thường xuyên.",
+          "B": "Kết hợp câu đơn và câu phức, vẫn còn lỗi nhưng không gây hiểu nhầm.",
+          "C": "Dùng linh hoạt nhiều cấu trúc phức (mệnh đề quan hệ, điều kiện, bị động); phần lớn câu không có lỗi."
+        }
+      }
+    ]
+  },
+  "speaking": {
+    "part1": [
+      "Do you work or are you a student?",
+      "What do you usually do in your free time?",
+      "Do you prefer studying alone or with other people? Why?",
+      "How often do you use English in your daily life?"
+    ],
+    "part2": {
+      "cue": "Describe a skill you learned that you think is useful.",
+      "bullets": ["what the skill is", "how you learned it", "how long it took you", "and explain why you think it is useful"],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "rubric": [
+      {
+        "name": "Fluency & Coherence (trôi chảy, mạch lạc)",
+        "levels": {
+          "A": "Ngắt quãng nhiều, khó nói quá 30 giây ở Part 2, câu trả lời rời rạc.",
+          "B": "Nói được 1–2 phút ở Part 2 nhưng còn ngập ngừng tìm từ, dùng ít từ nối.",
+          "C": "Nói liền mạch đủ 2 phút, phát triển ý tự nhiên, hiếm khi ngập ngừng."
+        }
+      },
+      {
+        "name": "Lexical Resource (từ vựng)",
+        "levels": {
+          "A": "Chỉ dùng từ quen thuộc, thường không diễn đạt được ý khi thiếu từ.",
+          "B": "Đủ từ cho chủ đề quen thuộc, biết diễn đạt vòng khi thiếu từ.",
+          "C": "Dùng được idiom và collocation tự nhiên, paraphrase linh hoạt."
+        }
+      },
+      {
+        "name": "Grammatical Range & Accuracy (ngữ pháp)",
+        "levels": {
+          "A": "Chủ yếu câu ngắn, sai thì quá khứ khi kể chuyện.",
+          "B": "Dùng được một số câu phức, vẫn sai nhưng người nghe hiểu được.",
+          "C": "Câu phức đa dạng, phần lớn chính xác kể cả khi nói nhanh."
+        }
+      },
+      {
+        "name": "Pronunciation (phát âm)",
+        "levels": {
+          "A": "Thiếu âm cuối, sai trọng âm nhiều, người nghe phải đoán.",
+          "B": "Phần lớn dễ hiểu, đôi chỗ sai trọng âm hoặc ngữ điệu đều đều.",
+          "C": "Rõ ràng, có nối âm và ngữ điệu tự nhiên, giọng mẹ đẻ không gây khó hiểu."
+        }
+      }
+    ]
+  }
+}

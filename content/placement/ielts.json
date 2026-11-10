@@ -1,0 +1,411 @@
+[
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 1",
+    "id": "ielts-l-01",
+    "audio_script": "Receptionist: Good morning, Hillside Sports Centre. How can I help you?\nCaller: Hi, I'd like to join the swimming club for adults.\nReceptionist: Of course. Can I take your name?\nCaller: Yes, it's Martin Gowan. That's G-O-W-A-N.\nReceptionist: Thank you. And would you prefer the morning or evening sessions?\nCaller: Evenings, please. I work until five, so anything after six is fine.\nReceptionist: We have Tuesday and Thursday at half past six. Membership is forty-five pounds a month, or you can pay four hundred pounds for the whole year.\nCaller: I'll take the yearly option, then. Do I need to bring anything on the first day?\nReceptionist: Just a swimming cap. And please arrive fifteen minutes early to fill in a health form.",
+    "voice": "en-GB",
+    "passage": null,
+    "question": "What is the caller's surname?",
+    "options": [
+      "Gowen",
+      "Gowan",
+      "Goan",
+      "Cowan"
+    ],
+    "answer": "B",
+    "explain_vi": "Người gọi đánh vần G-O-W-A-N. Section 1 thường kiểm tra tên được đánh vần."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 1",
+    "id": "ielts-l-02",
+    "audio_script": "Receptionist: Good morning, Hillside Sports Centre. How can I help you?\nCaller: Hi, I'd like to join the swimming club for adults.\nReceptionist: Of course. Can I take your name?\nCaller: Yes, it's Martin Gowan. That's G-O-W-A-N.\nReceptionist: Thank you. And would you prefer the morning or evening sessions?\nCaller: Evenings, please. I work until five, so anything after six is fine.\nReceptionist: We have Tuesday and Thursday at half past six. Membership is forty-five pounds a month, or you can pay four hundred pounds for the whole year.\nCaller: I'll take the yearly option, then. Do I need to bring anything on the first day?\nReceptionist: Just a swimming cap. And please arrive fifteen minutes early to fill in a health form.",
+    "voice": "en-GB",
+    "passage": null,
+    "question": "Which sessions does the caller prefer?",
+    "options": [
+      "Morning",
+      "Lunchtime",
+      "Evening",
+      "Weekend"
+    ],
+    "answer": "C",
+    "explain_vi": "Evenings, please: anh ấy làm việc đến 5 giờ."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 1",
+    "id": "ielts-l-03",
+    "audio_script": "Receptionist: Good morning, Hillside Sports Centre. How can I help you?\nCaller: Hi, I'd like to join the swimming club for adults.\nReceptionist: Of course. Can I take your name?\nCaller: Yes, it's Martin Gowan. That's G-O-W-A-N.\nReceptionist: Thank you. And would you prefer the morning or evening sessions?\nCaller: Evenings, please. I work until five, so anything after six is fine.\nReceptionist: We have Tuesday and Thursday at half past six. Membership is forty-five pounds a month, or you can pay four hundred pounds for the whole year.\nCaller: I'll take the yearly option, then. Do I need to bring anything on the first day?\nReceptionist: Just a swimming cap. And please arrive fifteen minutes early to fill in a health form.",
+    "voice": "en-GB",
+    "passage": null,
+    "question": "What time do the sessions start?",
+    "options": [
+      "5:00",
+      "6:00",
+      "6:15",
+      "6:30"
+    ],
+    "answer": "D",
+    "explain_vi": "half past six = 6:30. Đáp án B là bẫy vì người gọi nói anything after six."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 1",
+    "id": "ielts-l-04",
+    "audio_script": "Receptionist: Good morning, Hillside Sports Centre. How can I help you?\nCaller: Hi, I'd like to join the swimming club for adults.\nReceptionist: Of course. Can I take your name?\nCaller: Yes, it's Martin Gowan. That's G-O-W-A-N.\nReceptionist: Thank you. And would you prefer the morning or evening sessions?\nCaller: Evenings, please. I work until five, so anything after six is fine.\nReceptionist: We have Tuesday and Thursday at half past six. Membership is forty-five pounds a month, or you can pay four hundred pounds for the whole year.\nCaller: I'll take the yearly option, then. Do I need to bring anything on the first day?\nReceptionist: Just a swimming cap. And please arrive fifteen minutes early to fill in a health form.",
+    "voice": "en-GB",
+    "passage": null,
+    "question": "How much will the caller pay?",
+    "options": [
+      "£45 per month",
+      "£400 per year",
+      "£450 per year",
+      "£40 per month"
+    ],
+    "answer": "B",
+    "explain_vi": "I'll take the yearly option: chọn gói năm 400 bảng."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 1",
+    "id": "ielts-l-05",
+    "audio_script": "Receptionist: Good morning, Hillside Sports Centre. How can I help you?\nCaller: Hi, I'd like to join the swimming club for adults.\nReceptionist: Of course. Can I take your name?\nCaller: Yes, it's Martin Gowan. That's G-O-W-A-N.\nReceptionist: Thank you. And would you prefer the morning or evening sessions?\nCaller: Evenings, please. I work until five, so anything after six is fine.\nReceptionist: We have Tuesday and Thursday at half past six. Membership is forty-five pounds a month, or you can pay four hundred pounds for the whole year.\nCaller: I'll take the yearly option, then. Do I need to bring anything on the first day?\nReceptionist: Just a swimming cap. And please arrive fifteen minutes early to fill in a health form.",
+    "voice": "en-GB",
+    "passage": null,
+    "question": "What must the caller do on the first day?",
+    "options": [
+      "Bring a towel",
+      "Pay a deposit",
+      "Complete a health form",
+      "Take a swimming test"
+    ],
+    "answer": "C",
+    "explain_vi": "arrive 15 minutes early to fill in a health form."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 4",
+    "id": "ielts-l-06",
+    "audio_script": "Lecturer: Today I want to look at why some cities are replacing traditional streetlights with smart lighting systems. The first reason people usually mention is energy, and it's true that LED lamps use roughly half the electricity of older sodium lamps. But in the case studies I'll share, the bigger saving actually came from maintenance. Because each lamp reports its own faults, repair crews no longer need to drive around at night looking for broken lights. In one Danish city, maintenance costs fell by nearly sixty percent within two years. There are concerns, however. Some residents worry that sensors attached to the lamps could be used to monitor people. For this reason, the city council there decided that the sensors would only count vehicles and pedestrians, and would never record images. Finally, I'd like you to note that the systems were not installed everywhere at once; they started with the industrial zone, where lights were on all night but there were very few people.",
+    "voice": "en-AU",
+    "passage": null,
+    "question": "According to the lecturer, the largest saving in the case studies came from",
+    "options": [
+      "lower electricity use",
+      "reduced maintenance",
+      "fewer streetlights",
+      "cheaper lamps"
+    ],
+    "answer": "B",
+    "explain_vi": "the bigger saving actually came from maintenance. Chữ actually báo hiệu thông tin đính chính quan trọng."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 4",
+    "id": "ielts-l-07",
+    "audio_script": "Lecturer: Today I want to look at why some cities are replacing traditional streetlights with smart lighting systems. The first reason people usually mention is energy, and it's true that LED lamps use roughly half the electricity of older sodium lamps. But in the case studies I'll share, the bigger saving actually came from maintenance. Because each lamp reports its own faults, repair crews no longer need to drive around at night looking for broken lights. In one Danish city, maintenance costs fell by nearly sixty percent within two years. There are concerns, however. Some residents worry that sensors attached to the lamps could be used to monitor people. For this reason, the city council there decided that the sensors would only count vehicles and pedestrians, and would never record images. Finally, I'd like you to note that the systems were not installed everywhere at once; they started with the industrial zone, where lights were on all night but there were very few people.",
+    "voice": "en-AU",
+    "passage": null,
+    "question": "Why do repair crews no longer search for broken lights?",
+    "options": [
+      "Residents report faults online.",
+      "Each lamp reports its own faults.",
+      "The lamps never break.",
+      "Crews now work during the day."
+    ],
+    "answer": "B",
+    "explain_vi": "each lamp reports its own faults."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 4",
+    "id": "ielts-l-08",
+    "audio_script": "Lecturer: Today I want to look at why some cities are replacing traditional streetlights with smart lighting systems. The first reason people usually mention is energy, and it's true that LED lamps use roughly half the electricity of older sodium lamps. But in the case studies I'll share, the bigger saving actually came from maintenance. Because each lamp reports its own faults, repair crews no longer need to drive around at night looking for broken lights. In one Danish city, maintenance costs fell by nearly sixty percent within two years. There are concerns, however. Some residents worry that sensors attached to the lamps could be used to monitor people. For this reason, the city council there decided that the sensors would only count vehicles and pedestrians, and would never record images. Finally, I'd like you to note that the systems were not installed everywhere at once; they started with the industrial zone, where lights were on all night but there were very few people.",
+    "voice": "en-AU",
+    "passage": null,
+    "question": "By how much did maintenance costs fall in the Danish city?",
+    "options": [
+      "About 50%",
+      "About 60%",
+      "About 25%",
+      "About 95%"
+    ],
+    "answer": "B",
+    "explain_vi": "nearly sixty percent. Đáp án A là bẫy: 50% là mức điện tiết kiệm được."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 4",
+    "id": "ielts-l-09",
+    "audio_script": "Lecturer: Today I want to look at why some cities are replacing traditional streetlights with smart lighting systems. The first reason people usually mention is energy, and it's true that LED lamps use roughly half the electricity of older sodium lamps. But in the case studies I'll share, the bigger saving actually came from maintenance. Because each lamp reports its own faults, repair crews no longer need to drive around at night looking for broken lights. In one Danish city, maintenance costs fell by nearly sixty percent within two years. There are concerns, however. Some residents worry that sensors attached to the lamps could be used to monitor people. For this reason, the city council there decided that the sensors would only count vehicles and pedestrians, and would never record images. Finally, I'd like you to note that the systems were not installed everywhere at once; they started with the industrial zone, where lights were on all night but there were very few people.",
+    "voice": "en-AU",
+    "passage": null,
+    "question": "What did the city council decide about the sensors?",
+    "options": [
+      "They would be removed.",
+      "They would record images only at night.",
+      "They would only count vehicles and people.",
+      "They would be tested by residents first."
+    ],
+    "answer": "C",
+    "explain_vi": "would only count vehicles and pedestrians, and would never record images."
+  },
+  {
+    "program": "ielts",
+    "section": "listening",
+    "part": "Section 4",
+    "id": "ielts-l-10",
+    "audio_script": "Lecturer: Today I want to look at why some cities are replacing traditional streetlights with smart lighting systems. The first reason people usually mention is energy, and it's true that LED lamps use roughly half the electricity of older sodium lamps. But in the case studies I'll share, the bigger saving actually came from maintenance. Because each lamp reports its own faults, repair crews no longer need to drive around at night looking for broken lights. In one Danish city, maintenance costs fell by nearly sixty percent within two years. There are concerns, however. Some residents worry that sensors attached to the lamps could be used to monitor people. For this reason, the city council there decided that the sensors would only count vehicles and pedestrians, and would never record images. Finally, I'd like you to note that the systems were not installed everywhere at once; they started with the industrial zone, where lights were on all night but there were very few people.",
+    "voice": "en-AU",
+    "passage": null,
+    "question": "Where were the systems installed first?",
+    "options": [
+      "The city centre",
+      "Residential streets",
+      "The industrial zone",
+      "Near the university"
+    ],
+    "answer": "C",
+    "explain_vi": "they started with the industrial zone. Câu cuối bài nói thường chứa đáp án cuối."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "True/False/Not Given",
+    "id": "ielts-r-01",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Vertical farms grow plants without soil.",
+    "options": [
+      "True",
+      "False",
+      "Not Given"
+    ],
+    "answer": "A",
+    "explain_vi": "Đoạn A: roots in water or mist rather than soil. Thông tin khớp nên chọn True."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "True/False/Not Given",
+    "id": "ielts-r-02",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "All vertical farms use 95% less water than field farms.",
+    "options": [
+      "True",
+      "False",
+      "Not Given"
+    ],
+    "answer": "B",
+    "explain_vi": "Đoạn B: Some operators claim up to 95%. Chữ All trong câu hỏi mâu thuẫn với Some ... up to, nên chọn False."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "True/False/Not Given",
+    "id": "ielts-r-03",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Pesticides are rarely needed in vertical farms.",
+    "options": [
+      "True",
+      "False",
+      "Not Given"
+    ],
+    "answer": "A",
+    "explain_vi": "Pesticides are also largely unnecessary, đồng nghĩa với rarely needed."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "True/False/Not Given",
+    "id": "ielts-r-04",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Vertical farms are more profitable in Asia than in Europe.",
+    "options": [
+      "True",
+      "False",
+      "Not Given"
+    ],
+    "answer": "C",
+    "explain_vi": "Bài đọc không nhắc tới châu Á hay châu Âu, nên chọn Not Given."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "True/False/Not Given",
+    "id": "ielts-r-05",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Growing wheat indoors is currently practical.",
+    "options": [
+      "True",
+      "False",
+      "Not Given"
+    ],
+    "answer": "B",
+    "explain_vi": "Đoạn B: growing them indoors is currently impractical, nên chọn False."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Multiple choice",
+    "id": "ielts-r-06",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Which crops does the writer say are best suited to vertical farming?",
+    "options": [
+      "Wheat and rice",
+      "Leafy greens and herbs",
+      "Fruit trees",
+      "Root vegetables"
+    ],
+    "answer": "B",
+    "explain_vi": "Leafy greens and herbs ... suit the system well."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Multiple choice",
+    "id": "ielts-r-07",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "According to paragraph C, what is the industry's main difficulty?",
+    "options": [
+      "Finding skilled workers",
+      "The cost of energy",
+      "Competition from greenhouses",
+      "Consumer distrust"
+    ],
+    "answer": "B",
+    "explain_vi": "Energy is the industry's central challenge."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Multiple choice",
+    "id": "ielts-r-08",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Why are researchers developing lighting \"recipes\"?",
+    "options": [
+      "To make plants grow taller",
+      "To reduce electricity use without lowering yields",
+      "To replace LEDs with sunlight",
+      "To change the colour of vegetables"
+    ],
+    "answer": "B",
+    "explain_vi": "Chỉ dùng bước sóng cần thiết và tắt đèn giờ cao điểm without reducing harvests, tức là tiết kiệm điện mà không giảm sản lượng."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Multiple choice",
+    "id": "ielts-r-09",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "What is the writer's overall view of vertical farming?",
+    "options": [
+      "It will soon replace traditional farming.",
+      "It has no environmental benefits.",
+      "It is useful alongside traditional farming.",
+      "It should be banned in cities."
+    ],
+    "answer": "C",
+    "explain_vi": "not as a replacement ... but as a complement. Câu hỏi quan điểm tác giả thường có đáp án ở câu cuối bài."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Matching information",
+    "id": "ielts-r-10",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Which paragraph mentions businesses that have stopped operating?",
+    "options": [
+      "Paragraph A",
+      "Paragraph B",
+      "Paragraph C",
+      "Paragraph D"
+    ],
+    "answer": "C",
+    "explain_vi": "Đoạn C: Several well-funded companies have closed."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Matching information",
+    "id": "ielts-r-11",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Which paragraph compares the direction of vertical farming with historical agriculture?",
+    "options": [
+      "Paragraph A",
+      "Paragraph B",
+      "Paragraph C",
+      "Paragraph D"
+    ],
+    "answer": "A",
+    "explain_vi": "Đoạn A: nông nghiệp truyền thống mở rộng ra ngoài (outward), còn vertical farming đi theo hướng ngược lại."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Matching information",
+    "id": "ielts-r-12",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Which paragraph explains how food waste could be reduced?",
+    "options": [
+      "Paragraph A",
+      "Paragraph B",
+      "Paragraph C",
+      "Paragraph D"
+    ],
+    "answer": "D",
+    "explain_vi": "Đoạn D: rau đến cửa hàng trong vài giờ, nhờ vậy giảm food waste."
+  },
+  {
+    "program": "ielts",
+    "section": "reading",
+    "part": "Matching information",
+    "id": "ielts-r-13",
+    "audio_script": null,
+    "voice": null,
+    "passage": "Farming Upwards\n\nA. For most of history, agriculture has spread outward, consuming forests and grasslands as populations grew. Vertical farming proposes the opposite direction. Crops are grown in stacked layers inside buildings, under artificial light, with their roots in water or mist rather than soil. Supporters argue that this approach could allow cities to produce a share of their own fresh food while using a fraction of the land and water required by conventional farms.\n\nB. The water savings are the most widely cited advantage. Because the growing environment is sealed, moisture evaporating from the plants can be captured and recycled. Some operators claim to use up to ninety-five percent less water per kilogram of lettuce than field farms. Pesticides are also largely unnecessary, since insects find it difficult to enter a controlled indoor space. However, these benefits depend heavily on the type of crop. Leafy greens and herbs, which grow quickly and are mostly water, suit the system well. Staple crops such as wheat and rice, by contrast, need far more light energy for each calorie they provide, and growing them indoors is currently impractical.\n\nC. Energy is the industry's central challenge. Sunlight is free; LED lighting is not. Although LEDs have become more efficient, electricity can account for a quarter or more of a vertical farm's operating costs. Several well-funded companies have closed in recent years, and analysts often point to rising energy prices as a key factor. Researchers are therefore experimenting with lighting \"recipes\" that deliver only the wavelengths plants use most, and with switching lights off during peak-price hours without reducing harvests.\n\nD. Whether vertical farms are genuinely sustainable remains disputed. If the electricity comes from fossil fuels, the carbon emissions per kilogram of produce may exceed those of greenhouse farming, even after transport savings are included. On the other hand, farms powered by renewable energy and located close to consumers could reduce both emissions and food waste, because vegetables reach shops within hours rather than days. Most experts now see vertical farming not as a replacement for traditional agriculture but as a complement to it, best suited to particular crops and places.",
+    "question": "Which paragraph describes how moisture is recycled?",
+    "options": [
+      "Paragraph A",
+      "Paragraph B",
+      "Paragraph C",
+      "Paragraph D"
+    ],
+    "answer": "B",
+    "explain_vi": "Đoạn B: moisture evaporating ... can be captured and recycled."
+  }
+]

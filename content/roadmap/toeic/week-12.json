@@ -1,0 +1,353 @@
+{
+  "program": "toeic",
+  "week": 12,
+  "phase": "Giai đoạn 3: Luyện đề và tăng tốc",
+  "focus": {
+    "grammar": "Tổng ôn toàn bộ chủ điểm",
+    "vocab": "Nhà hàng và ẩm thực",
+    "listening": "Ôn chiến thuật cả 4 Part",
+    "reading": "Ôn chiến thuật cả 3 Part"
+  },
+  "days": [
+    {
+      "day": 1,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "toeic-w12d1t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Học 20 từ mới chủ đề \"Nhà hàng và ẩm thực\" trên trang Flashcard, đặt câu với 5 từ",
+          "minutes": 25,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t2",
+          "skill": "grammar",
+          "track": "all",
+          "title": "Học chủ điểm \"Tổng ôn toàn bộ chủ điểm\": ghi công thức và 10 câu ví dụ vào sổ",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t3",
+          "skill": "grammar",
+          "track": "A",
+          "title": "Làm 20 câu Part 5 về \"Tổng ôn toàn bộ chủ điểm\", chữa và ghi lỗi sai vào sổ",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t4",
+          "skill": "grammar",
+          "track": "B",
+          "title": "Làm 30 câu Part 5 về \"Tổng ôn toàn bộ chủ điểm\", chữa và ghi lỗi sai vào sổ",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t5",
+          "skill": "grammar",
+          "track": "C",
+          "title": "Làm 40 câu Part 5 về \"Tổng ôn toàn bộ chủ điểm\" trong 20 phút, chữa và ghi lỗi sai",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t6",
+          "skill": "listening",
+          "track": "all",
+          "title": "Nghe chép chính tả 10 câu Part 1–4, so với script và đánh dấu chỗ nghe sai",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d1t7",
+          "skill": "grammar",
+          "track": "all",
+          "title": "Ôn sổ lỗi sai: viết lại đúng 5 câu sai gần nhất",
+          "minutes": 15,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "toeic-w12d2t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng)",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t2",
+          "skill": "listening",
+          "track": "all",
+          "title": "Học chiến thuật Ôn chiến thuật cả 4 Part: ghi 3 mẹo và 3 bẫy thường gặp",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t3",
+          "skill": "listening",
+          "track": "A",
+          "title": "Làm 12 câu Part 1–4, nghe lại câu sai 2 lần có script",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t4",
+          "skill": "listening",
+          "track": "B",
+          "title": "Làm 20 câu Part 1–4, nghe lại câu sai có script",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t5",
+          "skill": "listening",
+          "track": "C",
+          "title": "Làm 30 câu Part 1–4, lần đầu không xem script, sau đó chữa",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t6",
+          "skill": "listening",
+          "track": "all",
+          "title": "Shadowing 1 đoạn Part 1–4 (khoảng 1 phút): nói theo 5 lần, ghi âm lần cuối",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d2t7",
+          "skill": "reading",
+          "track": "all",
+          "title": "Đọc 1 email hoặc thông báo tiếng Anh, gạch chân 10 cụm từ hay và chép vào sổ",
+          "minutes": 20,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "toeic-w12d3t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t2",
+          "skill": "reading",
+          "track": "all",
+          "title": "Học chiến thuật Ôn chiến thuật cả 3 Part: đọc câu hỏi trước, xác định từ khóa",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t3",
+          "skill": "reading",
+          "track": "A",
+          "title": "Làm 10 câu Part 5–7, tra từ mới sau khi làm xong",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t4",
+          "skill": "reading",
+          "track": "B",
+          "title": "Làm 16 câu Part 5–7, ghi lý do chọn đáp án",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t5",
+          "skill": "reading",
+          "track": "C",
+          "title": "Làm 24 câu Part 5–7 có bấm giờ, chữa kỹ câu sai",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t6",
+          "skill": "grammar",
+          "track": "A",
+          "title": "Làm 15 câu Part 5 tổng hợp",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t7",
+          "skill": "grammar",
+          "track": "B",
+          "title": "Làm 20 câu Part 5 tổng hợp",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t8",
+          "skill": "grammar",
+          "track": "C",
+          "title": "Làm 30 câu Part 5 tổng hợp trong 15 phút",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d3t9",
+          "skill": "listening",
+          "track": "all",
+          "title": "Nghe lại đoạn shadowing hôm qua, nói theo mà không nhìn script",
+          "minutes": 20,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "toeic-w12d4t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t2",
+          "skill": "listening",
+          "track": "A",
+          "title": "Làm 15 câu nghe tổng hợp (ưu tiên Part 1–4)",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t3",
+          "skill": "listening",
+          "track": "B",
+          "title": "Làm 25 câu nghe tổng hợp (ưu tiên Part 1–4)",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t4",
+          "skill": "listening",
+          "track": "C",
+          "title": "Làm 35 câu nghe tổng hợp (ưu tiên Part 1–4)",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t5",
+          "skill": "reading",
+          "track": "A",
+          "title": "Làm 15 câu đọc tổng hợp (ưu tiên Part 5–7)",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t6",
+          "skill": "reading",
+          "track": "B",
+          "title": "Làm 25 câu đọc tổng hợp (ưu tiên Part 5–7)",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t7",
+          "skill": "reading",
+          "track": "C",
+          "title": "Làm 35 câu đọc tổng hợp (ưu tiên Part 5–7)",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t8",
+          "skill": "grammar",
+          "track": "all",
+          "title": "Ghi lỗi sai hôm nay vào sổ, phân loại theo chủ điểm",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d4t9",
+          "skill": "listening",
+          "track": "all",
+          "title": "Shadowing 1 đoạn Part 1–4 mới",
+          "minutes": 15,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "toeic-w12d5t1",
+          "skill": "mock",
+          "track": "all",
+          "title": "Làm nửa đề (50 câu Listening + 50 câu Reading), bấm giờ 60 phút",
+          "minutes": 65,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d5t2",
+          "skill": "mock",
+          "track": "all",
+          "title": "Chữa bài: ghi lý do sai từng câu (thiếu từ, sai ngữ pháp, nghe nhầm, hết giờ)",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d5t3",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "toeic-w12d5t4",
+          "skill": "grammar",
+          "track": "all",
+          "title": "Ôn lại chủ điểm ngữ pháp sai nhiều nhất trong bài test",
+          "minutes": 25,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "mock_test": true,
+      "tasks": [
+        {
+          "id": "toeic-w12d6t1",
+          "skill": "mock",
+          "track": "all",
+          "title": "Thi thử full test TOEIC lần 3 (200 câu, 120 phút) cùng giờ với cả nhóm, nhập điểm vào trang Điểm thi thử",
+          "minutes": 120,
+          "group_activity": true
+        },
+        {
+          "id": "toeic-w12d6t2",
+          "skill": "mock",
+          "track": "all",
+          "title": "Chữa nhanh: liệt kê các câu sai, đếm lỗi theo từng Part",
+          "minutes": 30,
+          "group_activity": false
+        }
+      ]
+    }
+  ]
+}

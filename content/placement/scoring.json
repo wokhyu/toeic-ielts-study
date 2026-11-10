@@ -1,0 +1,29 @@
+{
+  "note": "Ngưỡng dưới đây là ước lượng để xếp nhánh học, không phải điểm thi chính thức. Với IELTS, nếu phần tự chấm Writing và Speaking đều thấp hơn nhánh tính từ phần trắc nghiệm, người học được hạ xuống một nhánh.",
+  "toeic": {
+    "total": 50,
+    "thresholds": [
+      { "track": "A", "min": 0, "max": 24, "label": "Nhánh A: nền tảng", "target": "550" },
+      { "track": "B", "min": 25, "max": 37, "label": "Nhánh B: trung cấp", "target": "750" },
+      { "track": "C", "min": 38, "max": 50, "label": "Nhánh C: nâng cao", "target": "850+" }
+    ],
+    "real_score": [
+      { "track": "A", "min": 0, "max": 399 },
+      { "track": "B", "min": 400, "max": 600 },
+      { "track": "C", "min": 601, "max": 990 }
+    ]
+  },
+  "ielts": {
+    "total": 23,
+    "thresholds": [
+      { "track": "A", "min": 0, "max": 9, "label": "Nhánh A: nền tảng", "target": "5.5" },
+      { "track": "B", "min": 10, "max": 16, "label": "Nhánh B: trung cấp", "target": "6.5" },
+      { "track": "C", "min": 17, "max": 23, "label": "Nhánh C: nâng cao", "target": "7.0+" }
+    ],
+    "real_score": [
+      { "track": "A", "min": 0, "max": 4 },
+      { "track": "B", "min": 4.5, "max": 5.5 },
+      { "track": "C", "min": 6, "max": 9 }
+    ]
+  }
+}
