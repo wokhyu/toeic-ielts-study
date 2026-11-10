@@ -8,3 +8,8 @@ coverage/
 .DS_Store
 supabase/.temp/
 supabase/.branches/
+courses/on-tap-11/build/
+courses/on-tap-11/de-on/**/*.doc
+courses/on-tap-11/de-on/**/*.docx
+courses/on-tap-11/de-on/**/*.pdf
+__pycache__/

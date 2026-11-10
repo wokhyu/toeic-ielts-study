@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+body {
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
+
+/* Question HTML from the on-tap-11 pipeline: inline formula images and simple tables. */
+.rich img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.rich p {
+  margin: 0.25rem 0;
+}
+.rich table {
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+.rich td,
+.rich th {
+  border: 1px solid #cbd5e1;
+  padding: 0.25rem 0.5rem;
+}
