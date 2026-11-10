@@ -46,7 +46,10 @@ for (const [label, test, program] of [
   ['placement/ielts.json', ieltsTest, 'ielts'],
 ] as const) {
   if (!test) continue;
-  checkUnique(label, test.map((q) => q.id));
+  checkUnique(
+    label,
+    test.map((q) => q.id),
+  );
   for (const q of test) {
     if (q.program !== program) errors.push(`${label}: ${q.id} has program ${q.program}`);
     const index = q.answer.charCodeAt(0) - 'A'.charCodeAt(0);
@@ -67,7 +70,8 @@ if (scoring) {
       errors.push(`scoring.json: ${program} thresholds must cover 0..${scoring[program].total}`);
     }
     for (let i = 1; i < t.length; i++) {
-      if (t[i].min !== t[i - 1].max + 1) errors.push(`scoring.json: ${program} thresholds have a gap or overlap`);
+      if (t[i].min !== t[i - 1].max + 1)
+        errors.push(`scoring.json: ${program} thresholds have a gap or overlap`);
     }
   }
 }
@@ -79,7 +83,9 @@ const OPTIONAL_DAY_MIN = 60;
 
 for (const program of ['toeic', 'ielts'] as const) {
   const dir = join(root, 'roadmap', program);
-  const files = readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
+  const files = readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .sort();
   if (files.length !== 12) errors.push(`roadmap/${program}: expected 12 weeks, found ${files.length}`);
   const allowedSkills: readonly string[] = program === 'toeic' ? toeicSkills : ieltsSkills;
   const weeks: Week[] = [];
@@ -87,7 +93,10 @@ for (const program of ['toeic', 'ielts'] as const) {
     const w = load(`roadmap/${program}/${f}`, weekSchema);
     if (w) weeks.push(w);
   }
-  checkUnique(`roadmap/${program}`, weeks.flatMap((w) => w.days.flatMap((d) => d.tasks.map((t) => t.id))));
+  checkUnique(
+    `roadmap/${program}`,
+    weeks.flatMap((w) => w.days.flatMap((d) => d.tasks.map((t) => t.id))),
+  );
   weeks.forEach((w, i) => {
     const label = `roadmap/${program}/week ${w.week}`;
     if (w.program !== program) errors.push(`${label}: program mismatch`);
@@ -105,7 +114,9 @@ for (const program of ['toeic', 'ielts'] as const) {
           .reduce((s, t) => s + t.minutes, 0);
         const min = d.day === 6 ? OPTIONAL_DAY_MIN : STUDY_MIN;
         if (minutes < min || minutes > STUDY_MAX) {
-          errors.push(`${label} day ${d.day} track ${track}: ${minutes} minutes, expected ${min}-${STUDY_MAX}`);
+          errors.push(
+            `${label} day ${d.day} track ${track}: ${minutes} minutes, expected ${min}-${STUDY_MAX}`,
+          );
         }
       }
     }
@@ -116,8 +127,14 @@ for (const program of ['toeic', 'ielts'] as const) {
 for (const program of ['toeic', 'ielts'] as const) {
   const deck = load(`vocab/${program}.json`, vocabDeckSchema);
   if (!deck) continue;
-  checkUnique(`vocab/${program}.json`, deck.map((c) => c.id));
-  checkUnique(`vocab/${program}.json words`, deck.map((c) => c.word.toLowerCase()));
+  checkUnique(
+    `vocab/${program}.json`,
+    deck.map((c) => c.id),
+  );
+  checkUnique(
+    `vocab/${program}.json words`,
+    deck.map((c) => c.word.toLowerCase()),
+  );
   for (let week = 1; week <= 12; week++) {
     const count = deck.filter((c) => c.week === week).length;
     if (count < 15) errors.push(`vocab/${program}.json: week ${week} has only ${count} cards`);

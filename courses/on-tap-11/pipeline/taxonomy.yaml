@@ -1,0 +1,291 @@
+# Cay chuong / chu de. Moi `match` la mot chuoi con doi chieu voi ten file nguon
+# (da chuyen ve chu thuong). Trong pham vi mot mon, chu de nao khai bao truoc
+# thi duoc uu tien - hay dat cac mau cu the len tren.
+subjects:
+  - slug: toan
+    name: "Toán 11"
+    chapters:
+      - slug: luong-giac
+        name: "Hàm số lượng giác và phương trình lượng giác"
+        topics:
+          - slug: goc-va-gia-tri-luong-giac
+            name: "Góc lượng giác và giá trị lượng giác"
+            match:
+              - doi-don-vi-do-goc
+              - do-dai-cung-tron
+              - xet-dau-cac-gia-tri
+              - tinh-gia-tri-luong-giac
+              - goc-co-lien-quan-dac-biet
+              - rut-gon-bieu-thuc-luong-giac
+              - gia-tri-lon-nhat-va-gia-tri-nho-nhat
+              - ap-dung-cong-thuc-cong
+              - kien-thuc-co-ban-luong-giac
+          - slug: ham-so-luong-giac
+            name: "Hàm số lượng giác"
+            match:
+              - ham-so-luong-giac
+              - tap-xac-dinh-cua-hs-luong-giac
+          - slug: phuong-trinh-luong-giac
+            name: "Phương trình lượng giác"
+            match:
+              - pt-luong-giac-co-ban
+              - phuong-trinh-luong-giac-co-ban
+              - ptlg-thuong-gap
+              - phuong-trinh-luong-giac-thuong-gap
+              - phuong-trinh-luong-giac
+              - hslg-ptlg
+          - slug: on-tap-luong-giac
+            name: "Ôn tập lượng giác"
+            match:
+              - de-kiem-tra-1-tiet-luong-giac
+              - bai-tap-trac-nghiem-luong-giac
+      - slug: day-so-cap-so
+        name: "Dãy số. Cấp số cộng. Cấp số nhân"
+        topics:
+          - slug: day-so
+            name: "Dãy số"
+            match:
+              - bai-5-day-so
+              - bai-day-so
+              - ve-day-so
+          - slug: cap-so-cong
+            name: "Cấp số cộng"
+            match:
+              - bai-6-cap-so-cong
+              - ve-cap-so-cong
+          - slug: cap-so-nhan
+            name: "Cấp số nhân"
+            match:
+              - bai-7-cap-so-nhan
+              - cap-so-nhanhay
+          - slug: on-tap-day-so
+            name: "Ôn tập dãy số - cấp số"
+            match:
+              - day-so-cap-so-cong-cap-so-nhan
+      - slug: quan-he-song-song
+        name: "Quan hệ song song trong không gian"
+        topics:
+          - slug: duong-thang-mat-phang
+            name: "Đường thẳng và mặt phẳng trong không gian"
+            match:
+              - bai-10-duong-thang
+              - duong-thang-va-mat-phang-trong-khong-gian
+              - dai-cuong-ve-duong-thang-va-mat-phang
+              - duong-thang-va-mp-trong-kg
+              - duong-thang-va-mp-trong-khong-gian
+              - tim-giao-tuyen
+              - tim-giao-diem
+              - tim-thiet-dien
+              - tap-hop-giao-diem
+          - slug: hai-duong-thang-song-song
+            name: "Hai đường thẳng song song"
+            match:
+              - bai-11-hai-duong
+              - hai-duong-thang-song-song
+              - hai-duong-thang-cheo-nhau
+          - slug: duong-thang-song-song-mat-phang
+            name: "Đường thẳng song song với mặt phẳng"
+            match:
+              - duong-thang-song-song-voi-mat-phang
+              - duong-thang-va-mat-phang-song-song
+          - slug: hai-mat-phang-song-song
+            name: "Hai mặt phẳng song song"
+            match:
+              - hai-mat-phang-song-song
+          - slug: phep-chieu-song-song
+            name: "Phép chiếu song song"
+            match:
+              - phep-chieu-song-song
+          - slug: on-tap-quan-he-song-song
+            name: "Ôn tập quan hệ song song"
+            match:
+              - on-chuong-quan-he-song-song
+              - ve-quan-he-song-song
+      - slug: de-tong-hop-toan
+        name: "Đề tổng hợp"
+        topics:
+          - slug: de-hk1-toan
+            name: "Đề học kì 1"
+            match:
+              - toan11-de-theo-bai-hk1
+
+  - slug: ly
+    name: "Vật lí 11"
+    chapters:
+      - slug: dao-dong
+        name: "Dao động"
+        topics:
+          - slug: dao-dong-dieu-hoa
+            name: "Dao động điều hoà"
+            match:
+              - dao-dong-dieu-hoa
+              - dai-luong-dac-trung-cua-dao-dong
+              - bien-do-pha-li-do
+          - slug: con-lac-lo-xo
+            name: "Con lắc lò xo"
+            match:
+              - con-lac-lo-xo
+          - slug: con-lac-don
+            name: "Con lắc đơn"
+            match:
+              - con-lac-don
+          - slug: dao-dong-tat-dan
+            name: "Dao động tắt dần, duy trì, cưỡng bức"
+            match:
+              - dao-dong-tat-dan
+              - duy-tri-cuong-buc
+          - slug: tong-hop-dao-dong
+            name: "Tổng hợp dao động"
+            match:
+              - tong-hop-dao-dong
+          - slug: on-tap-dao-dong
+            name: "Ôn tập dao động"
+            match:
+              - bai-tap-dao-dong-co
+              - ve-dao-dong-co
+              - trac-nghiem-chuong-1
+      - slug: song-co
+        name: "Sóng cơ và sóng âm"
+        topics:
+          - slug: song-co-va-su-truyen-song
+            name: "Sóng cơ và sự truyền sóng"
+            match:
+              - su-truyen-song-co
+              - song-ngang-song-doc
+              - dac-trung-cua-song-co
+              - lien-quan-pt-song
+              - do-thi-song-co
+          - slug: giao-thoa-song
+            name: "Giao thoa sóng"
+            match:
+              - giao-thoa-song
+          - slug: song-dung
+            name: "Sóng dừng"
+            match:
+              - song-dung
+          - slug: song-am
+            name: "Sóng âm"
+            match:
+              - song-am
+          - slug: song-dien-tu
+            name: "Sóng điện từ"
+            match:
+              - song-dien-tu
+          - slug: on-tap-song-co
+            name: "Ôn tập sóng cơ"
+            match:
+              - chuyen-de-song-co
+              - bt-song-co
+              - song-co-va-song-am
+              - trac-nghiem-chuong-2
+      - slug: dien-tich-dien-truong
+        name: "Điện tích. Điện trường"
+        topics:
+          - slug: dinh-luat-coulomb
+            name: "Tương tác tĩnh điện. Định luật Coulomb"
+            match:
+              - tuong-tac-tinh-dien
+              - dinh-luat-culong
+          - slug: dien-truong
+            name: "Điện trường. Cường độ điện trường"
+            match:
+              - dien-truong
+          - slug: dien-the
+            name: "Điện thế. Hiệu điện thế"
+            match:
+              - dien-the-hieu-dien-the
+          - slug: tu-dien
+            name: "Tụ điện"
+            match:
+              - tu-dien
+          - slug: on-tap-dien-truong
+            name: "Ôn tập điện tích - điện trường"
+            match:
+              - dien-tich-dien-truong
+      - slug: dong-dien-khong-doi
+        name: "Dòng điện không đổi"
+        topics:
+          - slug: dinh-luat-ohm
+            name: "Định luật Ohm cho toàn mạch"
+            match:
+              - dinh-luat-om
+          - slug: dien-nang-cong-suat
+            name: "Điện năng. Công suất điện"
+            match:
+              - dong-dien-khong-doi
+          - slug: de-kiem-tra-ly
+            name: "Đề kiểm tra chương 1-2"
+            match:
+              - de-kt-1-tiet-ly-11
+
+  - slug: hoa
+    name: "Hoá học 11"
+    chapters:
+      - slug: can-bang-hoa-hoc
+        name: "Cân bằng hoá học"
+        topics:
+          - slug: khai-niem-can-bang
+            name: "Khái niệm về cân bằng hoá học"
+            match:
+              - khai-niem-trong-can-ban
+              - khai-niem-ve-can-ban
+              - mo-dau-ve-can-ban
+              - ly-thuyet-ve-can-bang-hoa-hoc
+              - he-so-can-bang
+          - slug: can-bang-dung-dich-nuoc
+            name: "Cân bằng trong dung dịch nước"
+            match:
+              - can-bang-trong-dung-dich-nuoc
+              - su-dien-li
+              - hang-so-dien-li
+          - slug: ph-dung-dich
+            name: "pH của dung dịch. Chuẩn độ acid-base"
+            match:
+              - ph-cua-dung-dich
+              - ph-dung-dich
+              - do-ph
+          - slug: on-tap-can-bang
+            name: "Ôn tập cân bằng hoá học"
+            match:
+              - on-chuong-can-bang-hoa-hoc
+      - slug: nitrogen-sulfur
+        name: "Nitrogen và Sulfur"
+        topics:
+          - slug: don-chat-nitrogen
+            name: "Đơn chất nitrogen"
+            match:
+              - don-chat-nitrogen
+              - bai-tap-nitrogen
+              - bai-tap-bai-nitrogen
+              - va-bai-tap-nitrogen
+          - slug: ammonia-muoi-ammonium
+            name: "Ammonia và muối ammonium"
+            match:
+              - ammonia
+          - slug: hop-chat-cua-nitrogen
+            name: "Một số hợp chất của nitrogen"
+            match:
+              - hop-chat-cua-nitrogen
+          - slug: sulfur
+            name: "Sulfur và sulfur dioxide"
+            match:
+              - sulfur-va-sulfur-dioxide
+          - slug: sulfuric-acid
+            name: "Sulfuric acid và muối sulfate"
+            match:
+              - sulfuric-acid
+          - slug: on-tap-nitrogen-sulfur
+            name: "Ôn tập Nitrogen - Sulfur"
+            match:
+              - on-chuong-nitrogen-sulfur
+      - slug: de-tong-hop-hoa
+        name: "Đề tổng hợp"
+        topics:
+          - slug: on-tap-hk1-hoa
+            name: "Ôn tập học kì 1"
+            match:
+              - on-tap-hoa-11-hk1
+          - slug: de-kiem-tra-hoa
+            name: "Đề kiểm tra giữa kì 1"
+            match:
+              - kiem-tra-giua-hk1-hoa

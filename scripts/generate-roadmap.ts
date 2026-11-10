@@ -16,12 +16,7 @@ type Program = 'toeic' | 'ielts';
 
 const root = process.cwd();
 
-function buildWeek(
-  program: Program,
-  week: number,
-  focus: Record<string, string>,
-  drafts: DraftDay[],
-) {
+function buildWeek(program: Program, week: number, focus: Record<string, string>, drafts: DraftDay[]) {
   return {
     program,
     week,
@@ -70,7 +65,10 @@ function markdown(
 ): string {
   const lines: string[] = [];
   lines.push(`# ${title}`, '');
-  lines.push('> File này được sinh tự động bởi `npm run generate:roadmap` từ `scripts/roadmap-specs.ts`. Không sửa tay.', '');
+  lines.push(
+    '> File này được sinh tự động bởi `npm run generate:roadmap` từ `scripts/roadmap-specs.ts`. Không sửa tay.',
+    '',
+  );
   lines.push(intro, '');
   lines.push(`**Tài liệu:** ${resource}`, '');
   lines.push(
