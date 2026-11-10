@@ -1,0 +1,347 @@
+{
+  "program": "ielts",
+  "week": 2,
+  "phase": "Giai đoạn 1: Nền tảng",
+  "focus": {
+    "listening": "Section 1–2: bản đồ và trắc nghiệm",
+    "reading": "Matching Headings",
+    "writing": "Task 2: dạng Opinion (đồng ý/không đồng ý)",
+    "speaking": "Part 1: công việc và học tập",
+    "vocab": "Công việc và nghề nghiệp",
+    "grammar": "Mệnh đề quan hệ"
+  },
+  "days": [
+    {
+      "day": 1,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d1t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Học 20 từ mới chủ đề \"Công việc và nghề nghiệp\" trên Flashcard, viết 5 câu ví dụ học thuật",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t2",
+          "skill": "listening",
+          "track": "all",
+          "title": "Học chiến thuật Section 1–2: bản đồ và trắc nghiệm: đọc trước câu hỏi, đoán loại từ cần điền",
+          "minutes": 25,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t3",
+          "skill": "listening",
+          "track": "A",
+          "title": "Làm 1 section Section 1–2: bản đồ và trắc nghiệm (10 câu), nghe lại câu sai có script",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t4",
+          "skill": "listening",
+          "track": "B",
+          "title": "Làm 2 section Section 1–2: bản đồ và trắc nghiệm (20 câu), nghe lại câu sai có script",
+          "minutes": 35,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t5",
+          "skill": "listening",
+          "track": "C",
+          "title": "Làm 3 section Section 1–2: bản đồ và trắc nghiệm (30 câu), không dừng audio",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t6",
+          "skill": "reading",
+          "track": "all",
+          "title": "Học chiến thuật Matching Headings",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t7",
+          "skill": "reading",
+          "track": "A",
+          "title": "Làm 1 bài Matching Headings (6–8 câu), không giới hạn thời gian",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t8",
+          "skill": "reading",
+          "track": "B",
+          "title": "Làm 2 bài Matching Headings (khoảng 13 câu)",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d1t9",
+          "skill": "reading",
+          "track": "C",
+          "title": "Làm 1 passage có dạng Matching Headings trong 20 phút",
+          "minutes": 35,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d2t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng)",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d2t2",
+          "skill": "writing",
+          "track": "all",
+          "title": "Học cấu trúc Task 2: dạng Opinion (đồng ý/không đồng ý): phân tích 1 bài mẫu, ghi dàn ý",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d2t3",
+          "skill": "writing",
+          "track": "A",
+          "title": "Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Opinion (đồng ý/không đồng ý)",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d2t4",
+          "skill": "writing",
+          "track": "B",
+          "title": "Viết bài hoàn chỉnh Task 2: dạng Opinion (đồng ý/không đồng ý), không giới hạn thời gian",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d2t5",
+          "skill": "writing",
+          "track": "C",
+          "title": "Viết bài Task 2: dạng Opinion (đồng ý/không đồng ý) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút)",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d2t6",
+          "skill": "speaking",
+          "track": "all",
+          "title": "Luyện Part 1: công việc và học tập: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi",
+          "minutes": 35,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d3t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t2",
+          "skill": "reading",
+          "track": "A",
+          "title": "Làm 1 passage mức dễ (13 câu), không giới hạn thời gian",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t3",
+          "skill": "reading",
+          "track": "B",
+          "title": "Làm 1 passage trong 20 phút, chữa kỹ câu sai",
+          "minutes": 40,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t4",
+          "skill": "reading",
+          "track": "C",
+          "title": "Làm 2 passage, mỗi passage 20 phút",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t5",
+          "skill": "reading",
+          "track": "all",
+          "title": "Paraphrase: tìm 10 cặp từ đồng nghĩa giữa câu hỏi và bài đọc",
+          "minutes": 20,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t6",
+          "skill": "listening",
+          "track": "A",
+          "title": "Nghe chép chính tả 1 đoạn Section 1–2: bản đồ và trắc nghiệm (khoảng 2 phút)",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t7",
+          "skill": "listening",
+          "track": "B",
+          "title": "Làm 1 section Section 1–2: bản đồ và trắc nghiệm, chép chính tả các câu sai",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t8",
+          "skill": "listening",
+          "track": "C",
+          "title": "Làm 2 section Section 1–2: bản đồ và trắc nghiệm, ghi lại lỗi chính tả",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d3t9",
+          "skill": "grammar",
+          "track": "all",
+          "title": "Học \"Mệnh đề quan hệ\", viết 8 câu áp dụng cho chủ đề \"Công việc và nghề nghiệp\"",
+          "minutes": 25,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d4t1",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Ôn từ vựng tuần này trên Flashcard",
+          "minutes": 15,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d4t2",
+          "skill": "writing",
+          "track": "all",
+          "title": "Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét",
+          "minutes": 30,
+          "group_activity": true
+        },
+        {
+          "id": "ielts-w2d4t3",
+          "skill": "writing",
+          "track": "all",
+          "title": "Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d4t4",
+          "skill": "speaking",
+          "track": "all",
+          "title": "Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 1: công việc và học tập, chấm theo 4 tiêu chí",
+          "minutes": 30,
+          "group_activity": true
+        },
+        {
+          "id": "ielts-w2d4t5",
+          "skill": "listening",
+          "track": "all",
+          "title": "Shadowing 1 đoạn Section 1–2: bản đồ và trắc nghiệm (khoảng 1 phút), nói theo 5 lần",
+          "minutes": 20,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d5t1",
+          "skill": "mock",
+          "track": "A",
+          "title": "Mini test: 1 section Listening + 1 bài Reading, bấm giờ",
+          "minutes": 45,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d5t2",
+          "skill": "mock",
+          "track": "B",
+          "title": "Mini test: 2 section Listening + 1 passage Reading, bấm giờ",
+          "minutes": 50,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d5t3",
+          "skill": "mock",
+          "track": "C",
+          "title": "Mini test: 2 section Listening + 2 passage Reading, bấm giờ",
+          "minutes": 60,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d5t4",
+          "skill": "mock",
+          "track": "all",
+          "title": "Chữa mini test, ghi lỗi theo dạng câu hỏi",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d5t5",
+          "skill": "writing",
+          "track": "all",
+          "title": "Lập dàn ý cho 2 đề Task 2: dạng Opinion (đồng ý/không đồng ý) mới (mỗi đề 10 phút), viết 1 đoạn",
+          "minutes": 30,
+          "group_activity": false
+        },
+        {
+          "id": "ielts-w2d5t6",
+          "skill": "vocab",
+          "track": "all",
+          "title": "Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc",
+          "minutes": 15,
+          "group_activity": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "mock_test": false,
+      "tasks": [
+        {
+          "id": "ielts-w2d6t1",
+          "skill": "speaking",
+          "track": "all",
+          "title": "Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm",
+          "minutes": 60,
+          "group_activity": true
+        },
+        {
+          "id": "ielts-w2d6t2",
+          "skill": "writing",
+          "track": "all",
+          "title": "Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất",
+          "minutes": 30,
+          "group_activity": false
+        }
+      ]
+    }
+  ]
+}

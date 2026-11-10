@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "ielts-v001",
+    "program": "ielts",
+    "week": 1,
+    "word": "curriculum",
+    "ipa": "/kəˈrɪkjələm/",
+    "pos": "n",
+    "meaning_vi": "chương trình giảng dạy",
+    "example": "The national curriculum includes coding from age eight."
+  },
+  {
+    "id": "ielts-v002",
+    "program": "ielts",
+    "week": 1,
+    "word": "tuition fees",
+    "ipa": "/tjuˈɪʃn fiːz/",
+    "pos": "n",
+    "meaning_vi": "học phí",
+    "example": "Rising tuition fees discourage some students."
+  },
+  {
+    "id": "ielts-v003",
+    "program": "ielts",
+    "week": 1,
+    "word": "compulsory",
+    "ipa": "/kəmˈpʌlsəri/",
+    "pos": "adj",
+    "meaning_vi": "bắt buộc",
+    "example": "Physical education is compulsory in most schools."
+  },
+  {
+    "id": "ielts-v004",
+    "program": "ielts",
+    "week": 1,
+    "word": "literacy",
+    "ipa": "/ˈlɪtərəsi/",
+    "pos": "n",
+    "meaning_vi": "khả năng đọc viết",
+    "example": "Adult literacy rates have improved."
+  },
+  {
+    "id": "ielts-v005",
+    "program": "ielts",
+    "week": 1,
+    "word": "academic performance",
+    "ipa": "/ˌækəˈdemɪk pərˈfɔːrməns/",
+    "pos": "n",
+    "meaning_vi": "kết quả học tập",
+    "example": "Sleep affects academic performance."
+  },
+  {
+    "id": "ielts-v006",
+    "program": "ielts",
+    "week": 1,
+    "word": "vocational",
+    "ipa": "/voʊˈkeɪʃənl/",
+    "pos": "adj",
+    "meaning_vi": "thuộc dạy nghề",
+    "example": "Vocational courses prepare students for specific jobs."
+  },
+  {
+    "id": "ielts-v007",
+    "program": "ielts",
+    "week": 1,
+    "word": "higher education",
+    "ipa": "/ˈhaɪər ˌedʒuˈkeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "giáo dục đại học",
+    "example": "Access to higher education should be fair."
+  },
+  {
+    "id": "ielts-v008",
+    "program": "ielts",
+    "week": 1,
+    "word": "critical thinking",
+    "ipa": "/ˈkrɪtɪkl ˈθɪŋkɪŋ/",
+    "pos": "n",
+    "meaning_vi": "tư duy phản biện",
+    "example": "Debates help develop critical thinking."
+  },
+  {
+    "id": "ielts-v009",
+    "program": "ielts",
+    "week": 1,
+    "word": "rote learning",
+    "ipa": "/roʊt ˈlɜːrnɪŋ/",
+    "pos": "n",
+    "meaning_vi": "học vẹt",
+    "example": "Rote learning rarely leads to deep understanding."
+  },
+  {
+    "id": "ielts-v010",
+    "program": "ielts",
+    "week": 1,
+    "word": "assessment",
+    "ipa": "/əˈsesmənt/",
+    "pos": "n",
+    "meaning_vi": "sự đánh giá",
+    "example": "Continuous assessment reduces exam stress."
+  },
+  {
+    "id": "ielts-v011",
+    "program": "ielts",
+    "week": 1,
+    "word": "enrol",
+    "ipa": "/ɪnˈroʊl/",
+    "pos": "v",
+    "meaning_vi": "ghi danh, nhập học",
+    "example": "Thousands enrol in online courses each year."
+  },
+  {
+    "id": "ielts-v012",
+    "program": "ielts",
+    "week": 1,
+    "word": "graduate",
+    "ipa": "/ˈɡrædʒueɪt/",
+    "pos": "v",
+    "meaning_vi": "tốt nghiệp",
+    "example": "She graduated with a degree in economics."
+  },
+  {
+    "id": "ielts-v013",
+    "program": "ielts",
+    "week": 1,
+    "word": "scholarship",
+    "ipa": "/ˈskɑːlərʃɪp/",
+    "pos": "n",
+    "meaning_vi": "học bổng",
+    "example": "He won a scholarship to study abroad."
+  },
+  {
+    "id": "ielts-v014",
+    "program": "ielts",
+    "week": 1,
+    "word": "distance learning",
+    "ipa": "/ˈdɪstəns ˈlɜːrnɪŋ/",
+    "pos": "n",
+    "meaning_vi": "học từ xa",
+    "example": "Distance learning suits working adults."
+  },
+  {
+    "id": "ielts-v015",
+    "program": "ielts",
+    "week": 1,
+    "word": "discipline",
+    "ipa": "/ˈdɪsəplɪn/",
+    "pos": "n",
+    "meaning_vi": "kỷ luật; ngành học",
+    "example": "Strict discipline is not always effective."
+  },
+  {
+    "id": "ielts-v016",
+    "program": "ielts",
+    "week": 1,
+    "word": "extracurricular",
+    "ipa": "/ˌekstrəkəˈrɪkjələr/",
+    "pos": "adj",
+    "meaning_vi": "ngoại khóa",
+    "example": "Extracurricular activities build teamwork."
+  },
+  {
+    "id": "ielts-v017",
+    "program": "ielts",
+    "week": 1,
+    "word": "lifelong learning",
+    "ipa": "/ˌlaɪflɔːŋ ˈlɜːrnɪŋ/",
+    "pos": "n",
+    "meaning_vi": "học tập suốt đời",
+    "example": "Lifelong learning is essential in a changing economy."
+  },
+  {
+    "id": "ielts-v018",
+    "program": "ielts",
+    "week": 1,
+    "word": "acquire",
+    "ipa": "/əˈkwaɪər/",
+    "pos": "v",
+    "meaning_vi": "tiếp thu, đạt được",
+    "example": "Children acquire languages quickly."
+  },
+  {
+    "id": "ielts-v019",
+    "program": "ielts",
+    "week": 1,
+    "word": "pedagogy",
+    "ipa": "/ˈpedəɡɑːdʒi/",
+    "pos": "n",
+    "meaning_vi": "phương pháp sư phạm",
+    "example": "Modern pedagogy focuses on the learner."
+  },
+  {
+    "id": "ielts-v020",
+    "program": "ielts",
+    "week": 1,
+    "word": "dropout rate",
+    "ipa": "/ˈdrɑːpaʊt reɪt/",
+    "pos": "n",
+    "meaning_vi": "tỉ lệ bỏ học",
+    "example": "The dropout rate fell after the reform."
+  },
+  {
+    "id": "ielts-v021",
+    "program": "ielts",
+    "week": 2,
+    "word": "workforce",
+    "ipa": "/ˈwɜːrkfɔːrs/",
+    "pos": "n",
+    "meaning_vi": "lực lượng lao động",
+    "example": "Women make up half of the workforce."
+  },
+  {
+    "id": "ielts-v022",
+    "program": "ielts",
+    "week": 2,
+    "word": "job security",
+    "ipa": "/dʒɑːb sɪˈkjʊrəti/",
+    "pos": "n",
+    "meaning_vi": "sự ổn định công việc",
+    "example": "Many people value job security over salary."
+  },
+  {
+    "id": "ielts-v023",
+    "program": "ielts",
+    "week": 2,
+    "word": "work-life balance",
+    "ipa": "/ˌwɜːrk laɪf ˈbæləns/",
+    "pos": "n",
+    "meaning_vi": "cân bằng công việc – cuộc sống",
+    "example": "Flexible hours improve work-life balance."
+  },
+  {
+    "id": "ielts-v024",
+    "program": "ielts",
+    "week": 2,
+    "word": "remuneration",
+    "ipa": "/rɪˌmjuːnəˈreɪʃn/",
+    "pos": "n",
+    "meaning_vi": "thù lao",
+    "example": "Remuneration should reflect responsibility."
+  },
+  {
+    "id": "ielts-v025",
+    "program": "ielts",
+    "week": 2,
+    "word": "unemployment",
+    "ipa": "/ˌʌnɪmˈplɔɪmənt/",
+    "pos": "n",
+    "meaning_vi": "thất nghiệp",
+    "example": "Youth unemployment remains high."
+  },
+  {
+    "id": "ielts-v026",
+    "program": "ielts",
+    "week": 2,
+    "word": "occupation",
+    "ipa": "/ˌɑːkjuˈpeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "nghề nghiệp",
+    "example": "Nursing is a demanding occupation."
+  },
+  {
+    "id": "ielts-v027",
+    "program": "ielts",
+    "week": 2,
+    "word": "productivity",
+    "ipa": "/ˌproʊdʌkˈtɪvəti/",
+    "pos": "n",
+    "meaning_vi": "năng suất",
+    "example": "Remote work can increase productivity."
+  },
+  {
+    "id": "ielts-v028",
+    "program": "ielts",
+    "week": 2,
+    "word": "automation",
+    "ipa": "/ˌɔːtəˈmeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "tự động hóa",
+    "example": "Automation may replace routine jobs."
+  },
+  {
+    "id": "ielts-v029",
+    "program": "ielts",
+    "week": 2,
+    "word": "job satisfaction",
+    "ipa": "/dʒɑːb ˌsætɪsˈfækʃn/",
+    "pos": "n",
+    "meaning_vi": "sự hài lòng trong công việc",
+    "example": "Recognition increases job satisfaction."
+  },
+  {
+    "id": "ielts-v030",
+    "program": "ielts",
+    "week": 2,
+    "word": "career prospects",
+    "ipa": "/kəˈrɪr ˈprɑːspekts/",
+    "pos": "n",
+    "meaning_vi": "triển vọng nghề nghiệp",
+    "example": "Graduates with IT skills have good career prospects."
+  },
+  {
+    "id": "ielts-v031",
+    "program": "ielts",
+    "week": 2,
+    "word": "burnout",
+    "ipa": "/ˈbɜːrnaʊt/",
+    "pos": "n",
+    "meaning_vi": "kiệt sức (do công việc)",
+    "example": "Long hours often lead to burnout."
+  },
+  {
+    "id": "ielts-v032",
+    "program": "ielts",
+    "week": 2,
+    "word": "freelance",
+    "ipa": "/ˈfriːlæns/",
+    "pos": "adj",
+    "meaning_vi": "làm tự do",
+    "example": "Freelance work offers flexibility but little security."
+  },
+  {
+    "id": "ielts-v033",
+    "program": "ielts",
+    "week": 2,
+    "word": "entrepreneur",
+    "ipa": "/ˌɑːntrəprəˈnɜːr/",
+    "pos": "n",
+    "meaning_vi": "doanh nhân khởi nghiệp",
+    "example": "Young entrepreneurs need access to funding."
+  },
+  {
+    "id": "ielts-v034",
+    "program": "ielts",
+    "week": 2,
+    "word": "apprenticeship",
+    "ipa": "/əˈprentɪʃɪp/",
+    "pos": "n",
+    "meaning_vi": "học nghề vừa học vừa làm",
+    "example": "Apprenticeships combine training and paid work."
+  },
+  {
+    "id": "ielts-v035",
+    "program": "ielts",
+    "week": 2,
+    "word": "incentive",
+    "ipa": "/ɪnˈsentɪv/",
+    "pos": "n",
+    "meaning_vi": "động lực, ưu đãi",
+    "example": "Bonuses are an incentive to work harder."
+  },
+  {
+    "id": "ielts-v036",
+    "program": "ielts",
+    "week": 2,
+    "word": "skilled labour",
+    "ipa": "/skɪld ˈleɪbər/",
+    "pos": "n",
+    "meaning_vi": "lao động có tay nghề",
+    "example": "There is a shortage of skilled labour."
+  },
+  {
+    "id": "ielts-v037",
+    "program": "ielts",
+    "week": 2,
+    "word": "commute",
+    "ipa": "/kəˈmjuːt/",
+    "pos": "v",
+    "meaning_vi": "đi lại (đi làm)",
+    "example": "Many workers commute over an hour each way."
+  },
+  {
+    "id": "ielts-v038",
+    "program": "ielts",
+    "week": 2,
+    "word": "retirement age",
+    "ipa": "/rɪˈtaɪərmənt eɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "tuổi nghỉ hưu",
+    "example": "Some countries are raising the retirement age."
+  },
+  {
+    "id": "ielts-v039",
+    "program": "ielts",
+    "week": 2,
+    "word": "gender gap",
+    "ipa": "/ˈdʒendər ɡæp/",
+    "pos": "n",
+    "meaning_vi": "khoảng cách giới",
+    "example": "The gender gap in pay is narrowing."
+  },
+  {
+    "id": "ielts-v040",
+    "program": "ielts",
+    "week": 2,
+    "word": "redundant",
+    "ipa": "/rɪˈdʌndənt/",
+    "pos": "adj",
+    "meaning_vi": "bị cắt giảm (nhân sự); dư thừa",
+    "example": "Hundreds of workers were made redundant."
+  },
+  {
+    "id": "ielts-v041",
+    "program": "ielts",
+    "week": 3,
+    "word": "innovation",
+    "ipa": "/ˌɪnəˈveɪʃn/",
+    "pos": "n",
+    "meaning_vi": "sự đổi mới",
+    "example": "Innovation drives economic growth."
+  },
+  {
+    "id": "ielts-v042",
+    "program": "ielts",
+    "week": 3,
+    "word": "artificial intelligence",
+    "ipa": "/ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/",
+    "pos": "n",
+    "meaning_vi": "trí tuệ nhân tạo",
+    "example": "Artificial intelligence is changing healthcare."
+  },
+  {
+    "id": "ielts-v043",
+    "program": "ielts",
+    "week": 3,
+    "word": "cutting-edge",
+    "ipa": "/ˌkʌtɪŋ ˈedʒ/",
+    "pos": "adj",
+    "meaning_vi": "tiên tiến nhất",
+    "example": "The lab uses cutting-edge equipment."
+  },
+  {
+    "id": "ielts-v044",
+    "program": "ielts",
+    "week": 3,
+    "word": "obsolete",
+    "ipa": "/ˌɑːbsəˈliːt/",
+    "pos": "adj",
+    "meaning_vi": "lỗi thời",
+    "example": "Fax machines are almost obsolete."
+  },
+  {
+    "id": "ielts-v045",
+    "program": "ielts",
+    "week": 3,
+    "word": "digital literacy",
+    "ipa": "/ˈdɪdʒɪtl ˈlɪtərəsi/",
+    "pos": "n",
+    "meaning_vi": "kỹ năng số",
+    "example": "Digital literacy is a basic skill today."
+  },
+  {
+    "id": "ielts-v046",
+    "program": "ielts",
+    "week": 3,
+    "word": "privacy",
+    "ipa": "/ˈpraɪvəsi/",
+    "pos": "n",
+    "meaning_vi": "quyền riêng tư",
+    "example": "Social media raises privacy concerns."
+  },
+  {
+    "id": "ielts-v047",
+    "program": "ielts",
+    "week": 3,
+    "word": "breakthrough",
+    "ipa": "/ˈbreɪkθruː/",
+    "pos": "n",
+    "meaning_vi": "bước đột phá",
+    "example": "Scientists made a breakthrough in battery design."
+  },
+  {
+    "id": "ielts-v048",
+    "program": "ielts",
+    "week": 3,
+    "word": "device",
+    "ipa": "/dɪˈvaɪs/",
+    "pos": "n",
+    "meaning_vi": "thiết bị",
+    "example": "Children spend hours on electronic devices."
+  },
+  {
+    "id": "ielts-v049",
+    "program": "ielts",
+    "week": 3,
+    "word": "screen time",
+    "ipa": "/skriːn taɪm/",
+    "pos": "n",
+    "meaning_vi": "thời gian dùng màn hình",
+    "example": "Parents should limit screen time."
+  },
+  {
+    "id": "ielts-v050",
+    "program": "ielts",
+    "week": 3,
+    "word": "user-friendly",
+    "ipa": "/ˌjuːzər ˈfrendli/",
+    "pos": "adj",
+    "meaning_vi": "dễ sử dụng",
+    "example": "The app is user-friendly for older people."
+  },
+  {
+    "id": "ielts-v051",
+    "program": "ielts",
+    "week": 3,
+    "word": "reliance",
+    "ipa": "/rɪˈlaɪəns/",
+    "pos": "n",
+    "meaning_vi": "sự phụ thuộc",
+    "example": "Our reliance on smartphones is growing."
+  },
+  {
+    "id": "ielts-v052",
+    "program": "ielts",
+    "week": 3,
+    "word": "revolutionise",
+    "ipa": "/ˌrevəˈluːʃənaɪz/",
+    "pos": "v",
+    "meaning_vi": "cách mạng hóa",
+    "example": "The internet revolutionised communication."
+  },
+  {
+    "id": "ielts-v053",
+    "program": "ielts",
+    "week": 3,
+    "word": "cyberbullying",
+    "ipa": "/ˈsaɪbərbʊliɪŋ/",
+    "pos": "n",
+    "meaning_vi": "bắt nạt trên mạng",
+    "example": "Schools must address cyberbullying."
+  },
+  {
+    "id": "ielts-v054",
+    "program": "ielts",
+    "week": 3,
+    "word": "data",
+    "ipa": "/ˈdeɪtə/",
+    "pos": "n",
+    "meaning_vi": "dữ liệu",
+    "example": "Companies collect huge amounts of personal data."
+  },
+  {
+    "id": "ielts-v055",
+    "program": "ielts",
+    "week": 3,
+    "word": "gadget",
+    "ipa": "/ˈɡædʒɪt/",
+    "pos": "n",
+    "meaning_vi": "thiết bị nhỏ, đồ công nghệ",
+    "example": "He loves the latest gadgets."
+  },
+  {
+    "id": "ielts-v056",
+    "program": "ielts",
+    "week": 3,
+    "word": "virtual",
+    "ipa": "/ˈvɜːrtʃuəl/",
+    "pos": "adj",
+    "meaning_vi": "ảo",
+    "example": "Virtual meetings save travel time."
+  },
+  {
+    "id": "ielts-v057",
+    "program": "ielts",
+    "week": 3,
+    "word": "automate",
+    "ipa": "/ˈɔːtəmeɪt/",
+    "pos": "v",
+    "meaning_vi": "tự động hóa",
+    "example": "Banks have automated many services."
+  },
+  {
+    "id": "ielts-v058",
+    "program": "ielts",
+    "week": 3,
+    "word": "access",
+    "ipa": "/ˈækses/",
+    "pos": "n",
+    "meaning_vi": "quyền tiếp cận",
+    "example": "Rural areas lack internet access."
+  },
+  {
+    "id": "ielts-v059",
+    "program": "ielts",
+    "week": 3,
+    "word": "drawback",
+    "ipa": "/ˈdrɔːbæk/",
+    "pos": "n",
+    "meaning_vi": "nhược điểm",
+    "example": "The main drawback is the high cost."
+  },
+  {
+    "id": "ielts-v060",
+    "program": "ielts",
+    "week": 3,
+    "word": "interact",
+    "ipa": "/ˌɪntərˈækt/",
+    "pos": "v",
+    "meaning_vi": "tương tác",
+    "example": "Teenagers interact mostly online."
+  },
+  {
+    "id": "ielts-v061",
+    "program": "ielts",
+    "week": 4,
+    "word": "pollution",
+    "ipa": "/pəˈluːʃn/",
+    "pos": "n",
+    "meaning_vi": "ô nhiễm",
+    "example": "Air pollution is a serious health risk."
+  },
+  {
+    "id": "ielts-v062",
+    "program": "ielts",
+    "week": 4,
+    "word": "emission",
+    "ipa": "/iˈmɪʃn/",
+    "pos": "n",
+    "meaning_vi": "khí thải",
+    "example": "Carbon emissions must be reduced."
+  },
+  {
+    "id": "ielts-v063",
+    "program": "ielts",
+    "week": 4,
+    "word": "renewable energy",
+    "ipa": "/rɪˈnuːəbl ˈenərdʒi/",
+    "pos": "n",
+    "meaning_vi": "năng lượng tái tạo",
+    "example": "Solar power is a form of renewable energy."
+  },
+  {
+    "id": "ielts-v064",
+    "program": "ielts",
+    "week": 4,
+    "word": "fossil fuels",
+    "ipa": "/ˈfɑːsl ˈfjuːəlz/",
+    "pos": "n",
+    "meaning_vi": "nhiên liệu hóa thạch",
+    "example": "Burning fossil fuels causes global warming."
+  },
+  {
+    "id": "ielts-v065",
+    "program": "ielts",
+    "week": 4,
+    "word": "deforestation",
+    "ipa": "/diːˌfɔːrɪˈsteɪʃn/",
+    "pos": "n",
+    "meaning_vi": "nạn phá rừng",
+    "example": "Deforestation threatens many species."
+  },
+  {
+    "id": "ielts-v066",
+    "program": "ielts",
+    "week": 4,
+    "word": "biodiversity",
+    "ipa": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "pos": "n",
+    "meaning_vi": "đa dạng sinh học",
+    "example": "Coral reefs have rich biodiversity."
+  },
+  {
+    "id": "ielts-v067",
+    "program": "ielts",
+    "week": 4,
+    "word": "endangered",
+    "ipa": "/ɪnˈdeɪndʒərd/",
+    "pos": "adj",
+    "meaning_vi": "có nguy cơ tuyệt chủng",
+    "example": "Tigers are an endangered species."
+  },
+  {
+    "id": "ielts-v068",
+    "program": "ielts",
+    "week": 4,
+    "word": "sustainable",
+    "ipa": "/səˈsteɪnəbl/",
+    "pos": "adj",
+    "meaning_vi": "bền vững",
+    "example": "We need sustainable farming methods."
+  },
+  {
+    "id": "ielts-v069",
+    "program": "ielts",
+    "week": 4,
+    "word": "climate change",
+    "ipa": "/ˈklaɪmət tʃeɪndʒ/",
+    "pos": "n",
+    "meaning_vi": "biến đổi khí hậu",
+    "example": "Climate change causes extreme weather."
+  },
+  {
+    "id": "ielts-v070",
+    "program": "ielts",
+    "week": 4,
+    "word": "habitat",
+    "ipa": "/ˈhæbɪtæt/",
+    "pos": "n",
+    "meaning_vi": "môi trường sống",
+    "example": "Urban growth destroys natural habitats."
+  },
+  {
+    "id": "ielts-v071",
+    "program": "ielts",
+    "week": 4,
+    "word": "recycle",
+    "ipa": "/ˌriːˈsaɪkl/",
+    "pos": "v",
+    "meaning_vi": "tái chế",
+    "example": "Most plastic is never recycled."
+  },
+  {
+    "id": "ielts-v072",
+    "program": "ielts",
+    "week": 4,
+    "word": "landfill",
+    "ipa": "/ˈlændfɪl/",
+    "pos": "n",
+    "meaning_vi": "bãi chôn lấp rác",
+    "example": "Landfills release methane."
+  },
+  {
+    "id": "ielts-v073",
+    "program": "ielts",
+    "week": 4,
+    "word": "conservation",
+    "ipa": "/ˌkɑːnsərˈveɪʃn/",
+    "pos": "n",
+    "meaning_vi": "sự bảo tồn",
+    "example": "Wildlife conservation needs funding."
+  },
+  {
+    "id": "ielts-v074",
+    "program": "ielts",
+    "week": 4,
+    "word": "carbon footprint",
+    "ipa": "/ˈkɑːrbən ˈfʊtprɪnt/",
+    "pos": "n",
+    "meaning_vi": "lượng khí thải carbon cá nhân",
+    "example": "Flying increases your carbon footprint."
+  },
+  {
+    "id": "ielts-v075",
+    "program": "ielts",
+    "week": 4,
+    "word": "drought",
+    "ipa": "/draʊt/",
+    "pos": "n",
+    "meaning_vi": "hạn hán",
+    "example": "The drought destroyed crops."
+  },
+  {
+    "id": "ielts-v076",
+    "program": "ielts",
+    "week": 4,
+    "word": "contaminate",
+    "ipa": "/kənˈtæmɪneɪt/",
+    "pos": "v",
+    "meaning_vi": "làm ô nhiễm",
+    "example": "Chemicals contaminated the river."
+  },
+  {
+    "id": "ielts-v077",
+    "program": "ielts",
+    "week": 4,
+    "word": "ecosystem",
+    "ipa": "/ˈiːkoʊsɪstəm/",
+    "pos": "n",
+    "meaning_vi": "hệ sinh thái",
+    "example": "Overfishing damages marine ecosystems."
+  },
+  {
+    "id": "ielts-v078",
+    "program": "ielts",
+    "week": 4,
+    "word": "mitigate",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "pos": "v",
+    "meaning_vi": "giảm nhẹ",
+    "example": "Trees help mitigate urban heat."
+  },
+  {
+    "id": "ielts-v079",
+    "program": "ielts",
+    "week": 4,
+    "word": "depletion",
+    "ipa": "/dɪˈpliːʃn/",
+    "pos": "n",
+    "meaning_vi": "sự cạn kiệt",
+    "example": "Resource depletion is a global concern."
+  },
+  {
+    "id": "ielts-v080",
+    "program": "ielts",
+    "week": 4,
+    "word": "irreversible",
+    "ipa": "/ˌɪrɪˈvɜːrsəbl/",
+    "pos": "adj",
+    "meaning_vi": "không thể đảo ngược",
+    "example": "Some damage may be irreversible."
+  },
+  {
+    "id": "ielts-v081",
+    "program": "ielts",
+    "week": 5,
+    "word": "obesity",
+    "ipa": "/oʊˈbiːsəti/",
+    "pos": "n",
+    "meaning_vi": "béo phì",
+    "example": "Childhood obesity is rising."
+  },
+  {
+    "id": "ielts-v082",
+    "program": "ielts",
+    "week": 5,
+    "word": "sedentary",
+    "ipa": "/ˈsednteri/",
+    "pos": "adj",
+    "meaning_vi": "ít vận động",
+    "example": "A sedentary lifestyle harms health."
+  },
+  {
+    "id": "ielts-v083",
+    "program": "ielts",
+    "week": 5,
+    "word": "nutrition",
+    "ipa": "/nuˈtrɪʃn/",
+    "pos": "n",
+    "meaning_vi": "dinh dưỡng",
+    "example": "Good nutrition supports learning."
+  },
+  {
+    "id": "ielts-v084",
+    "program": "ielts",
+    "week": 5,
+    "word": "balanced diet",
+    "ipa": "/ˈbælənst ˈdaɪət/",
+    "pos": "n",
+    "meaning_vi": "chế độ ăn cân bằng",
+    "example": "A balanced diet includes vegetables and protein."
+  },
+  {
+    "id": "ielts-v085",
+    "program": "ielts",
+    "week": 5,
+    "word": "life expectancy",
+    "ipa": "/laɪf ɪkˈspektənsi/",
+    "pos": "n",
+    "meaning_vi": "tuổi thọ trung bình",
+    "example": "Life expectancy has increased worldwide."
+  },
+  {
+    "id": "ielts-v086",
+    "program": "ielts",
+    "week": 5,
+    "word": "preventive",
+    "ipa": "/prɪˈventɪv/",
+    "pos": "adj",
+    "meaning_vi": "phòng ngừa",
+    "example": "Preventive care saves money."
+  },
+  {
+    "id": "ielts-v087",
+    "program": "ielts",
+    "week": 5,
+    "word": "epidemic",
+    "ipa": "/ˌepɪˈdemɪk/",
+    "pos": "n",
+    "meaning_vi": "dịch bệnh",
+    "example": "An epidemic spread across the region."
+  },
+  {
+    "id": "ielts-v088",
+    "program": "ielts",
+    "week": 5,
+    "word": "chronic",
+    "ipa": "/ˈkrɑːnɪk/",
+    "pos": "adj",
+    "meaning_vi": "mãn tính",
+    "example": "Diabetes is a chronic disease."
+  },
+  {
+    "id": "ielts-v089",
+    "program": "ielts",
+    "week": 5,
+    "word": "mental health",
+    "ipa": "/ˈmentl helθ/",
+    "pos": "n",
+    "meaning_vi": "sức khỏe tinh thần",
+    "example": "Exercise improves mental health."
+  },
+  {
+    "id": "ielts-v090",
+    "program": "ielts",
+    "week": 5,
+    "word": "well-being",
+    "ipa": "/ˌwel ˈbiːɪŋ/",
+    "pos": "n",
+    "meaning_vi": "sự khỏe mạnh, hạnh phúc",
+    "example": "Green spaces improve well-being."
+  },
+  {
+    "id": "ielts-v091",
+    "program": "ielts",
+    "week": 5,
+    "word": "healthcare",
+    "ipa": "/ˈhelθker/",
+    "pos": "n",
+    "meaning_vi": "chăm sóc y tế",
+    "example": "Free healthcare should be available to all."
+  },
+  {
+    "id": "ielts-v092",
+    "program": "ielts",
+    "week": 5,
+    "word": "vaccinate",
+    "ipa": "/ˈvæksɪneɪt/",
+    "pos": "v",
+    "meaning_vi": "tiêm phòng",
+    "example": "Most children are vaccinated against measles."
+  },
+  {
+    "id": "ielts-v093",
+    "program": "ielts",
+    "week": 5,
+    "word": "processed food",
+    "ipa": "/ˈprɑːsest fuːd/",
+    "pos": "n",
+    "meaning_vi": "thực phẩm chế biến sẵn",
+    "example": "Processed food often contains too much salt."
+  },
+  {
+    "id": "ielts-v094",
+    "program": "ielts",
+    "week": 5,
+    "word": "stress-related",
+    "ipa": "/ˈstres rɪˌleɪtɪd/",
+    "pos": "adj",
+    "meaning_vi": "liên quan đến căng thẳng",
+    "example": "Stress-related illness is common in cities."
+  },
+  {
+    "id": "ielts-v095",
+    "program": "ielts",
+    "week": 5,
+    "word": "physical activity",
+    "ipa": "/ˈfɪzɪkl ækˈtɪvəti/",
+    "pos": "n",
+    "meaning_vi": "hoạt động thể chất",
+    "example": "Adults need 150 minutes of physical activity a week."
+  },
+  {
+    "id": "ielts-v096",
+    "program": "ielts",
+    "week": 5,
+    "word": "diagnose",
+    "ipa": "/ˌdaɪəɡˈnoʊs/",
+    "pos": "v",
+    "meaning_vi": "chẩn đoán",
+    "example": "Doctors diagnosed the illness early."
+  },
+  {
+    "id": "ielts-v097",
+    "program": "ielts",
+    "week": 5,
+    "word": "consumption",
+    "ipa": "/kənˈsʌmpʃn/",
+    "pos": "n",
+    "meaning_vi": "sự tiêu thụ",
+    "example": "Sugar consumption should be reduced."
+  },
+  {
+    "id": "ielts-v098",
+    "program": "ielts",
+    "week": 5,
+    "word": "addiction",
+    "ipa": "/əˈdɪkʃn/",
+    "pos": "n",
+    "meaning_vi": "sự nghiện",
+    "example": "Smartphone addiction affects sleep."
+  },
+  {
+    "id": "ielts-v099",
+    "program": "ielts",
+    "week": 5,
+    "word": "ageing population",
+    "ipa": "/ˈeɪdʒɪŋ ˌpɑːpjuˈleɪʃn/",
+    "pos": "n",
+    "meaning_vi": "dân số già hóa",
+    "example": "An ageing population increases healthcare costs."
+  },
+  {
+    "id": "ielts-v100",
+    "program": "ielts",
+    "week": 5,
+    "word": "hygiene",
+    "ipa": "/ˈhaɪdʒiːn/",
+    "pos": "n",
+    "meaning_vi": "vệ sinh",
+    "example": "Good hygiene prevents infection."
+  },
+  {
+    "id": "ielts-v101",
+    "program": "ielts",
+    "week": 6,
+    "word": "urbanisation",
+    "ipa": "/ˌɜːrbənaɪˈzeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "đô thị hóa",
+    "example": "Rapid urbanisation strains public services."
+  },
+  {
+    "id": "ielts-v102",
+    "program": "ielts",
+    "week": 6,
+    "word": "infrastructure",
+    "ipa": "/ˈɪnfrəstrʌktʃər/",
+    "pos": "n",
+    "meaning_vi": "cơ sở hạ tầng",
+    "example": "The city invested in new infrastructure."
+  },
+  {
+    "id": "ielts-v103",
+    "program": "ielts",
+    "week": 6,
+    "word": "congestion",
+    "ipa": "/kənˈdʒestʃən/",
+    "pos": "n",
+    "meaning_vi": "tắc nghẽn",
+    "example": "Traffic congestion wastes time and fuel."
+  },
+  {
+    "id": "ielts-v104",
+    "program": "ielts",
+    "week": 6,
+    "word": "public transport",
+    "ipa": "/ˈpʌblɪk ˈtrænspɔːrt/",
+    "pos": "n",
+    "meaning_vi": "giao thông công cộng",
+    "example": "Cheap public transport reduces car use."
+  },
+  {
+    "id": "ielts-v105",
+    "program": "ielts",
+    "week": 6,
+    "word": "overcrowded",
+    "ipa": "/ˌoʊvərˈkraʊdɪd/",
+    "pos": "adj",
+    "meaning_vi": "quá đông đúc",
+    "example": "Many city schools are overcrowded."
+  },
+  {
+    "id": "ielts-v106",
+    "program": "ielts",
+    "week": 6,
+    "word": "suburb",
+    "ipa": "/ˈsʌbɜːrb/",
+    "pos": "n",
+    "meaning_vi": "vùng ngoại ô",
+    "example": "Families often move to the suburbs."
+  },
+  {
+    "id": "ielts-v107",
+    "program": "ielts",
+    "week": 6,
+    "word": "housing shortage",
+    "ipa": "/ˈhaʊzɪŋ ˈʃɔːrtɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "thiếu nhà ở",
+    "example": "The housing shortage pushes up rents."
+  },
+  {
+    "id": "ielts-v108",
+    "program": "ielts",
+    "week": 6,
+    "word": "affordable housing",
+    "ipa": "/əˈfɔːrdəbl ˈhaʊzɪŋ/",
+    "pos": "n",
+    "meaning_vi": "nhà ở giá rẻ",
+    "example": "The council promised more affordable housing."
+  },
+  {
+    "id": "ielts-v109",
+    "program": "ielts",
+    "week": 6,
+    "word": "high-rise",
+    "ipa": "/ˈhaɪ raɪz/",
+    "pos": "adj",
+    "meaning_vi": "nhà cao tầng",
+    "example": "High-rise buildings save land."
+  },
+  {
+    "id": "ielts-v110",
+    "program": "ielts",
+    "week": 6,
+    "word": "migrate",
+    "ipa": "/ˈmaɪɡreɪt/",
+    "pos": "v",
+    "meaning_vi": "di cư",
+    "example": "Young people migrate to cities for work."
+  },
+  {
+    "id": "ielts-v111",
+    "program": "ielts",
+    "week": 6,
+    "word": "rural",
+    "ipa": "/ˈrʊrəl/",
+    "pos": "adj",
+    "meaning_vi": "thuộc nông thôn",
+    "example": "Rural areas lack hospitals."
+  },
+  {
+    "id": "ielts-v112",
+    "program": "ielts",
+    "week": 6,
+    "word": "amenities",
+    "ipa": "/əˈmenətiz/",
+    "pos": "n",
+    "meaning_vi": "tiện ích",
+    "example": "The area has good amenities such as parks."
+  },
+  {
+    "id": "ielts-v113",
+    "program": "ielts",
+    "week": 6,
+    "word": "pedestrian",
+    "ipa": "/pəˈdestriən/",
+    "pos": "n",
+    "meaning_vi": "người đi bộ",
+    "example": "The street is now for pedestrians only."
+  },
+  {
+    "id": "ielts-v114",
+    "program": "ielts",
+    "week": 6,
+    "word": "sprawl",
+    "ipa": "/sprɔːl/",
+    "pos": "n",
+    "meaning_vi": "sự lan rộng (đô thị)",
+    "example": "Urban sprawl destroys farmland."
+  },
+  {
+    "id": "ielts-v115",
+    "program": "ielts",
+    "week": 6,
+    "word": "regenerate",
+    "ipa": "/rɪˈdʒenəreɪt/",
+    "pos": "v",
+    "meaning_vi": "tái thiết",
+    "example": "The old port area was regenerated."
+  },
+  {
+    "id": "ielts-v116",
+    "program": "ielts",
+    "week": 6,
+    "word": "green space",
+    "ipa": "/ɡriːn speɪs/",
+    "pos": "n",
+    "meaning_vi": "không gian xanh",
+    "example": "Cities need more green spaces."
+  },
+  {
+    "id": "ielts-v117",
+    "program": "ielts",
+    "week": 6,
+    "word": "density",
+    "ipa": "/ˈdensəti/",
+    "pos": "n",
+    "meaning_vi": "mật độ",
+    "example": "Population density is highest in the centre."
+  },
+  {
+    "id": "ielts-v118",
+    "program": "ielts",
+    "week": 6,
+    "word": "slum",
+    "ipa": "/slʌm/",
+    "pos": "n",
+    "meaning_vi": "khu ổ chuột",
+    "example": "Millions still live in slums."
+  },
+  {
+    "id": "ielts-v119",
+    "program": "ielts",
+    "week": 6,
+    "word": "cost of living",
+    "ipa": "/kɔːst əv ˈlɪvɪŋ/",
+    "pos": "n",
+    "meaning_vi": "chi phí sinh hoạt",
+    "example": "The cost of living in London is high."
+  },
+  {
+    "id": "ielts-v120",
+    "program": "ielts",
+    "week": 6,
+    "word": "noise pollution",
+    "ipa": "/nɔɪz pəˈluːʃn/",
+    "pos": "n",
+    "meaning_vi": "ô nhiễm tiếng ồn",
+    "example": "Noise pollution affects sleep."
+  },
+  {
+    "id": "ielts-v121",
+    "program": "ielts",
+    "week": 7,
+    "word": "legislation",
+    "ipa": "/ˌledʒɪsˈleɪʃn/",
+    "pos": "n",
+    "meaning_vi": "luật pháp, sự ban hành luật",
+    "example": "New legislation bans single-use plastics."
+  },
+  {
+    "id": "ielts-v122",
+    "program": "ielts",
+    "week": 7,
+    "word": "policy",
+    "ipa": "/ˈpɑːləsi/",
+    "pos": "n",
+    "meaning_vi": "chính sách",
+    "example": "Government policy should support families."
+  },
+  {
+    "id": "ielts-v123",
+    "program": "ielts",
+    "week": 7,
+    "word": "taxation",
+    "ipa": "/tækˈseɪʃn/",
+    "pos": "n",
+    "meaning_vi": "việc đánh thuế",
+    "example": "Higher taxation could fund public services."
+  },
+  {
+    "id": "ielts-v124",
+    "program": "ielts",
+    "week": 7,
+    "word": "welfare",
+    "ipa": "/ˈwelfer/",
+    "pos": "n",
+    "meaning_vi": "phúc lợi xã hội",
+    "example": "The welfare system supports the unemployed."
+  },
+  {
+    "id": "ielts-v125",
+    "program": "ielts",
+    "week": 7,
+    "word": "citizen",
+    "ipa": "/ˈsɪtɪzn/",
+    "pos": "n",
+    "meaning_vi": "công dân",
+    "example": "Citizens have the right to vote."
+  },
+  {
+    "id": "ielts-v126",
+    "program": "ielts",
+    "week": 7,
+    "word": "authority",
+    "ipa": "/əˈθɔːrəti/",
+    "pos": "n",
+    "meaning_vi": "chính quyền; thẩm quyền",
+    "example": "Local authorities manage schools."
+  },
+  {
+    "id": "ielts-v127",
+    "program": "ielts",
+    "week": 7,
+    "word": "funding",
+    "ipa": "/ˈfʌndɪŋ/",
+    "pos": "n",
+    "meaning_vi": "nguồn tài trợ",
+    "example": "The project lost government funding."
+  },
+  {
+    "id": "ielts-v128",
+    "program": "ielts",
+    "week": 7,
+    "word": "inequality",
+    "ipa": "/ˌɪnɪˈkwɑːləti/",
+    "pos": "n",
+    "meaning_vi": "sự bất bình đẳng",
+    "example": "Income inequality is growing."
+  },
+  {
+    "id": "ielts-v129",
+    "program": "ielts",
+    "week": 7,
+    "word": "crime rate",
+    "ipa": "/kraɪm reɪt/",
+    "pos": "n",
+    "meaning_vi": "tỉ lệ tội phạm",
+    "example": "The crime rate fell last year."
+  },
+  {
+    "id": "ielts-v130",
+    "program": "ielts",
+    "week": 7,
+    "word": "deterrent",
+    "ipa": "/dɪˈtɜːrənt/",
+    "pos": "n",
+    "meaning_vi": "biện pháp răn đe",
+    "example": "Prison may not be an effective deterrent."
+  },
+  {
+    "id": "ielts-v131",
+    "program": "ielts",
+    "week": 7,
+    "word": "rehabilitation",
+    "ipa": "/ˌriːəˌbɪlɪˈteɪʃn/",
+    "pos": "n",
+    "meaning_vi": "sự cải tạo, phục hồi",
+    "example": "Rehabilitation helps prisoners return to society."
+  },
+  {
+    "id": "ielts-v132",
+    "program": "ielts",
+    "week": 7,
+    "word": "enforce",
+    "ipa": "/ɪnˈfɔːrs/",
+    "pos": "v",
+    "meaning_vi": "thực thi",
+    "example": "Police must enforce the law fairly."
+  },
+  {
+    "id": "ielts-v133",
+    "program": "ielts",
+    "week": 7,
+    "word": "regulate",
+    "ipa": "/ˈreɡjuleɪt/",
+    "pos": "v",
+    "meaning_vi": "điều tiết, quản lý",
+    "example": "Governments should regulate social media."
+  },
+  {
+    "id": "ielts-v134",
+    "program": "ielts",
+    "week": 7,
+    "word": "subsidy",
+    "ipa": "/ˈsʌbsədi/",
+    "pos": "n",
+    "meaning_vi": "trợ cấp",
+    "example": "Farmers receive subsidies from the state."
+  },
+  {
+    "id": "ielts-v135",
+    "program": "ielts",
+    "week": 7,
+    "word": "civic",
+    "ipa": "/ˈsɪvɪk/",
+    "pos": "adj",
+    "meaning_vi": "thuộc công dân",
+    "example": "Voting is a civic duty."
+  },
+  {
+    "id": "ielts-v136",
+    "program": "ielts",
+    "week": 7,
+    "word": "prioritise",
+    "ipa": "/praɪˈɔːrətaɪz/",
+    "pos": "v",
+    "meaning_vi": "ưu tiên",
+    "example": "The state should prioritise education."
+  },
+  {
+    "id": "ielts-v137",
+    "program": "ielts",
+    "week": 7,
+    "word": "allocate",
+    "ipa": "/ˈæləkeɪt/",
+    "pos": "v",
+    "meaning_vi": "phân bổ",
+    "example": "More money was allocated to hospitals."
+  },
+  {
+    "id": "ielts-v138",
+    "program": "ielts",
+    "week": 7,
+    "word": "community",
+    "ipa": "/kəˈmjuːnəti/",
+    "pos": "n",
+    "meaning_vi": "cộng đồng",
+    "example": "Volunteers strengthen the community."
+  },
+  {
+    "id": "ielts-v139",
+    "program": "ielts",
+    "week": 7,
+    "word": "social cohesion",
+    "ipa": "/ˈsoʊʃl koʊˈhiːʒn/",
+    "pos": "n",
+    "meaning_vi": "sự gắn kết xã hội",
+    "example": "Shared events build social cohesion."
+  },
+  {
+    "id": "ielts-v140",
+    "program": "ielts",
+    "week": 7,
+    "word": "accountable",
+    "ipa": "/əˈkaʊntəbl/",
+    "pos": "adj",
+    "meaning_vi": "chịu trách nhiệm",
+    "example": "Leaders must be held accountable."
+  },
+  {
+    "id": "ielts-v141",
+    "program": "ielts",
+    "week": 8,
+    "word": "mass media",
+    "ipa": "/mæs ˈmiːdiə/",
+    "pos": "n",
+    "meaning_vi": "truyền thông đại chúng",
+    "example": "Mass media shapes public opinion."
+  },
+  {
+    "id": "ielts-v142",
+    "program": "ielts",
+    "week": 8,
+    "word": "journalism",
+    "ipa": "/ˈdʒɜːrnəlɪzəm/",
+    "pos": "n",
+    "meaning_vi": "nghề báo",
+    "example": "Investigative journalism exposes corruption."
+  },
+  {
+    "id": "ielts-v143",
+    "program": "ielts",
+    "week": 8,
+    "word": "broadcast",
+    "ipa": "/ˈbrɔːdkæst/",
+    "pos": "v",
+    "meaning_vi": "phát sóng",
+    "example": "The match was broadcast live."
+  },
+  {
+    "id": "ielts-v144",
+    "program": "ielts",
+    "week": 8,
+    "word": "censorship",
+    "ipa": "/ˈsensərʃɪp/",
+    "pos": "n",
+    "meaning_vi": "sự kiểm duyệt",
+    "example": "Censorship limits free expression."
+  },
+  {
+    "id": "ielts-v145",
+    "program": "ielts",
+    "week": 8,
+    "word": "misinformation",
+    "ipa": "/ˌmɪsɪnfərˈmeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "thông tin sai lệch",
+    "example": "Misinformation spreads quickly online."
+  },
+  {
+    "id": "ielts-v146",
+    "program": "ielts",
+    "week": 8,
+    "word": "advertising",
+    "ipa": "/ˈædvərtaɪzɪŋ/",
+    "pos": "n",
+    "meaning_vi": "quảng cáo",
+    "example": "Advertising targets children directly."
+  },
+  {
+    "id": "ielts-v147",
+    "program": "ielts",
+    "week": 8,
+    "word": "influence",
+    "ipa": "/ˈɪnfluəns/",
+    "pos": "v",
+    "meaning_vi": "ảnh hưởng",
+    "example": "Celebrities influence young people's choices."
+  },
+  {
+    "id": "ielts-v148",
+    "program": "ielts",
+    "week": 8,
+    "word": "coverage",
+    "ipa": "/ˈkʌvərɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "sự đưa tin",
+    "example": "The election received wide coverage."
+  },
+  {
+    "id": "ielts-v149",
+    "program": "ielts",
+    "week": 8,
+    "word": "biased",
+    "ipa": "/ˈbaɪəst/",
+    "pos": "adj",
+    "meaning_vi": "thiên vị",
+    "example": "Some newspapers are politically biased."
+  },
+  {
+    "id": "ielts-v150",
+    "program": "ielts",
+    "week": 8,
+    "word": "tabloid",
+    "ipa": "/ˈtæblɔɪd/",
+    "pos": "n",
+    "meaning_vi": "báo lá cải",
+    "example": "Tabloids focus on celebrity gossip."
+  },
+  {
+    "id": "ielts-v151",
+    "program": "ielts",
+    "week": 8,
+    "word": "headline",
+    "ipa": "/ˈhedlaɪn/",
+    "pos": "n",
+    "meaning_vi": "tiêu đề báo",
+    "example": "The story made headlines worldwide."
+  },
+  {
+    "id": "ielts-v152",
+    "program": "ielts",
+    "week": 8,
+    "word": "audience",
+    "ipa": "/ˈɔːdiəns/",
+    "pos": "n",
+    "meaning_vi": "khán giả, người xem",
+    "example": "The show attracts a young audience."
+  },
+  {
+    "id": "ielts-v153",
+    "program": "ielts",
+    "week": 8,
+    "word": "social platform",
+    "ipa": "/ˈsoʊʃl ˈplætfɔːrm/",
+    "pos": "n",
+    "meaning_vi": "nền tảng mạng xã hội",
+    "example": "Social platforms profit from user data."
+  },
+  {
+    "id": "ielts-v154",
+    "program": "ielts",
+    "week": 8,
+    "word": "viral",
+    "ipa": "/ˈvaɪrəl/",
+    "pos": "adj",
+    "meaning_vi": "lan truyền nhanh",
+    "example": "The video went viral overnight."
+  },
+  {
+    "id": "ielts-v155",
+    "program": "ielts",
+    "week": 8,
+    "word": "credible",
+    "ipa": "/ˈkredəbl/",
+    "pos": "adj",
+    "meaning_vi": "đáng tin cậy",
+    "example": "Use credible sources in your essay."
+  },
+  {
+    "id": "ielts-v156",
+    "program": "ielts",
+    "week": 8,
+    "word": "sensationalism",
+    "ipa": "/senˈseɪʃənəlɪzəm/",
+    "pos": "n",
+    "meaning_vi": "sự giật gân",
+    "example": "Sensationalism damages trust in news."
+  },
+  {
+    "id": "ielts-v157",
+    "program": "ielts",
+    "week": 8,
+    "word": "press freedom",
+    "ipa": "/pres ˈfriːdəm/",
+    "pos": "n",
+    "meaning_vi": "tự do báo chí",
+    "example": "Press freedom is vital in a democracy."
+  },
+  {
+    "id": "ielts-v158",
+    "program": "ielts",
+    "week": 8,
+    "word": "subscribe",
+    "ipa": "/səbˈskraɪb/",
+    "pos": "v",
+    "meaning_vi": "đăng ký theo dõi",
+    "example": "Fewer people subscribe to newspapers."
+  },
+  {
+    "id": "ielts-v159",
+    "program": "ielts",
+    "week": 8,
+    "word": "manipulate",
+    "ipa": "/məˈnɪpjuleɪt/",
+    "pos": "v",
+    "meaning_vi": "thao túng",
+    "example": "Images can be manipulated easily."
+  },
+  {
+    "id": "ielts-v160",
+    "program": "ielts",
+    "week": 8,
+    "word": "public opinion",
+    "ipa": "/ˈpʌblɪk əˈpɪnjən/",
+    "pos": "n",
+    "meaning_vi": "dư luận",
+    "example": "Public opinion changed after the report."
+  },
+  {
+    "id": "ielts-v161",
+    "program": "ielts",
+    "week": 9,
+    "word": "globalisation",
+    "ipa": "/ˌɡloʊbələˈzeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "toàn cầu hóa",
+    "example": "Globalisation has connected markets."
+  },
+  {
+    "id": "ielts-v162",
+    "program": "ielts",
+    "week": 9,
+    "word": "economic growth",
+    "ipa": "/ˌiːkəˈnɑːmɪk ɡroʊθ/",
+    "pos": "n",
+    "meaning_vi": "tăng trưởng kinh tế",
+    "example": "Tourism boosts economic growth."
+  },
+  {
+    "id": "ielts-v163",
+    "program": "ielts",
+    "week": 9,
+    "word": "multinational",
+    "ipa": "/ˌmʌltiˈnæʃənl/",
+    "pos": "adj",
+    "meaning_vi": "đa quốc gia",
+    "example": "Multinational companies employ millions."
+  },
+  {
+    "id": "ielts-v164",
+    "program": "ielts",
+    "week": 9,
+    "word": "trade",
+    "ipa": "/treɪd/",
+    "pos": "n",
+    "meaning_vi": "thương mại",
+    "example": "International trade creates jobs."
+  },
+  {
+    "id": "ielts-v165",
+    "program": "ielts",
+    "week": 9,
+    "word": "export",
+    "ipa": "/ˈekspɔːrt/",
+    "pos": "n",
+    "meaning_vi": "hàng xuất khẩu",
+    "example": "Rice is a major export."
+  },
+  {
+    "id": "ielts-v166",
+    "program": "ielts",
+    "week": 9,
+    "word": "import",
+    "ipa": "/ˈɪmpɔːrt/",
+    "pos": "n",
+    "meaning_vi": "hàng nhập khẩu",
+    "example": "Imports of oil rose sharply."
+  },
+  {
+    "id": "ielts-v167",
+    "program": "ielts",
+    "week": 9,
+    "word": "recession",
+    "ipa": "/rɪˈseʃn/",
+    "pos": "n",
+    "meaning_vi": "suy thoái kinh tế",
+    "example": "Many firms closed during the recession."
+  },
+  {
+    "id": "ielts-v168",
+    "program": "ielts",
+    "week": 9,
+    "word": "inflation",
+    "ipa": "/ɪnˈfleɪʃn/",
+    "pos": "n",
+    "meaning_vi": "lạm phát",
+    "example": "Inflation reduces purchasing power."
+  },
+  {
+    "id": "ielts-v169",
+    "program": "ielts",
+    "week": 9,
+    "word": "outsource",
+    "ipa": "/ˈaʊtsɔːrs/",
+    "pos": "v",
+    "meaning_vi": "thuê ngoài",
+    "example": "Firms outsource production to cut costs."
+  },
+  {
+    "id": "ielts-v170",
+    "program": "ielts",
+    "week": 9,
+    "word": "consumerism",
+    "ipa": "/kənˈsuːmərɪzəm/",
+    "pos": "n",
+    "meaning_vi": "chủ nghĩa tiêu dùng",
+    "example": "Consumerism encourages waste."
+  },
+  {
+    "id": "ielts-v171",
+    "program": "ielts",
+    "week": 9,
+    "word": "developing country",
+    "ipa": "/dɪˈveləpɪŋ ˈkʌntri/",
+    "pos": "n",
+    "meaning_vi": "nước đang phát triển",
+    "example": "Developing countries need investment."
+  },
+  {
+    "id": "ielts-v172",
+    "program": "ielts",
+    "week": 9,
+    "word": "investment",
+    "ipa": "/ɪnˈvestmənt/",
+    "pos": "n",
+    "meaning_vi": "sự đầu tư",
+    "example": "Foreign investment has increased."
+  },
+  {
+    "id": "ielts-v173",
+    "program": "ielts",
+    "week": 9,
+    "word": "cultural homogenisation",
+    "ipa": "/ˈkʌltʃərəl həˌmɑːdʒənaɪˈzeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "sự đồng nhất văn hóa",
+    "example": "Critics fear cultural homogenisation."
+  },
+  {
+    "id": "ielts-v174",
+    "program": "ielts",
+    "week": 9,
+    "word": "standard of living",
+    "ipa": "/ˈstændərd əv ˈlɪvɪŋ/",
+    "pos": "n",
+    "meaning_vi": "mức sống",
+    "example": "The standard of living has risen."
+  },
+  {
+    "id": "ielts-v175",
+    "program": "ielts",
+    "week": 9,
+    "word": "poverty",
+    "ipa": "/ˈpɑːvərti/",
+    "pos": "n",
+    "meaning_vi": "sự nghèo đói",
+    "example": "Education helps reduce poverty."
+  },
+  {
+    "id": "ielts-v176",
+    "program": "ielts",
+    "week": 9,
+    "word": "interdependent",
+    "ipa": "/ˌɪntərdɪˈpendənt/",
+    "pos": "adj",
+    "meaning_vi": "phụ thuộc lẫn nhau",
+    "example": "Economies are increasingly interdependent."
+  },
+  {
+    "id": "ielts-v177",
+    "program": "ielts",
+    "week": 9,
+    "word": "tariff",
+    "ipa": "/ˈtærɪf/",
+    "pos": "n",
+    "meaning_vi": "thuế quan",
+    "example": "New tariffs raised import prices."
+  },
+  {
+    "id": "ielts-v178",
+    "program": "ielts",
+    "week": 9,
+    "word": "exploit",
+    "ipa": "/ɪkˈsplɔɪt/",
+    "pos": "v",
+    "meaning_vi": "bóc lột; khai thác",
+    "example": "Some companies exploit cheap labour."
+  },
+  {
+    "id": "ielts-v179",
+    "program": "ielts",
+    "week": 9,
+    "word": "prosperity",
+    "ipa": "/prɑːˈsperəti/",
+    "pos": "n",
+    "meaning_vi": "sự thịnh vượng",
+    "example": "Trade brought prosperity to the region."
+  },
+  {
+    "id": "ielts-v180",
+    "program": "ielts",
+    "week": 9,
+    "word": "fluctuate",
+    "ipa": "/ˈflʌktʃueɪt/",
+    "pos": "v",
+    "meaning_vi": "dao động",
+    "example": "Prices fluctuate with demand."
+  },
+  {
+    "id": "ielts-v181",
+    "program": "ielts",
+    "week": 10,
+    "word": "research",
+    "ipa": "/rɪˈsɜːrtʃ/",
+    "pos": "n",
+    "meaning_vi": "nghiên cứu",
+    "example": "Medical research needs public funding."
+  },
+  {
+    "id": "ielts-v182",
+    "program": "ielts",
+    "week": 10,
+    "word": "experiment",
+    "ipa": "/ɪkˈsperɪmənt/",
+    "pos": "n",
+    "meaning_vi": "thí nghiệm",
+    "example": "The experiment was repeated three times."
+  },
+  {
+    "id": "ielts-v183",
+    "program": "ielts",
+    "week": 10,
+    "word": "hypothesis",
+    "ipa": "/haɪˈpɑːθəsɪs/",
+    "pos": "n",
+    "meaning_vi": "giả thuyết",
+    "example": "The data supported the hypothesis."
+  },
+  {
+    "id": "ielts-v184",
+    "program": "ielts",
+    "week": 10,
+    "word": "evidence",
+    "ipa": "/ˈevɪdəns/",
+    "pos": "n",
+    "meaning_vi": "bằng chứng",
+    "example": "There is strong evidence for this theory."
+  },
+  {
+    "id": "ielts-v185",
+    "program": "ielts",
+    "week": 10,
+    "word": "phenomenon",
+    "ipa": "/fəˈnɑːmɪnən/",
+    "pos": "n",
+    "meaning_vi": "hiện tượng",
+    "example": "Climate change is a global phenomenon."
+  },
+  {
+    "id": "ielts-v186",
+    "program": "ielts",
+    "week": 10,
+    "word": "discovery",
+    "ipa": "/dɪˈskʌvəri/",
+    "pos": "n",
+    "meaning_vi": "khám phá",
+    "example": "The discovery changed modern medicine."
+  },
+  {
+    "id": "ielts-v187",
+    "program": "ielts",
+    "week": 10,
+    "word": "laboratory",
+    "ipa": "/ˈlæbrətɔːri/",
+    "pos": "n",
+    "meaning_vi": "phòng thí nghiệm",
+    "example": "Samples were tested in the laboratory."
+  },
+  {
+    "id": "ielts-v188",
+    "program": "ielts",
+    "week": 10,
+    "word": "genetic",
+    "ipa": "/dʒəˈnetɪk/",
+    "pos": "adj",
+    "meaning_vi": "thuộc di truyền",
+    "example": "Genetic research raises ethical questions."
+  },
+  {
+    "id": "ielts-v189",
+    "program": "ielts",
+    "week": 10,
+    "word": "ethical",
+    "ipa": "/ˈeθɪkl/",
+    "pos": "adj",
+    "meaning_vi": "thuộc đạo đức",
+    "example": "Animal testing is an ethical issue."
+  },
+  {
+    "id": "ielts-v190",
+    "program": "ielts",
+    "week": 10,
+    "word": "space exploration",
+    "ipa": "/speɪs ˌekspləˈreɪʃn/",
+    "pos": "n",
+    "meaning_vi": "thám hiểm không gian",
+    "example": "Space exploration is very expensive."
+  },
+  {
+    "id": "ielts-v191",
+    "program": "ielts",
+    "week": 10,
+    "word": "analyse",
+    "ipa": "/ˈænəlaɪz/",
+    "pos": "v",
+    "meaning_vi": "phân tích",
+    "example": "Scientists analysed the results."
+  },
+  {
+    "id": "ielts-v192",
+    "program": "ielts",
+    "week": 10,
+    "word": "conclusive",
+    "ipa": "/kənˈkluːsɪv/",
+    "pos": "adj",
+    "meaning_vi": "mang tính kết luận",
+    "example": "The results are not yet conclusive."
+  },
+  {
+    "id": "ielts-v193",
+    "program": "ielts",
+    "week": 10,
+    "word": "theory",
+    "ipa": "/ˈθɪri/",
+    "pos": "n",
+    "meaning_vi": "học thuyết",
+    "example": "Einstein's theory changed physics."
+  },
+  {
+    "id": "ielts-v194",
+    "program": "ielts",
+    "week": 10,
+    "word": "application",
+    "ipa": "/ˌæplɪˈkeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "ứng dụng",
+    "example": "The research has practical applications."
+  },
+  {
+    "id": "ielts-v195",
+    "program": "ielts",
+    "week": 10,
+    "word": "variable",
+    "ipa": "/ˈveriəbl/",
+    "pos": "n",
+    "meaning_vi": "biến số",
+    "example": "The study controlled for several variables."
+  },
+  {
+    "id": "ielts-v196",
+    "program": "ielts",
+    "week": 10,
+    "word": "peer review",
+    "ipa": "/pɪr rɪˈvjuː/",
+    "pos": "n",
+    "meaning_vi": "bình duyệt",
+    "example": "The paper passed peer review."
+  },
+  {
+    "id": "ielts-v197",
+    "program": "ielts",
+    "week": 10,
+    "word": "replicate",
+    "ipa": "/ˈreplɪkeɪt/",
+    "pos": "v",
+    "meaning_vi": "lặp lại (thí nghiệm)",
+    "example": "Other teams failed to replicate the results."
+  },
+  {
+    "id": "ielts-v198",
+    "program": "ielts",
+    "week": 10,
+    "word": "sample",
+    "ipa": "/ˈsæmpl/",
+    "pos": "n",
+    "meaning_vi": "mẫu",
+    "example": "The sample included 2,000 adults."
+  },
+  {
+    "id": "ielts-v199",
+    "program": "ielts",
+    "week": 10,
+    "word": "innovate",
+    "ipa": "/ˈɪnəveɪt/",
+    "pos": "v",
+    "meaning_vi": "đổi mới",
+    "example": "Companies must innovate to survive."
+  },
+  {
+    "id": "ielts-v200",
+    "program": "ielts",
+    "week": 10,
+    "word": "empirical",
+    "ipa": "/ɪmˈpɪrɪkl/",
+    "pos": "adj",
+    "meaning_vi": "dựa trên thực nghiệm",
+    "example": "We need empirical data, not opinions."
+  },
+  {
+    "id": "ielts-v201",
+    "program": "ielts",
+    "week": 11,
+    "word": "heritage",
+    "ipa": "/ˈherɪtɪdʒ/",
+    "pos": "n",
+    "meaning_vi": "di sản",
+    "example": "The temple is part of our cultural heritage."
+  },
+  {
+    "id": "ielts-v202",
+    "program": "ielts",
+    "week": 11,
+    "word": "tradition",
+    "ipa": "/trəˈdɪʃn/",
+    "pos": "n",
+    "meaning_vi": "truyền thống",
+    "example": "The festival is an ancient tradition."
+  },
+  {
+    "id": "ielts-v203",
+    "program": "ielts",
+    "week": 11,
+    "word": "custom",
+    "ipa": "/ˈkʌstəm/",
+    "pos": "n",
+    "meaning_vi": "phong tục",
+    "example": "It is a custom to remove shoes indoors."
+  },
+  {
+    "id": "ielts-v204",
+    "program": "ielts",
+    "week": 11,
+    "word": "preserve",
+    "ipa": "/prɪˈzɜːrv/",
+    "pos": "v",
+    "meaning_vi": "bảo tồn",
+    "example": "We must preserve historic buildings."
+  },
+  {
+    "id": "ielts-v205",
+    "program": "ielts",
+    "week": 11,
+    "word": "museum",
+    "ipa": "/mjuˈziːəm/",
+    "pos": "n",
+    "meaning_vi": "bảo tàng",
+    "example": "Free museums attract more visitors."
+  },
+  {
+    "id": "ielts-v206",
+    "program": "ielts",
+    "week": 11,
+    "word": "gallery",
+    "ipa": "/ˈɡæləri/",
+    "pos": "n",
+    "meaning_vi": "phòng trưng bày",
+    "example": "The gallery shows modern art."
+  },
+  {
+    "id": "ielts-v207",
+    "program": "ielts",
+    "week": 11,
+    "word": "masterpiece",
+    "ipa": "/ˈmæstərpiːs/",
+    "pos": "n",
+    "meaning_vi": "kiệt tác",
+    "example": "The painting is considered a masterpiece."
+  },
+  {
+    "id": "ielts-v208",
+    "program": "ielts",
+    "week": 11,
+    "word": "performing arts",
+    "ipa": "/pərˈfɔːrmɪŋ ɑːrts/",
+    "pos": "n",
+    "meaning_vi": "nghệ thuật biểu diễn",
+    "example": "Funding for the performing arts has fallen."
+  },
+  {
+    "id": "ielts-v209",
+    "program": "ielts",
+    "week": 11,
+    "word": "creativity",
+    "ipa": "/ˌkriːeɪˈtɪvəti/",
+    "pos": "n",
+    "meaning_vi": "sự sáng tạo",
+    "example": "Art classes encourage creativity."
+  },
+  {
+    "id": "ielts-v210",
+    "program": "ielts",
+    "week": 11,
+    "word": "identity",
+    "ipa": "/aɪˈdentəti/",
+    "pos": "n",
+    "meaning_vi": "bản sắc",
+    "example": "Language is central to cultural identity."
+  },
+  {
+    "id": "ielts-v211",
+    "program": "ielts",
+    "week": 11,
+    "word": "diversity",
+    "ipa": "/daɪˈvɜːrsəti/",
+    "pos": "n",
+    "meaning_vi": "sự đa dạng",
+    "example": "Cities benefit from cultural diversity."
+  },
+  {
+    "id": "ielts-v212",
+    "program": "ielts",
+    "week": 11,
+    "word": "globalised",
+    "ipa": "/ˈɡloʊbəlaɪzd/",
+    "pos": "adj",
+    "meaning_vi": "được toàn cầu hóa",
+    "example": "In a globalised world, local cultures change."
+  },
+  {
+    "id": "ielts-v213",
+    "program": "ielts",
+    "week": 11,
+    "word": "artefact",
+    "ipa": "/ˈɑːrtɪfækt/",
+    "pos": "n",
+    "meaning_vi": "hiện vật",
+    "example": "The museum displays ancient artefacts."
+  },
+  {
+    "id": "ielts-v214",
+    "program": "ielts",
+    "week": 11,
+    "word": "exhibition",
+    "ipa": "/ˌeksɪˈbɪʃn/",
+    "pos": "n",
+    "meaning_vi": "cuộc triển lãm",
+    "example": "The exhibition attracted 10,000 visitors."
+  },
+  {
+    "id": "ielts-v215",
+    "program": "ielts",
+    "week": 11,
+    "word": "aesthetic",
+    "ipa": "/esˈθetɪk/",
+    "pos": "adj",
+    "meaning_vi": "thuộc thẩm mỹ",
+    "example": "The building has great aesthetic value."
+  },
+  {
+    "id": "ielts-v216",
+    "program": "ielts",
+    "week": 11,
+    "word": "folk",
+    "ipa": "/foʊk/",
+    "pos": "adj",
+    "meaning_vi": "dân gian",
+    "example": "Folk music is taught in schools."
+  },
+  {
+    "id": "ielts-v217",
+    "program": "ielts",
+    "week": 11,
+    "word": "sponsorship",
+    "ipa": "/ˈspɑːnsərʃɪp/",
+    "pos": "n",
+    "meaning_vi": "sự tài trợ",
+    "example": "Corporate sponsorship supports the arts."
+  },
+  {
+    "id": "ielts-v218",
+    "program": "ielts",
+    "week": 11,
+    "word": "appreciate",
+    "ipa": "/əˈpriːʃieɪt/",
+    "pos": "v",
+    "meaning_vi": "trân trọng, thưởng thức",
+    "example": "Children learn to appreciate music."
+  },
+  {
+    "id": "ielts-v219",
+    "program": "ielts",
+    "week": 11,
+    "word": "intangible",
+    "ipa": "/ɪnˈtændʒəbl/",
+    "pos": "adj",
+    "meaning_vi": "phi vật thể",
+    "example": "Festivals are part of intangible heritage."
+  },
+  {
+    "id": "ielts-v220",
+    "program": "ielts",
+    "week": 11,
+    "word": "assimilate",
+    "ipa": "/əˈsɪməleɪt/",
+    "pos": "v",
+    "meaning_vi": "hòa nhập, đồng hóa",
+    "example": "Immigrants often assimilate within a generation."
+  },
+  {
+    "id": "ielts-v221",
+    "program": "ielts",
+    "week": 12,
+    "word": "tourism",
+    "ipa": "/ˈtʊrɪzəm/",
+    "pos": "n",
+    "meaning_vi": "du lịch",
+    "example": "Tourism is a major source of income."
+  },
+  {
+    "id": "ielts-v222",
+    "program": "ielts",
+    "week": 12,
+    "word": "destination",
+    "ipa": "/ˌdestɪˈneɪʃn/",
+    "pos": "n",
+    "meaning_vi": "điểm đến",
+    "example": "Bali is a popular destination."
+  },
+  {
+    "id": "ielts-v223",
+    "program": "ielts",
+    "week": 12,
+    "word": "ecotourism",
+    "ipa": "/ˈiːkoʊtʊrɪzəm/",
+    "pos": "n",
+    "meaning_vi": "du lịch sinh thái",
+    "example": "Ecotourism protects natural areas."
+  },
+  {
+    "id": "ielts-v224",
+    "program": "ielts",
+    "week": 12,
+    "word": "mass tourism",
+    "ipa": "/mæs ˈtʊrɪzəm/",
+    "pos": "n",
+    "meaning_vi": "du lịch đại trà",
+    "example": "Mass tourism damages historic sites."
+  },
+  {
+    "id": "ielts-v225",
+    "program": "ielts",
+    "week": 12,
+    "word": "hospitality",
+    "ipa": "/ˌhɑːspɪˈtæləti/",
+    "pos": "n",
+    "meaning_vi": "ngành khách sạn – nhà hàng; lòng hiếu khách",
+    "example": "The hospitality industry employs millions."
+  },
+  {
+    "id": "ielts-v226",
+    "program": "ielts",
+    "week": 12,
+    "word": "landmark",
+    "ipa": "/ˈlændmɑːrk/",
+    "pos": "n",
+    "meaning_vi": "địa danh",
+    "example": "The tower is the city's best-known landmark."
+  },
+  {
+    "id": "ielts-v227",
+    "program": "ielts",
+    "week": 12,
+    "word": "itinerary",
+    "ipa": "/aɪˈtɪnəreri/",
+    "pos": "n",
+    "meaning_vi": "lịch trình",
+    "example": "Our itinerary includes three cities."
+  },
+  {
+    "id": "ielts-v228",
+    "program": "ielts",
+    "week": 12,
+    "word": "accommodation",
+    "ipa": "/əˌkɑːməˈdeɪʃn/",
+    "pos": "n",
+    "meaning_vi": "chỗ ở",
+    "example": "Accommodation prices rise in summer."
+  },
+  {
+    "id": "ielts-v229",
+    "program": "ielts",
+    "week": 12,
+    "word": "off the beaten track",
+    "ipa": "/ɔːf ðə ˈbiːtn træk/",
+    "pos": "idiom",
+    "meaning_vi": "nơi ít người biết",
+    "example": "We found a village off the beaten track."
+  },
+  {
+    "id": "ielts-v230",
+    "program": "ielts",
+    "week": 12,
+    "word": "souvenir",
+    "ipa": "/ˌsuːvəˈnɪr/",
+    "pos": "n",
+    "meaning_vi": "quà lưu niệm",
+    "example": "Tourists buy souvenirs at the market."
+  },
+  {
+    "id": "ielts-v231",
+    "program": "ielts",
+    "week": 12,
+    "word": "overtourism",
+    "ipa": "/ˌoʊvərˈtʊrɪzəm/",
+    "pos": "n",
+    "meaning_vi": "du lịch quá tải",
+    "example": "Venice suffers from overtourism."
+  },
+  {
+    "id": "ielts-v232",
+    "program": "ielts",
+    "week": 12,
+    "word": "local economy",
+    "ipa": "/ˈloʊkl ɪˈkɑːnəmi/",
+    "pos": "n",
+    "meaning_vi": "kinh tế địa phương",
+    "example": "Tourists support the local economy."
+  },
+  {
+    "id": "ielts-v233",
+    "program": "ielts",
+    "week": 12,
+    "word": "broaden horizons",
+    "ipa": "/ˈbrɔːdn həˈraɪznz/",
+    "pos": "phr",
+    "meaning_vi": "mở mang tầm mắt",
+    "example": "Travel broadens your horizons."
+  },
+  {
+    "id": "ielts-v234",
+    "program": "ielts",
+    "week": 12,
+    "word": "cultural exchange",
+    "ipa": "/ˈkʌltʃərəl ɪksˈtʃeɪndʒ/",
+    "pos": "n",
+    "meaning_vi": "giao lưu văn hóa",
+    "example": "Student trips encourage cultural exchange."
+  },
+  {
+    "id": "ielts-v235",
+    "program": "ielts",
+    "week": 12,
+    "word": "seasonal",
+    "ipa": "/ˈsiːzənl/",
+    "pos": "adj",
+    "meaning_vi": "theo mùa",
+    "example": "Many tourism jobs are seasonal."
+  },
+  {
+    "id": "ielts-v236",
+    "program": "ielts",
+    "week": 12,
+    "word": "backpacker",
+    "ipa": "/ˈbækpækər/",
+    "pos": "n",
+    "meaning_vi": "khách du lịch ba lô",
+    "example": "Hostels are popular with backpackers."
+  },
+  {
+    "id": "ielts-v237",
+    "program": "ielts",
+    "week": 12,
+    "word": "scenic",
+    "ipa": "/ˈsiːnɪk/",
+    "pos": "adj",
+    "meaning_vi": "có phong cảnh đẹp",
+    "example": "We took the scenic route along the coast."
+  },
+  {
+    "id": "ielts-v238",
+    "program": "ielts",
+    "week": 12,
+    "word": "exotic",
+    "ipa": "/ɪɡˈzɑːtɪk/",
+    "pos": "adj",
+    "meaning_vi": "ngoại lai, kỳ lạ",
+    "example": "Visitors enjoy exotic food."
+  },
+  {
+    "id": "ielts-v239",
+    "program": "ielts",
+    "week": 12,
+    "word": "peak season",
+    "ipa": "/piːk ˈsiːzn/",
+    "pos": "n",
+    "meaning_vi": "mùa cao điểm",
+    "example": "Prices double during peak season."
+  },
+  {
+    "id": "ielts-v240",
+    "program": "ielts",
+    "week": 12,
+    "word": "authentic",
+    "ipa": "/ɔːˈθentɪk/",
+    "pos": "adj",
+    "meaning_vi": "đích thực",
+    "example": "Travellers seek authentic local experiences."
+  }
+]
