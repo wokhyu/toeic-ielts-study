@@ -35,7 +35,15 @@
           "track": "A",
           "title": "Làm 20 câu Part 5 về \"So sánh, danh động từ và động từ nguyên mẫu\", chữa và ghi lỗi sai vào sổ",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "verb-form",
+              "part5"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "toeic-w8d1t4",
@@ -43,7 +51,15 @@
           "track": "B",
           "title": "Làm 30 câu Part 5 về \"So sánh, danh động từ và động từ nguyên mẫu\", chữa và ghi lỗi sai vào sổ",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "verb-form",
+              "part5"
+            ],
+            "count": 30
+          }
         },
         {
           "id": "toeic-w8d1t5",
@@ -51,7 +67,15 @@
           "track": "C",
           "title": "Làm 40 câu Part 5 về \"So sánh, danh động từ và động từ nguyên mẫu\" trong 20 phút, chữa và ghi lỗi sai",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "verb-form",
+              "part5"
+            ],
+            "count": 40
+          }
         },
         {
           "id": "toeic-w8d1t6",
@@ -97,7 +121,15 @@
           "track": "A",
           "title": "Làm 12 câu Part 4, nghe lại câu sai 2 lần có script",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4"
+            ],
+            "count": 12
+          }
         },
         {
           "id": "toeic-w8d2t4",
@@ -105,7 +137,15 @@
           "track": "B",
           "title": "Làm 20 câu Part 4, nghe lại câu sai có script",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "toeic-w8d2t5",
@@ -113,7 +153,15 @@
           "track": "C",
           "title": "Làm 30 câu Part 4, lần đầu không xem script, sau đó chữa",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4"
+            ],
+            "count": 30
+          }
         },
         {
           "id": "toeic-w8d2t6",
@@ -159,7 +207,15 @@
           "track": "A",
           "title": "Làm 10 câu Part 7, tra từ mới sau khi làm xong",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7"
+            ],
+            "count": 10
+          }
         },
         {
           "id": "toeic-w8d3t4",
@@ -167,7 +223,15 @@
           "track": "B",
           "title": "Làm 16 câu Part 7, ghi lý do chọn đáp án",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7"
+            ],
+            "count": 16
+          }
         },
         {
           "id": "toeic-w8d3t5",
@@ -175,7 +239,15 @@
           "track": "C",
           "title": "Làm 24 câu Part 7 có bấm giờ, chữa kỹ câu sai",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7"
+            ],
+            "count": 24
+          }
         },
         {
           "id": "toeic-w8d3t6",
@@ -183,7 +255,14 @@
           "track": "A",
           "title": "Làm 15 câu Part 5 tổng hợp",
           "minutes": 20,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "part5"
+            ],
+            "count": 15
+          }
         },
         {
           "id": "toeic-w8d3t7",
@@ -191,7 +270,14 @@
           "track": "B",
           "title": "Làm 20 câu Part 5 tổng hợp",
           "minutes": 20,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "part5"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "toeic-w8d3t8",
@@ -199,7 +285,14 @@
           "track": "C",
           "title": "Làm 30 câu Part 5 tổng hợp trong 15 phút",
           "minutes": 20,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "part5"
+            ],
+            "count": 30
+          }
         },
         {
           "id": "toeic-w8d3t9",
@@ -229,7 +322,17 @@
           "track": "A",
           "title": "Làm 15 câu nghe tổng hợp (ưu tiên Part 4)",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4",
+              "part2",
+              "part3"
+            ],
+            "count": 15
+          }
         },
         {
           "id": "toeic-w8d4t3",
@@ -237,7 +340,17 @@
           "track": "B",
           "title": "Làm 25 câu nghe tổng hợp (ưu tiên Part 4)",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4",
+              "part2",
+              "part3"
+            ],
+            "count": 25
+          }
         },
         {
           "id": "toeic-w8d4t4",
@@ -245,7 +358,17 @@
           "track": "C",
           "title": "Làm 35 câu nghe tổng hợp (ưu tiên Part 4)",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p4-graphic",
+              "part4",
+              "part2",
+              "part3"
+            ],
+            "count": 35
+          }
         },
         {
           "id": "toeic-w8d4t5",
@@ -253,7 +376,17 @@
           "track": "A",
           "title": "Làm 15 câu đọc tổng hợp (ưu tiên Part 7)",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7",
+              "part5",
+              "part6"
+            ],
+            "count": 15
+          }
         },
         {
           "id": "toeic-w8d4t6",
@@ -261,7 +394,17 @@
           "track": "B",
           "title": "Làm 25 câu đọc tổng hợp (ưu tiên Part 7)",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7",
+              "part5",
+              "part6"
+            ],
+            "count": 25
+          }
         },
         {
           "id": "toeic-w8d4t7",
@@ -269,7 +412,17 @@
           "track": "C",
           "title": "Làm 35 câu đọc tổng hợp (ưu tiên Part 7)",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "p7-multi",
+              "part7",
+              "part5",
+              "part6"
+            ],
+            "count": 35
+          }
         },
         {
           "id": "toeic-w8d4t8",
@@ -299,7 +452,31 @@
           "track": "A",
           "title": "Làm mini test 30 câu (15 nghe + 15 đọc) trong 30 phút",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 30,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "part2",
+                  "part3",
+                  "part4"
+                ],
+                "count": 15
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "part5",
+                  "part6",
+                  "part7"
+                ],
+                "count": 15
+              }
+            ]
+          }
         },
         {
           "id": "toeic-w8d5t2",
@@ -307,7 +484,31 @@
           "track": "B",
           "title": "Làm mini test 50 câu (25 nghe + 25 đọc) trong 40 phút",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 40,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "part2",
+                  "part3",
+                  "part4"
+                ],
+                "count": 25
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "part5",
+                  "part6",
+                  "part7"
+                ],
+                "count": 25
+              }
+            ]
+          }
         },
         {
           "id": "toeic-w8d5t3",
@@ -315,7 +516,31 @@
           "track": "C",
           "title": "Làm mini test 60 câu (30 nghe + 30 đọc) trong 45 phút",
           "minutes": 50,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 45,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "part2",
+                  "part3",
+                  "part4"
+                ],
+                "count": 30
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "part5",
+                  "part6",
+                  "part7"
+                ],
+                "count": 30
+              }
+            ]
+          }
         },
         {
           "id": "toeic-w8d5t4",
@@ -353,7 +578,10 @@
           "track": "all",
           "title": "Thi thử full test TOEIC lần 2 (200 câu, 120 phút) cùng giờ với cả nhóm, nhập điểm vào trang Điểm thi thử",
           "minutes": 120,
-          "group_activity": true
+          "group_activity": true,
+          "practice": {
+            "kind": "mock"
+          }
         },
         {
           "id": "toeic-w8d6t2",

@@ -4,12 +4,14 @@ import { minutesOf, tasksFor, weekCompletion } from '../../lib/roadmap.ts';
 import { percent } from '../../lib/streak.ts';
 import { useRoadmap, useTaskProgress } from './context.ts';
 import { TaskList } from './TaskList.tsx';
+import { useTaskLinks } from './useTaskLinks.ts';
 
 const DAY_NAMES = ['Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7'];
 
 export function RoadmapPage() {
   const { program, track, preview } = useRoadmap();
   const { done } = useTaskProgress(program, !preview);
+  const links = useTaskLinks(program, !preview);
   if (!track) return null;
   const doneSet = new Set(done.keys());
 
@@ -52,7 +54,7 @@ export function RoadmapPage() {
                     <p className="mb-2 text-sm font-semibold text-ink">
                       {DAY_NAMES[d.day - 1]} · {minutesOf(tasks)} phút
                     </p>
-                    <TaskList tasks={tasks} done={done} />
+                    <TaskList tasks={tasks} done={done} links={links} />
                   </Card>
                 );
               })}

@@ -52,6 +52,12 @@ Kết luận áp dụng:
 - **Đăng nhập / Đăng ký / Đổi mật khẩu** (`/dang-nhap`, `/dang-ky`, `/doi-mat-khau`).
 - **TOEIC, IELTS** (`/c/toeic/...`, `/c/ielts/...`): Hôm nay, Lộ trình 12 tuần, Bài test, Flashcard, Điểm thi thử (biểu đồ + link đề chính thức), Xếp hạng trong khóa.
 - **Xem trước** (`/xem-truoc/:program/...`): lộ trình và bài test, không lưu kết quả.
+- **Làm ngay** (`/c/:program/luyen/nv/:taskId`): nhiệm vụ lộ trình có trường `practice` (khai báo trong `scripts/roadmap-specs.ts`) hiện nút Làm ngay trên trang Hôm nay và Lộ trình. Có 3 loại:
+  - `practice`: làm `count` câu có một trong các `tags`, tag hẹp của tuần trước rồi đến tag rộng (Part, kỹ năng); câu chưa thuộc lên trước. Làm đủ số câu thì nhiệm vụ tự được tích.
+  - `exam`: mini test bấm giờ ghép từ nhiều phần (`parts`), mỗi phần lấy nguyên đoạn hội thoại/bài đọc theo thứ tự ngẫu nhiên. Nộp bài thì nhiệm vụ tự được tích.
+  - `mock`: đề thi thử trên web của tuần đó (nếu có). Nộp bài thì nhiệm vụ thi thử của tuần tự được tích.
+
+  Câu trả lời và bài thi mở từ nhiệm vụ lưu kèm `task_id`, nên tiến độ không mất khi tải lại trang hay đổi máy. Việc tích tự động do database làm (`task_progress.source = 'auto'`); học viên không tự ghi được dòng `auto`. `validate-content` kiểm tra mọi tag tồn tại và ngân hàng có đủ câu cho mỗi nhiệm vụ.
 - **Luyện đề TOEIC/IELTS** (`/c/:program/luyen/...`): cùng bộ trang với Ôn tập 11, thêm luyện theo tag (`the/:tag`), đề thi thử có quy đổi điểm, bài nghe phát bằng giọng nam/nữ khác nhau và chỉ nghe 1 lần khi thi.
 - **Ôn tập 11** (`/c/on-tap-11/...`): cây chủ đề kèm tiến độ, luyện tập theo chủ đề, thi thử (chọn chủ đề, số câu, thời gian, dạng câu), kết quả và xem lại bài, ôn lại câu sai.
 - **Admin** (`/admin`): yêu cầu đang chờ duyệt, danh sách người dùng; `/admin/nguoi-dung/:id`: quyền, trạng thái từng khóa, tiến độ chi tiết; `/admin/duyet-dap-an`: gán đáp án cho câu Ôn tập 11 còn thiếu.
@@ -76,7 +82,7 @@ Chi tiết trong `supabase/migrations/`.
 - `profiles`: tên hiển thị, `role` learner hoặc admin. Người dùng chỉ sửa được `display_name`.
 - `enrollments`: (user, course) với trạng thái pending / approved / rejected / revoked, nhánh, ngày bắt đầu. Người học chỉ tự gửi yêu cầu (`request_enrollment`) và chỉnh nhánh/ngày bắt đầu của mình; duyệt chỉ qua `admin_set_enrollment`.
 - `task_progress`, `placement_results`, `mock_scores`, `flashcard_reviews`: dữ liệu của từng người, gắn với khóa.
-- `roadmap_tasks`: lộ trình dạng bảng tham chiếu (tuần, ngày, kỹ năng, nhánh, số phút), nạp từ `content/roadmap/**` bởi `bank-sync`. `task_progress.task_id` tham chiếu bảng này; nếu người học tích một nhiệm vụ trước khi sync kịp chạy, trigger tự thêm dòng tạm.
+- `roadmap_tasks`: lộ trình dạng bảng tham chiếu (tuần, ngày, kỹ năng, nhánh, số phút, liên kết luyện tập `practice`), nạp từ `content/roadmap/**` bởi `bank-sync`. `task_progress.task_id` tham chiếu bảng này; nếu người học tích một nhiệm vụ trước khi sync kịp chạy, trigger tự thêm dòng tạm.
 - `mock_scores.source`: `self` (người học tự nhập, tự xóa được) hoặc `mock_test` (web chấm, gắn `attempt_id`, người học không sửa được).
 - `ot_*`: engine ngân hàng câu hỏi dùng chung cho mọi khóa (prefix giữ từ Ôn tập 11, đọc là "question bank"). Mỗi dòng thuộc một khóa (`course_id`); người học chỉ thấy câu của khóa mình đã được duyệt. Đáp án và giải thích nằm ở `ot_question_keys`, chỉ admin đọc trực tiếp. Người học chấm bài, xem lời giải, thi thử qua các hàm `security definer` (`ot_answer_practice`, `ot_tag_question_ids`, `ot_start_exam`, `ot_start_mock`, `ot_submit_exam`, ...). Trong lúc có bài thi đang mở, không xem được đáp án bằng chế độ luyện tập.
 - `ot_stimuli`: đoạn văn hoặc script bài nghe dùng chung cho nhiều câu (TOEIC Part 3/4/6/7, IELTS). `ot_questions.tags` dùng để luyện theo chủ điểm.

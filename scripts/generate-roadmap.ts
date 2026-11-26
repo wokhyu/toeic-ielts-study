@@ -32,6 +32,7 @@ function buildWeek(program: Program, week: number, focus: Record<string, string>
         title: t.title,
         minutes: t.minutes,
         group_activity: t.group_activity,
+        ...(t.practice ? { practice: t.practice } : {}),
       })),
     })),
   };
@@ -75,6 +76,10 @@ function markdown(
     `**Thời lượng:** 5 ngày học chính mỗi tuần, 120–180 phút/ngày. ${DAY_NAMES[5]} là buổi hoạt động nhóm, có thể bỏ qua. Chủ nhật nghỉ. Thi thử full test vào ${DAY_NAMES[5]} của tuần ${MOCK_WEEKS.join(', ')}.`,
     '',
   );
+  lines.push(
+    'Nhiệm vụ ghi *làm trên web* có nút **Làm ngay** trên trang Hôm nay: bấm vào là mở đúng phần luyện tập trong ngân hàng câu hỏi, làm đủ số câu (hoặc nộp bài mini test) thì nhiệm vụ tự được tích. Ngày thi thử mở đề thi thử trên web của tuần đó nếu có.',
+    '',
+  );
   lines.push('## Tổng quan 12 tuần', '');
   lines.push(`| Tuần | Giai đoạn | ${columns.map((c) => c[1]).join(' | ')} | Thi thử |`);
   lines.push(`|---|---|${columns.map(() => '---').join('|')}|---|`);
@@ -96,8 +101,9 @@ function markdown(
     for (const d of w.days) {
       for (const t of d.tasks) {
         const group = t.group_activity ? ' (nhóm)' : '';
+        const web = t.practice && t.practice.kind !== 'mock' ? ' · *làm trên web*' : '';
         lines.push(
-          `| ${DAY_NAMES[d.day - 1]} | ${t.track === 'all' ? 'Tất cả' : t.track} | ${t.title}${group} | ${t.minutes} |`,
+          `| ${DAY_NAMES[d.day - 1]} | ${t.track === 'all' ? 'Tất cả' : t.track} | ${t.title}${group}${web} | ${t.minutes} |`,
         );
       }
     }

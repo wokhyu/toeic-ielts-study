@@ -85,6 +85,28 @@ export const ieltsSkills = [
   'mock',
 ] as const;
 
+const tagListSchema = z.array(z.string().min(1)).min(1);
+
+/**
+ * What a task's "Làm ngay" button opens in the course's question bank:
+ * - practice: answer `count` questions tagged with any of `tags` (earlier tags first);
+ * - exam: a timed mini test made of `parts`;
+ * - mock: the course's mock test for the task's week.
+ * The site ticks the task once the practice is done or the test is submitted.
+ */
+export const practiceLinkSchema = z.discriminatedUnion('kind', [
+  z.object({ kind: z.literal('practice'), tags: tagListSchema, count: z.number().int().min(1).max(100) }),
+  z.object({
+    kind: z.literal('exam'),
+    minutes: z.number().int().min(1).max(240),
+    parts: z
+      .array(z.object({ label: z.string().min(1), tags: tagListSchema, count: z.number().int().min(1).max(100) }))
+      .min(1),
+  }),
+  z.object({ kind: z.literal('mock') }),
+]);
+export type PracticeLink = z.infer<typeof practiceLinkSchema>;
+
 export const taskSchema = z.object({
   id: z.string().regex(/^(toeic|ielts)-w\d{1,2}d\d+t\d+$/),
   skill: z.enum(ieltsSkills),
@@ -92,6 +114,7 @@ export const taskSchema = z.object({
   title: z.string().min(1),
   minutes: z.number().int().positive(),
   group_activity: z.boolean(),
+  practice: practiceLinkSchema.optional(),
 });
 export type Task = z.infer<typeof taskSchema>;
 

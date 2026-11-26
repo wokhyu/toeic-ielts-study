@@ -34,3 +34,33 @@ export function weekCompletion(week: Week, track: Track, done: Set<string>): { d
   const tasks = week.days.flatMap((d) => tasksFor(week, d.day, track));
   return { done: tasks.filter((t) => done.has(t.id)).length, total: tasks.length };
 }
+
+/** Week number from a task id such as "toeic-w4d6t1". */
+export function taskWeek(id: string): number {
+  const m = /-w(\d+)d\d+t\d+$/.exec(id);
+  return m ? Number(m[1]) : 0;
+}
+
+export function findTask(weeks: Week[], id: string): { task: Task; week: number; day: number } | undefined {
+  for (const w of weeks) {
+    for (const d of w.days) {
+      const task = d.tasks.find((t) => t.id === id);
+      if (task) return { task, week: w.week, day: d.day };
+    }
+  }
+  return undefined;
+}
+
+/** The mock test task of a week, ticked by submitting that week's mock test. */
+export function mockTaskFor(weeks: Week[], week: number): Task | undefined {
+  return weeks
+    .find((w) => w.week === week)
+    ?.days.flatMap((d) => d.tasks)
+    .find((t) => t.practice?.kind === 'mock');
+}
+
+/** Whether "Làm ngay" can open something: a mock link needs a mock test for that week. */
+export function canPractise(task: Task, mockWeeks: ReadonlySet<number>): boolean {
+  if (!task.practice) return false;
+  return task.practice.kind !== 'mock' || mockWeeks.has(taskWeek(task.id));
+}

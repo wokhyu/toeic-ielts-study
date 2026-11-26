@@ -82,6 +82,8 @@ const STUDY_MIN = 120;
 const STUDY_MAX = 180;
 const OPTIONAL_DAY_MIN = 60;
 
+const roadmapWeeks: Record<'toeic' | 'ielts', Week[]> = { toeic: [], ielts: [] };
+
 for (const program of ['toeic', 'ielts'] as const) {
   const dir = join(root, 'roadmap', program);
   const files = readdirSync(dir)
@@ -89,7 +91,7 @@ for (const program of ['toeic', 'ielts'] as const) {
     .sort();
   if (files.length !== 12) errors.push(`roadmap/${program}: expected 12 weeks, found ${files.length}`);
   const allowedSkills: readonly string[] = program === 'toeic' ? toeicSkills : ieltsSkills;
-  const weeks: Week[] = [];
+  const weeks = roadmapWeeks[program];
   for (const f of files) {
     const w = load(`roadmap/${program}/${f}`, weekSchema);
     if (w) weeks.push(w);
@@ -144,6 +146,7 @@ for (const program of ['toeic', 'ielts'] as const) {
 
 // Question banks (practice sets in the repo, plus mock tests in content-private/ when present)
 const bankCounts: string[] = [];
+let roadmapLinks = 0;
 for (const course of BANK_COURSES) {
   const bank = loadBank(course);
   errors.push(...bank.errors);
@@ -155,6 +158,49 @@ for (const course of BANK_COURSES) {
     );
   const mock = count('mock');
   bankCounts.push(`${course} ${count('practice')}${mock ? ` + ${mock} mock` : ''}`);
+
+  // "Làm ngay" links: every tag exists and the bank has enough questions for each count.
+  const knownTags = new Set(Object.keys(bank.taxonomy?.tags ?? {}));
+  const practiceQuestions = bank.files.flatMap((f) =>
+    f.file.sets.filter((s) => s.pool !== 'mock').flatMap((s) => s.questions),
+  );
+  const available = (tags: string[]) =>
+    practiceQuestions.filter((q) => (q.tags ?? []).some((t) => tags.includes(t))).length;
+  const mockWeeks = new Set(bank.mocks.map((m) => m.mock.week));
+  for (const w of roadmapWeeks[course]) {
+    for (const d of w.days) {
+      for (const t of d.tasks) {
+        const link = t.practice;
+        if (!link) continue;
+        roadmapLinks += 1;
+        const label = `roadmap/${course}/week ${w.week}: task ${t.id}`;
+        const parts =
+          link.kind === 'practice'
+            ? [{ tags: link.tags, count: link.count }]
+            : link.kind === 'exam'
+              ? link.parts
+              : [];
+        for (const part of parts) {
+          for (const tag of part.tags) {
+            if (!knownTags.has(tag)) errors.push(`${label}: unknown tag "${tag}"`);
+          }
+          const n = available(part.tags);
+          if (n < part.count) {
+            errors.push(
+              `${label}: needs ${part.count} questions tagged ${part.tags.join('|')}, the bank has ${n}`,
+            );
+          }
+        }
+        if (link.kind === 'mock') {
+          if (!d.mock_test) errors.push(`${label}: a mock link belongs on a mock test day`);
+          // Mock tests live in content-private/, so only check them where they are present.
+          if (bank.mocks.length > 0 && !mockWeeks.has(w.week)) {
+            console.warn(`  note: ${label} links to the week ${w.week} mock test, which is not written yet`);
+          }
+        }
+      }
+    }
+  }
 }
 
 if (errors.length > 0) {
@@ -163,5 +209,5 @@ if (errors.length > 0) {
   process.exit(1);
 }
 console.log(
-  `Content OK: placement tests, 24 roadmap weeks, vocabulary decks and question banks (${bankCounts.join(', ')} questions) are valid.`,
+  `Content OK: placement tests, 24 roadmap weeks, vocabulary decks, question banks (${bankCounts.join(', ')} questions) and ${roadmapLinks} "Làm ngay" links are valid.`,
 );
