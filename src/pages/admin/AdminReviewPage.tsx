@@ -1,5 +1,4 @@
 import { useCallback, useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Rich } from '../../components/Rich.tsx';
 import { Badge, Button, Card, ErrorBox, PageHeader, Spinner } from '../../components/ui.tsx';
 import { db, errorMessage } from '../../lib/supabase.ts';
@@ -27,9 +26,6 @@ export function AdminReviewPage() {
 
   return (
     <div className="space-y-4">
-      <Link to="/admin" className="text-sm text-brand-ink hover:underline">
-        ← Quản trị
-      </Link>
       <PageHeader
         title="Duyệt đáp án on-tap-11"
         subtitle="Câu chưa có đáp án không hiện với học viên. Gán đáp án để mở, hoặc ẩn câu lỗi."

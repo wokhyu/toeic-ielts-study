@@ -28,6 +28,7 @@ import {
   type PlacementResult,
 } from '../../lib/types.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
+import { LearnerInsights } from './LearnerInsights.tsx';
 
 interface Detail {
   user: AdminUserRow;
@@ -144,8 +145,8 @@ export function AdminUserPage() {
 
   return (
     <div className="space-y-5">
-      <Link to="/admin" className="text-sm text-brand-ink hover:underline">
-        ← Danh sách người dùng
+      <Link to="/admin/hoc-vien" className="text-sm text-brand-ink hover:underline">
+        ← Danh sách học viên
       </Link>
       <PageHeader
         title={user.display_name || user.email}
@@ -180,6 +181,8 @@ export function AdminUserPage() {
           onError={setActionError}
         />
       ))}
+
+      <LearnerInsights user={user} doneTasks={new Set(data.tasks.map((t) => t.task_id))} />
     </div>
   );
 }

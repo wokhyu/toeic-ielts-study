@@ -59,7 +59,7 @@ Có thể chạy khi chưa có Supabase, nhưng chỉ xem trước được lộ
    update public.profiles set role = 'admin'
    where id = (select id from auth.users where email = '<email-cua-ban>');
    ```
-   Từ lúc đó, admin có thể cấp quyền admin cho người khác ngay trên trang Quản trị.
+   Từ lúc đó, admin có thể cấp quyền admin cho người khác ở Quản trị → Tài khoản & duyệt.
 6. Nạp câu hỏi Ôn tập 11: làm theo [courses/on-tap-11/README.md](courses/on-tap-11/README.md). Script chạy trên máy cá nhân và dùng service role key.
 7. Cho phép tự nạp câu hỏi TOEIC/IELTS: đặt service role key làm secret của environment `production`. Khi lệnh hỏi giá trị, dán key vào:
    ```bash
@@ -78,6 +78,16 @@ Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambrid
 - Đề thi thử **không** nằm trong repo, để học viên không xem trước được đáp án. Đề đặt trong `content-private/bank/<course>/*.json` (các bộ câu có `"pool": "mock"`) và `content-private/mocks/<course>-*.json` (đề, bảng quy đổi điểm, danh sách bộ câu). Thư mục `content-private/` đã nằm trong `.gitignore`; nên sao lưu nó vào một repo private. Chạy `npm run import:bank` trên máy cá nhân (có `.env.local`) để nạp lên.
 - Thêm hoặc sửa câu hỏi: tạo PR. CI kiểm tra schema, đáp án có nằm trong các lựa chọn không, tag có hợp lệ không, và chạy thử việc import bằng đúng các hàm SQL. Sau khi merge, workflow `bank-sync` tự nạp lên Supabase.
 - Part 1 của TOEIC (mô tả tranh) chưa có, vì cần ảnh.
+
+## Theo dõi kết quả học viên
+
+Mọi lần trả lời (luyện tập, ôn lại, thi, thi thử), mọi nhiệm vụ đã tích và mọi lượt ôn flashcard đều được lưu. Học viên xem tiến bộ của mình ở tab **Tiến bộ**. Admin vào **Quản trị** để xem:
+
+- **Tổng quan**: số học viên hoạt động, hoạt động theo ngày, phễu từ lúc đăng ký đến lúc học đều, phân bố nhánh.
+- **Học viên**: bảng từng người (hoạt động 14 ngày, độ chính xác, tiến độ, chủ điểm yếu), cảnh báo người nghỉ học hơn 5 ngày, bấm vào tên để xem chi tiết.
+- **Chất lượng câu hỏi**: độ khó, độ phân biệt và số người chọn từng phương án của mỗi câu, gắn cờ câu cần xem lại.
+
+Các bảng đều có nút **Xuất CSV** (mở được bằng Excel). Tài khoản admin không được tính vào số liệu.
 
 ## Quy trình làm việc
 

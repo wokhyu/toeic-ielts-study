@@ -83,6 +83,7 @@ export function ScoreTrend({
             itemStyle={{ color: 'var(--color-ink)' }}
           />
           <Legend
+            itemSorter={(item) => fields.indexOf(String(item.dataKey))}
             iconType="plainline"
             formatter={(value: string) => <span style={{ color: 'var(--color-ink-soft)' }}>{value}</span>}
           />

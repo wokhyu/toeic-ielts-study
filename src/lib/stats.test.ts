@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { activityLevel, calendarWeeks, formatDuration, weakest, wilson } from './stats.ts';
+import { activityLevel, calendarWeeks, fillDays, formatDuration, weakest, wilson } from './stats.ts';
 
 describe('wilson', () => {
   it('matches the textbook interval', () => {
@@ -51,5 +51,20 @@ describe('formatDuration', () => {
     expect(formatDuration(80_000)).toBe('1 phút 20 giây');
     expect(formatDuration(120_000)).toBe('2 phút');
     expect(formatDuration(null)).toBe('—');
+  });
+});
+
+describe('fillDays', () => {
+  it('fills every day of the range with zeros where nothing happened', () => {
+    const rows = fillDays(
+      [{ day: '2026-11-25', answers: 3, tasks: 1, cards: 0 }],
+      '2026-11-24',
+      '2026-11-26',
+    );
+    expect(rows.map((r) => [r.day, r.answers])).toEqual([
+      ['2026-11-24', 0],
+      ['2026-11-25', 3],
+      ['2026-11-26', 0],
+    ]);
   });
 });
