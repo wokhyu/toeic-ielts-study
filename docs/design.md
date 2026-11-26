@@ -52,6 +52,7 @@ Kết luận áp dụng:
 - **Đăng nhập / Đăng ký / Đổi mật khẩu** (`/dang-nhap`, `/dang-ky`, `/doi-mat-khau`).
 - **TOEIC, IELTS** (`/c/toeic/...`, `/c/ielts/...`): Hôm nay, Lộ trình 12 tuần, Bài test, Flashcard, Điểm thi thử (biểu đồ + link đề chính thức), Xếp hạng trong khóa.
 - **Xem trước** (`/xem-truoc/:program/...`): lộ trình và bài test, không lưu kết quả.
+- **Luyện đề TOEIC/IELTS** (`/c/:program/luyen/...`): cùng bộ trang với Ôn tập 11, thêm luyện theo tag (`the/:tag`), đề thi thử có quy đổi điểm, bài nghe phát bằng giọng nam/nữ khác nhau và chỉ nghe 1 lần khi thi.
 - **Ôn tập 11** (`/c/on-tap-11/...`): cây chủ đề kèm tiến độ, luyện tập theo chủ đề, thi thử (chọn chủ đề, số câu, thời gian, dạng câu), kết quả và xem lại bài, ôn lại câu sai.
 - **Admin** (`/admin`): yêu cầu đang chờ duyệt, danh sách người dùng; `/admin/nguoi-dung/:id`: quyền, trạng thái từng khóa, tiến độ chi tiết; `/admin/duyet-dap-an`: gán đáp án cho câu Ôn tập 11 còn thiếu.
 
@@ -63,7 +64,10 @@ Chi tiết trong `supabase/migrations/`.
 - `profiles`: tên hiển thị, `role` learner hoặc admin. Người dùng chỉ sửa được `display_name`.
 - `enrollments`: (user, course) với trạng thái pending / approved / rejected / revoked, nhánh, ngày bắt đầu. Người học chỉ tự gửi yêu cầu (`request_enrollment`) và chỉnh nhánh/ngày bắt đầu của mình; duyệt chỉ qua `admin_set_enrollment`.
 - `task_progress`, `placement_results`, `mock_scores`, `flashcard_reviews`: dữ liệu của từng người, gắn với khóa.
-- `ot_*`: ngân hàng câu hỏi Ôn tập 11. Đáp án và lời giải nằm ở `ot_question_keys`, chỉ admin đọc trực tiếp. Người học chấm bài, xem lời giải, thi thử qua các hàm `security definer` (`ot_answer_practice`, `ot_start_exam`, `ot_submit_exam`, ...). Trong lúc có bài thi đang mở, không xem được đáp án bằng chế độ luyện tập.
+- `ot_*`: engine ngân hàng câu hỏi dùng chung cho mọi khóa (prefix giữ từ Ôn tập 11, đọc là "question bank"). Mỗi dòng thuộc một khóa (`course_id`); người học chỉ thấy câu của khóa mình đã được duyệt. Đáp án và giải thích nằm ở `ot_question_keys`, chỉ admin đọc trực tiếp. Người học chấm bài, xem lời giải, thi thử qua các hàm `security definer` (`ot_answer_practice`, `ot_tag_question_ids`, `ot_start_exam`, `ot_start_mock`, `ot_submit_exam`, ...). Trong lúc có bài thi đang mở, không xem được đáp án bằng chế độ luyện tập.
+- `ot_stimuli`: đoạn văn hoặc script bài nghe dùng chung cho nhiều câu (TOEIC Part 3/4/6/7, IELTS). `ot_questions.tags` dùng để luyện theo chủ điểm.
+- Thi thử: câu thuộc `pool = 'mock'` không xuất hiện khi luyện tập và chỉ hiện với người đang làm hoặc đã làm đề đó. `ot_mock_tests.sections` chứa bảng quy đổi điểm (ước lượng); khi nộp bài, điểm quy đổi tự ghi vào `mock_scores`. Script nghe vẫn đọc được trong lúc thi (trình duyệt cần nó để đọc), nên đây là chống gian lận ở mức nhóm tự học, không phải phòng thi.
+- Nhập nội dung: `ot_bank_upsert_taxonomy`, `ot_bank_upsert_set`, `ot_bank_upsert_mock` chỉ gọi được bằng service role và upsert theo `ext_id`, nên chạy lại bao nhiêu lần cũng được.
 - Hàm admin: `admin_list_users`, `admin_set_enrollment`, `admin_set_role` (không tự hạ quyền chính mình), `ot_admin_set_key`.
 - `get_leaderboard(course)`: số nhiệm vụ đã xong, số ngày có học và streak (theo giờ Việt Nam) của những người cùng khóa.
 

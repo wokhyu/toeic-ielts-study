@@ -1,10 +1,13 @@
+import { useContext } from 'react';
 import { Rich } from '../../components/Rich.tsx';
 import { Badge } from '../../components/ui.tsx';
+import { keyText } from '../../lib/bank.ts';
+import { BankContext } from './context.ts';
 import { TYPE_LABEL, type OtQuestion, type Response, type Reveal } from './data.ts';
 
 /**
- * One on-tap-11 question. Editable until `reveal` is set; then it shows the key,
- * what the learner picked and the worked solution.
+ * One question. Editable until `reveal` is set; then it shows the key, what the
+ * learner picked and the explanation. The shared passage is drawn by the page.
  */
 export function QuestionView({
   q,
@@ -21,14 +24,16 @@ export function QuestionView({
   reveal?: Reveal | null;
   disabled?: boolean;
 }) {
+  const course = useContext(BankContext)?.course;
   const locked = disabled || Boolean(reveal) || !onChange;
   const key = reveal?.answer_key;
+  const explainLabel = course === 'on-tap-11' ? 'Lời giải' : 'Giải thích';
 
   return (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center gap-2">
         {index !== undefined && <span className="font-semibold">Câu {index}</span>}
-        <Badge>{TYPE_LABEL[q.type]}</Badge>
+        {course === 'on-tap-11' && <Badge>{TYPE_LABEL[q.type]}</Badge>}
         {reveal && reveal.is_correct === true && <Badge color="green">Đúng</Badge>}
         {reveal && reveal.is_correct === false && <Badge color="red">Sai</Badge>}
         {reveal &&
@@ -36,9 +41,11 @@ export function QuestionView({
           q.type === 'truefalse' &&
           typeof reveal.score === 'number' && <Badge color="yellow">{reveal.score / 100} điểm</Badge>}
       </div>
-      <div className="text-[15px] leading-relaxed">
-        <Rich html={q.stem_html} />
-      </div>
+      {q.stem_html && (
+        <div className="text-[15px] leading-relaxed">
+          <Rich html={q.stem_html} />
+        </div>
+      )}
 
       {q.type === 'mcq' && (
         <div className="grid gap-2">
@@ -62,8 +69,8 @@ export function QuestionView({
                 onClick={() => onChange?.(o.label)}
                 className={`flex items-start gap-2 rounded-lg p-2.5 text-left text-sm ring-1 ${tone}`}
               >
-                <b>{o.label}.</b>
-                <Rich html={o.html} />
+                <b>{o.html ? `${o.label}.` : o.label}</b>
+                {o.html && <Rich html={o.html} />}
               </button>
             );
           })}
@@ -77,7 +84,7 @@ export function QuestionView({
               string,
               boolean
             >;
-            const want = key && typeof key === 'object' ? key[o.label] : undefined;
+            const want = key && typeof key === 'object' && !Array.isArray(key) ? key[o.label] : undefined;
             return (
               <div
                 key={o.label}
@@ -109,15 +116,15 @@ export function QuestionView({
       {q.type === 'short' && (
         <div className="flex flex-wrap items-center gap-2">
           <input
-            className="w-48 rounded-lg border border-slate-300 px-3 py-2 text-sm"
+            className="w-56 rounded-lg border border-slate-300 px-3 py-2 text-sm"
             disabled={locked}
             value={typeof response === 'string' ? response : ''}
             onChange={(e) => onChange?.(e.target.value)}
-            placeholder="Nhập đáp số"
+            placeholder={course === 'on-tap-11' ? 'Nhập đáp số' : 'Nhập câu trả lời'}
           />
-          {reveal && typeof key === 'string' && (
+          {reveal && keyText(key ?? null) && (
             <span className="text-sm">
-              Đáp án: <b>{key}</b>
+              Đáp án: <b>{keyText(key ?? null)}</b>
             </span>
           )}
         </div>
@@ -132,9 +139,9 @@ export function QuestionView({
       {reveal && reveal.solution_html && (
         <details
           className="rounded-lg bg-slate-50 p-3 text-sm"
-          open={reveal.is_correct === false || q.type === 'essay'}
+          open={reveal.is_correct === false || q.type === 'essay' || course !== 'on-tap-11'}
         >
-          <summary className="cursor-pointer font-medium">Lời giải</summary>
+          <summary className="cursor-pointer font-medium">{explainLabel}</summary>
           <div className="mt-2 leading-relaxed">
             <Rich html={reveal.solution_html} />
           </div>

@@ -1,36 +1,32 @@
 import { useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, ErrorBox, ProgressBar, Spinner } from '../../components/ui.tsx';
+import { useAuth } from '../../lib/auth-context.ts';
 import { formatDateVN, toDateVN } from '../../lib/dates.ts';
-import { toTen } from '../../lib/scores.ts';
 import { percent } from '../../lib/streak.ts';
 import { db } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
-import { useAuth } from '../../lib/auth-context.ts';
+import { useBank } from './context.ts';
 import { loadTopicTree, toTree } from './data.ts';
+import { attemptScore, type AttemptSummary } from './results.ts';
 
-interface AttemptRow {
-  id: number;
-  submitted_at: string;
-  score: number | null;
-  max_score: number | null;
-}
-
-export function OtHomePage() {
+export function BankHomePage() {
   const { session } = useAuth();
+  const { course, base } = useBank();
   const load = useCallback(async () => {
     const [rows, attempts] = await Promise.all([
-      loadTopicTree(),
+      loadTopicTree(course),
       db()
         .from('ot_attempts')
-        .select('id, submitted_at, score, max_score')
+        .select('id, mode, submitted_at, score, max_score, config')
         .eq('user_id', session?.user.id ?? '')
+        .eq('course_id', course)
         .not('submitted_at', 'is', null)
         .order('submitted_at', { ascending: false })
         .limit(10),
     ]);
-    return { tree: toTree(rows), attempts: unwrap(attempts) as AttemptRow[] };
-  }, [session]);
+    return { tree: toTree(rows), attempts: unwrap(attempts) as AttemptSummary[] };
+  }, [session, course]);
   const { data, loading, error } = useAsync(load);
 
   if (loading) return <Spinner />;
@@ -38,7 +34,7 @@ export function OtHomePage() {
   if (!data || data.tree.length === 0) {
     return (
       <Card>
-        Ngân hàng câu hỏi chưa được nhập. Quản trị viên chạy script import theo hướng dẫn trong README.
+        Ngân hàng câu hỏi của khóa này chưa được nhập. Quản trị viên xem hướng dẫn import trong README.
       </Card>
     );
   }
@@ -50,11 +46,12 @@ export function OtHomePage() {
           <h2 className="mb-2 font-semibold">Bài thi gần đây</h2>
           <ul className="divide-y divide-slate-100 text-sm">
             {data.attempts.map((a) => (
-              <li key={a.id} className="flex justify-between py-2">
-                <Link to={`/c/on-tap-11/ket-qua/${a.id}`} className="text-indigo-700 hover:underline">
-                  Bài thi ngày {formatDateVN(toDateVN(a.submitted_at))}
+              <li key={a.id} className="flex justify-between gap-3 py-2">
+                <Link to={`${base}/ket-qua/${a.id}`} className="text-indigo-700 hover:underline">
+                  {a.mode === 'mock' ? 'Thi thử' : 'Bài thi'} ngày{' '}
+                  {formatDateVN(toDateVN(a.submitted_at ?? ''))}
                 </Link>
-                <span className="font-medium">{toTen(a.score ?? 0, a.max_score ?? 0)}/10</span>
+                <span className="font-medium">{attemptScore(course, a)}</span>
               </li>
             ))}
           </ul>
@@ -71,7 +68,7 @@ export function OtHomePage() {
                   {c.topics.map((t) => (
                     <li key={t.topic_id} className="flex flex-wrap items-center gap-3 py-2 text-sm">
                       <Link
-                        to={`/c/on-tap-11/chu-de/${t.topic_id}`}
+                        to={`${base}/chu-de/${t.topic_id}`}
                         className="flex-1 text-indigo-700 hover:underline"
                       >
                         {t.topic_name}

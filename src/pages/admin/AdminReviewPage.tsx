@@ -4,7 +4,7 @@ import { Rich } from '../../components/Rich.tsx';
 import { Badge, Button, Card, ErrorBox, PageHeader, Spinner } from '../../components/ui.tsx';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
-import { loadQuestions, TYPE_LABEL, type OtQuestion, type QuestionType } from '../ot/data.ts';
+import { loadQuestions, TYPE_LABEL, type OtQuestion, type QuestionType } from '../../features/bank/data.ts';
 
 const PAGE = 10;
 

@@ -8,7 +8,7 @@ import type { Program } from './content/schema.ts';
 import { LoginPage } from './pages/auth/LoginPage.tsx';
 import { RegisterPage } from './pages/auth/RegisterPage.tsx';
 import { CoursesPage } from './pages/CoursesPage.tsx';
-import { OtLayout } from './pages/ot/OtLayout.tsx';
+import { BankLayout } from './features/bank/BankLayout.tsx';
 import { RoadmapLayout } from './pages/roadmap/RoadmapLayout.tsx';
 
 // Course and admin pages load on demand so the first page stays small.
@@ -24,19 +24,21 @@ const AdminUsersPage = lazy(() =>
 const ResetPasswordPage = lazy(() =>
   import('./pages/auth/ResetPasswordPage.tsx').then((m) => ({ default: m.ResetPasswordPage })),
 );
-const OtExamPage = lazy(() => import('./pages/ot/OtExamPage.tsx').then((m) => ({ default: m.OtExamPage })));
-const OtExamSetupPage = lazy(() =>
-  import('./pages/ot/OtExamSetupPage.tsx').then((m) => ({ default: m.OtExamSetupPage })),
+const BankHomePage = lazy(() =>
+  import('./features/bank/BankHomePage.tsx').then((m) => ({ default: m.BankHomePage })),
 );
-const OtHomePage = lazy(() => import('./pages/ot/OtHomePage.tsx').then((m) => ({ default: m.OtHomePage })));
-const OtPracticePage = lazy(() =>
-  import('./pages/ot/OtPracticePage.tsx').then((m) => ({ default: m.OtPracticePage })),
+const ExamPage = lazy(() => import('./features/bank/ExamPage.tsx').then((m) => ({ default: m.ExamPage })));
+const ExamSetupPage = lazy(() =>
+  import('./features/bank/ExamSetupPage.tsx').then((m) => ({ default: m.ExamSetupPage })),
 );
-const OtResultPage = lazy(() =>
-  import('./pages/ot/OtResultPage.tsx').then((m) => ({ default: m.OtResultPage })),
+const PracticePage = lazy(() =>
+  import('./features/bank/PracticePage.tsx').then((m) => ({ default: m.PracticePage })),
 );
-const OtReviewPage = lazy(() =>
-  import('./pages/ot/OtReviewPage.tsx').then((m) => ({ default: m.OtReviewPage })),
+const ResultPage = lazy(() =>
+  import('./features/bank/ResultPage.tsx').then((m) => ({ default: m.ResultPage })),
+);
+const ReviewPage = lazy(() =>
+  import('./features/bank/ReviewPage.tsx').then((m) => ({ default: m.ReviewPage })),
 );
 const FlashcardsPage = lazy(() =>
   import('./pages/roadmap/FlashcardsPage.tsx').then((m) => ({ default: m.FlashcardsPage })),
@@ -54,6 +56,21 @@ const ScoresPage = lazy(() =>
   import('./pages/roadmap/ScoresPage.tsx').then((m) => ({ default: m.ScoresPage })),
 );
 const TodayPage = lazy(() => import('./pages/roadmap/TodayPage.tsx').then((m) => ({ default: m.TodayPage })));
+
+/** Practice, exams and review of a course's question bank, under its own route prefix. */
+function bankRoutes() {
+  return (
+    <>
+      <Route index element={<BankHomePage />} />
+      <Route path="chu-de/:topicId" element={<PracticePage />} />
+      <Route path="the/:tag" element={<PracticePage />} />
+      <Route path="thi-thu" element={<ExamSetupPage />} />
+      <Route path="thi-thu/:attemptId" element={<ExamPage />} />
+      <Route path="ket-qua/:attemptId" element={<ResultPage />} />
+      <Route path="on-lai" element={<ReviewPage />} />
+    </>
+  );
+}
 
 function roadmapRoutes(program: Program) {
   return (
@@ -75,6 +92,9 @@ function roadmapRoutes(program: Program) {
         <Route path="flashcard" element={<FlashcardsPage />} />
         <Route path="diem-thi-thu" element={<ScoresPage />} />
         <Route path="xep-hang" element={<LeaderboardPage />} />
+        <Route path="luyen" element={<BankLayout course={program} base={`/c/${program}/luyen`} />}>
+          {bankRoutes()}
+        </Route>
       </Route>
       <Route path={`xem-truoc/${program}`} element={<RoadmapLayout program={program} preview />}>
         <Route index element={<Navigate to="lo-trinh" replace />} />
@@ -113,17 +133,12 @@ export default function App() {
                 element={
                   <RequireAuth>
                     <RequireCourse course="on-tap-11">
-                      <OtLayout />
+                      <BankLayout course="on-tap-11" base="/c/on-tap-11" title="Ôn tập Toán · Lý · Hóa 11" />
                     </RequireCourse>
                   </RequireAuth>
                 }
               >
-                <Route index element={<OtHomePage />} />
-                <Route path="chu-de/:topicId" element={<OtPracticePage />} />
-                <Route path="thi-thu" element={<OtExamSetupPage />} />
-                <Route path="thi-thu/:attemptId" element={<OtExamPage />} />
-                <Route path="ket-qua/:attemptId" element={<OtResultPage />} />
-                <Route path="on-lai" element={<OtReviewPage />} />
+                {bankRoutes()}
               </Route>
 
               <Route

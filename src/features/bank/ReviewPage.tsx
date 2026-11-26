@@ -3,31 +3,34 @@ import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
+import { useBank } from './context.ts';
 import { idsFrom, loadQuestions, type Reveal } from './data.ts';
 import { QuestionView } from './QuestionView.tsx';
+import { StimulusView } from './StimulusView.tsx';
 
-export function OtReviewPage() {
+export function ReviewPage() {
   const { session } = useAuth();
+  const { course } = useBank();
   const [tab, setTab] = useState<'wrong' | 'bookmarks'>('wrong');
   const [reveals, setReveals] = useState<Record<number, Reveal>>({});
   const [revealError, setRevealError] = useState<string | null>(null);
 
   const load = useCallback(async () => {
-    const ids =
-      tab === 'wrong'
-        ? idsFrom(unwrap(await db().rpc('ot_wrong_question_ids', { p_limit: 50 })), 'ot_wrong_question_ids')
-        : (
-            unwrap(
-              await db()
-                .from('ot_bookmarks')
-                .select('question_id')
-                .eq('user_id', session?.user.id ?? '')
-                .order('created_at', { ascending: false })
-                .limit(50),
-            ) as { question_id: number }[]
-          ).map((r) => r.question_id);
-    return loadQuestions(ids);
-  }, [tab, session]);
+    if (tab === 'wrong') {
+      const res = await db().rpc('ot_wrong_question_ids', { p_limit: 50, p_course: course });
+      return loadQuestions(idsFrom(unwrap(res), 'ot_wrong_question_ids'));
+    }
+    const rows = unwrap(
+      await db()
+        .from('ot_bookmarks')
+        .select('question_id, ot_questions!inner(course_id)')
+        .eq('user_id', session?.user.id ?? '')
+        .eq('ot_questions.course_id', course)
+        .order('created_at', { ascending: false })
+        .limit(50),
+    ) as { question_id: number }[];
+    return loadQuestions(rows.map((r) => r.question_id));
+  }, [tab, session, course]);
   const { data, loading, error } = useAsync(load);
 
   const reveal = async (id: number) => {
@@ -61,12 +64,17 @@ export function OtReviewPage() {
       ) : (
         (data ?? []).map((q, i) => (
           <Card key={q.id}>
-            <QuestionView q={q} index={i + 1} response={null} reveal={reveals[q.id] ?? null} />
-            {!reveals[q.id] && (
-              <Button className="mt-3" variant="secondary" onClick={() => void reveal(q.id)}>
-                Xem đáp án và lời giải
-              </Button>
-            )}
+            <div className={q.stimulus?.kind === 'passage' ? 'grid gap-4 md:grid-cols-2' : 'space-y-4'}>
+              {q.stimulus && <StimulusView stimulus={q.stimulus} showTranscript={Boolean(reveals[q.id])} />}
+              <div>
+                <QuestionView q={q} index={i + 1} response={null} reveal={reveals[q.id] ?? null} />
+                {!reveals[q.id] && (
+                  <Button className="mt-3" variant="secondary" onClick={() => void reveal(q.id)}>
+                    Xem đáp án và giải thích
+                  </Button>
+                )}
+              </div>
+            </div>
           </Card>
         ))
       )}

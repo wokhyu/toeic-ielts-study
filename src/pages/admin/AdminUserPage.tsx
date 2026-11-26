@@ -59,6 +59,7 @@ async function loadDetail(userId: string): Promise<Detail> {
       .from('ot_attempts')
       .select('id, submitted_at, score, max_score')
       .eq('user_id', userId)
+      .eq('course_id', 'on-tap-11')
       .not('submitted_at', 'is', null)
       .order('submitted_at', { ascending: false })
       .limit(20),
@@ -75,7 +76,7 @@ async function loadDetail(userId: string): Promise<Detail> {
     // Map each answered question to its subject: question -> topic -> chapter -> subject.
     const ids = statRows.map((s) => s.question_id);
     const [qs, topics, chapters, subjects] = await Promise.all([
-      db().from('ot_questions').select('id, topic_id').in('id', ids),
+      db().from('ot_questions').select('id, topic_id').in('id', ids).eq('course_id', 'on-tap-11'),
       db().from('ot_topics').select('id, chapter_id'),
       db().from('ot_chapters').select('id, subject_id'),
       db().from('ot_subjects').select('id, name'),
