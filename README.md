@@ -75,13 +75,16 @@ Có thể chạy khi chưa có Supabase, nhưng chỉ xem trước được lộ
 
 ## CI/CD
 
-| Workflow         | Khi nào chạy                                                              | Việc                                                                             |
-| ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| `ci.yml`         | Mỗi PR, và mỗi lần push lên nhánh khác `main`                             | lint, format, typecheck, test kèm coverage, validate content, build              |
-| `deploy.yml`     | Push lên `main`, hoặc chạy tay                                            | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages   |
-| `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production` |
+| Workflow         | Khi nào chạy                                                              | Việc                                                                                              |
+| ---------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| `ci.yml`         | Mỗi PR, và mỗi lần push lên nhánh khác `main`                             | lint, format, typecheck, test kèm coverage, validate content, build                               |
+| `deploy.yml`     | Push lên `main`, hoặc chạy tay                                            | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                    |
+| `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                  |
+| `keep-alive.yml` | 2 ngày một lần, hoặc chạy tay                                             | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng |
 
-Dependabot cập nhật dependency npm và GitHub Actions mỗi tuần.
+Dependabot cập nhật dependency npm và GitHub Actions mỗi tuần. TypeScript bản major được bỏ qua cho tới khi `typescript-eslint` hỗ trợ.
+
+Nếu web báo không kết nối được và workflow `keep-alive` đỏ: vào Supabase Dashboard, mở project và bấm **Restore**. Project gói miễn phí vẫn có thể bị dừng dù có ping.
 
 ## Cấu trúc thư mục
 

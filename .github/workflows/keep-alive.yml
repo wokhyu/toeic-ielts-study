@@ -1,0 +1,33 @@
+name: keep-alive
+
+# Supabase pauses free projects after about a week without traffic.
+# A small read every two days keeps the project awake between study sessions.
+on:
+  schedule:
+    - cron: '17 1 */2 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read the public course list
+        env:
+          SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "::warning::Supabase secrets are not set; nothing to ping."
+            exit 0
+          fi
+          status=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 \
+            -H "apikey: $SUPABASE_ANON_KEY" "$SUPABASE_URL/rest/v1/courses?select=id&limit=1")
+          echo "HTTP $status"
+          if [ "$status" != "200" ]; then
+            echo "::error::Supabase answered HTTP $status. The project may be paused: open the dashboard and press Restore."
+            exit 1
+          fi
