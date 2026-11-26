@@ -9,6 +9,9 @@ export interface AttemptSummary {
   score: number | null;
   max_score: number | null;
   config: { sections?: Record<string, MockSection>; total?: number } | null;
+  /** Roadmap task the exam was started from ("Làm ngay"). */
+  task_id?: string | null;
+  mock_test_id?: string | null;
 }
 
 /** "695", "Band 6.5", "7.5/10" or "12/20 câu" depending on the course and kind of attempt. */

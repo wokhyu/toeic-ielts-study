@@ -78,6 +78,7 @@ Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambrid
 - Đề thi thử **không** nằm trong repo, để học viên không xem trước được đáp án. Đề đặt trong `content-private/bank/<course>/*.json` (các bộ câu có `"pool": "mock"`) và `content-private/mocks/<course>-*.json` (đề, bảng quy đổi điểm, danh sách bộ câu). Thư mục `content-private/` đã nằm trong `.gitignore`; nên sao lưu nó vào một repo private. Chạy `npm run import:bank` trên máy cá nhân (có `.env.local`) để nạp lên.
 - Thêm hoặc sửa câu hỏi: tạo PR. CI kiểm tra schema, đáp án có nằm trong các lựa chọn không, tag có hợp lệ không, và chạy thử việc import bằng đúng các hàm SQL. Sau khi merge, workflow `bank-sync` tự nạp lên Supabase.
 - Part 1 của TOEIC (mô tả tranh) chưa có, vì cần ảnh.
+- Nhiệm vụ lộ trình nối với ngân hàng câu hỏi qua trường `practice` trong `scripts/roadmap-specs.ts` (chạy `npm run generate:roadmap` sau khi sửa). Trên trang Hôm nay, nhiệm vụ đó có nút **Làm ngay**; làm đủ số câu hoặc nộp bài mini test/thi thử thì nhiệm vụ tự được tích. Nếu thêm hoặc bớt câu hỏi khiến một tag không còn đủ câu, `validate-content` sẽ báo lỗi.
 
 ## Theo dõi kết quả học viên
 

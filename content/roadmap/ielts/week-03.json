@@ -37,7 +37,15 @@
           "track": "A",
           "title": "Làm 1 section Section 2: trắc nghiệm nhiều lựa chọn (10 câu), nghe lại câu sai có script",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "mcq-listening",
+              "listening"
+            ],
+            "count": 10
+          }
         },
         {
           "id": "ielts-w3d1t4",
@@ -45,7 +53,15 @@
           "track": "B",
           "title": "Làm 2 section Section 2: trắc nghiệm nhiều lựa chọn (20 câu), nghe lại câu sai có script",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "mcq-listening",
+              "listening"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "ielts-w3d1t5",
@@ -53,7 +69,15 @@
           "track": "C",
           "title": "Làm 3 section Section 2: trắc nghiệm nhiều lựa chọn (30 câu), không dừng audio",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "mcq-listening",
+              "listening"
+            ],
+            "count": 30
+          }
         },
         {
           "id": "ielts-w3d1t6",
@@ -69,7 +93,16 @@
           "track": "A",
           "title": "Làm 1 bài Sentence và Summary Completion (6–8 câu), không giới hạn thời gian",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "sentence-completion",
+              "summary-completion",
+              "reading"
+            ],
+            "count": 8
+          }
         },
         {
           "id": "ielts-w3d1t8",
@@ -77,7 +110,16 @@
           "track": "B",
           "title": "Làm 2 bài Sentence và Summary Completion (khoảng 13 câu)",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "sentence-completion",
+              "summary-completion",
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w3d1t9",
@@ -85,7 +127,16 @@
           "track": "C",
           "title": "Làm 1 passage có dạng Sentence và Summary Completion trong 20 phút",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "sentence-completion",
+              "summary-completion",
+              "reading"
+            ],
+            "count": 13
+          }
         }
       ]
     },
@@ -161,7 +212,14 @@
           "track": "A",
           "title": "Làm 1 passage mức dễ (13 câu), không giới hạn thời gian",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w3d3t3",
@@ -169,7 +227,14 @@
           "track": "B",
           "title": "Làm 1 passage trong 20 phút, chữa kỹ câu sai",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w3d3t4",
@@ -177,7 +242,14 @@
           "track": "C",
           "title": "Làm 2 passage, mỗi passage 20 phút",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 26
+          }
         },
         {
           "id": "ielts-w3d3t5",
@@ -201,7 +273,15 @@
           "track": "B",
           "title": "Làm 1 section Section 2: trắc nghiệm nhiều lựa chọn, chép chính tả các câu sai",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "mcq-listening",
+              "listening"
+            ],
+            "count": 10
+          }
         },
         {
           "id": "ielts-w3d3t8",
@@ -209,7 +289,15 @@
           "track": "C",
           "title": "Làm 2 section Section 2: trắc nghiệm nhiều lựa chọn, ghi lại lỗi chính tả",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "mcq-listening",
+              "listening"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "ielts-w3d3t9",
@@ -277,7 +365,27 @@
           "track": "A",
           "title": "Mini test: 1 section Listening + 1 bài Reading, bấm giờ",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 30,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "listening"
+                ],
+                "count": 10
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "reading"
+                ],
+                "count": 13
+              }
+            ]
+          }
         },
         {
           "id": "ielts-w3d5t2",
@@ -285,7 +393,27 @@
           "track": "B",
           "title": "Mini test: 2 section Listening + 1 passage Reading, bấm giờ",
           "minutes": 50,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 35,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "listening"
+                ],
+                "count": 20
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "reading"
+                ],
+                "count": 13
+              }
+            ]
+          }
         },
         {
           "id": "ielts-w3d5t3",
@@ -293,7 +421,27 @@
           "track": "C",
           "title": "Mini test: 2 section Listening + 2 passage Reading, bấm giờ",
           "minutes": 60,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 55,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "listening"
+                ],
+                "count": 20
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "reading"
+                ],
+                "count": 26
+              }
+            ]
+          }
         },
         {
           "id": "ielts-w3d5t4",

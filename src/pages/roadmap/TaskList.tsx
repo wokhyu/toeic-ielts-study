@@ -1,8 +1,12 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Confetti } from '../../components/effects.tsx';
-import { IconCheck, IconUsers } from '../../components/icons.tsx';
+import { IconArrowRight, IconCheck, IconUsers } from '../../components/icons.tsx';
+import { buttonClass } from '../../components/styles.ts';
 import { Badge, type BadgeColor } from '../../components/ui.tsx';
 import type { Task } from '../../content/schema.ts';
+import { canPractise } from '../../lib/roadmap.ts';
+import type { TaskLinks } from './useTaskLinks.ts';
 
 const SKILL: Record<Task['skill'], { label: string; color: BadgeColor }> = {
   listening: { label: 'Nghe', color: 'blue' },
@@ -18,10 +22,13 @@ export function TaskList({
   tasks,
   done,
   onToggle,
+  links,
 }: {
   tasks: Task[];
   done?: Map<string, string>;
   onToggle?: (taskId: string) => void;
+  /** Shows "Làm ngay" on tasks linked to the question bank. */
+  links?: TaskLinks;
 }) {
   const [fire, setFire] = useState(0);
   return (
@@ -74,11 +81,35 @@ export function TaskList({
                     </Badge>
                   )}
                 </div>
+                {links && !checked && canPractise(t, links.mockWeeks) && (
+                  <PractiseLink task={t} links={links} />
+                )}
               </div>
             </li>
           );
         })}
       </ul>
+    </div>
+  );
+}
+
+function PractiseLink({ task, links }: { task: Task; links: TaskLinks }) {
+  const link = task.practice!;
+  const answered = link.kind === 'practice' ? (links.answered.get(task.id) ?? 0) : 0;
+  const hint =
+    link.kind === 'practice'
+      ? answered > 0
+        ? `Đã làm ${Math.min(answered, link.count)}/${link.count} câu · tự tích khi đủ`
+        : `Tự tích khi làm đủ ${link.count} câu`
+      : link.kind === 'exam'
+        ? 'Tự tích khi nộp bài'
+        : 'Đề thi thử trên web · tự tích khi nộp bài';
+  return (
+    <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
+      <Link to={`${links.base}/nv/${task.id}`} className={buttonClass('soft', 'sm')}>
+        {answered > 0 ? 'Làm tiếp' : 'Làm ngay'} <IconArrowRight size={14} />
+      </Link>
+      <span className="text-xs text-ink-muted">{hint}</span>
     </div>
   );
 }

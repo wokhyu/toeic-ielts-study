@@ -37,7 +37,14 @@
           "track": "A",
           "title": "Làm 1 section Đề Listening đầy đủ: chữa theo sổ lỗi (10 câu), nghe lại câu sai có script",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "listening"
+            ],
+            "count": 10
+          }
         },
         {
           "id": "ielts-w11d1t4",
@@ -45,7 +52,14 @@
           "track": "B",
           "title": "Làm 2 section Đề Listening đầy đủ: chữa theo sổ lỗi (20 câu), nghe lại câu sai có script",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "listening"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "ielts-w11d1t5",
@@ -53,7 +67,14 @@
           "track": "C",
           "title": "Làm 3 section Đề Listening đầy đủ: chữa theo sổ lỗi (30 câu), không dừng audio",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "listening"
+            ],
+            "count": 30
+          }
         },
         {
           "id": "ielts-w11d1t6",
@@ -69,7 +90,14 @@
           "track": "A",
           "title": "Làm 1 bài Đề Reading đầy đủ: chữa theo dạng câu hỏi (6–8 câu), không giới hạn thời gian",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 8
+          }
         },
         {
           "id": "ielts-w11d1t8",
@@ -77,7 +105,14 @@
           "track": "B",
           "title": "Làm 2 bài Đề Reading đầy đủ: chữa theo dạng câu hỏi (khoảng 13 câu)",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w11d1t9",
@@ -85,7 +120,14 @@
           "track": "C",
           "title": "Làm 1 passage có dạng Đề Reading đầy đủ: chữa theo dạng câu hỏi trong 20 phút",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         }
       ]
     },
@@ -161,7 +203,14 @@
           "track": "A",
           "title": "Làm 1 passage mức dễ (13 câu), không giới hạn thời gian",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w11d3t3",
@@ -169,7 +218,14 @@
           "track": "B",
           "title": "Làm 1 passage trong 20 phút, chữa kỹ câu sai",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 13
+          }
         },
         {
           "id": "ielts-w11d3t4",
@@ -177,7 +233,14 @@
           "track": "C",
           "title": "Làm 2 passage, mỗi passage 20 phút",
           "minutes": 45,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "reading"
+            ],
+            "count": 26
+          }
         },
         {
           "id": "ielts-w11d3t5",
@@ -201,7 +264,14 @@
           "track": "B",
           "title": "Làm 1 section Đề Listening đầy đủ: chữa theo sổ lỗi, chép chính tả các câu sai",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "listening"
+            ],
+            "count": 10
+          }
         },
         {
           "id": "ielts-w11d3t8",
@@ -209,7 +279,14 @@
           "track": "C",
           "title": "Làm 2 section Đề Listening đầy đủ: chữa theo sổ lỗi, ghi lại lỗi chính tả",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "practice",
+            "tags": [
+              "listening"
+            ],
+            "count": 20
+          }
         },
         {
           "id": "ielts-w11d3t9",
@@ -277,7 +354,27 @@
           "track": "all",
           "title": "Làm 1 đề Listening đầy đủ (40 câu, 30 phút) và 1 passage Reading (20 phút)",
           "minutes": 55,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "exam",
+            "minutes": 50,
+            "parts": [
+              {
+                "label": "Listening",
+                "tags": [
+                  "listening"
+                ],
+                "count": 40
+              },
+              {
+                "label": "Reading",
+                "tags": [
+                  "reading"
+                ],
+                "count": 13
+              }
+            ]
+          }
         },
         {
           "id": "ielts-w11d5t2",

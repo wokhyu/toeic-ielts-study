@@ -97,6 +97,7 @@ export function loadRoadmapTasks(course: BankCourse, root = process.cwd()) {
         minutes: t.minutes,
         title: t.title,
         group_activity: t.group_activity,
+        practice: t.practice ?? null,
       })),
     );
   });

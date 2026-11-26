@@ -8,7 +8,17 @@ import {
   trackFromCorrect,
   trackFromRealScore,
 } from './placement.ts';
-import { allTasks, minutesOf, positionOn, tasksFor, weekCompletion } from './roadmap.ts';
+import {
+  allTasks,
+  canPractise,
+  findTask,
+  minutesOf,
+  mockTaskFor,
+  positionOn,
+  taskWeek,
+  tasksFor,
+  weekCompletion,
+} from './roadmap.ts';
 import { ieltsOverall, toTen } from './scores.ts';
 import { newCard, review } from './srs.ts';
 import { currentStreak, percent } from './streak.ts';
@@ -73,6 +83,37 @@ describe('roadmap', () => {
     const done = new Set([a[0].id]);
     expect(weekCompletion(week, 'A', done).done).toBe(1);
     expect(allTasks(roadmaps.ielts, 'C').length).toBeGreaterThan(200);
+  });
+
+  it('links practice tasks to the question bank ("Làm ngay")', () => {
+    expect(taskWeek('toeic-w12d6t1')).toBe(12);
+    const found = findTask(roadmaps.toeic, 'toeic-w2d1t3');
+    expect(found).toMatchObject({ week: 2, day: 1 });
+    expect(found?.task.practice).toEqual({ kind: 'practice', tags: ['tense', 'part5'], count: 20 });
+
+    // Days built around bank practice have a linked task on every track (IELTS day 4
+    // is writing and speaking; TOEIC week 1 day 2 is Part 1, which the bank does not have).
+    const linkedDays = { toeic: [1, 3, 4, 5], ielts: [1, 3, 5] };
+    for (const program of ['toeic', 'ielts'] as const) {
+      for (const w of roadmaps[program]) {
+        for (const track of ['A', 'B', 'C'] as const) {
+          for (const day of linkedDays[program]) {
+            expect(tasksFor(w, day, track).some((t) => t.practice)).toBe(true);
+          }
+        }
+      }
+    }
+
+    const mini = tasksFor(roadmaps.ielts[0], 5, 'B').find((t) => t.practice?.kind === 'exam');
+    expect(mini?.practice).toMatchObject({ kind: 'exam', minutes: 35 });
+
+    // A mock link needs a mock test for that week.
+    const mock = mockTaskFor(roadmaps.toeic, 4)!;
+    expect(mock.id).toBe('toeic-w4d6t1');
+    expect(canPractise(mock, new Set([4]))).toBe(true);
+    expect(canPractise(mockTaskFor(roadmaps.toeic, 8)!, new Set([4]))).toBe(false);
+    expect(mockTaskFor(roadmaps.toeic, 3)).toBeUndefined();
+    expect(canPractise(findTask(roadmaps.toeic, 'toeic-w1d1t2')!.task, new Set())).toBe(false);
   });
 });
 

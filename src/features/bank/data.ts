@@ -13,11 +13,21 @@ export type {
 } from '../../lib/bank.ts';
 export { hasAnswer, idsFrom, toTree } from '../../lib/bank.ts';
 
+/** Progress on the roadmap task a practice answer counted towards. */
+export interface TaskProgressInfo {
+  id: string;
+  answered: number;
+  count: number;
+  done: boolean;
+}
+
 export interface Reveal {
   answer_key: AnswerKey;
   solution_html: string;
   is_correct?: boolean | null;
   score?: number | null;
+  /** Set when the answer was given for a roadmap task ("Làm ngay"). */
+  task?: TaskProgressInfo | null;
 }
 
 export interface MockTest {

@@ -2,6 +2,11 @@ import { useCallback } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Mascot } from '../../components/art/Mascot.tsx';
 import { Confetti } from '../../components/effects.tsx';
+import { IconCheck } from '../../components/icons.tsx';
+import { roadmaps } from '../../content/index.ts';
+import type { Task } from '../../content/schema.ts';
+import { findTask, mockTaskFor } from '../../lib/roadmap.ts';
+import type { CourseId } from '../../lib/types.ts';
 import { buttonClass } from '../../components/styles.ts';
 import { Card, ProgressRing, Spinner, ErrorBox } from '../../components/ui.tsx';
 import { groupByStimulus } from '../../lib/bank.ts';
@@ -22,6 +27,20 @@ interface ReviewRow {
   solution_html: string;
 }
 
+/** The roadmap task a submitted attempt ticked: its own task, or the mock task of the mock's week. */
+async function tickedTask(course: CourseId, attempt: AttemptSummary): Promise<Task | undefined> {
+  if (course === 'on-tap-11' || !attempt.submitted_at) return undefined;
+  if (attempt.task_id) return findTask(roadmaps[course], attempt.task_id)?.task;
+  if (!attempt.mock_test_id) return undefined;
+  const { data } = await db()
+    .from('ot_mock_tests')
+    .select('week')
+    .eq('id', attempt.mock_test_id)
+    .maybeSingle();
+  const week = (data?.week as number | null | undefined) ?? null;
+  return week ? mockTaskFor(roadmaps[course], week) : undefined;
+}
+
 export function ResultPage() {
   const attemptId = Number(useParams().attemptId);
   const { course, base } = useBank();
@@ -29,14 +48,14 @@ export function ResultPage() {
     const attempt = unwrap(
       await db()
         .from('ot_attempts')
-        .select('id, mode, submitted_at, score, max_score, config')
+        .select('id, mode, submitted_at, score, max_score, config, task_id, mock_test_id')
         .eq('id', attemptId)
         .single(),
     ) as AttemptSummary;
     const rows = unwrap(await db().rpc('ot_attempt_review', { p_attempt: attemptId })) as ReviewRow[];
     const questions = await loadQuestions(rows.map((r) => r.question_id));
-    return { attempt, rows, questions };
-  }, [attemptId]);
+    return { attempt, rows, questions, task: await tickedTask(course, attempt) };
+  }, [attemptId, course]);
   const { data, loading, error } = useAsync(load);
 
   if (loading) return <Spinner />;
@@ -89,6 +108,17 @@ export function ResultPage() {
               Điểm thi thử.
             </p>
           </div>
+        )}
+        {data.task && (
+          <p className="mt-3 flex flex-wrap items-center gap-2 rounded-2xl bg-ok-soft p-3 text-sm text-ok-ink">
+            <IconCheck size={16} strokeWidth={3} />
+            <span className="mr-auto">
+              Đã tích nhiệm vụ: <b>{data.task.title}</b>
+            </span>
+            <Link to={`/c/${course}/hom-nay`} className="font-medium underline">
+              Về Hôm nay
+            </Link>
+          </p>
         )}
         <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-ink-soft">
           <span>

@@ -20,6 +20,7 @@ import { db, errorMessage } from '../../lib/supabase.ts';
 import { useRoadmap, useTaskProgress } from './context.ts';
 import { TaskList } from './TaskList.tsx';
 import { TodaySuggestions } from './TodaySuggestions.tsx';
+import { useTaskLinks } from './useTaskLinks.ts';
 
 const DAY_NAMES = ['Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7', 'Chủ nhật'];
 
@@ -27,6 +28,7 @@ export function TodayPage() {
   const { program, track, startDate: savedStart, preview } = useRoadmap();
   const { refresh } = useAuth();
   const { done, toggle, error, loading } = useTaskProgress(program, !preview);
+  const links = useTaskLinks(program, !preview);
   const today = todayVN();
   const startDate = savedStart ?? (preview ? nextMonday(today) : null);
   const pos = startDate ? positionOn(startDate, today) : null;
@@ -150,7 +152,12 @@ export function TodayPage() {
             <p className="text-sm text-ink-soft">Chủ nhật nghỉ. Nghỉ ngơi cũng là một phần của lộ trình.</p>
           </div>
         ) : (
-          <TaskList tasks={tasks} done={done} onToggle={preview ? undefined : (id) => void toggle(id)} />
+          <TaskList
+            tasks={tasks}
+            done={done}
+            onToggle={preview ? undefined : (id) => void toggle(id)}
+            links={links}
+          />
         )}
         {day === 6 && (
           <p className="mt-3 text-xs text-ink-muted">Thứ 7 là buổi học nhóm, có thể bỏ qua nếu bận.</p>

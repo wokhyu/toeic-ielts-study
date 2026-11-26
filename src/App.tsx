@@ -71,6 +71,9 @@ const TodayPage = lazy(() => import('./pages/roadmap/TodayPage.tsx').then((m) =>
 const ProgressTab = lazy(() =>
   import('./pages/roadmap/ProgressTab.tsx').then((m) => ({ default: m.ProgressTab })),
 );
+const TaskPracticePage = lazy(() =>
+  import('./features/bank/TaskPracticePage.tsx').then((m) => ({ default: m.TaskPracticePage })),
+);
 const BankProgressPage = lazy(() =>
   import('./features/bank/BankProgressPage.tsx').then((m) => ({ default: m.BankProgressPage })),
 );
@@ -82,6 +85,7 @@ function bankRoutes() {
       <Route index element={<BankHomePage />} />
       <Route path="chu-de/:topicId" element={<PracticePage />} />
       <Route path="the/:tag" element={<PracticePage />} />
+      <Route path="nv/:taskId" element={<TaskPracticePage />} />
       <Route path="thi-thu" element={<ExamSetupPage />} />
       <Route path="thi-thu/:attemptId" element={<ExamPage />} />
       <Route path="ket-qua/:attemptId" element={<ResultPage />} />

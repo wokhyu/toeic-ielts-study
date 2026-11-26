@@ -114,6 +114,8 @@ export function PracticeCard({
   onNext,
   mode = 'practice',
   extra,
+  task,
+  onResult,
 }: {
   q: OtQuestion;
   index: number;
@@ -122,6 +124,10 @@ export function PracticeCard({
   mode?: 'practice' | 'review';
   /** Extra buttons next to the usual ones. */
   extra?: ReactNode;
+  /** Roadmap task this answer counts towards ("Làm ngay"). */
+  task?: string;
+  /** Called with the graded result. */
+  onResult?(result: Reveal): void;
 }) {
   const { session } = useAuth();
   const { course } = useBank();
@@ -152,16 +158,17 @@ export function PracticeCard({
     setBusy(true);
     setError(null);
     try {
-      setReveal(
-        unwrap(
-          await db().rpc('ot_answer_practice', {
-            p_question: q.id,
-            p_response: response,
-            p_time_ms: shownAt.current ? Date.now() - shownAt.current : null,
-            p_mode: mode,
-          }),
-        ) as Reveal,
-      );
+      const result = unwrap(
+        await db().rpc('ot_answer_practice', {
+          p_question: q.id,
+          p_response: response,
+          p_time_ms: shownAt.current ? Date.now() - shownAt.current : null,
+          p_mode: mode,
+          ...(task ? { p_task: task } : {}),
+        }),
+      ) as Reveal;
+      setReveal(result);
+      onResult?.(result);
     } catch (e) {
       setError(errorMessage(e));
     } finally {
