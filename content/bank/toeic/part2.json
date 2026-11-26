@@ -1,0 +1,2224 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p2-001",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Where should I put these boxes of printer paper?\nMan: (A) In the supply closet next to the elevator.\nMan: (B) Yes, I printed them this morning.\nMan: (C) About twenty boxes."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-001-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi <b>Where</b> cần một nơi chốn, nên (A) <i>In the supply closet</i> là đáp án. (B) trả lời Yes cho câu hỏi Wh- (luôn sai) và dùng bẫy <i>printed</i> nghe giống <i>printer</i>. (C) trả lời số lượng (How many).",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-002",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Didn't you send the invoice to the client yesterday?\nWoman: (A) No, the meeting is on Tuesday.\nWoman: (B) I'm still waiting for the manager to approve it.\nWoman: (C) A new client from Seoul."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-002-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đây là câu hỏi phủ định (<i>Didn't you…?</i>). (B) trả lời gián tiếp: chưa gửi vì còn chờ quản lý duyệt, kiểu trả lời rất hay gặp trong Part 2. (A) có <i>No</i> nhưng nói về cuộc họp, lạc đề. (C) lặp lại từ <i>client</i> để gây nhiễu.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-003",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Would you like me to book a taxi for your trip to the airport?\nMan: (A) Thanks, but a colleague is driving me.\nMan: (B) The flight was delayed for an hour.\nMan: (C) I booked it last summer."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-003-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Would you like me to…?</i> là lời đề nghị giúp. (A) từ chối lịch sự và nêu lý do. (B) liên quan tới sân bay nhưng không đáp lời đề nghị. (C) lặp lại <i>book</i> nhưng sai thì và sai ý.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-004",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: When will the renovation of the lobby be finished?\nWoman: (A) In the main lobby.\nWoman: (B) By the end of next month.\nWoman: (C) It was a beautiful design."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-004-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu hỏi <b>When</b> cần thời gian, nên chọn (B) <i>By the end of next month</i>. (A) trả lời nơi chốn (Where) và lặp từ <i>lobby</i>. (C) nhận xét về thiết kế, không trả lời câu hỏi.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-005",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-005-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu hỏi <b>Who</b> cần một người: (C) Maria. (A) trả lời Yes cho câu hỏi Wh- và lặp <i>ordered</i>; (B) trả lời nơi chốn và lặp <i>supply</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Who's in charge of ordering office supplies?\nMan: (A) Yes, I ordered them yesterday.\nMan: (B) They're in the supply cabinet.\nMan: (C) Maria in the admin office."
+      }
+    },
+    {
+      "id": "toeic-p2-006",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-006-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi <b>Why</b> cần lý do: (A) có sự cố tín hiệu. (B) trả lời Where; (C) dùng <i>train</i> theo nghĩa khác (đào tạo) để gây nhiễu.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Why was the train delayed this morning?\nWoman: (A) There was a signal problem near the station.\nWoman: (B) At platform four.\nWoman: (C) I'll train the new staff."
+      }
+    },
+    {
+      "id": "toeic-p2-007",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-007-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>How long</b> hỏi khoảng thời gian: (B) khoảng một tiếng. (A) trả lời nơi chốn; (C) lặp âm <i>last</i> với nghĩa khác (cuối cùng).",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: How long will the meeting last?\nMan: (A) In conference room B.\nMan: (B) About an hour, I think.\nMan: (C) It was the last one."
+      }
+    },
+    {
+      "id": "toeic-p2-008",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-008-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>When</b> hỏi thời gian: (C). (A) lặp từ <i>proposal</i> nhưng không trả lời câu hỏi; (B) lạc đề.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: When is the deadline for the budget proposal?\nWoman: (A) The proposal was accepted.\nWoman: (B) I've been there before.\nWoman: (C) Next Wednesday at noon."
+      }
+    },
+    {
+      "id": "toeic-p2-009",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-009-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>Where</b> hỏi nơi chốn: (A) ngăn kéo trên cùng. (B) dùng <i>projects</i> nghe giống <i>projector</i>; (C) trả lời Yes và dùng <i>manually</i> nghe giống <i>manual</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Where can I find the user manual for this projector?\nMan: (A) Check the top drawer of the desk.\nMan: (B) It projects a very clear image.\nMan: (C) Yes, it's done manually."
+      }
+    },
+    {
+      "id": "toeic-p2-010",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-010-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>How did … go?</i> hỏi kết quả, diễn biến của sự việc: (B). (A) là bẫy, vì hiểu <i>go</i> theo nghĩa di chuyển; (C) trả lời When.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: How did the client presentation go?\nWoman: (A) By taxi.\nWoman: (B) It went really well, thanks.\nWoman: (C) At two o'clock."
+      }
+    },
+    {
+      "id": "toeic-p2-011",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-011-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>What time</b> hỏi giờ: (C). (A) dùng <i>close</i> theo nghĩa “gần”; (B) liên quan tới nhà thuốc nhưng không trả lời giờ.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: What time does the pharmacy close today?\nMan: (A) It's close to the bank.\nMan: (B) A new prescription.\nMan: (C) At seven, the same as usual."
+      }
+    },
+    {
+      "id": "toeic-p2-012",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-012-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>Who</b> hỏi người: (A) Mr. Ortiz. <i>cover for sb</i> = làm thay ai. (B) và (C) nói về kỳ nghỉ (đi đâu, khi nào) chứ không trả lời ai làm thay.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Who will replace Ms. Lee while she's on vacation?\nWoman: (A) Mr. Ortiz has agreed to cover for her.\nWoman: (B) To a beach in Thailand.\nWoman: (C) Two weeks from Friday."
+      }
+    },
+    {
+      "id": "toeic-p2-013",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-013-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>Which</b> hỏi lựa chọn cụ thể: (B) <i>the one next to the window</i>. (A) trả lời số lượng; (C) trả lời Yes.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Which printer should I use for color copies?\nMan: (A) About fifty copies.\nMan: (B) The one next to the window.\nMan: (C) Yes, it's very colorful."
+      }
+    },
+    {
+      "id": "toeic-p2-014",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-014-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>How often</b> hỏi tần suất: (C). (A) trả lời How long; đây là bẫy phổ biến giữa How often và How long.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: How often do you visit the Chicago office?\nWoman: (A) For three days.\nWoman: (B) It's a large office.\nWoman: (C) Once a month or so."
+      }
+    },
+    {
+      "id": "toeic-p2-015",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-015-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>Where</b>: (A) phòng đào tạo tầng 4. (B) trả lời thời gian; (C) trả lời Yes và lặp từ <i>new</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Where are the new employees having their orientation?\nMan: (A) In the training room on the fourth floor.\nMan: (B) Since last Monday.\nMan: (C) Yes, they're all new."
+      }
+    },
+    {
+      "id": "toeic-p2-016",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-016-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>When</b> (quá khứ): (B) gần ba năm trước. (A) trả lời Where; (C) lặp âm <i>work</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: When did you start working here?\nWoman: (A) At the reception desk.\nWoman: (B) Almost three years ago.\nWoman: (C) It works well."
+      }
+    },
+    {
+      "id": "toeic-p2-017",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-017-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>Why</b>: (C) có hội chợ việc làm nên đông xe. (A) lặp <i>park</i>; (B) trả lời No cho câu hỏi Wh- và lặp <i>full</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Why is the parking lot so full today?\nMan: (A) I parked near the entrance.\nMan: (B) No, it's not a full-time job.\nMan: (C) There's a job fair in the building."
+      }
+    },
+    {
+      "id": "toeic-p2-018",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-018-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "(A) là kiểu trả lời gián tiếp “để tôi kiểm tra”, rất hay là đáp án đúng ở Part 2. (B) nói về cân nặng; (C) trả lời When.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: How much does it cost to ship this package overnight?\nWoman: (A) Let me check the rate chart.\nWoman: (B) It's quite heavy.\nWoman: (C) By tomorrow morning."
+      }
+    },
+    {
+      "id": "toeic-p2-019",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-019-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>Who … to?</b> có thể trả lời bằng một bộ phận: (B). (A) lặp <i>send/sent</i>; (C) trả lời How much.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Who should I send the invoice to?\nMan: (A) I sent it yesterday.\nMan: (B) The accounting department.\nMan: (C) Two hundred dollars."
+      }
+    },
+    {
+      "id": "toeic-p2-020",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-020-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>Where</b>: (C) trên bàn của bạn. (A) lặp <i>sign</i>; (B) lặp <i>contract</i>, cả hai đều không trả lời câu hỏi.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Where did you put the signed contracts?\nWoman: (A) Sign here, please.\nWoman: (B) A three-year contract.\nWoman: (C) They're on your desk."
+      }
+    },
+    {
+      "id": "toeic-p2-021",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-021-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>What did you think of…?</i> hỏi ý kiến: (A) nó bắt mắt. (B) lặp <i>design/designer</i>; (C) dùng <i>Sign</i> nghe giống <i>design</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: What did you think of the new logo design?\nMan: (A) I think it's eye-catching.\nMan: (B) The designer is from Paris.\nMan: (C) Sign it at the bottom."
+      }
+    },
+    {
+      "id": "toeic-p2-022",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-022-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>When</b>: (B) tối nay. (A) trả lời Where; (C) dùng <i>soft</i> nghe giống <i>software</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: When will the new software be installed?\nWoman: (A) On all the computers.\nWoman: (B) The IT team is doing it tonight.\nWoman: (C) It's a soft material."
+      }
+    },
+    {
+      "id": "toeic-p2-023",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-023-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>Why</b>: (C) địa điểm không trống vào tháng 5. (A) lặp <i>moved</i>; (B) trả lời Where.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Why has the conference been moved to June?\nMan: (A) It moved very fast.\nMan: (B) In the city center.\nMan: (C) The venue wasn't available in May."
+      }
+    },
+    {
+      "id": "toeic-p2-024",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-024-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>How many</b> hỏi số lượng: (A). (B) lặp <i>sign</i>; (C) trả lời When.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: How many people signed up for the workshop?\nWoman: (A) More than forty so far.\nWoman: (B) The sign is too small.\nWoman: (C) On Saturday morning."
+      }
+    },
+    {
+      "id": "toeic-p2-025",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-025-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>Whose</b> hỏi chủ sở hữu: (B) của Daniel. (A) liên tưởng ô với mưa; (C) lặp <i>door</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Whose umbrella is this by the door?\nMan: (A) It's raining heavily.\nMan: (B) I think it's Daniel's.\nMan: (C) Close the door, please."
+      }
+    },
+    {
+      "id": "toeic-p2-026",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-026-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>Which hotel</b>: (C) khách sạn gần ga. (A) trả lời How long; (B) lặp <i>stay</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Which hotel are you staying at in Tokyo?\nWoman: (A) For four nights.\nWoman: (B) I stayed late at work.\nWoman: (C) The one near the station."
+      }
+    },
+    {
+      "id": "toeic-p2-027",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-027-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>Where</b>: (A) ngay góc phố. (B) trả lời How often; (C) lặp <i>stop</i>.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Where is the closest bus stop?\nMan: (A) Just around the corner.\nMan: (B) Every fifteen minutes.\nMan: (C) It stopped working."
+      }
+    },
+    {
+      "id": "toeic-p2-028",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "questions": [
+        {
+          "id": "toeic-p2-028-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>What's the topic</b> hỏi chủ đề: (B). (A) trả lời When; (C) trả lời Where.",
+          "tags": [
+            "part2",
+            "p2-wh"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: What's the topic of tomorrow's seminar?\nWoman: (A) It starts at ten.\nWoman: (B) Digital marketing strategies.\nWoman: (C) In the main hall."
+      }
+    },
+    {
+      "id": "toeic-p2-029",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-029-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "(C) trả lời gián tiếp: gần xong, chỉ còn thêm biểu đồ. (A) có Yes nhưng nói chuyện doanh số năm ngoái; (B) lặp <i>report</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Have you finished the sales report yet?\nMan: (A) Yes, sales were good last year.\nMan: (B) A monthly report.\nMan: (C) Almost. I just need to add the charts."
+      }
+    },
+    {
+      "id": "toeic-p2-030",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-030-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "(A) “chỉ thứ Bảy” là câu trả lời đúng, không cần Yes/No. (B) liên tưởng tới căng tin; (C) lặp <i>open</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Is the cafeteria open on weekends?\nWoman: (A) Only on Saturdays.\nWoman: (B) The food is delicious.\nWoman: (C) Please open the window."
+      }
+    },
+    {
+      "id": "toeic-p2-031",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-031-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu hỏi đuôi xác nhận việc đi dự tiệc. (B) <i>I wouldn't miss it</i> = chắc chắn sẽ đến. (A) sai thì (was); (C) dùng <i>far</i> nghe giống <i>farewell</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: You're coming to the farewell party tonight, aren't you?\nMan: (A) It was a great party.\nMan: (B) I wouldn't miss it.\nMan: (C) It's far from the office."
+      }
+    },
+    {
+      "id": "toeic-p2-032",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-032-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu hỏi phủ định. (C): ông ấy vẫn đang xem, tức là chưa duyệt. (B) có Yes nhưng nói về bản thân người trả lời.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Didn't Mr. Kim already approve the travel request?\nWoman: (A) A business trip to Seoul.\nWoman: (B) Yes, I travel often.\nWoman: (C) He's still reviewing it."
+      }
+    },
+    {
+      "id": "toeic-p2-033",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-033-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "(A) trả lời No và chỉ tuyến xe đúng. (B) liên tưởng sân bay với chuyến bay; (C) dùng <i>went</i> (quá khứ của <i>go</i>) theo nghĩa khác.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Does this bus go to the airport?\nMan: (A) No, you need the number 12.\nMan: (B) It's a long flight.\nMan: (C) It went very well."
+      }
+    },
+    {
+      "id": "toeic-p2-034",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-034-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "(B) có một hiệu thuốc bên kia đường. (A) liên tưởng hiệu thuốc với đơn thuốc; (C) lặp âm <i>here</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Is there a pharmacy near here?\nWoman: (A) A doctor's prescription.\nWoman: (B) There's one across the street.\nWoman: (C) Here's your change."
+      }
+    },
+    {
+      "id": "toeic-p2-035",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-035-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "(C) giải thích tờ rơi sẽ đến trễ. (B) lặp <i>arrive</i> nhưng chủ ngữ là <i>I</i>; (A) lạc đề.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Weren't the brochures supposed to arrive today?\nMan: (A) A colorful design.\nMan: (B) I'll arrive at eight.\nMan: (C) The courier called to say they'll be late."
+      }
+    },
+    {
+      "id": "toeic-p2-036",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-036-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi đuôi xác nhận lịch họp. (A) Yes, kèm giờ. (B) lặp <i>moved</i> với nghĩa khác; (C) lặp <i>client</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: The client meeting has been moved to Thursday, hasn't it?\nWoman: (A) Yes, to three in the afternoon.\nWoman: (B) I moved to a new apartment.\nWoman: (C) A very important client."
+      }
+    },
+    {
+      "id": "toeic-p2-037",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-037-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "(B) suy ra thang máy đã được sửa. (A) và (C) lặp âm <i>work / worker</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Do you know if the elevator is working again?\nMan: (A) I work on the fifth floor.\nMan: (B) The repair person just left, so it should be.\nMan: (C) He's a hard worker."
+      }
+    },
+    {
+      "id": "toeic-p2-038",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-038-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "(C) nhớ ra đã gặp ở hội chợ. (B) mâu thuẫn: nói Yes nhưng lại bảo là lần đầu; (A) lặp âm <i>met/meeting</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Haven't we met somewhere before?\nWoman: (A) The meeting is at noon.\nWoman: (B) Yes, it's my first time here.\nWoman: (C) I think it was at the trade show in Berlin."
+      }
+    },
+    {
+      "id": "toeic-p2-039",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-039-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Is this seat taken?</i> = ghế này có ai ngồi chưa. (A) chưa, cứ ngồi. (B) và (C) lặp động từ <i>take</i> với nghĩa khác.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Is this seat taken?\nMan: (A) No, please go ahead.\nMan: (B) It took two hours.\nMan: (C) I'll take the train."
+      }
+    },
+    {
+      "id": "toeic-p2-040",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-040-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "(B) giải thích đã hoãn kỳ nghỉ. (A) liên tưởng kỳ nghỉ với khu nghỉ dưỡng; (C) dùng <i>weekly</i> nghe giống <i>week</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Aren't you supposed to be on vacation this week?\nWoman: (A) A beach resort in Bali.\nWoman: (B) I postponed it until next month.\nWoman: (C) The weekly schedule."
+      }
+    },
+    {
+      "id": "toeic-p2-041",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-041-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "(C) đã sao lưu tối qua. (A) lặp <i>back</i>; (B) lặp <i>file</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Did you remember to back up the files?\nMan: (A) Go back to your seat.\nMan: (B) A file cabinet.\nMan: (C) I did it before I left last night."
+      }
+    },
+    {
+      "id": "toeic-p2-042",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-042-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "(A) chỉ mở buổi sáng. (B) sai thì và lặp <i>holiday</i>; (C) lặp <i>open</i> nhưng không trả lời về ngày lễ.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Will the store be open on the holiday?\nWoman: (A) Only in the morning.\nWoman: (B) It was a holiday sale.\nWoman: (C) The doors are open."
+      }
+    },
+    {
+      "id": "toeic-p2-043",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-043-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "(B) có, nhưng chỉ một chút. (A) dùng <i>soft</i> nghe giống <i>software</i>; (C) lặp <i>before</i>.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: You've worked with this software before, haven't you?\nMan: (A) It's a soft cushion.\nMan: (B) Only a little, at my last job.\nMan: (C) Before five o'clock."
+      }
+    },
+    {
+      "id": "toeic-p2-044",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "questions": [
+        {
+          "id": "toeic-p2-044-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "(C) đồng ý và nêu lý do (đông khách). (A) lặp <i>hire</i>; (B) liên tưởng tiệc với bữa tối.",
+          "tags": [
+            "part2",
+            "p2-yesno"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Should we hire a caterer for the event?\nWoman: (A) He was hired last week.\nWoman: (B) A five-course dinner.\nWoman: (C) Yes, there'll be over a hundred guests."
+      }
+    },
+    {
+      "id": "toeic-p2-045",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-045-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Lời nhờ giúp, đáp lại bằng đồng ý: (A). (B) nói về ghế; (C) lặp <i>move</i> với nghĩa chuyển nhà.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Could you help me move these chairs to the conference room?\nMan: (A) Sure, just give me a minute.\nMan: (B) They're very comfortable.\nMan: (C) He moved last year."
+      }
+    },
+    {
+      "id": "toeic-p2-046",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-046-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Why don't we…?</i> là <b>lời gợi ý</b>, không phải câu hỏi lý do. (B) đồng ý. (A) là bẫy trả lời Because; <i>broke</i> nghe giống <i>break</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Why don't we take a short break?\nWoman: (A) Because it broke.\nWoman: (B) Good idea. I need some coffee.\nWoman: (C) It's a short story."
+      }
+    },
+    {
+      "id": "toeic-p2-047",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-047-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu hỏi lựa chọn (A or B) không trả lời Yes/No: (C) chọn buổi chiều. (B) lặp <i>meet</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Would you prefer to meet in the morning or the afternoon?\nMan: (A) Yes, I'd like that.\nMan: (B) Nice to meet you.\nMan: (C) The afternoon works better for me."
+      }
+    },
+    {
+      "id": "toeic-p2-048",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-048-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Lời đề nghị, đáp lại bằng từ chối lịch sự kèm lý do: (A). (B) lặp âm <i>shift</i>; (C) lặp <i>Friday</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Can you work an extra shift on Friday?\nWoman: (A) Sorry, I have plans that evening.\nWoman: (B) It shifted to the left.\nWoman: (C) Every Friday morning."
+      }
+    },
+    {
+      "id": "toeic-p2-049",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-049-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Let's…</i> là lời gợi ý: (B) đồng ý. (A) dùng <i>order</i> theo nghĩa thứ tự; (C) lặp <i>team</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Let's order some pizza for the team.\nMan: (A) In alphabetical order.\nMan: (B) That sounds great.\nMan: (C) A team of ten people."
+      }
+    },
+    {
+      "id": "toeic-p2-050",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-050-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Would you mind…?</i> = bạn có phiền không. Trả lời <b>Not at all</b> nghĩa là không phiền, tức là đồng ý làm: (C). (A) dùng <i>close</i> nghĩa “gần”; (B) lặp <i>mind</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Would you mind closing the window?\nWoman: (A) It's close to here.\nWoman: (B) Mind your step.\nWoman: (C) Not at all. It is a bit cold."
+      }
+    },
+    {
+      "id": "toeic-p2-051",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-051-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi lựa chọn: (A) chọn email. (C) trả lời Yes cho câu hỏi lựa chọn là sai.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Should I print the agenda or email it?\nMan: (A) Email is fine.\nMan: (B) The printer is new.\nMan: (C) Yes, it's on the agenda."
+      }
+    },
+    {
+      "id": "toeic-p2-052",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-052-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>How about + V-ing?</i> là lời gợi ý: (B) đồng tình và nêu lợi ích. (A) lặp <i>hold</i>; (C) lặp <i>session</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: How about holding the training session online?\nWoman: (A) Hold the door, please.\nWoman: (B) That would save travel costs.\nWoman: (C) It was a long session."
+      }
+    },
+    {
+      "id": "toeic-p2-053",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-053-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Lời nhờ, đáp lại bằng đồng ý làm: (C). (A) lặp <i>copy</i>; (B) lặp <i>send/sent</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Could you send me a copy of the contract?\nMan: (A) A copy machine.\nMan: (B) It was sent from my phone.\nMan: (C) I'll email it right away."
+      }
+    },
+    {
+      "id": "toeic-p2-054",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-054-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi lựa chọn: (A). (C) trả lời Yes là sai với câu hỏi “A hay B”.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Do you want to sit by the window or near the door?\nWoman: (A) The window, please.\nWoman: (B) The door is locked.\nWoman: (C) Yes, I'd like to."
+      }
+    },
+    {
+      "id": "toeic-p2-055",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-055-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Lời gợi ý. (B) giải thích vì sao không làm theo được: cô ấy hôm nay vắng. (A) lặp <i>spreadsheet</i>; (C) lặp <i>help</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Why don't you ask Ms. Patel for help with the spreadsheet?\nMan: (A) A spreadsheet program.\nMan: (B) She's out of the office today.\nMan: (C) I'll help myself."
+      }
+    },
+    {
+      "id": "toeic-p2-056",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-056-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Lời mời hoặc đề nghị: (C) từ chối lịch sự. (A) dùng <i>received</i> và (B) dùng <i>recipe</i>, đều là từ nghe giống <i>receipt</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Would you like a receipt?\nWoman: (A) I received it yesterday.\nWoman: (B) A recipe for soup.\nWoman: (C) No, thanks. I don't need one."
+      }
+    },
+    {
+      "id": "toeic-p2-057",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-057-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Xin mượn đồ, đáp lại đồng ý và chỉ chỗ: (A). (B) liên tưởng tới ghim; (C) lặp <i>borrow</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Can I borrow your stapler for a minute?\nMan: (A) Sure, it's in the top drawer.\nMan: (B) A box of staples.\nMan: (C) I borrowed it last week."
+      }
+    },
+    {
+      "id": "toeic-p2-058",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-058-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu hỏi lựa chọn: (B) chọn “bây giờ”. (A) lặp <i>budget</i>; (C) liên tưởng bữa trưa.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Shall we review the budget now or after lunch?\nWoman: (A) It's a big budget.\nWoman: (B) Let's do it now while we have time.\nWoman: (C) I had a sandwich."
+      }
+    },
+    {
+      "id": "toeic-p2-059",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-059-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu nhắc nhở hoặc yêu cầu: (C) hứa sẽ làm. (A) lặp <i>door</i>; (B) lặp <i>leave/left</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Please remember to lock the door when you leave.\nMan: (A) It's a new door.\nMan: (B) He left an hour ago.\nMan: (C) I will. Don't worry."
+      }
+    },
+    {
+      "id": "toeic-p2-060",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "questions": [
+        {
+          "id": "toeic-p2-060-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            {
+              "label": "A",
+              "html": ""
+            },
+            {
+              "label": "B",
+              "html": ""
+            },
+            {
+              "label": "C",
+              "html": ""
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi lựa chọn: (A) chọn tàu, kèm lý do. (B) và (C) lặp âm <i>train / drive</i>.",
+          "tags": [
+            "part2",
+            "p2-request"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Would you rather take the train or drive to the conference?\nWoman: (A) The train is faster.\nWoman: (B) I trained for a month.\nWoman: (C) He drives a truck."
+      }
+    }
+  ]
+}

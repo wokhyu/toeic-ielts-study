@@ -1,0 +1,49 @@
+name: bank-sync
+
+# Loads the TOEIC/IELTS practice questions in content/bank/** into Supabase.
+# Mock tests are not in the repo and are imported from a maintainer's machine.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'content/bank/**'
+      - 'scripts/import-bank.ts'
+      - 'scripts/bank-content.ts'
+      - 'src/content/bank-schema.ts'
+      - 'src/content/bank-check.ts'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bank-sync
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    env:
+      SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check secrets
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Set VITE_SUPABASE_URL (repo) and SUPABASE_SERVICE_ROLE_KEY (environment 'production'). See README."
+            exit 1
+          fi
+
+      - name: Import question banks
+        run: npm run import:bank

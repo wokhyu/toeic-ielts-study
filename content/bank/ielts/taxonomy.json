@@ -1,0 +1,79 @@
+{
+  "sections": [
+    {
+      "slug": "listening",
+      "name": "Listening",
+      "sort": 1,
+      "chapters": [
+        {
+          "slug": "section-1",
+          "name": "Section 1: hội thoại đời sống",
+          "sort": 1,
+          "topics": [{ "slug": "s1-form", "name": "Điền form, ghi chú", "sort": 1 }]
+        },
+        {
+          "slug": "section-2",
+          "name": "Section 2: độc thoại đời sống",
+          "sort": 2,
+          "topics": [{ "slug": "s2-talk", "name": "Trắc nghiệm, bản đồ", "sort": 1 }]
+        },
+        {
+          "slug": "section-3",
+          "name": "Section 3: thảo luận học thuật",
+          "sort": 3,
+          "topics": [{ "slug": "s3-discussion", "name": "Trắc nghiệm, matching", "sort": 1 }]
+        },
+        {
+          "slug": "section-4",
+          "name": "Section 4: bài giảng",
+          "sort": 4,
+          "topics": [{ "slug": "s4-lecture", "name": "Điền ghi chú bài giảng", "sort": 1 }]
+        }
+      ]
+    },
+    {
+      "slug": "reading",
+      "name": "Reading",
+      "sort": 2,
+      "chapters": [
+        {
+          "slug": "passage-1",
+          "name": "Passage 1 (dễ)",
+          "sort": 1,
+          "topics": [{ "slug": "p1-mixed", "name": "Bài đọc tổng hợp", "sort": 1 }]
+        },
+        {
+          "slug": "passage-2",
+          "name": "Passage 2 (trung bình)",
+          "sort": 2,
+          "topics": [{ "slug": "p2-mixed", "name": "Bài đọc tổng hợp", "sort": 1 }]
+        },
+        {
+          "slug": "passage-3",
+          "name": "Passage 3 (khó)",
+          "sort": 3,
+          "topics": [{ "slug": "p3-mixed", "name": "Bài đọc tổng hợp", "sort": 1 }]
+        }
+      ]
+    }
+  ],
+  "tags": {
+    "listening": "Listening",
+    "reading": "Reading",
+    "form-completion": "Listening: điền form và ghi chú",
+    "map": "Listening: bản đồ",
+    "mcq-listening": "Listening: trắc nghiệm",
+    "matching-listening": "Listening: matching",
+    "note-completion": "Listening: điền ghi chú bài giảng",
+    "spelling": "Listening: đánh vần tên riêng và số",
+    "tfng": "Reading: True/False/Not Given",
+    "ynng": "Reading: Yes/No/Not Given",
+    "headings": "Reading: Matching Headings",
+    "sentence-completion": "Reading: Sentence Completion",
+    "summary-completion": "Reading: Summary Completion",
+    "matching-info": "Reading: Matching Information",
+    "matching-features": "Reading: Matching Features",
+    "mcq-reading": "Reading: trắc nghiệm",
+    "diagram": "Reading: Diagram và Flow-chart"
+  }
+}

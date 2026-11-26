@@ -1,0 +1,1506 @@
+{
+  "sets": [
+    {
+      "id": "ielts-l1-001",
+      "section": "listening",
+      "chapter": "section-1",
+      "topic": "s1-form",
+      "stimulus": {
+        "kind": "audio",
+        "title": "Đăng ký lớp bơi. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ cho mỗi câu.",
+        "audio_script": "Receptionist: Good morning, Riverside Sports Centre. How can I help you?\nCaller: Hi. I'd like to join one of the swimming classes for adults.\nReceptionist: Certainly. Can I take your name, please?\nCaller: It's Laura Pemberton. That's P-E-M-B-E-R-T-O-N.\nReceptionist: Thank you. And your address?\nCaller: Forty-two Oakfield Road.\nReceptionist: Is that Oakfield, O-A-K-F-I-E-L-D?\nCaller: Yes, that's right.\nReceptionist: Now, which class would you like? We have a beginners' class on Tuesday evenings and an improvers' class on Thursday mornings.\nCaller: I can already swim a little, so I'll go for the improvers. I'm free in the mornings anyway.\nReceptionist: Lovely. The course lasts ten weeks and costs eighty-five pounds. Members get a discount, but as you're not a member yet, it's the full price, I'm afraid.\nCaller: That's fine. Do I need to bring anything?\nReceptionist: Just a swimming cap. We provide towels for all our classes.\nCaller: Perfect. Thank you very much."
+      },
+      "questions": [
+        {
+          "id": "ielts-l1-001-1",
+          "type": "short",
+          "stem_html": "Surname: ______",
+          "answer": [
+            "Pemberton"
+          ],
+          "explain_html": "Người gọi đánh vần <i>P-E-M-B-E-R-T-O-N</i>. Section 1 thường có câu đánh vần tên riêng; viết sai chính tả là mất điểm.",
+          "tags": [
+            "listening",
+            "form-completion",
+            "spelling"
+          ]
+        },
+        {
+          "id": "ielts-l1-001-2",
+          "type": "short",
+          "stem_html": "Address: 42 ______ Road",
+          "answer": [
+            "Oakfield"
+          ],
+          "explain_html": "Lễ tân đánh vần lại để xác nhận: <i>O-A-K-F-I-E-L-D</i>. Form đã có sẵn số 42 và chữ Road, nên chỉ cần viết <b>Oakfield</b>.",
+          "tags": [
+            "listening",
+            "form-completion",
+            "spelling"
+          ]
+        },
+        {
+          "id": "ielts-l1-001-3",
+          "type": "short",
+          "stem_html": "Class level: ______",
+          "answer": [
+            "improvers",
+            "improver",
+            "improvers'"
+          ],
+          "explain_html": "Có hai lớp: beginners (tối thứ Ba) và improvers (sáng thứ Năm). Người gọi chọn <i>I'll go for the improvers</i>. Bẫy: beginners được nhắc tới trước.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-001-4",
+          "type": "short",
+          "stem_html": "Day of class: ______",
+          "answer": [
+            "Thursday",
+            "Thursdays",
+            "Thursday morning",
+            "Thursday mornings"
+          ],
+          "explain_html": "Lớp improvers học <i>on Thursday mornings</i>. Tuesday là ngày của lớp beginners.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-001-5",
+          "type": "short",
+          "stem_html": "Cost of course: £______",
+          "answer": [
+            "85"
+          ],
+          "explain_html": "<i>costs eighty-five pounds</i>. Hội viên được giảm giá nhưng người gọi chưa là hội viên nên trả đủ <b>85</b>. Đề đã cho sẵn ký hiệu £ nên chỉ viết số.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-001-6",
+          "type": "short",
+          "stem_html": "Bring: a swimming ______",
+          "answer": [
+            "cap"
+          ],
+          "explain_html": "<i>Just a swimming cap. We provide towels</i>. Khăn đã được cung cấp nên không phải mang. Đề đã có sẵn chữ <i>swimming</i>, chỉ cần viết <b>cap</b>.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ielts-l1-002",
+      "section": "listening",
+      "chapter": "section-1",
+      "topic": "s1-form",
+      "questions": [
+        {
+          "id": "ielts-l1-002-1",
+          "type": "short",
+          "stem_html": "Dates: 9th to ______ August",
+          "answer": [
+            "16th",
+            "16",
+            "sixteenth"
+          ],
+          "explain_html": "<i>From the ninth to the sixteenth</i>. Viết <b>16</b> hay <b>16th</b> đều được.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-2",
+          "type": "short",
+          "stem_html": "Name of cottage: ______ Cottage",
+          "answer": [
+            "Willow"
+          ],
+          "explain_html": "<i>I'd suggest Willow Cottage</i>. Tên riêng phải viết đúng chính tả.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-3",
+          "type": "short",
+          "stem_html": "The garden overlooks the ______",
+          "answer": [
+            "lake"
+          ],
+          "explain_html": "<i>a garden that looks out over the lake</i>. <i>looks out over</i> = <i>overlooks</i> (paraphrase).",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-4",
+          "type": "short",
+          "stem_html": "Price for the week: £______",
+          "answer": [
+            "620"
+          ],
+          "explain_html": "<i>six hundred and twenty pounds</i>. Đề đã cho sẵn £ nên chỉ viết số.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-5",
+          "type": "short",
+          "stem_html": "Cleaning charge: £______",
+          "answer": [
+            "40"
+          ],
+          "explain_html": "<i>there's a cleaning charge of forty pounds</i>. Tiền điện đã gồm trong giá phòng, không tính thêm.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-6",
+          "type": "short",
+          "stem_html": "Parking: space for ______ cars",
+          "answer": [
+            "2",
+            "two"
+          ],
+          "explain_html": "<i>space for two cars</i>.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-7",
+          "type": "short",
+          "stem_html": "Dogs must not go ______",
+          "answer": [
+            "upstairs"
+          ],
+          "explain_html": "<i>Dogs are welcome, but they mustn't go upstairs</i>.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-8",
+          "type": "short",
+          "stem_html": "Surname: ______",
+          "answer": [
+            "Healey"
+          ],
+          "explain_html": "Người gọi đánh vần <i>H-E-A-L-E-Y</i>.",
+          "tags": [
+            "listening",
+            "form-completion",
+            "spelling"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-9",
+          "type": "short",
+          "stem_html": "Deposit: £______",
+          "answer": [
+            "100"
+          ],
+          "explain_html": "<i>a deposit of one hundred pounds</i>.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        },
+        {
+          "id": "ielts-l1-002-10",
+          "type": "short",
+          "stem_html": "The key is kept in a ______ by the front door.",
+          "answer": [
+            "key box",
+            "keybox"
+          ],
+          "explain_html": "<i>There's a key box by the front door</i>.",
+          "tags": [
+            "listening",
+            "form-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Thuê nhà nghỉ. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ cho mỗi câu.",
+        "audio_script": "Agent: Good afternoon, Lakeside Holiday Cottages. How can I help?\nCaller: Hello. I'm interested in renting a cottage for a week in August.\nAgent: Lovely. Which dates were you thinking of?\nCaller: From the ninth to the sixteenth.\nAgent: And how many people will there be?\nCaller: Four adults and one child.\nAgent: Then I'd suggest Willow Cottage. It has three bedrooms and a garden that looks out over the lake.\nCaller: That sounds ideal. How much is it?\nAgent: In August it's six hundred and twenty pounds for the week. That includes electricity, but there's a cleaning charge of forty pounds.\nCaller: Is there anywhere to park?\nAgent: Yes, there's space for two cars, right next to the cottage.\nCaller: And are pets allowed? We have a small dog.\nAgent: Dogs are welcome, but they mustn't go upstairs.\nCaller: That's fine. Can I book it now?\nAgent: Certainly. Could I have your name?\nCaller: Yes, it's Martin Healey. That's H-E-A-L-E-Y.\nAgent: Thank you, Mr Healey. We'll need a deposit of one hundred pounds to secure the booking, and the rest is due two weeks before you arrive.\nCaller: Great. Oh, and how do we get the key?\nAgent: There's a key box by the front door. We'll text you the code the day before you arrive."
+      }
+    },
+    {
+      "id": "ielts-l2-001",
+      "section": "listening",
+      "chapter": "section-2",
+      "topic": "s2-talk",
+      "questions": [
+        {
+          "id": "ielts-l2-001-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–4: Choose the correct letter, A, B or C.<br><br>1. Thomas Hartley mainly used the house to",
+          "options": [
+            {
+              "label": "A",
+              "html": "raise a large family."
+            },
+            {
+              "label": "B",
+              "html": "meet business contacts."
+            },
+            {
+              "label": "C",
+              "html": "run a school."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>he mainly used the house to entertain business partners</i>. (A) là điều nhiều khách <b>tưởng</b> nhưng sai; trường học chỉ có sau khi ông mất.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-2",
+          "type": "mcq",
+          "stem_html": "2. The town council bought the house in",
+          "options": [
+            {
+              "label": "A",
+              "html": "1782."
+            },
+            {
+              "label": "B",
+              "html": "1850."
+            },
+            {
+              "label": "C",
+              "html": "1950."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>it stayed a school until 1950, when the town council bought it</i>. 1782 là năm xây nhà.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-3",
+          "type": "mcq",
+          "stem_html": "3. Most of the volunteers",
+          "options": [
+            {
+              "label": "A",
+              "html": "used to work as teachers."
+            },
+            {
+              "label": "B",
+              "html": "studied at the school."
+            },
+            {
+              "label": "C",
+              "html": "live near the house."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>most are retired teachers</i>. <i>retired teachers</i> = <i>used to work as teachers</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-4",
+          "type": "mcq",
+          "stem_html": "4. Photography is not allowed in the library because",
+          "options": [
+            {
+              "label": "A",
+              "html": "the room is too dark."
+            },
+            {
+              "label": "B",
+              "html": "the books could be damaged."
+            },
+            {
+              "label": "C",
+              "html": "it is used for private events."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the old books can be damaged by the flash</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-5",
+          "type": "short",
+          "stem_html": "Questions 5–6: Write ONE WORD AND/OR A NUMBER.<br><br>5. The café is in the old ______",
+          "answer": [
+            "kitchen"
+          ],
+          "explain_html": "<i>the café is in the old kitchen on the ground floor</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-6",
+          "type": "short",
+          "stem_html": "6. Lunch is served until ______",
+          "answer": [
+            "2:30",
+            "2.30",
+            "half past two",
+            "two thirty",
+            "2:30 pm",
+            "2.30 pm",
+            "14:30"
+          ],
+          "explain_html": "<i>it serves lunch until half past two</i>, tức là 2:30.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-7",
+          "type": "mcq",
+          "stem_html": "Questions 7–10: What can visitors find at each place? Choose A–F.<br>A old photographs · B plants for sale · C a play area · D boats for hire · E souvenirs · F a picnic area<br><br>7. the boathouse",
+          "options": [
+            {
+              "label": "A",
+              "html": "old photographs"
+            },
+            {
+              "label": "B",
+              "html": "plants for sale"
+            },
+            {
+              "label": "C",
+              "html": "a play area"
+            },
+            {
+              "label": "D",
+              "html": "boats for hire"
+            },
+            {
+              "label": "E",
+              "html": "souvenirs"
+            },
+            {
+              "label": "F",
+              "html": "a picnic area"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the boathouse, which now holds an exhibition of old photographs</i>. Bẫy: nghe <i>boathouse</i> dễ chọn D (thuê thuyền), nhưng bài không nói có cho thuê thuyền.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-8",
+          "type": "mcq",
+          "stem_html": "8. the area beside the greenhouse",
+          "options": [
+            {
+              "label": "A",
+              "html": "old photographs"
+            },
+            {
+              "label": "B",
+              "html": "plants for sale"
+            },
+            {
+              "label": "C",
+              "html": "a play area"
+            },
+            {
+              "label": "D",
+              "html": "boats for hire"
+            },
+            {
+              "label": "E",
+              "html": "souvenirs"
+            },
+            {
+              "label": "F",
+              "html": "a picnic area"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>The children's play area is … next to the greenhouse</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-9",
+          "type": "mcq",
+          "stem_html": "9. the greenhouse",
+          "options": [
+            {
+              "label": "A",
+              "html": "old photographs"
+            },
+            {
+              "label": "B",
+              "html": "plants for sale"
+            },
+            {
+              "label": "C",
+              "html": "a play area"
+            },
+            {
+              "label": "D",
+              "html": "boats for hire"
+            },
+            {
+              "label": "E",
+              "html": "souvenirs"
+            },
+            {
+              "label": "F",
+              "html": "a picnic area"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the greenhouse, where our gardeners grow plants that you can buy</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-001-10",
+          "type": "mcq",
+          "stem_html": "10. the building near the car park",
+          "options": [
+            {
+              "label": "A",
+              "html": "old photographs"
+            },
+            {
+              "label": "B",
+              "html": "plants for sale"
+            },
+            {
+              "label": "C",
+              "html": "a play area"
+            },
+            {
+              "label": "D",
+              "html": "boats for hire"
+            },
+            {
+              "label": "E",
+              "html": "souvenirs"
+            },
+            {
+              "label": "F",
+              "html": "a picnic area"
+            }
+          ],
+          "answer": "E",
+          "explain_html": "Gần bãi đỗ xe là <i>the gift shop</i>, nơi bán đồ lưu niệm (souvenirs).",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hướng dẫn tham quan Hartley House",
+        "audio_script": "Guide: Good morning and welcome to Hartley House. Before we begin, let me tell you a little about the place. The house was built in 1782 for a wealthy merchant called Thomas Hartley. Many visitors assume he lived here with a large family, but in fact he never married, and he mainly used the house to entertain business partners. After his death, it became a school for girls, and it stayed a school until 1950, when the town council bought it.\nGuide: Today the house is run by volunteers. We have around sixty of them, and most are retired teachers, which seems fitting given the building's history.\nGuide: Now, a few practical points. The tour of the house takes about forty-five minutes. Photography is fine everywhere except in the library, because the old books can be damaged by the flash. If you need a break, the café is in the old kitchen on the ground floor, and it serves lunch until half past two.\nGuide: Let me now explain the gardens. When you leave the house by the back door, you'll see the rose garden directly in front of you. To the left of the rose garden is the lake, and on the far side of the lake you'll find the boathouse, which now holds an exhibition of old photographs of the house. The children's play area is to the right of the rose garden, next to the greenhouse, where our gardeners grow plants that you can buy. And finally, if you follow the path past the greenhouse, you'll come to the gift shop, near the car park."
+      }
+    },
+    {
+      "id": "ielts-l2-002",
+      "section": "listening",
+      "chapter": "section-2",
+      "topic": "s2-talk",
+      "questions": [
+        {
+          "id": "ielts-l2-002-1",
+          "type": "short",
+          "stem_html": "Questions 1–6: Write ONE WORD AND/OR A NUMBER.<br><br>1. The festival takes place on the first weekend of ______",
+          "answer": [
+            "July"
+          ],
+          "explain_html": "<i>the first weekend of July</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-2",
+          "type": "short",
+          "stem_html": "2. Theme: \"Around the ______\"",
+          "answer": [
+            "World"
+          ],
+          "explain_html": "<i>This year's theme is \"Around the World\"</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-3",
+          "type": "short",
+          "stem_html": "3. The parade starts at the railway ______",
+          "answer": [
+            "station"
+          ],
+          "explain_html": "<i>It leaves from the railway station</i>. Đề đã có sẵn <i>railway</i>, chỉ cần viết <b>station</b>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-4",
+          "type": "short",
+          "stem_html": "4. Wristband for the main stage: £______",
+          "answer": [
+            "5",
+            "five"
+          ],
+          "explain_html": "<i>a wristband, which costs five pounds</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-5",
+          "type": "short",
+          "stem_html": "5. Park-and-ride buses leave every ______ minutes",
+          "answer": [
+            "20",
+            "twenty"
+          ],
+          "explain_html": "<i>Buses will leave every twenty minutes</i>. Bẫy: <i>eight in the morning</i> là giờ bắt đầu chạy xe.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-6",
+          "type": "short",
+          "stem_html": "6. Volunteers are especially needed for litter ______",
+          "answer": [
+            "picking"
+          ],
+          "explain_html": "<i>especially for litter picking</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-7",
+          "type": "mcq",
+          "stem_html": "Questions 7–10: Choose the correct letter, A, B or C.<br><br>7. Children under ten",
+          "options": [
+            {
+              "label": "A",
+              "html": "pay half price for a wristband."
+            },
+            {
+              "label": "B",
+              "html": "do not need a wristband."
+            },
+            {
+              "label": "C",
+              "html": "cannot enter the main stage area."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Children under ten don't need one</i> (one = wristband).",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-8",
+          "type": "mcq",
+          "stem_html": "8. People can sign up to volunteer",
+          "options": [
+            {
+              "label": "A",
+              "html": "only on the website."
+            },
+            {
+              "label": "B",
+              "html": "at the town hall or online."
+            },
+            {
+              "label": "C",
+              "html": "at the main gate."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>you can sign up at the town hall or on the festival website</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-9",
+          "type": "mcq",
+          "stem_html": "9. The lost children point will be",
+          "options": [
+            {
+              "label": "A",
+              "html": "next to the food market."
+            },
+            {
+              "label": "B",
+              "html": "near the main gate."
+            },
+            {
+              "label": "C",
+              "html": "in the sports hall."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>a lost children point near the main gate</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l2-002-10",
+          "type": "mcq",
+          "stem_html": "10. If there is heavy rain, the festival will",
+          "options": [
+            {
+              "label": "A",
+              "html": "be cancelled."
+            },
+            {
+              "label": "B",
+              "html": "move into a school building."
+            },
+            {
+              "label": "C",
+              "html": "take place the following weekend."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>events will move indoors to the sports hall at Greenford Academy</i>. <i>Academy</i> là một trường học.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Giới thiệu lễ hội mùa hè trên radio",
+        "audio_script": "Presenter: And now some news about the Greenford Summer Festival, which takes place on the first weekend of July in Victoria Park. This year's theme is \"Around the World\", so you can expect music, dance and food from more than twenty countries.\nPresenter: Things get started on Saturday morning with a parade at ten o'clock. It leaves from the railway station and finishes at the park gates about an hour later. Inside the park, the food market will have around forty stalls this year.\nPresenter: Entry to the park is free, but if you'd like to watch the concerts on the main stage, you'll need a wristband, which costs five pounds. Children under ten don't need one.\nPresenter: Parking near the park is very limited, so the council is running a park-and-ride service from Hillside Retail Park. Buses will leave every twenty minutes from eight in the morning.\nPresenter: The organisers are still looking for about thirty more volunteers, especially for litter picking. If you can help, you can sign up at the town hall or on the festival website.\nPresenter: If you're coming with young children, there will be a lost children point near the main gate. And finally, if there's heavy rain, events will move indoors to the sports hall at Greenford Academy, so the festival will go ahead whatever the weather."
+      }
+    },
+    {
+      "id": "ielts-l3-001",
+      "section": "listening",
+      "chapter": "section-3",
+      "topic": "s3-discussion",
+      "questions": [
+        {
+          "id": "ielts-l3-001-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–5: Choose the correct letter, A, B or C.<br><br>1. What percentage of students cycle to campus?",
+          "options": [
+            {
+              "label": "A",
+              "html": "12%"
+            },
+            {
+              "label": "B",
+              "html": "45%"
+            },
+            {
+              "label": "C",
+              "html": "nearly 50%"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Only twelve percent</i>. 45% là xe buýt; gần 50% là số liệu ở Đan Mạch.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-2",
+          "type": "mcq",
+          "stem_html": "2. According to the survey comments, why do few students cycle?",
+          "options": [
+            {
+              "label": "A",
+              "html": "They worry about safety."
+            },
+            {
+              "label": "B",
+              "html": "There is a steep hill."
+            },
+            {
+              "label": "C",
+              "html": "There are not enough bike racks."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Most said the main reason was the hill, not safety</i>. Bike racks thì có nhiều.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-3",
+          "type": "mcq",
+          "stem_html": "3. What problem do bus users mention?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The fares are too high."
+            },
+            {
+              "label": "B",
+              "html": "The buses are often late."
+            },
+            {
+              "label": "C",
+              "html": "The buses are too crowded."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>the buses are overcrowded in the morning</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-4",
+          "type": "mcq",
+          "stem_html": "4. How will the presentation begin?",
+          "options": [
+            {
+              "label": "A",
+              "html": "with a chart"
+            },
+            {
+              "label": "B",
+              "html": "with a video"
+            },
+            {
+              "label": "C",
+              "html": "with a quotation"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>we should start with a short video … rather than with a chart</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-5",
+          "type": "mcq",
+          "stem_html": "5. Why do many students cycle at the Danish university?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Bikes are provided free."
+            },
+            {
+              "label": "B",
+              "html": "There are separate bike lanes."
+            },
+            {
+              "label": "C",
+              "html": "The campus is very small."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>mainly because the city has separate bike lanes</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-6",
+          "type": "mcq",
+          "stem_html": "Questions 6–10: Who will do each task? A Emma · B Jack · C both Emma and Jack<br><br>6. filming the video",
+          "options": [
+            {
+              "label": "A",
+              "html": "Emma"
+            },
+            {
+              "label": "B",
+              "html": "Jack"
+            },
+            {
+              "label": "C",
+              "html": "both"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Emma: <i>I can do that. I've got a decent camera</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-7",
+          "type": "mcq",
+          "stem_html": "7. designing the charts",
+          "options": [
+            {
+              "label": "A",
+              "html": "Emma"
+            },
+            {
+              "label": "B",
+              "html": "Jack"
+            },
+            {
+              "label": "C",
+              "html": "both"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Emma nhờ <i>Could you design the charts?</i>, Jack đồng ý: <i>Sure</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-8",
+          "type": "mcq",
+          "stem_html": "8. writing the introduction",
+          "options": [
+            {
+              "label": "A",
+              "html": "Emma"
+            },
+            {
+              "label": "B",
+              "html": "Jack"
+            },
+            {
+              "label": "C",
+              "html": "both"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Jack: <i>And I'll write the introduction too</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-9",
+          "type": "mcq",
+          "stem_html": "9. writing the recommendations",
+          "options": [
+            {
+              "label": "A",
+              "html": "Emma"
+            },
+            {
+              "label": "B",
+              "html": "Jack"
+            },
+            {
+              "label": "C",
+              "html": "both"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Let's do those together</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-001-10",
+          "type": "mcq",
+          "stem_html": "10. finding the cost of electric bikes",
+          "options": [
+            {
+              "label": "A",
+              "html": "Emma"
+            },
+            {
+              "label": "B",
+              "html": "Jack"
+            },
+            {
+              "label": "C",
+              "html": "both"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Emma: <i>I'll find out how much they would cost</i>.",
+          "tags": [
+            "listening",
+            "matching-listening"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hai sinh viên thảo luận kết quả khảo sát",
+        "audio_script": "Emma: Jack, have you had a chance to look at the survey results?\nJack: Yes. I was surprised that so few people cycle to campus. Only twelve percent.\nEmma: Me too, given how many bike racks there are. Though I suppose the hill on the way here puts people off.\nJack: That's what several people wrote in the comments. Most said the main reason was the hill, not safety.\nEmma: OK. And the bus figures?\nJack: Forty-five percent take the bus, so that's the largest group. But lots of them complained that the buses are overcrowded in the morning.\nEmma: Right. For the presentation, I think we should start with a short video of the morning queue at the bus stop, rather than with a chart.\nJack: Good idea. It'll grab people's attention. Who's going to film it?\nEmma: I can do that. I've got a decent camera. Could you design the charts?\nJack: Sure. And I'll write the introduction too. What about the recommendations?\nEmma: Let's do those together. They're the most important part.\nJack: Agreed. Our tutor also said we should compare our results with another university.\nEmma: I found a study from a university in Denmark. There, almost half the students cycle, mainly because the city has separate bike lanes.\nJack: Interesting. That supports our idea of recommending a bike lane along Station Road.\nEmma: Yes, and maybe electric bikes for the hill. I'll find out how much they would cost."
+      }
+    },
+    {
+      "id": "ielts-l3-002",
+      "section": "listening",
+      "chapter": "section-3",
+      "topic": "s3-discussion",
+      "questions": [
+        {
+          "id": "ielts-l3-002-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–7: Choose the correct letter, A, B or C.<br><br>1. What does Dr Lewis say about Sophie's literature review?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is too long."
+            },
+            {
+              "label": "B",
+              "html": "It contains too few studies."
+            },
+            {
+              "label": "C",
+              "html": "It is not finished."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sophie nói <i>it's much longer than it should be</i>, và giảng viên bảo <i>you'll need to cut it</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-2",
+          "type": "short",
+          "stem_html": "2. Dr Lewis suggests focusing on studies from the last ______ years. (ONE WORD AND/OR A NUMBER)",
+          "answer": [
+            "10",
+            "ten"
+          ],
+          "explain_html": "<i>Focus on studies from the last ten years</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-3",
+          "type": "mcq",
+          "stem_html": "3. Why does Dr Lewis suggest collecting screen-time data?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Questionnaires take too long to complete."
+            },
+            {
+              "label": "B",
+              "html": "People often underestimate their phone use."
+            },
+            {
+              "label": "C",
+              "html": "The data is easier to analyse."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>people tend to underestimate how long they spend on their phones</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-4",
+          "type": "short",
+          "stem_html": "4. Number of participants who have agreed so far: ______ (ONE WORD AND/OR A NUMBER)",
+          "answer": [
+            "40",
+            "forty"
+          ],
+          "explain_html": "<i>so far only forty have agreed</i>. 100 là con số Sophie <b>mong muốn</b>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-5",
+          "type": "mcq",
+          "stem_html": "5. Which group does Dr Lewis recommend contacting?",
+          "options": [
+            {
+              "label": "A",
+              "html": "first-year students"
+            },
+            {
+              "label": "B",
+              "html": "final-year students"
+            },
+            {
+              "label": "C",
+              "html": "university staff"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Try the first-year students</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-6",
+          "type": "mcq",
+          "stem_html": "6. Which type of graph does Dr Lewis recommend?",
+          "options": [
+            {
+              "label": "A",
+              "html": "a pie chart"
+            },
+            {
+              "label": "B",
+              "html": "a bar chart"
+            },
+            {
+              "label": "C",
+              "html": "a scatter graph"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>a scatter graph would work best. Avoid pie charts</i>.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-7",
+          "type": "mcq",
+          "stem_html": "7. What does Dr Lewis say about interviews?",
+          "options": [
+            {
+              "label": "A",
+              "html": "They are essential."
+            },
+            {
+              "label": "B",
+              "html": "They are optional."
+            },
+            {
+              "label": "C",
+              "html": "They should replace the questionnaire."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Only if you have time</i>: phỏng vấn là tùy chọn; bảng hỏi vẫn là nguồn chính.",
+          "tags": [
+            "listening",
+            "mcq-listening"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-8",
+          "type": "short",
+          "stem_html": "Questions 8–10: Write ONE WORD AND/OR A NUMBER.<br><br>8. Sophie should advertise for participants in the student ______.",
+          "answer": [
+            "newsletter"
+          ],
+          "explain_html": "<i>put a notice in the student newsletter</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-9",
+          "type": "short",
+          "stem_html": "9. A draft of the ______ chapter is due by the end of March.",
+          "answer": [
+            "methods",
+            "method"
+          ],
+          "explain_html": "<i>send me a draft of your methods chapter by the end of March</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l3-002-10",
+          "type": "short",
+          "stem_html": "10. Final deadline: ______ April",
+          "answer": [
+            "30",
+            "30th",
+            "thirtieth"
+          ],
+          "explain_html": "<i>Yes, the thirtieth</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Sinh viên trao đổi với giảng viên hướng dẫn",
+        "audio_script": "Dr Lewis: Come in, Sophie. So, how's the research project going?\nSophie: Quite well, I think. I've finished the literature review, but it's much longer than it should be.\nDr Lewis: Then you'll need to cut it. Focus on studies from the last ten years. Some of the older ones are no longer relevant.\nSophie: OK. For my own study, I'm planning to use a questionnaire about phone use and sleep.\nDr Lewis: That's fine, but people tend to underestimate how long they spend on their phones. Could you also ask participants to share the screen-time data from their phones?\nSophie: That's a good idea. I'll add that.\nDr Lewis: How many participants are you aiming for?\nSophie: I was hoping for a hundred, but so far only forty have agreed.\nDr Lewis: Try the first-year students. They're usually keen to help. You could put a notice in the student newsletter.\nSophie: I'll do that. Another thing: I'm not sure how to present the results.\nDr Lewis: For this kind of data, a scatter graph would work best. Avoid pie charts.\nSophie: And should I include interviews as well?\nDr Lewis: Only if you have time. A few short interviews could add depth, but the questionnaire should be your main source.\nSophie: Right. And the final deadline is still the end of April?\nDr Lewis: Yes, the thirtieth. But please send me a draft of your methods chapter by the end of March."
+      }
+    },
+    {
+      "id": "ielts-l4-001",
+      "section": "listening",
+      "chapter": "section-4",
+      "topic": "s4-lecture",
+      "questions": [
+        {
+          "id": "ielts-l4-001-1",
+          "type": "short",
+          "stem_html": "City centres can be up to ______ °C warmer than rural areas.",
+          "answer": [
+            "7",
+            "seven"
+          ],
+          "explain_html": "<i>as much as seven degrees Celsius warmer</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-2",
+          "type": "short",
+          "stem_html": "Dark surfaces such as ______ absorb heat during the day.",
+          "answer": [
+            "asphalt"
+          ],
+          "explain_html": "<i>Dark surfaces such as asphalt absorb heat</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-3",
+          "type": "short",
+          "stem_html": "In evapotranspiration, water evaporates from plants' ______.",
+          "answer": [
+            "leaves"
+          ],
+          "explain_html": "<i>water evaporates from their leaves</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-4",
+          "type": "short",
+          "stem_html": "Heat is also produced by cars, air conditioners and ______.",
+          "answer": [
+            "factories"
+          ],
+          "explain_html": "<i>by cars, air conditioners and factories</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-5",
+          "type": "short",
+          "stem_html": "Effect: greater ______ use",
+          "answer": [
+            "energy"
+          ],
+          "explain_html": "<i>Higher temperatures increase energy use</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-6",
+          "type": "short",
+          "stem_html": "______ people are most at risk during heatwaves.",
+          "answer": [
+            "older",
+            "old",
+            "elderly"
+          ],
+          "explain_html": "<i>Older people are particularly at risk</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-7",
+          "type": "short",
+          "stem_html": "Heat speeds up the formation of ground-level ______.",
+          "answer": [
+            "ozone"
+          ],
+          "explain_html": "<i>it speeds up the formation of ground-level ozone</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-8",
+          "type": "short",
+          "stem_html": "Cool roofs in Los Angeles cut indoor temperatures by up to ______ degrees.",
+          "answer": [
+            "3",
+            "three"
+          ],
+          "explain_html": "<i>reduced indoor temperatures by up to three degrees</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-9",
+          "type": "short",
+          "stem_html": "Green roofs also reduce ______.",
+          "answer": [
+            "flooding",
+            "floods"
+          ],
+          "explain_html": "<i>Green roofs also help to reduce flooding</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-001-10",
+          "type": "short",
+          "stem_html": "Tree shade can cool pavements by more than ______ degrees.",
+          "answer": [
+            "10",
+            "ten"
+          ],
+          "explain_html": "<i>lower the temperature of pavements by more than ten degrees</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Bài giảng: đảo nhiệt đô thị. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ cho mỗi câu.",
+        "audio_script": "Lecturer: Today I'm going to talk about urban heat islands, which is the reason cities are often warmer than the countryside around them. On a summer evening, the centre of a large city can be as much as seven degrees Celsius warmer than nearby rural areas.\nLecturer: There are several causes. The first is the materials we build with. Dark surfaces such as asphalt absorb heat during the day and release it slowly at night. The second is the lack of vegetation. Trees and plants cool the air through a process called evapotranspiration, in which water evaporates from their leaves. Thirdly, heat is produced directly by human activity, by cars, air conditioners and factories.\nLecturer: Why does this matter? Higher temperatures increase energy use, as people turn on air conditioning, and they also affect health. Older people are particularly at risk during heatwaves. Hot weather can also make air quality worse, because it speeds up the formation of ground-level ozone.\nLecturer: So what can cities do? One solution is the cool roof, a roof painted white or covered with a reflective material. In one study in Los Angeles, cool roofs reduced indoor temperatures by up to three degrees. Another solution is the green roof, which is covered with plants. Green roofs also help to reduce flooding by absorbing rainwater. Planting trees along streets is perhaps the simplest approach: the shade from trees can lower the temperature of pavements by more than ten degrees."
+      }
+    },
+    {
+      "id": "ielts-l4-002",
+      "section": "listening",
+      "chapter": "section-4",
+      "topic": "s4-lecture",
+      "questions": [
+        {
+          "id": "ielts-l4-002-1",
+          "type": "short",
+          "stem_html": "Before containers, goods were loaded by workers called ______.",
+          "answer": [
+            "dockers"
+          ],
+          "explain_html": "<i>teams of workers called dockers</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-2",
+          "type": "short",
+          "stem_html": "Loading one ship could take a ______.",
+          "answer": [
+            "week"
+          ],
+          "explain_html": "<i>Loading a single ship could take a week</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-3",
+          "type": "short",
+          "stem_html": "Another problem at ports was ______.",
+          "answer": [
+            "theft"
+          ],
+          "explain_html": "<i>and theft was common</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-4",
+          "type": "short",
+          "stem_html": "Malcolm McLean owned a ______ company.",
+          "answer": [
+            "trucking"
+          ],
+          "explain_html": "<i>who owned a trucking company</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-5",
+          "type": "short",
+          "stem_html": "His first container ship carried ______ containers.",
+          "answer": [
+            "58",
+            "fifty-eight",
+            "fifty eight"
+          ],
+          "explain_html": "<i>carrying fifty-eight containers</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-6",
+          "type": "short",
+          "stem_html": "Loading costs fell by more than ______ percent.",
+          "answer": [
+            "90",
+            "ninety"
+          ],
+          "explain_html": "<i>fell by more than ninety percent</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-7",
+          "type": "short",
+          "stem_html": "New ports needed huge ______ and large areas of flat land.",
+          "answer": [
+            "cranes"
+          ],
+          "explain_html": "<i>They needed huge cranes and large areas of flat land</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-8",
+          "type": "short",
+          "stem_html": "Standard sizes were agreed in the late ______.",
+          "answer": [
+            "1960s",
+            "1960's",
+            "sixties"
+          ],
+          "explain_html": "<i>In the late 1960s</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-9",
+          "type": "short",
+          "stem_html": "The largest ships can carry more than ______ thousand TEU.",
+          "answer": [
+            "24",
+            "twenty-four",
+            "twenty four"
+          ],
+          "explain_html": "<i>more than twenty-four thousand</i>. Đề đã có chữ <i>thousand</i>, chỉ viết <b>24</b>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        },
+        {
+          "id": "ielts-l4-002-10",
+          "type": "short",
+          "stem_html": "Ships powered by ammonia or ______ are being tested.",
+          "answer": [
+            "sails"
+          ],
+          "explain_html": "<i>ships powered by ammonia, and even by sails</i>.",
+          "tags": [
+            "listening",
+            "note-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Bài giảng: container vận tải. Viết MỘT TỪ VÀ/HOẶC MỘT SỐ cho mỗi câu.",
+        "audio_script": "Lecturer: In this lecture, I'll look at an invention that changed world trade: the shipping container. Before the 1950s, goods were loaded onto ships piece by piece, as sacks, barrels and boxes carried by teams of workers called dockers. Loading a single ship could take a week, and theft was common.\nLecturer: The modern container was developed by an American businessman, Malcolm McLean, who owned a trucking company. In 1956, his first container ship sailed from New Jersey to Texas carrying fifty-eight containers. The key idea was simple: the same steel box could move from a truck to a ship to a train without being opened.\nLecturer: The impact was enormous. The cost of loading cargo fell by more than ninety percent. Ports had to change completely. They needed huge cranes and large areas of flat land to store containers, so many old ports in city centres closed, and new ones were built outside cities. This also meant that thousands of dockers lost their jobs.\nLecturer: Standardisation was the next important step. In the late 1960s, international organisations agreed on standard sizes. The most common unit today is the twenty-foot equivalent unit, or TEU, and the largest modern ships can carry more than twenty-four thousand of them.\nLecturer: Containers have also had environmental effects. Shipping is relatively efficient for each tonne of cargo, but the industry still produces around three percent of global carbon emissions. Researchers are now testing ships powered by ammonia, and even by sails."
+      }
+    }
+  ]
+}

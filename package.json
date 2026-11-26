@@ -14,7 +14,8 @@
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "generate:roadmap": "tsx scripts/generate-roadmap.ts",
-    "validate:content": "tsx scripts/validate-content.ts"
+    "validate:content": "tsx scripts/validate-content.ts",
+    "import:bank": "tsx scripts/import-bank.ts"
   },
   "engines": {
     "node": ">=20"

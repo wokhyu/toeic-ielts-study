@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "slug": "listening",
+      "name": "Listening",
+      "sort": 1,
+      "chapters": [
+        {
+          "slug": "part-2",
+          "name": "Part 2: Hỏi – đáp",
+          "sort": 2,
+          "topics": [
+            { "slug": "p2-wh", "name": "Câu hỏi Wh- (Where, When, Who, Why, How)", "sort": 1 },
+            { "slug": "p2-yesno", "name": "Câu Yes/No, câu hỏi đuôi, câu phủ định", "sort": 2 },
+            { "slug": "p2-request", "name": "Đề nghị, yêu cầu, lựa chọn", "sort": 3 }
+          ]
+        },
+        {
+          "slug": "part-3",
+          "name": "Part 3: Hội thoại",
+          "sort": 3,
+          "topics": [
+            { "slug": "p3-office", "name": "Công sở và cuộc họp", "sort": 1 },
+            { "slug": "p3-service", "name": "Mua sắm, dịch vụ, đặt chỗ", "sort": 2 }
+          ]
+        },
+        {
+          "slug": "part-4",
+          "name": "Part 4: Bài nói",
+          "sort": 4,
+          "topics": [
+            { "slug": "p4-announcement", "name": "Thông báo, hướng dẫn", "sort": 1 },
+            { "slug": "p4-message", "name": "Tin nhắn thoại, quảng cáo", "sort": 2 }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "reading",
+      "name": "Reading",
+      "sort": 2,
+      "chapters": [
+        {
+          "slug": "part-5",
+          "name": "Part 5: Hoàn thành câu",
+          "sort": 5,
+          "topics": [
+            { "slug": "p5-grammar", "name": "Ngữ pháp", "sort": 1 },
+            { "slug": "p5-vocab", "name": "Từ vựng và collocation", "sort": 2 }
+          ]
+        },
+        {
+          "slug": "part-6",
+          "name": "Part 6: Hoàn thành đoạn văn",
+          "sort": 6,
+          "topics": [{ "slug": "p6-text", "name": "Email, thông báo, bài báo ngắn", "sort": 1 }]
+        },
+        {
+          "slug": "part-7",
+          "name": "Part 7: Đọc hiểu",
+          "sort": 7,
+          "topics": [
+            { "slug": "p7-single", "name": "Đoạn đơn", "sort": 1 },
+            { "slug": "p7-multi", "name": "Đoạn kép, đoạn ba, chuỗi tin nhắn", "sort": 2 }
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": {
+    "part2": "Part 2",
+    "part3": "Part 3",
+    "part4": "Part 4",
+    "part5": "Part 5",
+    "part6": "Part 6",
+    "part7": "Part 7",
+    "p2-wh": "Part 2: câu hỏi Wh-",
+    "p2-yesno": "Part 2: câu Yes/No và câu hỏi đuôi",
+    "p2-request": "Part 2: đề nghị và yêu cầu",
+    "p3-detail": "Part 3: chủ đề và chi tiết",
+    "p3-inference": "Part 3: ý định và suy luận",
+    "p3-graphic": "Part 3: hội thoại có bảng biểu",
+    "p4-talk": "Part 4: thông báo và tin nhắn",
+    "p4-graphic": "Part 4: bài nói có bảng biểu",
+    "word-form": "Từ loại (danh, động, tính, trạng từ)",
+    "tense": "Thì của động từ",
+    "passive": "Câu bị động",
+    "agreement": "Đại từ và hòa hợp chủ ngữ – động từ",
+    "prep-conj": "Giới từ, liên từ, trạng từ nối",
+    "relative": "Mệnh đề quan hệ",
+    "conditional": "Câu điều kiện và câu giả định",
+    "verb-form": "So sánh, danh động từ và động từ nguyên mẫu",
+    "collocation": "Collocation và từ dễ nhầm",
+    "vocab": "Từ vựng theo ngữ cảnh",
+    "p6-context": "Part 6: điền từ và câu theo ngữ cảnh",
+    "p7-single": "Part 7: đoạn đơn",
+    "p7-multi": "Part 7: đoạn kép, đoạn ba"
+  }
+}

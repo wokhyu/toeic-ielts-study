@@ -1,0 +1,1936 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p7-001",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thông báo",
+        "html": "<p><b>Greenfield Public Library – Summer Hours</b></p><p>Beginning July 1, the Greenfield Public Library will open at 10:00 A.M. instead of 9:00 A.M. on weekdays. Closing time remains 8:00 P.M. Monday through Thursday and 6:00 P.M. on Friday. On Saturdays, the library will be open from 9:00 A.M. to 1:00 P.M., and it will be closed on Sundays until September 1.</p><p>The change allows our staff to prepare for the Summer Reading Challenge, which begins on July 8. Children aged 6 to 12 can register at the front desk or on our Web site. Participants who read ten books by August 20 will receive a free ticket to the Greenfield Science Museum.</p>"
+      },
+      "questions": [
+        {
+          "id": "toeic-p7-001-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the notice?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To recruit library staff"
+            },
+            {
+              "label": "B",
+              "html": "To advertise a science museum"
+            },
+            {
+              "label": "C",
+              "html": "To announce new opening hours"
+            },
+            {
+              "label": "D",
+              "html": "To describe a building renovation"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Tiêu đề <i>Summer Hours</i> và câu đầu (<i>will open at 10:00 A.M. instead of 9:00 A.M.</i>) cho thấy mục đích chính là thông báo giờ mở cửa mới. Bảo tàng chỉ được nhắc tới như phần thưởng.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-001-2",
+          "type": "mcq",
+          "stem_html": "What time will the library close on Fridays in July?",
+          "options": [
+            {
+              "label": "A",
+              "html": "1:00 P.M."
+            },
+            {
+              "label": "B",
+              "html": "6:00 P.M."
+            },
+            {
+              "label": "C",
+              "html": "8:00 P.M."
+            },
+            {
+              "label": "D",
+              "html": "10:00 A.M."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Closing time remains … 6:00 P.M. on Friday</i>. 8:00 P.M. là giờ đóng cửa từ thứ Hai đến thứ Năm, còn 1:00 P.M. là của thứ Bảy. Dạng câu hỏi chi tiết này cần đọc kỹ từng mốc giờ.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-001-3",
+          "type": "mcq",
+          "stem_html": "What is indicated about the Summer Reading Challenge?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is open to adults."
+            },
+            {
+              "label": "B",
+              "html": "It starts on July 1."
+            },
+            {
+              "label": "C",
+              "html": "Participants can register online."
+            },
+            {
+              "label": "D",
+              "html": "It ends on September 1."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>can register at the front desk or on our Web site</i>, tức là có thể đăng ký online. Chương trình dành cho trẻ 6–12 tuổi (A sai) và bắt đầu ngày 8/7 (B sai). Ngày 1/9 là mốc thư viện mở lại vào Chủ nhật, không phải ngày kết thúc chương trình (D sai).",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p7-002",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-002-1",
+          "type": "mcq",
+          "stem_html": "What is NOT mentioned as a responsibility of the job?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Assisting customers"
+            },
+            {
+              "label": "B",
+              "html": "Handling payments"
+            },
+            {
+              "label": "C",
+              "html": "Cleaning the store"
+            },
+            {
+              "label": "D",
+              "html": "Ordering new products"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Bài nêu helping customers (A), operating the cash register (B), keeping the store clean (C). Không nhắc tới việc đặt hàng. Dạng câu NOT cần đối chiếu từng đáp án với bài.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-002-2",
+          "type": "mcq",
+          "stem_html": "What is a requirement for the position?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Retail experience"
+            },
+            {
+              "label": "B",
+              "html": "Knowledge of camping"
+            },
+            {
+              "label": "C",
+              "html": "Weekend availability"
+            },
+            {
+              "label": "D",
+              "html": "A driver's license"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Applicants must be available to work weekends</i>. Kinh nghiệm bán lẻ chỉ là <i>preferred but not required</i>; kiến thức cắm trại chỉ là <i>a plus</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-002-3",
+          "type": "mcq",
+          "stem_html": "What benefit is offered to employees?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Health insurance"
+            },
+            {
+              "label": "B",
+              "html": "Free camping trips"
+            },
+            {
+              "label": "C",
+              "html": "A discount on products"
+            },
+            {
+              "label": "D",
+              "html": "A yearly bonus"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Employees receive a 30 percent discount on all store products</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Tin tuyển dụng",
+        "html": "<p><b>Now Hiring: Part-Time Sales Associate</b></p><p>Martin's Outdoor Gear is looking for a friendly, energetic sales associate to join our team at our Riverside store. Responsibilities include helping customers choose equipment, operating the cash register, and keeping the store clean and organized.</p><p>Applicants must be available to work weekends. Previous retail experience is preferred but not required. Knowledge of camping or hiking equipment is a plus.</p><p>Employees receive a 30 percent discount on all store products. To apply, send your résumé to the store manager by April 15.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-003",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-003-1",
+          "type": "mcq",
+          "stem_html": "Why did Mr. Brandt write the e-mail?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To cancel a trip"
+            },
+            {
+              "label": "B",
+              "html": "To invite Ms. Marquez to speak"
+            },
+            {
+              "label": "C",
+              "html": "To give travel information"
+            },
+            {
+              "label": "D",
+              "html": "To ask about a missing receipt"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Email thông báo chuyến bay, khách sạn và cách thanh toán chi phí, tức là cung cấp thông tin chuyến đi.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-003-2",
+          "type": "mcq",
+          "stem_html": "What is indicated about the Harbourfront Hotel?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is where the summit will take place."
+            },
+            {
+              "label": "B",
+              "html": "It offers a free breakfast."
+            },
+            {
+              "label": "C",
+              "html": "It is next to the airport."
+            },
+            {
+              "label": "D",
+              "html": "It is closed for renovation."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the Harbourfront Hotel, where the summit is being held</i>. Bữa sáng miễn phí là của Granville Suites (bẫy).",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-003-3",
+          "type": "mcq",
+          "stem_html": "What is Ms. Marquez asked to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Book her own hotel"
+            },
+            {
+              "label": "B",
+              "html": "Arrive at the summit early"
+            },
+            {
+              "label": "C",
+              "html": "Submit her receipts after the trip"
+            },
+            {
+              "label": "D",
+              "html": "Call Mr. Brandt on Friday"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>keep all your receipts … and submit them to me within a week of your return</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Email",
+        "html": "<p><b>From:</b> Lucas Brandt<br><b>To:</b> Sofia Marquez<br><b>Subject:</b> Summit travel</p><p>Hi Sofia,</p><p>I've booked your flight to Vancouver for the Pacific Tech Summit. You'll leave on Tuesday, October 8, at 7:20 A.M. and return on Friday evening.</p><p>I tried to book a room at the Harbourfront Hotel, where the summit is being held, but it was already full. Instead, you'll be staying at the Granville Suites, which is about a ten-minute walk away. The hotel offers a free breakfast and a shuttle to the airport.</p><p>Please keep all your receipts for meals and taxis, and submit them to me within a week of your return.</p><p>Have a great trip!<br>Lucas</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-004",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-004-1",
+          "type": "mcq",
+          "stem_html": "What problem is being discussed?",
+          "options": [
+            {
+              "label": "A",
+              "html": "An order has not been delivered."
+            },
+            {
+              "label": "B",
+              "html": "Some lamps arrived broken."
+            },
+            {
+              "label": "C",
+              "html": "A customer was charged twice."
+            },
+            {
+              "label": "D",
+              "html": "A store opening was canceled."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>her order of 50 lamps hasn't arrived</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-004-2",
+          "type": "mcq",
+          "stem_html": "Why was the order delayed?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The address was incorrect."
+            },
+            {
+              "label": "B",
+              "html": "A driver was ill."
+            },
+            {
+              "label": "C",
+              "html": "The lamps were out of stock."
+            },
+            {
+              "label": "D",
+              "html": "The truck broke down."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Our driver was sick yesterday</i>. <i>sick</i> = <i>ill</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-004-3",
+          "type": "mcq",
+          "stem_html": "At 10:12 A.M., what does Mr. Haddad most likely mean when he writes, \"Leave it with me\"?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He wants Ms. Kowalski to come to the warehouse."
+            },
+            {
+              "label": "B",
+              "html": "He will make sure the order is sent."
+            },
+            {
+              "label": "C",
+              "html": "He will keep the lamps at the warehouse."
+            },
+            {
+              "label": "D",
+              "html": "He has to leave the warehouse soon."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Leave it with me</i> = cứ để tôi lo. Anh ấy nhận trách nhiệm gửi hàng đi hôm nay, nên Nadia cảm ơn và báo lại cho khách.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Chuỗi tin nhắn",
+        "html": "<p><b>Nadia Kowalski [10:02 A.M.]</b> Hi Omar, are you still at the warehouse?</p><p><b>Omar Haddad [10:04 A.M.]</b> Yes, I'm checking this week's deliveries. Why?</p><p><b>Nadia Kowalski [10:05 A.M.]</b> A customer just called. She says her order of 50 lamps hasn't arrived. Order number 7730.</p><p><b>Omar Haddad [10:09 A.M.]</b> Found it. The boxes are still here. Our driver was sick yesterday.</p><p><b>Nadia Kowalski [10:10 A.M.]</b> Can they go out today? She needs them for a store opening on Thursday.</p><p><b>Omar Haddad [10:12 A.M.]</b> Leave it with me.</p><p><b>Nadia Kowalski [10:13 A.M.]</b> Thanks! I'll let her know.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-005",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-005-1",
+          "type": "mcq",
+          "stem_html": "Why will the water be shut off?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To replace some pipes"
+            },
+            {
+              "label": "B",
+              "html": "To clean the water tanks"
+            },
+            {
+              "label": "C",
+              "html": "To repair the laundry room"
+            },
+            {
+              "label": "D",
+              "html": "To install new meters"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>while workers replace the main water pipes</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-005-2",
+          "type": "mcq",
+          "stem_html": "What are residents advised to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Store water in advance"
+            },
+            {
+              "label": "B",
+              "html": "Leave the building for the day"
+            },
+            {
+              "label": "C",
+              "html": "Use the laundry room early"
+            },
+            {
+              "label": "D",
+              "html": "Call the management office"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Residents are advised to store enough water … before 9:00 A.M.</i>",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-005-3",
+          "type": "mcq",
+          "stem_html": "How will residents be told about any delays?",
+          "options": [
+            {
+              "label": "A",
+              "html": "By e-mail"
+            },
+            {
+              "label": "B",
+              "html": "By telephone"
+            },
+            {
+              "label": "C",
+              "html": "Through a letter under their doors"
+            },
+            {
+              "label": "D",
+              "html": "Through a notice in the lobby and a text message"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>an update will be posted in the lobby and sent to residents by text message</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thông báo",
+        "html": "<p><b>Notice to All Residents of Linden Tower</b></p><p>Please be advised that the water supply to the building will be shut off on Wednesday, May 14, from 9:00 A.M. to 3:00 P.M. while workers replace the main water pipes. Residents are advised to store enough water for drinking and cooking before 9:00 A.M. The building's laundry room will also be closed during this time.</p><p>We expect the work to be completed on schedule. However, if there are delays, an update will be posted in the lobby and sent to residents by text message.</p><p>Thank you for your cooperation.<br>Linden Tower Management Office</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-006",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-006-1",
+          "type": "mcq",
+          "stem_html": "What does Brightpath Software produce?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Medical equipment"
+            },
+            {
+              "label": "B",
+              "html": "Online shopping tools"
+            },
+            {
+              "label": "C",
+              "html": "Training courses for nurses"
+            },
+            {
+              "label": "D",
+              "html": "Scheduling software for hospitals"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>a … company that develops scheduling apps for hospitals</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-006-2",
+          "type": "mcq",
+          "stem_html": "What is suggested about Ms. Romero?",
+          "options": [
+            {
+              "label": "A",
+              "html": "She is a software engineer."
+            },
+            {
+              "label": "B",
+              "html": "She will move to Berlin."
+            },
+            {
+              "label": "C",
+              "html": "She used to work in health care."
+            },
+            {
+              "label": "D",
+              "html": "She started the company in Europe."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>founded by former nurse Alicia Romero</i>: bà từng là y tá, tức là từng làm trong ngành y tế.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-006-3",
+          "type": "mcq",
+          "stem_html": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?<br>\"The office will serve the company's clients in Germany and nearby countries.\"",
+          "options": [
+            {
+              "label": "A",
+              "html": "[1]"
+            },
+            {
+              "label": "B",
+              "html": "[2]"
+            },
+            {
+              "label": "C",
+              "html": "[3]"
+            },
+            {
+              "label": "D",
+              "html": "[4]"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu cần chèn nói về <i>The office</i>, nên phải đứng ngay sau câu nhắc tới văn phòng ở Berlin, tức là vị trí [3].",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Bài báo",
+        "html": "<p><b>Local Tech Firm Expands</b></p><p>(May 3) Brightpath Software, a Dunmore-based company that develops scheduling apps for hospitals, announced yesterday that it will double its workforce over the next two years. The company, which was founded by former nurse Alicia Romero in 2017, currently employs about 120 people. — [1] —</p><p>According to Ms. Romero, the expansion is necessary because of growing demand from hospitals in Europe and Asia. — [2] — Brightpath plans to open an office in Berlin early next year. — [3] —</p><p>Most of the new jobs, however, will be at the company's headquarters in Dunmore, which is being enlarged. — [4] — The company is hiring software engineers, customer support staff, and sales representatives.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-007",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-007-1",
+          "type": "mcq",
+          "stem_html": "What service did Ms. Lee NOT receive?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Lawn mowing"
+            },
+            {
+              "label": "B",
+              "html": "Hedge trimming"
+            },
+            {
+              "label": "C",
+              "html": "Tree planting"
+            },
+            {
+              "label": "D",
+              "html": "Garden lighting installation"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Hóa đơn chỉ có cắt cỏ, tỉa hàng rào và trồng cây. Không có lắp đèn sân vườn.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-007-2",
+          "type": "mcq",
+          "stem_html": "Why did Ms. Lee receive a discount?",
+          "options": [
+            {
+              "label": "A",
+              "html": "She paid in advance."
+            },
+            {
+              "label": "B",
+              "html": "She has used the company before."
+            },
+            {
+              "label": "C",
+              "html": "She ordered three services."
+            },
+            {
+              "label": "D",
+              "html": "She paid online."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Discount (returning customer, 10%)</i>. <i>returning customer</i> = khách quay lại.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-007-3",
+          "type": "mcq",
+          "stem_html": "By when should the invoice be paid?",
+          "options": [
+            {
+              "label": "A",
+              "html": "June 6"
+            },
+            {
+              "label": "B",
+              "html": "June 13"
+            },
+            {
+              "label": "C",
+              "html": "June 20"
+            },
+            {
+              "label": "D",
+              "html": "June 30"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Hạn trả là <i>within 14 days of the service date</i>, tức là 6/6 cộng 14 ngày, bằng 20/6.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Hóa đơn",
+        "html": "<p><b>Greenleaf Landscaping — Invoice #20418</b><br>Customer: Hannah Lee, 18 Birch Lane<br>Date of service: June 6</p><table><tr><th>Service</th><th>Price</th></tr><tr><td>Lawn mowing</td><td>$45.00</td></tr><tr><td>Hedge trimming</td><td>$60.00</td></tr><tr><td>Tree planting (2 trees)</td><td>$180.00</td></tr><tr><td>Discount (returning customer, 10%)</td><td>−$28.50</td></tr><tr><td><b>Total</b></td><td><b>$256.50</b></td></tr></table><p>Payment is due within 14 days of the service date. Pay online or by check. Questions about this invoice? Call Ben at 555-0199.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-008",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-008-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the Web page?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To advertise a new bike model"
+            },
+            {
+              "label": "B",
+              "html": "To explain how to repair a bike"
+            },
+            {
+              "label": "C",
+              "html": "To announce new station locations"
+            },
+            {
+              "label": "D",
+              "html": "To answer common questions about a service"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Tiêu đề <i>Frequently Asked Questions</i>: trả lời câu hỏi thường gặp.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-008-2",
+          "type": "mcq",
+          "stem_html": "How much would a member pay for a 45-minute ride?",
+          "options": [
+            {
+              "label": "A",
+              "html": "$0"
+            },
+            {
+              "label": "B",
+              "html": "$1"
+            },
+            {
+              "label": "C",
+              "html": "$3"
+            },
+            {
+              "label": "D",
+              "html": "$4"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Hội viên được miễn phí 30 phút đầu; 15 phút còn lại tính $1. Tổng là <b>$1</b>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-008-3",
+          "type": "mcq",
+          "stem_html": "What is indicated about reservations?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Only members can make them."
+            },
+            {
+              "label": "B",
+              "html": "They can be made a day in advance."
+            },
+            {
+              "label": "C",
+              "html": "They cost $3."
+            },
+            {
+              "label": "D",
+              "html": "They must be made by phone."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Members may reserve a bike up to 10 minutes before</i>: chỉ hội viên, và tối đa 10 phút trước.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Trang web",
+        "html": "<p><b>CityBike Rental — Frequently Asked Questions</b></p><p><b>How do I rent a bike?</b> Download the CityBike app, create an account, and scan the code on any bike at one of our 60 stations.</p><p><b>How much does it cost?</b> The first 30 minutes of each ride are free for members. After that, the cost is $1 for every additional 15 minutes. Non-members pay $3 to unlock a bike plus $1 per 15 minutes.</p><p><b>What if a bike is damaged?</b> Please report it in the app by pressing the wrench icon. Do not leave damaged bikes outside a station.</p><p><b>Can I reserve a bike?</b> Members may reserve a bike up to 10 minutes before picking it up.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-009",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-009-1",
+          "type": "mcq",
+          "stem_html": "What is the memo mainly about?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Sales targets for the year"
+            },
+            {
+              "label": "B",
+              "html": "A holiday party for staff"
+            },
+            {
+              "label": "C",
+              "html": "A new client management system"
+            },
+            {
+              "label": "D",
+              "html": "Rules for giving gifts to clients"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Tiêu đề <i>Client gifts</i>; nội dung liệt kê quy định tặng quà.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-009-2",
+          "type": "mcq",
+          "stem_html": "What must employees do after giving a gift?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Ask the client for a receipt"
+            },
+            {
+              "label": "B",
+              "html": "Record details in a system"
+            },
+            {
+              "label": "C",
+              "html": "Send a thank-you card"
+            },
+            {
+              "label": "D",
+              "html": "Request a refund"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>All gifts must be recorded in the client management system</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-009-3",
+          "type": "mcq",
+          "stem_html": "What is NOT permitted?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Gifts worth $40"
+            },
+            {
+              "label": "B",
+              "html": "Gifts during holidays"
+            },
+            {
+              "label": "C",
+              "html": "Gift cards"
+            },
+            {
+              "label": "D",
+              "html": "Gifts for new clients"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Gifts of cash or gift cards are not permitted under any circumstances</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Memo",
+        "html": "<p><b>MEMO</b><br><b>To:</b> All Sales Staff<br><b>From:</b> Rachel Odum, Sales Director<br><b>Date:</b> February 2<br><b>Subject:</b> Client gifts</p><p>As the holiday season showed, many of our clients appreciate small gifts. However, to make sure we follow company rules, please note the following. Gifts to clients must not be worth more than $50. All gifts must be recorded in the client management system, including the date, the item, and its cost. Gifts of cash or gift cards are not permitted under any circumstances.</p><p>If you are unsure whether a gift is appropriate, please check with me before giving it. Thank you.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-010",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-010-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the review?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To request a refund"
+            },
+            {
+              "label": "B",
+              "html": "To apply for a job at a lodge"
+            },
+            {
+              "label": "C",
+              "html": "To describe a stay at a lodge"
+            },
+            {
+              "label": "D",
+              "html": "To advertise a restaurant"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Bài đánh giá kể lại kỳ lưu trú ba đêm.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-010-2",
+          "type": "mcq",
+          "stem_html": "What did Mark do for Ms. Gomez?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He suggested a place to eat."
+            },
+            {
+              "label": "B",
+              "html": "He upgraded her room."
+            },
+            {
+              "label": "C",
+              "html": "He fixed the Internet."
+            },
+            {
+              "label": "D",
+              "html": "He gave her a map of the trails."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Mark … recommended a wonderful local restaurant</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-010-3",
+          "type": "mcq",
+          "stem_html": "What does Ms. Gomez say was a problem?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The noise"
+            },
+            {
+              "label": "B",
+              "html": "The view from her room"
+            },
+            {
+              "label": "C",
+              "html": "The Internet service"
+            },
+            {
+              "label": "D",
+              "html": "The price"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>My only complaint is the Internet connection</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Đánh giá của khách",
+        "html": "<p>I recently stayed three nights at the Alder Lake Lodge and want to share my experience. The location is beautiful: my room looked directly over the lake, and there are walking trails just behind the building. The staff were helpful, especially Mark at the front desk, who recommended a wonderful local restaurant.</p><p>My only complaint is the Internet connection, which was very slow and often stopped working completely. As I had to do some work during my stay, this was a real problem. Still, I would recommend the lodge to anyone looking for a quiet getaway.</p><p>— Patricia Gomez</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-011",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-011-1",
+          "type": "mcq",
+          "stem_html": "Which class meets on the weekend?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Yoga for Everyone"
+            },
+            {
+              "label": "B",
+              "html": "Conversational Spanish"
+            },
+            {
+              "label": "C",
+              "html": "Digital Photography"
+            },
+            {
+              "label": "D",
+              "html": "Beginner Pottery"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Yoga học vào thứ Bảy.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-011-2",
+          "type": "mcq",
+          "stem_html": "What is indicated about the classes?",
+          "options": [
+            {
+              "label": "A",
+              "html": "They last eight weeks."
+            },
+            {
+              "label": "B",
+              "html": "They are free for members."
+            },
+            {
+              "label": "C",
+              "html": "They begin in April."
+            },
+            {
+              "label": "D",
+              "html": "They meet twice a week."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>All classes run for eight weeks</i>. Hội viên chỉ được giảm 15%, không miễn phí.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-011-3",
+          "type": "mcq",
+          "stem_html": "What must Digital Photography students provide?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A camera"
+            },
+            {
+              "label": "B",
+              "html": "A textbook"
+            },
+            {
+              "label": "C",
+              "html": "A laptop"
+            },
+            {
+              "label": "D",
+              "html": "A membership card"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>students must bring their own camera</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Lịch lớp học",
+        "html": "<p><b>Ridgeway Community Center — Spring Classes</b></p><table><tr><th>Class</th><th>Day</th><th>Time</th><th>Fee</th></tr><tr><td>Beginner Pottery</td><td>Monday</td><td>6:00–8:00 P.M.</td><td>$120</td></tr><tr><td>Conversational Spanish</td><td>Tuesday</td><td>7:00–8:30 P.M.</td><td>$90</td></tr><tr><td>Digital Photography</td><td>Thursday</td><td>6:30–8:30 P.M.</td><td>$110</td></tr><tr><td>Yoga for Everyone</td><td>Saturday</td><td>9:00–10:00 A.M.</td><td>$60</td></tr></table><p>All classes run for eight weeks, starting the week of March 3. Community center members receive 15 percent off all fees. Materials are included in the price, except for Digital Photography, for which students must bring their own camera.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-012",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-012-1",
+          "type": "mcq",
+          "stem_html": "What did the city council decide to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Close several downtown streets"
+            },
+            {
+              "label": "B",
+              "html": "Build new bike lanes"
+            },
+            {
+              "label": "C",
+              "html": "Raise parking fees"
+            },
+            {
+              "label": "D",
+              "html": "Sell a parking garage"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>voted … to add protected bike lanes to four major downtown streets</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-012-2",
+          "type": "mcq",
+          "stem_html": "Who is Ms. Whitaker?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A business owner"
+            },
+            {
+              "label": "B",
+              "html": "A construction engineer"
+            },
+            {
+              "label": "C",
+              "html": "A bicycle shop manager"
+            },
+            {
+              "label": "D",
+              "html": "A council member who suggested the project"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Council member Diane Whitaker, who proposed the plan</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-012-3",
+          "type": "mcq",
+          "stem_html": "Why are some business owners concerned?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Construction will be noisy."
+            },
+            {
+              "label": "B",
+              "html": "Parking spaces will be lost."
+            },
+            {
+              "label": "C",
+              "html": "Taxes will increase."
+            },
+            {
+              "label": "D",
+              "html": "Fewer people will cycle."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the project will remove nearly 100 parking spaces</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Bài báo",
+        "html": "<p><b>City to Add Bike Lanes Downtown</b></p><p>The Harlow City Council voted on Tuesday to add protected bike lanes to four major downtown streets. The project, which will cost about $3.2 million, is expected to begin in July and finish by the end of the year.</p><p>Council member Diane Whitaker, who proposed the plan, said that the number of people cycling to work has risen by 40 percent in the past five years. Some local business owners have expressed concern that the project will remove nearly 100 parking spaces. In response, the city has promised to build a new parking garage on Fifth Street, which is scheduled to open next spring.</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-013",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "questions": [
+        {
+          "id": "toeic-p7-013-1",
+          "type": "mcq",
+          "stem_html": "Why was the letter sent?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To announce a price increase"
+            },
+            {
+              "label": "B",
+              "html": "To encourage a member to renew"
+            },
+            {
+              "label": "C",
+              "html": "To thank a donor"
+            },
+            {
+              "label": "D",
+              "html": "To invite an artist to exhibit"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Thư nhắc thẻ sắp hết hạn và đề nghị <i>please renew before that date</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-013-2",
+          "type": "mcq",
+          "stem_html": "What is NOT mentioned as a membership benefit?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Free admission"
+            },
+            {
+              "label": "B",
+              "html": "Invitations to previews"
+            },
+            {
+              "label": "C",
+              "html": "A café discount"
+            },
+            {
+              "label": "D",
+              "html": "Free parking"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Bài liệt kê miễn phí vào cửa, lời mời xem trước triển lãm, giảm 10% ở café và shop. Không có đỗ xe miễn phí.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        },
+        {
+          "id": "toeic-p7-013-3",
+          "type": "mcq",
+          "stem_html": "How can Mr. Fujita receive guest passes?",
+          "options": [
+            {
+              "label": "A",
+              "html": "By visiting the museum on December 5"
+            },
+            {
+              "label": "B",
+              "html": "By renewing online by November 15"
+            },
+            {
+              "label": "C",
+              "html": "By calling Ms. Reyes"
+            },
+            {
+              "label": "D",
+              "html": "By buying a gift at the shop"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>members who renew online by November 15 will also receive two free guest passes</i>.",
+          "tags": [
+            "part7",
+            "p7-single"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thư",
+        "html": "<p>Dear Mr. Fujita,</p><p>Thank you for being a member of the Bayside Art Museum for the past three years. Your membership will expire on November 30. To continue enjoying free admission, invitations to exhibition previews, and a 10 percent discount at our café and shop, please renew before that date.</p><p>This year, members who renew online by November 15 will also receive two free guest passes. You can renew on our Web site or by calling our membership office at 555-0123.</p><p>We hope to see you at our winter exhibition, <i>Light and Water</i>, which opens on December 5.</p><p>Sincerely,<br>Joanna Reyes, Membership Coordinator</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-014",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-multi",
+      "questions": [
+        {
+          "id": "toeic-p7-014-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the e-mail?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To complain about a product"
+            },
+            {
+              "label": "B",
+              "html": "To place an order"
+            },
+            {
+              "label": "C",
+              "html": "To ask for a job"
+            },
+            {
+              "label": "D",
+              "html": "To cancel a delivery"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I'd like to order 1,000 flyers and 6 posters</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-014-2",
+          "type": "mcq",
+          "stem_html": "How much will Mr. Rivera's order cost before any extra services?",
+          "options": [
+            {
+              "label": "A",
+              "html": "$120"
+            },
+            {
+              "label": "B",
+              "html": "$160"
+            },
+            {
+              "label": "C",
+              "html": "$210"
+            },
+            {
+              "label": "D",
+              "html": "$250"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Bài kép cần kết hợp hai văn bản: 1.000 tờ rơi giá $120, 6 poster × $15 = $90. Tổng <b>$210</b>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-014-3",
+          "type": "mcq",
+          "stem_html": "What is suggested about Mr. Rivera's order?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is large enough for free delivery."
+            },
+            {
+              "label": "B",
+              "html": "It includes business cards."
+            },
+            {
+              "label": "C",
+              "html": "It needs rush service."
+            },
+            {
+              "label": "D",
+              "html": "It will be printed on glossy paper."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Đơn $210 vượt mức $200, nên đủ điều kiện giao miễn phí (dù ông tự đến lấy). Ông chỉ <b>hỏi</b> về giấy bóng, chưa chắc in được, nên (D) sai.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-014-4",
+          "type": "mcq",
+          "stem_html": "When will the order most likely be ready?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Monday"
+            },
+            {
+              "label": "B",
+              "html": "Tuesday"
+            },
+            {
+              "label": "C",
+              "html": "Friday"
+            },
+            {
+              "label": "D",
+              "html": "Saturday"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đặt lúc 10:30 sáng thứ Hai, trước 12 giờ trưa, nên <i>ready the next business day</i>, tức là thứ Ba.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-014-5",
+          "type": "mcq",
+          "stem_html": "What does Mr. Rivera ask about?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The type of paper"
+            },
+            {
+              "label": "B",
+              "html": "The delivery time"
+            },
+            {
+              "label": "C",
+              "html": "Design services"
+            },
+            {
+              "label": "D",
+              "html": "Payment methods"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>whether the posters can be printed on glossy paper</i>: hỏi về loại giấy.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Quảng cáo và email",
+        "html": "<p><b>QuickPrint Solutions</b></p><table><tr><th>Product</th><th>Price</th></tr><tr><td>Business cards</td><td>500 for $40</td></tr><tr><td>Flyers</td><td>1,000 for $120</td></tr><tr><td>Posters (A2)</td><td>$15 each</td></tr></table><p>Orders over $200 receive free delivery. Orders placed before noon are ready the next business day. Same-day rush service is available for an extra 25%.</p><hr><p><b>From:</b> Tomás Rivera<br><b>To:</b> QuickPrint Solutions<br><b>Date:</b> Monday, September 9, 10:30 A.M.</p><p>Hello,</p><p>I'd like to order 1,000 flyers and 6 posters for our restaurant's grand opening on Saturday. I've attached the design files. Could you also tell me whether the posters can be printed on glossy paper? I'll pick up the order myself, so delivery won't be necessary.</p><p>Thanks,<br>Tomás Rivera, Owner, Casa Verde</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-015",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-multi",
+      "questions": [
+        {
+          "id": "toeic-p7-015-1",
+          "type": "mcq",
+          "stem_html": "What is mentioned as a requirement for the job?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A university degree"
+            },
+            {
+              "label": "B",
+              "html": "Knowledge of French"
+            },
+            {
+              "label": "C",
+              "html": "The ability to work weekends"
+            },
+            {
+              "label": "D",
+              "html": "Experience in hotel management"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>ability to work evenings and weekends</i> là yêu cầu. Tiếng Pháp chỉ là <i>an advantage</i> (lợi thế).",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-015-2",
+          "type": "mcq",
+          "stem_html": "What is suggested about Mr. Okafor?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He lives in Lyon."
+            },
+            {
+              "label": "B",
+              "html": "He currently works for Fenwick Hotels."
+            },
+            {
+              "label": "C",
+              "html": "He has planned many weddings."
+            },
+            {
+              "label": "D",
+              "html": "He meets the experience requirement."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Yêu cầu tối thiểu 3 năm, ông có 4 năm. Đây là câu suy luận phải kết hợp văn bản 1 và 2. Ông từng sống ở Lyon, không phải đang sống ở đó.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-015-3",
+          "type": "mcq",
+          "stem_html": "Why does Mr. Okafor mention Lyon?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To say where he will move"
+            },
+            {
+              "label": "B",
+              "html": "To describe a conference he organized"
+            },
+            {
+              "label": "C",
+              "html": "To explain his language ability"
+            },
+            {
+              "label": "D",
+              "html": "To suggest an interview location"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I am also fluent in French, as I lived in Lyon for two years</i>: giải thích vì sao ông giỏi tiếng Pháp.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-015-4",
+          "type": "mcq",
+          "stem_html": "When can Mr. Okafor start working?",
+          "options": [
+            {
+              "label": "A",
+              "html": "In June"
+            },
+            {
+              "label": "B",
+              "html": "In July"
+            },
+            {
+              "label": "C",
+              "html": "In August"
+            },
+            {
+              "label": "D",
+              "html": "In September"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I am available to start in August</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-015-5",
+          "type": "mcq",
+          "stem_html": "What will Mr. Okafor be asked to do at the interview?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Organize a real event"
+            },
+            {
+              "label": "B",
+              "html": "Give a presentation"
+            },
+            {
+              "label": "C",
+              "html": "Meet hotel guests"
+            },
+            {
+              "label": "D",
+              "html": "Translate a document"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>you will be asked to give a ten-minute presentation</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Tin tuyển dụng và hai email",
+        "html": "<p><b>Fenwick Hotels — Event Coordinator (Full-Time), Glasgow</b></p><p>Plan and manage weddings, conferences, and company events. Requirements: at least three years of event planning experience; excellent communication skills; ability to work evenings and weekends. Knowledge of French or German is an advantage. Send applications to Ms. Fiona Grant, HR Manager, by June 20.</p><hr><p><b>From:</b> Daniel Okafor<br><b>To:</b> Fiona Grant<br><b>Date:</b> June 12</p><p>Dear Ms. Grant,</p><p>I am writing to apply for the Event Coordinator position advertised on your Web site. For the past four years, I have organized conferences for the Clyde Business Association, including its annual meeting, which attracts more than 800 guests. I am also fluent in French, as I lived in Lyon for two years. I am available to start in August, once my current contract ends. My résumé is attached.</p><p>Sincerely,<br>Daniel Okafor</p><hr><p><b>From:</b> Fiona Grant<br><b>To:</b> Daniel Okafor<br><b>Date:</b> June 18</p><p>Dear Mr. Okafor,</p><p>Thank you for your application. We would like to invite you to an interview at our Glasgow hotel on Tuesday, June 25, at 2:00 P.M. You will meet with me and our Events Director, Mr. Paul Lindsay. As part of the interview, you will be asked to give a ten-minute presentation on how you would plan a company event for 200 people. Please confirm by replying to this e-mail.</p><p>Best regards,<br>Fiona Grant</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-016",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-multi",
+      "questions": [
+        {
+          "id": "toeic-p7-016-1",
+          "type": "mcq",
+          "stem_html": "What is NOT mentioned as part of the festival?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A cooking competition"
+            },
+            {
+              "label": "B",
+              "html": "Live music"
+            },
+            {
+              "label": "C",
+              "html": "Cooking demonstrations"
+            },
+            {
+              "label": "D",
+              "html": "Food stalls"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Tờ rơi nêu food stalls, live music, cooking demonstrations. Không có cuộc thi nấu ăn.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-016-2",
+          "type": "mcq",
+          "stem_html": "Why did Ms. Lin write the e-mail?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To buy tickets"
+            },
+            {
+              "label": "B",
+              "html": "To change her volunteer shift"
+            },
+            {
+              "label": "C",
+              "html": "To complain about the schedule"
+            },
+            {
+              "label": "D",
+              "html": "To sell food at the festival"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Would it be possible to switch to a Sunday shift instead?</i>",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-016-3",
+          "type": "mcq",
+          "stem_html": "What will Ms. Lin receive for volunteering?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A cash payment"
+            },
+            {
+              "label": "B",
+              "html": "A free meal"
+            },
+            {
+              "label": "C",
+              "html": "A T-shirt"
+            },
+            {
+              "label": "D",
+              "html": "A cookbook"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Tình nguyện viên được <i>free admission on both days and a festival T-shirt</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-016-4",
+          "type": "mcq",
+          "stem_html": "What is indicated about Ms. Lin's children?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Only one of them will need a ticket."
+            },
+            {
+              "label": "B",
+              "html": "Both of them can enter for free."
+            },
+            {
+              "label": "C",
+              "html": "They will volunteer with her."
+            },
+            {
+              "label": "D",
+              "html": "They are both under 12."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Trẻ dưới 12 tuổi miễn phí, nên bé 8 tuổi vào miễn phí, còn bé 14 tuổi phải mua vé. Phải kết hợp hai văn bản mới suy ra được.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-016-5",
+          "type": "mcq",
+          "stem_html": "How much would one adult ticket cost if bought online on August 5?",
+          "options": [
+            {
+              "label": "A",
+              "html": "$6"
+            },
+            {
+              "label": "B",
+              "html": "$8"
+            },
+            {
+              "label": "C",
+              "html": "$10"
+            },
+            {
+              "label": "D",
+              "html": "Nothing"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Mua online trước ngày 10/8 thì giảm $2: $8 − $2 = <b>$6</b>. Ngày 5/8 vẫn trước hạn.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Tờ rơi và email",
+        "html": "<p><b>Harbor City Food Festival</b><br>August 17–18, Waterfront Park</p><p>Over 60 food stalls, live music, and cooking demonstrations!<br>Saturday: 11 A.M.–9 P.M. · Sunday: 11 A.M.–6 P.M.</p><p>Admission: $8 for adults, free for children under 12. Buy tickets online before August 10 and save $2.</p><p><b>Volunteers needed!</b> Volunteers who work one 4-hour shift receive free admission on both days and a festival T-shirt. Sign up on our Web site.</p><hr><p><b>From:</b> Mei Lin<br><b>To:</b> Sam Ortega, Volunteer Coordinator<br><b>Date:</b> August 5</p><p>Hi Sam,</p><p>I signed up online to volunteer on Saturday from 5 to 9 P.M., but I've just found out I have to work late that day. Would it be possible to switch to a Sunday shift instead? I'm free all day. Also, my two children, ages 8 and 14, would like to come to the festival with me.</p><p>Thanks,<br>Mei</p>"
+      }
+    },
+    {
+      "id": "toeic-p7-017",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-multi",
+      "questions": [
+        {
+          "id": "toeic-p7-017-1",
+          "type": "mcq",
+          "stem_html": "What is indicated about the Aria X2 speaker?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It can be used near water."
+            },
+            {
+              "label": "B",
+              "html": "It comes in five colors."
+            },
+            {
+              "label": "C",
+              "html": "Its battery lasts 24 hours."
+            },
+            {
+              "label": "D",
+              "html": "It cannot be returned."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Water-resistant</i>: chống nước. Loa có 4 màu và pin dùng được 12 giờ.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-017-2",
+          "type": "mcq",
+          "stem_html": "How many speakers did Mr. Watanabe order?",
+          "options": [
+            {
+              "label": "A",
+              "html": "One"
+            },
+            {
+              "label": "B",
+              "html": "Two"
+            },
+            {
+              "label": "C",
+              "html": "Three"
+            },
+            {
+              "label": "D",
+              "html": "Four"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>× 2</i> trong xác nhận đơn hàng, và <i>one of the two speakers</i> trong email.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-017-3",
+          "type": "mcq",
+          "stem_html": "What problem does Mr. Watanabe report?",
+          "options": [
+            {
+              "label": "A",
+              "html": "An item was damaged."
+            },
+            {
+              "label": "B",
+              "html": "He received a speaker in the wrong color."
+            },
+            {
+              "label": "C",
+              "html": "He was charged the wrong amount."
+            },
+            {
+              "label": "D",
+              "html": "His order arrived late."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>one of the two speakers is red instead of navy</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-017-4",
+          "type": "mcq",
+          "stem_html": "What is suggested about the red speaker?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is the color his brother chose."
+            },
+            {
+              "label": "B",
+              "html": "It does not work properly."
+            },
+            {
+              "label": "C",
+              "html": "It was sent free of charge."
+            },
+            {
+              "label": "D",
+              "html": "It can be returned under the store's policy."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Loa chưa mở (unused, còn nguyên hộp) và mới nhận sau 2 ngày, nên đáp ứng điều kiện đổi trả trong 30 ngày. Cần kết hợp văn bản 1 và 3.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        },
+        {
+          "id": "toeic-p7-017-5",
+          "type": "mcq",
+          "stem_html": "Why did Mr. Watanabe pay for express shipping?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He needed a gift by a certain day."
+            },
+            {
+              "label": "B",
+              "html": "Standard shipping was not available."
+            },
+            {
+              "label": "C",
+              "html": "He wanted to save money."
+            },
+            {
+              "label": "D",
+              "html": "He was traveling on Saturday."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>I paid for fast shipping because I need the gift by Saturday</i>.",
+          "tags": [
+            "part7",
+            "p7-multi"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Trang sản phẩm, xác nhận đơn hàng và email",
+        "html": "<p><b>Aria X2 Wireless Speaker — $89</b></p><p>Battery life: up to 12 hours. Water-resistant. Available colors: black, white, navy, red. Free standard shipping (5–7 business days). Express shipping (2 business days): $12. Returns accepted within 30 days for unused items in their original packaging.</p><hr><p><b>Order Confirmation #A-55621</b><br>Date: March 3</p><table><tr><td>Aria X2 Wireless Speaker (navy) × 2</td><td>$178.00</td></tr><tr><td>Shipping: Express</td><td>$12.00</td></tr><tr><td><b>Total</b></td><td><b>$190.00</b></td></tr></table><p>Ship to: Kenji Watanabe, 22 Elm Court, Portland</p><hr><p><b>From:</b> Kenji Watanabe<br><b>To:</b> Aria Customer Support<br><b>Date:</b> March 5</p><p>Hello,</p><p>My order arrived today. However, one of the two speakers is red instead of navy. I ordered both in navy because one is a gift for my brother, who chose the color. I haven't opened the red one. Could you send a navy one and tell me how to return the red speaker? I paid for fast shipping because I need the gift by Saturday, so I hope the replacement can arrive by then.</p><p>Kenji Watanabe</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p4-001",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-001-1",
+          "type": "mcq",
+          "stem_html": "Where is the announcement most likely being made?",
+          "options": [
+            {
+              "label": "A",
+              "html": "At a train station"
+            },
+            {
+              "label": "B",
+              "html": "At an airport"
+            },
+            {
+              "label": "C",
+              "html": "On a ferry"
+            },
+            {
+              "label": "D",
+              "html": "At a travel agency"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Từ khóa <i>flight</i>, <i>gate</i>, <i>boarding pass</i> cho thấy đang ở sân bay.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-001-2",
+          "type": "mcq",
+          "stem_html": "What has caused the change?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Bad weather"
+            },
+            {
+              "label": "B",
+              "html": "A staff shortage"
+            },
+            {
+              "label": "C",
+              "html": "A security check"
+            },
+            {
+              "label": "D",
+              "html": "A mechanical problem"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Because of a mechanical issue</i>: sự cố kỹ thuật.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-001-3",
+          "type": "mcq",
+          "stem_html": "What can passengers receive at the customer service desk?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A meal voucher"
+            },
+            {
+              "label": "B",
+              "html": "A new ticket"
+            },
+            {
+              "label": "C",
+              "html": "A hotel room"
+            },
+            {
+              "label": "D",
+              "html": "A refund"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>may pick up a meal voucher at the customer service desk</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Thông báo tại sân bay",
+        "audio_script": "Woman: Attention, passengers on Coastal Air flight 208 to Lisbon. Because of a mechanical issue, this flight will now depart from gate fourteen instead of gate nine. The new departure time is four forty-five, about an hour later than scheduled. We apologize for the inconvenience. Passengers holding a boarding pass for this flight may pick up a meal voucher at the customer service desk across from gate twelve. Thank you for your patience."
+      }
+    },
+    {
+      "id": "toeic-p4-002",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-message",
+      "questions": [
+        {
+          "id": "toeic-p4-002-1",
+          "type": "mcq",
+          "stem_html": "Why is the speaker calling?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To cancel an appointment"
+            },
+            {
+              "label": "B",
+              "html": "To ask for a payment"
+            },
+            {
+              "label": "C",
+              "html": "To remind a patient about an appointment"
+            },
+            {
+              "label": "D",
+              "html": "To introduce a new dentist"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I'm calling to remind you about your appointment</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-002-2",
+          "type": "mcq",
+          "stem_html": "What is the listener asked to bring?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A medical report"
+            },
+            {
+              "label": "B",
+              "html": "A payment receipt"
+            },
+            {
+              "label": "C",
+              "html": "A form of identification"
+            },
+            {
+              "label": "D",
+              "html": "An insurance card"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Please remember to bring your new insurance card</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-002-3",
+          "type": "mcq",
+          "stem_html": "Why should the listener call before five o'clock?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To allow someone else to take the time slot"
+            },
+            {
+              "label": "B",
+              "html": "To confirm her address"
+            },
+            {
+              "label": "C",
+              "html": "To speak to the doctor"
+            },
+            {
+              "label": "D",
+              "html": "To receive a discount"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>so we can offer the slot to another patient</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Tin nhắn thoại",
+        "audio_script": "Man: Hello, this message is for Ms. Ayana Brooks. This is Tom from Clearview Dental Clinic. I'm calling to remind you about your appointment with Dr. Fischer tomorrow at ten thirty. Please remember to bring your new insurance card, since we don't have it on file yet. If you need to change the time, please call us before five o'clock today so we can offer the slot to another patient. Our number is 555-0174. Thank you."
+      }
+    },
+    {
+      "id": "toeic-p4-003",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-003-1",
+          "type": "mcq",
+          "stem_html": "Who most likely is the speaker?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A boat captain"
+            },
+            {
+              "label": "B",
+              "html": "A museum guide"
+            },
+            {
+              "label": "C",
+              "html": "A shop assistant"
+            },
+            {
+              "label": "D",
+              "html": "A photographer"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I'll be your guide today</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-003-2",
+          "type": "mcq",
+          "stem_html": "Where are photographs not allowed?",
+          "options": [
+            {
+              "label": "A",
+              "html": "In the main hall"
+            },
+            {
+              "label": "B",
+              "html": "On the fishing boat"
+            },
+            {
+              "label": "C",
+              "html": "In the gift shop"
+            },
+            {
+              "label": "D",
+              "html": "In the special exhibition"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>photography is allowed in most areas, but not in the special exhibition on the second floor</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-003-3",
+          "type": "mcq",
+          "stem_html": "What is offered to visitors today?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A discount at the gift shop"
+            },
+            {
+              "label": "B",
+              "html": "A free guidebook"
+            },
+            {
+              "label": "C",
+              "html": "A boat ride"
+            },
+            {
+              "label": "D",
+              "html": "A free lunch"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>all visitors today receive ten percent off</i> ở gift shop.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hướng dẫn tham quan bảo tàng",
+        "audio_script": "Woman: Good morning, everyone, and welcome to the Halvorsen Maritime Museum. My name is Ingrid, and I'll be your guide today. Our tour will last about ninety minutes. We'll start in the main hall, where you can see a full-size model of a nineteenth-century fishing boat. Please note that photography is allowed in most areas, but not in the special exhibition on the second floor. At the end of the tour, you're welcome to visit our gift shop, where all visitors today receive ten percent off."
+      }
+    },
+    {
+      "id": "toeic-p4-004",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-004-1",
+          "type": "mcq",
+          "stem_html": "What is the speaker mainly announcing?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A change in working hours"
+            },
+            {
+              "label": "B",
+              "html": "The opening of a break room"
+            },
+            {
+              "label": "C",
+              "html": "A new way to manage schedules"
+            },
+            {
+              "label": "D",
+              "html": "A new IT manager"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>we'll be using a new scheduling app to manage shifts</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-004-2",
+          "type": "mcq",
+          "stem_html": "What will Ms. Okoro do next Tuesday?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Hire new staff"
+            },
+            {
+              "label": "B",
+              "html": "Hold training sessions"
+            },
+            {
+              "label": "C",
+              "html": "Install new phones"
+            },
+            {
+              "label": "D",
+              "html": "Post a new schedule"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Ms. Okoro … will hold two short training sessions next Tuesday</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-004-3",
+          "type": "mcq",
+          "stem_html": "What are the listeners asked to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Download an app tonight"
+            },
+            {
+              "label": "B",
+              "html": "Speak to their manager"
+            },
+            {
+              "label": "C",
+              "html": "Sign up on a sheet"
+            },
+            {
+              "label": "D",
+              "html": "Bring their phones to work"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Please sign up for one of them on the sheet by the door</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Phát biểu tại cuộc họp nhân viên",
+        "audio_script": "Man: Before we finish today's staff meeting, I have some news. Starting next month, we'll be using a new scheduling app to manage shifts. Instead of checking the paper schedule in the break room, you'll be able to see your shifts and request changes on your phone. To help everyone get used to it, Ms. Okoro from the IT department will hold two short training sessions next Tuesday, one at nine and one at two. Please sign up for one of them on the sheet by the door."
+      }
+    },
+    {
+      "id": "toeic-p4-005",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-message",
+      "questions": [
+        {
+          "id": "toeic-p4-005-1",
+          "type": "mcq",
+          "stem_html": "What does the business offer?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Cooking classes"
+            },
+            {
+              "label": "B",
+              "html": "Furniture delivery"
+            },
+            {
+              "label": "C",
+              "html": "Home cleaning"
+            },
+            {
+              "label": "D",
+              "html": "Kitchen renovations"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>we can give it a complete makeover</i> (bếp), tức là cải tạo nhà bếp.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-005-2",
+          "type": "mcq",
+          "stem_html": "According to the advertisement, what do designers do first?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Remove old furniture"
+            },
+            {
+              "label": "B",
+              "html": "Send a price list"
+            },
+            {
+              "label": "C",
+              "html": "Order materials"
+            },
+            {
+              "label": "D",
+              "html": "Visit customers' homes"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Our experienced designers will visit your home, listen to your ideas…</i>",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-005-3",
+          "type": "mcq",
+          "stem_html": "What will customers receive this month?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A discount on cabinets"
+            },
+            {
+              "label": "B",
+              "html": "Free lighting"
+            },
+            {
+              "label": "C",
+              "html": "A free consultation and dinner"
+            },
+            {
+              "label": "D",
+              "html": "Faster service"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>will receive new kitchen lighting at no extra cost</i>. <i>no extra cost</i> = miễn phí.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Quảng cáo trên radio",
+        "audio_script": "Woman: Is your kitchen looking old and tired? At Renova Home Design, we can give it a complete makeover in just two weeks. Our experienced designers will visit your home, listen to your ideas, and create a plan that fits your budget. And this month only, customers who book a free consultation will receive new kitchen lighting at no extra cost. Visit our showroom on Granger Avenue or book online at renova-home dot com."
+      }
+    },
+    {
+      "id": "toeic-p4-006",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-006-1",
+          "type": "mcq",
+          "stem_html": "What is causing delays on Highway 9?",
+          "options": [
+            {
+              "label": "A",
+              "html": "An accident"
+            },
+            {
+              "label": "B",
+              "html": "Heavy snow"
+            },
+            {
+              "label": "C",
+              "html": "Road repairs"
+            },
+            {
+              "label": "D",
+              "html": "A broken traffic light"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>delays of about twenty minutes because of road repairs</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-006-2",
+          "type": "mcq",
+          "stem_html": "What does the speaker suggest?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Leaving home early"
+            },
+            {
+              "label": "B",
+              "html": "Using public transportation"
+            },
+            {
+              "label": "C",
+              "html": "Taking a different road"
+            },
+            {
+              "label": "D",
+              "html": "Parking outside the city"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>If possible, take River Road instead</i>: đi đường khác.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-006-3",
+          "type": "mcq",
+          "stem_html": "What will happen on Sunday?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A marathon will be held."
+            },
+            {
+              "label": "B",
+              "html": "A new road will open."
+            },
+            {
+              "label": "C",
+              "html": "A concert will take place."
+            },
+            {
+              "label": "D",
+              "html": "Highway 9 will reopen."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the city marathon is this Sunday</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Bản tin giao thông",
+        "audio_script": "Man: This is Rob Kessler with your seven o'clock traffic report. Drivers heading downtown on Highway 9 should expect delays of about twenty minutes because of road repairs near the Elm Street exit. Two lanes will be closed until the end of the week. If possible, take River Road instead. Also, a reminder that the city marathon is this Sunday, so several streets in the city center will be closed from six A.M. to two P.M. Up next, we'll have the weather forecast."
+      }
+    },
+    {
+      "id": "toeic-p4-007",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-message",
+      "questions": [
+        {
+          "id": "toeic-p4-007-1",
+          "type": "mcq",
+          "stem_html": "Why is the speaker calling?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To advertise a new product"
+            },
+            {
+              "label": "B",
+              "html": "To respond to a customer's inquiry"
+            },
+            {
+              "label": "C",
+              "html": "To confirm a payment"
+            },
+            {
+              "label": "D",
+              "html": "To schedule a delivery time"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>returning your call about order number 4471</i>: gọi lại trả lời câu hỏi của khách.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-007-2",
+          "type": "mcq",
+          "stem_html": "What problem does the speaker mention?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The warehouse is closed."
+            },
+            {
+              "label": "B",
+              "html": "A delivery was damaged."
+            },
+            {
+              "label": "C",
+              "html": "An invoice was incorrect."
+            },
+            {
+              "label": "D",
+              "html": "Some items are not available."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>the twenty desk chairs you ordered are out of stock</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-007-3",
+          "type": "mcq",
+          "stem_html": "What does the speaker ask the listener to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Pay an extra fee"
+            },
+            {
+              "label": "B",
+              "html": "Visit the warehouse"
+            },
+            {
+              "label": "C",
+              "html": "Order different chairs"
+            },
+            {
+              "label": "D",
+              "html": "Choose a shipping option"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Cô ấy đưa ra hai lựa chọn giao hàng và nói <i>Please let me know which you prefer</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Tin nhắn thoại từ nhà cung cấp",
+        "audio_script": "Woman: Hi, Mr. Delgado. This is Priya Nair from Summit Office Supplies, returning your call about order number 4471. I checked with our warehouse, and the printer paper and toner are ready to ship today. However, the twenty desk chairs you ordered are out of stock until the end of the month. I can either send everything else now and the chairs later, or wait and ship the full order together. Please let me know which you prefer. You can reach me at extension 302."
+      }
+    },
+    {
+      "id": "toeic-p4-008",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-008-1",
+          "type": "mcq",
+          "stem_html": "Where is the announcement being made?",
+          "options": [
+            {
+              "label": "A",
+              "html": "At a supermarket"
+            },
+            {
+              "label": "B",
+              "html": "At a bakery factory"
+            },
+            {
+              "label": "C",
+              "html": "At a restaurant"
+            },
+            {
+              "label": "D",
+              "html": "At a farm"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>shoppers</i>, <i>FreshWay Market</i>, <i>bakery section</i> cho thấy đang ở siêu thị.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-008-2",
+          "type": "mcq",
+          "stem_html": "How long will the discount last?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Ten minutes"
+            },
+            {
+              "label": "B",
+              "html": "Thirty minutes"
+            },
+            {
+              "label": "C",
+              "html": "One hour"
+            },
+            {
+              "label": "D",
+              "html": "All day"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>For the next thirty minutes</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-008-3",
+          "type": "mcq",
+          "stem_html": "Why will the store close early today?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Because of a holiday"
+            },
+            {
+              "label": "B",
+              "html": "Because of repairs"
+            },
+            {
+              "label": "C",
+              "html": "Because of a staff meeting"
+            },
+            {
+              "label": "D",
+              "html": "Because of bad weather"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>closing early today, at six P.M., for the holiday</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Thông báo tại siêu thị",
+        "audio_script": "Man: Good afternoon, shoppers, and thank you for choosing FreshWay Market. For the next thirty minutes, all baked goods in our bakery section are fifty percent off. That includes bread, cakes, and our famous blueberry muffins. Also, don't forget that our store will be closing early today, at six P.M., for the holiday. We'll reopen tomorrow at our usual time of eight A.M. Happy shopping!"
+      }
+    },
+    {
+      "id": "toeic-p4-009",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-009-1",
+          "type": "mcq",
+          "stem_html": "Who is the speaker?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A keynote speaker"
+            },
+            {
+              "label": "B",
+              "html": "A conference organizer"
+            },
+            {
+              "label": "C",
+              "html": "A hotel manager"
+            },
+            {
+              "label": "D",
+              "html": "A solar engineer"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the chair of this year's organizing committee</i>: chủ tịch ban tổ chức.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-009-2",
+          "type": "mcq",
+          "stem_html": "Where can listeners find Wi-Fi information?",
+          "options": [
+            {
+              "label": "A",
+              "html": "On a screen"
+            },
+            {
+              "label": "B",
+              "html": "In the program"
+            },
+            {
+              "label": "C",
+              "html": "On their name badges"
+            },
+            {
+              "label": "D",
+              "html": "At the front desk"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Wi-Fi details are printed on the back of your name badge</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-009-3",
+          "type": "mcq",
+          "stem_html": "Why has the schedule changed?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A room is not available."
+            },
+            {
+              "label": "B",
+              "html": "A speaker's flight was late."
+            },
+            {
+              "label": "C",
+              "html": "Lunch will be served earlier."
+            },
+            {
+              "label": "D",
+              "html": "A panel was canceled."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>because our keynote speaker's flight was delayed</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Phát biểu mở đầu hội nghị",
+        "audio_script": "Woman: Welcome to the twelfth annual Green Building Conference. I'm Dr. Helen Park, the chair of this year's organizing committee. Before we begin, a few quick notes. Wi-Fi details are printed on the back of your name badge. Lunch will be served in the east hall at twelve thirty. And because our keynote speaker's flight was delayed, her talk has been moved from this morning to three o'clock this afternoon. In its place, we'll start with the panel discussion on solar design."
+      }
+    },
+    {
+      "id": "toeic-p4-010",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-message",
+      "questions": [
+        {
+          "id": "toeic-p4-010-1",
+          "type": "mcq",
+          "stem_html": "Where is the speaker now?",
+          "options": [
+            {
+              "label": "A",
+              "html": "At a client's office"
+            },
+            {
+              "label": "B",
+              "html": "At his own desk"
+            },
+            {
+              "label": "C",
+              "html": "At an airport"
+            },
+            {
+              "label": "D",
+              "html": "At a printing shop"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>I'm at the client's office in Denver</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-010-2",
+          "type": "mcq",
+          "stem_html": "What does the speaker ask the listener to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Send him a document"
+            },
+            {
+              "label": "B",
+              "html": "Buy a blue folder"
+            },
+            {
+              "label": "C",
+              "html": "Sign a contract"
+            },
+            {
+              "label": "D",
+              "html": "Call the client"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Could you scan it and e-mail it to me</i>: gửi tài liệu cho anh ấy.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-010-3",
+          "type": "mcq",
+          "stem_html": "What does the speaker mean when he says, \"I owe you one\"?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He needs to borrow money."
+            },
+            {
+              "label": "B",
+              "html": "He is grateful for the help."
+            },
+            {
+              "label": "C",
+              "html": "He forgot a payment."
+            },
+            {
+              "label": "D",
+              "html": "He will return a folder."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I owe you one</i> là câu cảm ơn thân mật, nghĩa là “tôi nợ bạn một lần”. Đây là dạng câu hỏi ý định của người nói.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Tin nhắn thoại công việc",
+        "audio_script": "Man: Hi, Julia, it's Marcus. I'm at the client's office in Denver, and I just realized I left the signed contract on my desk. Could you scan it and e-mail it to me before two o'clock? That's when the meeting starts. It's in a blue folder next to my computer. Also, the client wants to see the updated price list, so please attach that too. Thanks a lot. I owe you one."
+      }
+    },
+    {
+      "id": "toeic-p4-011",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-announcement",
+      "questions": [
+        {
+          "id": "toeic-p4-011-1",
+          "type": "mcq",
+          "stem_html": "Look at the graphic. In which car is food sold?<br><table><tr><th>Car 1</th><th>Car 2</th><th>Car 3</th><th>Car 4</th></tr><tr><td>?</td><td>Seats</td><td>Seats</td><td>?</td></tr></table>",
+          "options": [
+            {
+              "label": "A",
+              "html": "Car 1"
+            },
+            {
+              "label": "B",
+              "html": "Car 2"
+            },
+            {
+              "label": "C",
+              "html": "Car 3"
+            },
+            {
+              "label": "D",
+              "html": "Car 4"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>the café car, located in car four</i>. Car 1 là toa yên tĩnh (quiet car).",
+          "tags": [
+            "part4",
+            "p4-graphic"
+          ]
+        },
+        {
+          "id": "toeic-p4-011-2",
+          "type": "mcq",
+          "stem_html": "What are passengers asked to do in car one?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Turn off the lights"
+            },
+            {
+              "label": "B",
+              "html": "Show their tickets"
+            },
+            {
+              "label": "C",
+              "html": "Keep noise low"
+            },
+            {
+              "label": "D",
+              "html": "Store their luggage"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>keep phone calls and conversations to a minimum</i>: hạn chế tiếng ồn.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-011-3",
+          "type": "mcq",
+          "stem_html": "When will the train arrive in Reading?",
+          "options": [
+            {
+              "label": "A",
+              "html": "In about 15 minutes"
+            },
+            {
+              "label": "B",
+              "html": "In about 25 minutes"
+            },
+            {
+              "label": "C",
+              "html": "In about 30 minutes"
+            },
+            {
+              "label": "D",
+              "html": "In about one hour"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Our next stop is Reading, in approximately twenty-five minutes</i>. Số 30 phút là giờ đóng cửa café car (bẫy).",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Thông báo trên tàu",
+        "audio_script": "Woman: Ladies and gentlemen, welcome aboard the express service to Oxford. Please note that the café car, located in car four, is open until thirty minutes before our final stop. Hot drinks, sandwiches, and snacks are available. We'd also like to remind passengers that the quiet car is car one. Please keep phone calls and conversations to a minimum there. Our next stop is Reading, in approximately twenty-five minutes."
+      }
+    },
+    {
+      "id": "toeic-p4-012",
+      "section": "listening",
+      "chapter": "part-4",
+      "topic": "p4-message",
+      "questions": [
+        {
+          "id": "toeic-p4-012-1",
+          "type": "mcq",
+          "stem_html": "What kind of business is Linden Electric?",
+          "options": [
+            {
+              "label": "A",
+              "html": "An electronics store"
+            },
+            {
+              "label": "B",
+              "html": "A repair shop"
+            },
+            {
+              "label": "C",
+              "html": "A power company"
+            },
+            {
+              "label": "D",
+              "html": "A bank"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Khách gọi để báo mất điện (<i>power outage</i>) và hỏi hóa đơn điện, nên đây là công ty điện lực.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-012-2",
+          "type": "mcq",
+          "stem_html": "Why would a caller press one?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To report a loss of electricity"
+            },
+            {
+              "label": "B",
+              "html": "To pay a bill"
+            },
+            {
+              "label": "C",
+              "html": "To set up new service"
+            },
+            {
+              "label": "D",
+              "html": "To speak to a manager"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>to report a power outage, please press one</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        },
+        {
+          "id": "toeic-p4-012-3",
+          "type": "mcq",
+          "stem_html": "What can customers do online?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Report an outage"
+            },
+            {
+              "label": "B",
+              "html": "Apply for a job"
+            },
+            {
+              "label": "C",
+              "html": "Change their office hours"
+            },
+            {
+              "label": "D",
+              "html": "Pay their bills"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>manage your account and pay your bill online at any time</i>.",
+          "tags": [
+            "part4",
+            "p4-talk"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Tin nhắn ghi âm tự động của công ty",
+        "audio_script": "Man: Thank you for calling Linden Electric. Our office hours are Monday through Friday, eight A.M. to six P.M. If you are calling to report a power outage, please press one. For questions about your bill, press two. To set up new service, press three. You can also manage your account and pay your bill online at any time on our Web site. For all other questions, please stay on the line and the next available representative will help you."
+      }
+    }
+  ]
+}

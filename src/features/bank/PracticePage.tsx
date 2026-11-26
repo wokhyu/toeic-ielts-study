@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { tagLabel } from '../../content/bank.ts';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap } from '../../lib/useAsync.ts';
@@ -24,7 +25,7 @@ function Practice({ tag, topicId }: { tag?: string; topicId?: number }) {
   const [queue, setQueue] = useState<OtQuestion[]>([]);
   const [offset, setOffset] = useState(0);
   const [pos, setPos] = useState(0);
-  const [title, setTitle] = useState(tag ?? '');
+  const [title, setTitle] = useState(tag ? tagLabel(course, tag) : '');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
