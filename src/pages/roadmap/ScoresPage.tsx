@@ -1,8 +1,8 @@
 import { useCallback, useState, type FormEvent } from 'react';
-import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { ScoreTrend } from '../../components/charts/ScoreTrend.tsx';
 import { Button, Card, EmptyState, ErrorBox, Field, inputClass, Spinner } from '../../components/ui.tsx';
 import { formatDateVN, todayVN } from '../../lib/dates.ts';
-import { ieltsOverall } from '../../lib/scores.ts';
+import { ieltsOverall, targetScore } from '../../lib/scores.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import type { MockScore } from '../../lib/types.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
@@ -20,7 +20,8 @@ const SOURCES = {
 };
 
 export function ScoresPage() {
-  const { program, preview } = useRoadmap();
+  const { program, preview, track } = useRoadmap();
+  const target = targetScore(program, track);
   const load = useCallback(async () => {
     if (preview) return [] as MockScore[];
     return unwrap(
@@ -74,7 +75,6 @@ export function ScoresPage() {
   };
 
   const rows = data ?? [];
-  const chart = rows.map((r) => ({ ...r, label: formatDateVN(r.taken_at).slice(0, 5) }));
 
   return (
     <div className="space-y-4">
@@ -148,64 +148,7 @@ export function ScoresPage() {
       ) : (
         <>
           <Card>
-            <div className="h-64">
-              <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={chart} margin={{ top: 8, left: -10, right: 12 }}>
-                  <CartesianGrid vertical={false} stroke="var(--color-grid)" />
-                  <XAxis
-                    dataKey="label"
-                    fontSize={12}
-                    tick={{ fill: 'var(--color-ink-muted)' }}
-                    axisLine={{ stroke: 'var(--color-axis)' }}
-                    tickLine={false}
-                  />
-                  <YAxis
-                    fontSize={12}
-                    domain={program === 'toeic' ? [0, 990] : [0, 9]}
-                    tick={{ fill: 'var(--color-ink-muted)' }}
-                    axisLine={false}
-                    tickLine={false}
-                  />
-                  <Tooltip
-                    cursor={{ stroke: 'var(--color-axis)' }}
-                    contentStyle={{
-                      background: 'var(--color-surface)',
-                      border: '1px solid var(--color-line)',
-                      borderRadius: 12,
-                      boxShadow: 'var(--shadow-soft)',
-                      fontSize: 13,
-                    }}
-                    labelStyle={{ color: 'var(--color-ink-muted)' }}
-                    itemStyle={{ color: 'var(--color-ink)' }}
-                  />
-                  <Legend
-                    iconType="plainline"
-                    formatter={(value: string) => (
-                      <span style={{ color: 'var(--color-ink-soft)' }}>{value}</span>
-                    )}
-                  />
-                  {['total', ...fields].map((f, i) => (
-                    <Line
-                      key={f}
-                      type="monotone"
-                      dataKey={f}
-                      name={f === 'total' ? 'Tổng' : f[0].toUpperCase() + f.slice(1)}
-                      stroke={`var(--color-series-${i + 1})`}
-                      strokeWidth={2}
-                      strokeLinecap="round"
-                      dot={{
-                        r: 4,
-                        strokeWidth: 2,
-                        stroke: 'var(--color-surface)',
-                        fill: `var(--color-series-${i + 1})`,
-                      }}
-                      activeDot={{ r: 6, strokeWidth: 2, stroke: 'var(--color-surface)' }}
-                      connectNulls
-                    />
-                  ))}
-                </LineChart>
-              </ResponsiveContainer>
-            </div>
+            <ScoreTrend program={program} rows={rows} target={target} />
           </Card>
           <Card className="overflow-x-auto">
             <table className="w-full text-left text-sm">

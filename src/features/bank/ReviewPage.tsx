@@ -1,21 +1,26 @@
 import { useCallback, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { buttonClass } from '../../components/styles.ts';
 import { Button, Card, Chip, EmptyState, ErrorBox, Spinner } from '../../components/ui.tsx';
+import type { CourseId } from '../../lib/types.ts';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
 import { useBank } from './context.ts';
-import { idsFrom, loadQuestions, type Reveal } from './data.ts';
+import { idsFrom, loadQuestions, type OtQuestion, type Reveal } from './data.ts';
+import { PracticeCard } from './PracticePage.tsx';
 import { QuestionView } from './QuestionView.tsx';
 import { StimulusView } from './StimulusView.tsx';
 
 export function ReviewPage() {
   const { session } = useAuth();
   const { course } = useBank();
-  const [tab, setTab] = useState<'wrong' | 'bookmarks'>('wrong');
+  const [tab, setTab] = useState<'due' | 'wrong' | 'bookmarks'>('due');
   const [reveals, setReveals] = useState<Record<number, Reveal>>({});
   const [revealError, setRevealError] = useState<string | null>(null);
 
   const load = useCallback(async () => {
+    if (tab === 'due') return [];
     if (tab === 'wrong') {
       const res = await db().rpc('ot_wrong_question_ids', { p_limit: 50, p_course: course });
       return loadQuestions(idsFrom(unwrap(res), 'ot_wrong_question_ids'));
@@ -47,6 +52,9 @@ export function ReviewPage() {
   return (
     <div className="space-y-4">
       <div className="flex gap-2">
+        <Chip active={tab === 'due'} onClick={() => setTab('due')}>
+          Đến hạn ôn
+        </Chip>
         <Chip active={tab === 'wrong'} onClick={() => setTab('wrong')}>
           Câu làm sai
         </Chip>
@@ -55,7 +63,9 @@ export function ReviewPage() {
         </Chip>
       </div>
       {revealError && <ErrorBox message={revealError} />}
-      {loading ? (
+      {tab === 'due' ? (
+        <DueQueue course={course} />
+      ) : loading ? (
         <Spinner />
       ) : error ? (
         <ErrorBox message={error} />
@@ -85,6 +95,69 @@ export function ReviewPage() {
           </Card>
         ))
       )}
+    </div>
+  );
+}
+
+/**
+ * Missed questions due today: answer each again (counted as review, which moves
+ * it to 3 then 7 days, and off the list after three correct answers in a row),
+ * or mark it "Đã hiểu" to drop it without answering.
+ */
+function DueQueue({ course }: { course: CourseId }) {
+  const { base } = useBank();
+  const [pos, setPos] = useState(0);
+  const [error, setError] = useState<string | null>(null);
+  const load = useCallback(async () => {
+    const res = await db().rpc('ot_due_review_ids', { p_course: course, p_limit: 30 });
+    return loadQuestions(idsFrom(unwrap(res), 'ot_due_review_ids'));
+  }, [course]);
+  const { data, loading, error: loadError } = useAsync(load);
+
+  if (loading) return <Spinner />;
+  if (loadError) return <ErrorBox message={loadError} />;
+  const queue: OtQuestion[] = data ?? [];
+  const q = queue[pos];
+  if (!q) {
+    return (
+      <EmptyState
+        title={queue.length > 0 ? 'Xong lượt ôn hôm nay!' : 'Hôm nay không có câu nào đến hạn'}
+        mood="cheer"
+        action={
+          <Link to={base} className={buttonClass('soft')}>
+            Luyện thêm câu mới
+          </Link>
+        }
+      >
+        Câu làm sai sẽ quay lại sau 1 ngày, rồi 3 và 7 ngày. Đúng 3 lần liền là câu đó ra khỏi danh sách.
+      </EmptyState>
+    );
+  }
+
+  const dismiss = async () => {
+    const { error: err } = await db().rpc('ot_dismiss_review', { p_question: q.id });
+    if (err) setError(errorMessage(err));
+    else setPos((p) => p + 1);
+  };
+
+  return (
+    <div className="space-y-3">
+      <p className="text-sm text-ink-soft">
+        Câu {pos + 1}/{queue.length} đến hạn ôn hôm nay
+      </p>
+      {error && <ErrorBox message={error} />}
+      <PracticeCard
+        key={q.id}
+        q={q}
+        index={pos + 1}
+        mode="review"
+        onNext={() => setPos((p) => p + 1)}
+        extra={
+          <Button variant="ghost" onClick={() => void dismiss()} title="Bỏ câu này khỏi danh sách ôn">
+            Đã hiểu
+          </Button>
+        }
+      />
     </div>
   );
 }

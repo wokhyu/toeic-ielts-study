@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { IconPencil, IconRepeat, IconClock } from '../../components/icons.tsx';
+import { IconClock, IconGrowth, IconPencil, IconRepeat } from '../../components/icons.tsx';
 import { tabClass } from '../../components/styles.ts';
 import type { CourseId } from '../../lib/types.ts';
 import { BankContext, SPEECH_LANG, type BankContextValue } from './context.ts';
@@ -22,6 +22,12 @@ export function BankLayout({ course, base, title }: { course: CourseId; base: st
         <NavLink to={`${base}/on-lai`} className={tab}>
           <IconRepeat size={15} /> Ôn lại
         </NavLink>
+        {/* TOEIC/IELTS show progress as a roadmap tab instead. */}
+        {course === 'on-tap-11' && (
+          <NavLink to={`${base}/tien-bo`} className={tab}>
+            <IconGrowth size={15} /> Tiến bộ
+          </NavLink>
+        )}
       </nav>
       <Outlet />
     </BankContext.Provider>

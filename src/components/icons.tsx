@@ -146,3 +146,8 @@ export const IconBookmark = ({ filled, ...p }: P & { filled?: boolean }) => (
     <path d="M6.5 4h11v16l-5.5-4-5.5 4Z" fill={filled ? 'currentColor' : 'none'} />
   </Icon>
 );
+export const IconGrowth = (p: P) => (
+  <Icon {...p}>
+    <path d="M5 20V14M10 20V10M15 20V12M20 20V5" />
+  </Icon>
+);

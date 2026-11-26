@@ -15,6 +15,7 @@ interface Row {
   active_days: number;
   streak: number;
   last_active: string | null;
+  badges: number;
 }
 
 export function LeaderboardPage() {
@@ -32,8 +33,8 @@ export function LeaderboardPage() {
   return (
     <Card className="overflow-x-auto">
       <p className="mb-3 text-sm text-ink-soft">
-        Xếp theo chuỗi ngày học liên tiếp (streak), sau đó theo số nhiệm vụ đã xong. Chỉ tính thành viên đã
-        được duyệt vào khóa.
+        Xếp theo chuỗi ngày học liên tiếp (streak: ngày nào có làm câu hỏi, tích nhiệm vụ hoặc ôn thẻ đều
+        tính), sau đó theo số nhiệm vụ đã xong. Chỉ tính thành viên đã được duyệt vào khóa.
       </p>
       <table className="w-full text-left text-sm">
         <thead className="text-ink-muted">
@@ -44,6 +45,7 @@ export function LeaderboardPage() {
             <th className="p-2">Streak</th>
             <th className="p-2">Nhiệm vụ</th>
             <th className="p-2">Ngày học</th>
+            <th className="p-2">Huy hiệu</th>
             <th className="p-2">Gần nhất</th>
           </tr>
         </thead>
@@ -76,6 +78,7 @@ export function LeaderboardPage() {
               </td>
               <td className="p-2">{r.tasks_done}</td>
               <td className="p-2">{r.active_days}</td>
+              <td className="p-2">{r.badges > 0 ? `🏅 ${r.badges}` : '—'}</td>
               <td className="p-2">{r.last_active ? formatDateVN(r.last_active) : '—'}</td>
             </tr>
           ))}
