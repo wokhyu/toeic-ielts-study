@@ -13,3 +13,6 @@ courses/on-tap-11/de-on/**/*.doc
 courses/on-tap-11/de-on/**/*.docx
 courses/on-tap-11/de-on/**/*.pdf
 __pycache__/
+
+# Mock tests and other hidden questions (imported with scripts/import-bank.ts, never committed)
+content-private/

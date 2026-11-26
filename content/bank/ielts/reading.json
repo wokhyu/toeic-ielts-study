@@ -1,0 +1,85 @@
+{
+  "sets": [
+    {
+      "id": "ielts-r1-001",
+      "section": "reading",
+      "chapter": "passage-1",
+      "topic": "p1-mixed",
+      "stimulus": {
+        "kind": "passage",
+        "title": "Urban Beekeeping",
+        "html": "<p><b>A</b> Over the past two decades, beekeeping has moved from the countryside to the rooftops of large cities. In London alone, the number of registered hives more than doubled between 2008 and 2018, and similar growth has been reported in Paris, Berlin and New York. Many of the new beekeepers are office workers who see the hobby as a way to reconnect with nature.</p><p><b>B</b> Supporters argue that city bees enjoy several advantages. Urban gardens, parks and balconies offer a wide variety of flowers, and because pesticides are used less often in cities than on farms, the bees may be exposed to fewer harmful chemicals. Some studies have even found that honey produced in cities contains a greater mix of pollen types than honey from rural areas.</p><p><b>C</b> However, not all scientists are convinced that the trend is beneficial. Honeybees compete with wild bees for the same flowers, and in areas where hives are densely packed, there may simply not be enough food to go around. A 2019 survey in one European capital found that the amount of pollen and nectar available per hive had fallen sharply as new colonies were added.</p><p><b>D</b> For this reason, several conservation groups now encourage city residents to plant more flowering species rather than install new hives. They point out that a single window box filled with lavender or thyme can support dozens of wild insects.</p>"
+      },
+      "questions": [
+        {
+          "id": "ielts-r1-001-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–4: Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.<br><br>1. The number of registered hives in London grew by more than 100% between 2008 and 2018.",
+          "options": [
+            { "label": "TRUE", "html": "" },
+            { "label": "FALSE", "html": "" },
+            { "label": "NOT GIVEN", "html": "" }
+          ],
+          "answer": "TRUE",
+          "explain_html": "Đoạn A: <i>more than doubled between 2008 and 2018</i>. Tăng hơn gấp đôi tức là tăng hơn 100%, nên câu này <b>TRUE</b>, chỉ là đã được paraphrase.",
+          "tags": ["reading", "tfng"]
+        },
+        {
+          "id": "ielts-r1-001-2",
+          "type": "mcq",
+          "stem_html": "2. Most urban beekeepers in London work in offices.",
+          "options": [
+            { "label": "TRUE", "html": "" },
+            { "label": "FALSE", "html": "" },
+            { "label": "NOT GIVEN", "html": "" }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Bài chỉ nói <i>Many of the new beekeepers are office workers</i>. <i>Many</i> không phải <i>most</i>, và cũng không nói riêng về London. Bài không đủ thông tin để khẳng định hay phủ định, nên là <b>NOT GIVEN</b>. Đây là bẫy hay gặp: từ chỉ lượng (many / most / all).",
+          "tags": ["reading", "tfng"]
+        },
+        {
+          "id": "ielts-r1-001-3",
+          "type": "mcq",
+          "stem_html": "3. Pesticides are used more frequently in cities than on farms.",
+          "options": [
+            { "label": "TRUE", "html": "" },
+            { "label": "FALSE", "html": "" },
+            { "label": "NOT GIVEN", "html": "" }
+          ],
+          "answer": "FALSE",
+          "explain_html": "Đoạn B: <i>pesticides are used <b>less often</b> in cities than on farms</i>, ngược hẳn với câu đề bài, nên <b>FALSE</b>. Khác với NOT GIVEN: ở đây bài có thông tin, nhưng thông tin đó trái ngược.",
+          "tags": ["reading", "tfng"]
+        },
+        {
+          "id": "ielts-r1-001-4",
+          "type": "mcq",
+          "stem_html": "4. Honey from cities has been found to contain more varieties of pollen than honey from the countryside.",
+          "options": [
+            { "label": "TRUE", "html": "" },
+            { "label": "FALSE", "html": "" },
+            { "label": "NOT GIVEN", "html": "" }
+          ],
+          "answer": "TRUE",
+          "explain_html": "Đoạn B: <i>honey produced in cities contains a greater mix of pollen types than honey from rural areas</i>. Trong câu đề, <i>more varieties</i> = <i>greater mix of types</i> và <i>countryside</i> = <i>rural areas</i>, nên <b>TRUE</b>.",
+          "tags": ["reading", "tfng"]
+        },
+        {
+          "id": "ielts-r1-001-5",
+          "type": "short",
+          "stem_html": "Questions 5–6: Complete the sentences. Choose ONE WORD ONLY from the passage.<br><br>5. Honeybees compete with wild bees for the same ______.",
+          "answer": ["flowers"],
+          "explain_html": "Đoạn C: <i>Honeybees compete with wild bees for the same <b>flowers</b></i>. Câu đề giữ nguyên cấu trúc, chỉ cần tìm đúng câu trong bài. <i>food</i> xuất hiện ở câu sau nhưng không đi với <i>the same</i>.",
+          "tags": ["reading", "sentence-completion"]
+        },
+        {
+          "id": "ielts-r1-001-6",
+          "type": "short",
+          "stem_html": "6. Conservation groups say that a window box planted with lavender or ______ can support many wild insects.",
+          "answer": ["thyme"],
+          "explain_html": "Đoạn D: <i>a single window box filled with lavender or <b>thyme</b></i>. Chú ý chính tả: t-h-y-m-e.",
+          "tags": ["reading", "sentence-completion"]
+        }
+      ]
+    }
+  ]
+}

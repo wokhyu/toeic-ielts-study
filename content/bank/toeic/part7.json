@@ -1,0 +1,59 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p7-001",
+      "section": "reading",
+      "chapter": "part-7",
+      "topic": "p7-single",
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thông báo",
+        "html": "<p><b>Greenfield Public Library – Summer Hours</b></p><p>Beginning July 1, the Greenfield Public Library will open at 10:00 A.M. instead of 9:00 A.M. on weekdays. Closing time remains 8:00 P.M. Monday through Thursday and 6:00 P.M. on Friday. On Saturdays, the library will be open from 9:00 A.M. to 1:00 P.M., and it will be closed on Sundays until September 1.</p><p>The change allows our staff to prepare for the Summer Reading Challenge, which begins on July 8. Children aged 6 to 12 can register at the front desk or on our Web site. Participants who read ten books by August 20 will receive a free ticket to the Greenfield Science Museum.</p>"
+      },
+      "questions": [
+        {
+          "id": "toeic-p7-001-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the notice?",
+          "options": [
+            { "label": "A", "html": "To announce new opening hours" },
+            { "label": "B", "html": "To advertise a science museum" },
+            { "label": "C", "html": "To recruit library staff" },
+            { "label": "D", "html": "To describe a building renovation" }
+          ],
+          "answer": "A",
+          "explain_html": "Tiêu đề <i>Summer Hours</i> và câu đầu (<i>will open at 10:00 A.M. instead of 9:00 A.M.</i>) cho thấy mục đích chính là thông báo giờ mở cửa mới. Bảo tàng chỉ được nhắc tới như phần thưởng.",
+          "tags": ["part7", "p7-single"]
+        },
+        {
+          "id": "toeic-p7-001-2",
+          "type": "mcq",
+          "stem_html": "What time will the library close on Fridays in July?",
+          "options": [
+            { "label": "A", "html": "1:00 P.M." },
+            { "label": "B", "html": "6:00 P.M." },
+            { "label": "C", "html": "8:00 P.M." },
+            { "label": "D", "html": "10:00 A.M." }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Closing time remains … 6:00 P.M. on Friday</i>. 8:00 P.M. là giờ đóng cửa từ thứ Hai đến thứ Năm, còn 1:00 P.M. là của thứ Bảy. Dạng câu hỏi chi tiết này cần đọc kỹ từng mốc giờ.",
+          "tags": ["part7", "p7-single"]
+        },
+        {
+          "id": "toeic-p7-001-3",
+          "type": "mcq",
+          "stem_html": "What is indicated about the Summer Reading Challenge?",
+          "options": [
+            { "label": "A", "html": "It is open to adults." },
+            { "label": "B", "html": "It starts on July 1." },
+            { "label": "C", "html": "Participants can register online." },
+            { "label": "D", "html": "It ends on September 1." }
+          ],
+          "answer": "C",
+          "explain_html": "<i>can register at the front desk or on our Web site</i>, tức là có thể đăng ký online. Chương trình dành cho trẻ 6–12 tuổi (A sai) và bắt đầu ngày 8/7 (B sai). Ngày 1/9 là mốc thư viện mở lại vào Chủ nhật, không phải ngày kết thúc chương trình (D sai).",
+          "tags": ["part7", "p7-single"]
+        }
+      ]
+    }
+  ]
+}

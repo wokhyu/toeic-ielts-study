@@ -1,0 +1,104 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p2-001",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Where should I put these boxes of printer paper?\nMan: (A) In the supply closet next to the elevator.\nMan: (B) Yes, I printed them this morning.\nMan: (C) About twenty boxes."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-001-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            { "label": "A", "html": "" },
+            { "label": "B", "html": "" },
+            { "label": "C", "html": "" }
+          ],
+          "answer": "A",
+          "explain_html": "Câu hỏi <b>Where</b> cần một nơi chốn, nên (A) <i>In the supply closet</i> là đáp án. (B) trả lời Yes cho câu hỏi Wh- (luôn sai) và dùng bẫy <i>printed</i> nghe giống <i>printer</i>. (C) trả lời số lượng (How many).",
+          "tags": ["part2", "p2-wh"]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-002",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-yesno",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: Didn't you send the invoice to the client yesterday?\nWoman: (A) No, the meeting is on Tuesday.\nWoman: (B) I'm still waiting for the manager to approve it.\nWoman: (C) A new client from Seoul."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-002-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            { "label": "A", "html": "" },
+            { "label": "B", "html": "" },
+            { "label": "C", "html": "" }
+          ],
+          "answer": "B",
+          "explain_html": "Đây là câu hỏi phủ định (<i>Didn't you…?</i>). (B) trả lời gián tiếp: chưa gửi vì còn chờ quản lý duyệt, kiểu trả lời rất hay gặp trong Part 2. (A) có <i>No</i> nhưng nói về cuộc họp, lạc đề. (C) lặp lại từ <i>client</i> để gây nhiễu.",
+          "tags": ["part2", "p2-yesno"]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-003",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-request",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Woman: Would you like me to book a taxi for your trip to the airport?\nMan: (A) Thanks, but a colleague is driving me.\nMan: (B) The flight was delayed for an hour.\nMan: (C) I booked it last summer."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-003-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            { "label": "A", "html": "" },
+            { "label": "B", "html": "" },
+            { "label": "C", "html": "" }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Would you like me to…?</i> là lời đề nghị giúp. (A) từ chối lịch sự và nêu lý do. (B) liên quan tới sân bay nhưng không đáp lời đề nghị. (C) lặp lại <i>book</i> nhưng sai thì và sai ý.",
+          "tags": ["part2", "p2-request"]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p2-004",
+      "section": "listening",
+      "chapter": "part-2",
+      "topic": "p2-wh",
+      "stimulus": {
+        "kind": "audio",
+        "audio_script": "Man: When will the renovation of the lobby be finished?\nWoman: (A) In the main lobby.\nWoman: (B) By the end of next month.\nWoman: (C) It was a beautiful design."
+      },
+      "questions": [
+        {
+          "id": "toeic-p2-004-1",
+          "type": "mcq",
+          "stem_html": "Nghe câu hỏi và chọn câu trả lời phù hợp nhất.",
+          "options": [
+            { "label": "A", "html": "" },
+            { "label": "B", "html": "" },
+            { "label": "C", "html": "" }
+          ],
+          "answer": "B",
+          "explain_html": "Câu hỏi <b>When</b> cần thời gian, nên chọn (B) <i>By the end of next month</i>. (A) trả lời nơi chốn (Where) và lặp từ <i>lobby</i>. (C) nhận xét về thiết kế, không trả lời câu hỏi.",
+          "tags": ["part2", "p2-wh"]
+        }
+      ]
+    }
+  ]
+}

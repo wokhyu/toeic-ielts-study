@@ -61,8 +61,23 @@ Có thể chạy khi chưa có Supabase, nhưng chỉ xem trước được lộ
    ```
    Từ lúc đó, admin có thể cấp quyền admin cho người khác ngay trên trang Quản trị.
 6. Nạp câu hỏi Ôn tập 11: làm theo [courses/on-tap-11/README.md](courses/on-tap-11/README.md). Script chạy trên máy cá nhân và dùng service role key.
+7. Cho phép tự nạp câu hỏi TOEIC/IELTS: đặt service role key làm secret của environment `production`. Khi lệnh hỏi giá trị, dán key vào:
+   ```bash
+   gh secret set SUPABASE_SERVICE_ROLE_KEY --env production   # Project Settings → API Keys → secret / service_role
+   ```
+   Sau đó vào Actions → **bank-sync** → Run workflow để nạp lần đầu.
 
-> Anon key được phép công khai, vì quyền truy cập đã được RLS chặn. Service role key thì tuyệt đối không commit và không đặt vào biến `VITE_*`.
+> Anon key được phép công khai, vì quyền truy cập đã được RLS chặn. Service role key bỏ qua RLS: chỉ lưu nó trong `.env.local` trên máy bạn hoặc trong secret của environment `production`, không bao giờ commit và không đặt vào biến `VITE_*`.
+
+## Ngân hàng câu hỏi TOEIC/IELTS
+
+Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambridge. Mỗi câu đều có giải thích bằng tiếng Việt.
+
+- `content/bank/<course>/taxonomy.json`: các phần, chương, chủ đề, và danh sách tag kèm nhãn tiếng Việt.
+- `content/bank/<course>/*.json`: các bộ câu luyện tập (`sets`). Một bộ là một câu đơn (Part 5), hoặc một đoạn văn hay bài nghe (`stimulus`) đi kèm nhiều câu hỏi. Schema nằm trong `src/content/bank-schema.ts`.
+- Đề thi thử **không** nằm trong repo, để học viên không xem trước được đáp án. Đề đặt trong `content-private/bank/<course>/*.json` (các bộ câu có `"pool": "mock"`) và `content-private/mocks/<course>-*.json` (đề, bảng quy đổi điểm, danh sách bộ câu). Thư mục `content-private/` đã nằm trong `.gitignore`; nên sao lưu nó vào một repo private. Chạy `npm run import:bank` trên máy cá nhân (có `.env.local`) để nạp lên.
+- Thêm hoặc sửa câu hỏi: tạo PR. CI kiểm tra schema, đáp án có nằm trong các lựa chọn không, tag có hợp lệ không, và chạy thử việc import bằng đúng các hàm SQL. Sau khi merge, workflow `bank-sync` tự nạp lên Supabase.
+- Part 1 của TOEIC (mô tả tranh) chưa có, vì cần ảnh.
 
 ## Quy trình làm việc
 
@@ -81,6 +96,7 @@ Có thể chạy khi chưa có Supabase, nhưng chỉ xem trước được lộ
 | `deploy.yml`     | Push lên `main`, hoặc chạy tay                                            | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                    |
 | `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                  |
 | `keep-alive.yml` | 2 ngày một lần, hoặc chạy tay                                             | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng |
+| `bank-sync.yml`  | Push lên `main` có thay đổi trong `content/bank/**`, hoặc chạy tay        | Nạp câu hỏi luyện tập TOEIC/IELTS lên Supabase (upsert, chạy lại được)                            |
 
 Dependabot cập nhật dependency npm và GitHub Actions mỗi tuần. TypeScript bản major được bỏ qua cho tới khi `typescript-eslint` hỗ trợ.
 
@@ -89,10 +105,10 @@ Nếu web báo không kết nối được và workflow `keep-alive` đỏ: vào
 ## Cấu trúc thư mục
 
 ```
-content/            nội dung tĩnh: bài test, lộ trình 12 tuần, flashcard (JSON)
+content/            nội dung: bài test, lộ trình 12 tuần, flashcard, ngân hàng câu luyện tập (JSON)
 courses/on-tap-11/  pipeline dựng ngân hàng câu hỏi (câu hỏi không nằm trong repo)
 docs/               thiết kế, bảng tổng quan lộ trình
-scripts/            sinh lộ trình, kiểm tra nội dung, import Ôn tập 11
+scripts/            sinh lộ trình, kiểm tra nội dung, import ngân hàng câu hỏi
 src/                ứng dụng React (lib/ chứa logic thuần, có test)
 supabase/           migrations và test database
 ```

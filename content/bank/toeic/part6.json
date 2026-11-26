@@ -1,0 +1,136 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p6-001",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "stimulus": {
+        "kind": "passage",
+        "title": "Email",
+        "html": "<p><b>To:</b> All staff<br><b>From:</b> Facilities Department<br><b>Subject:</b> Parking lot repairs</p><p>Please note that the east parking lot will be closed from Monday, June 3, to Friday, June 7, while the surface is <b>(1)</b> -------. During this period, employees may park in the west lot or in the public garage on Hill Street.</p><p>The company will <b>(2)</b> ------- the cost of garage parking for anyone who keeps the receipt. <b>(3)</b> -------.</p><p>We apologize for the inconvenience and thank you for your <b>(4)</b> -------.</p>"
+      },
+      "questions": [
+        {
+          "id": "toeic-p6-001-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "repaves"
+            },
+            {
+              "label": "B",
+              "html": "repaving"
+            },
+            {
+              "label": "C",
+              "html": "being repaved"
+            },
+            {
+              "label": "D",
+              "html": "to repave"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Mặt đường không tự trải nhựa được, nên cần bị động. Việc này đang diễn ra trong khoảng 3–7/6, nên dùng bị động tiếp diễn: <i>while the surface is <b>being repaved</b></i>. (A) và (D) sai cấu trúc sau <i>is</i>; (B) <i>is repaving</i> là chủ động.",
+          "tags": [
+            "part6",
+            "passive",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-001-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "reimburse"
+            },
+            {
+              "label": "B",
+              "html": "remind"
+            },
+            {
+              "label": "C",
+              "html": "refuse"
+            },
+            {
+              "label": "D",
+              "html": "require"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>reimburse the cost</b> = hoàn lại chi phí. Vế sau <i>for anyone who keeps the receipt</i> (ai giữ hóa đơn) cho thấy công ty sẽ hoàn tiền. <i>refuse</i> trái nghĩa với ngữ cảnh.",
+          "tags": [
+            "part6",
+            "vocab",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-001-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Receipts should be submitted to the Facilities Department by June 14."
+            },
+            {
+              "label": "B",
+              "html": "The west lot was built more than ten years ago."
+            },
+            {
+              "label": "C",
+              "html": "Parking on Hill Street is usually free on weekends."
+            },
+            {
+              "label": "D",
+              "html": "Please drive carefully in the parking garage."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu trước vừa nói về hóa đơn (<i>receipt</i>) để được hoàn tiền, nên câu tiếp theo tự nhiên nhất là hướng dẫn nộp hóa đơn ở đâu, trước ngày nào. Các câu còn lại không nối tiếp ý về hoàn tiền.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-001-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "patient"
+            },
+            {
+              "label": "B",
+              "html": "patiently"
+            },
+            {
+              "label": "C",
+              "html": "patience"
+            },
+            {
+              "label": "D",
+              "html": "patients"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau tính từ sở hữu <i>your</i> cần một danh từ. <i>thank you for your <b>patience</b></i> (cảm ơn sự kiên nhẫn) là cách viết quen thuộc trong thông báo. <i>patients</i> nghĩa là bệnh nhân.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        }
+      ]
+    }
+  ]
+}

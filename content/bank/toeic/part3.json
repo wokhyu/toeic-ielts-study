@@ -1,0 +1,59 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p3-001",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại giữa hai đồng nghiệp",
+        "audio_script": "Woman: Hi, Daniel. I just heard the printer on the second floor is broken again. Do you know if anyone has called the repair service?\nMan: I called them this morning. Unfortunately, they said a technician can't come until Thursday.\nWoman: Thursday? I need two hundred copies of the training manual for tomorrow's workshop.\nMan: Why don't you use the copy center across the street? They're fast, and the company has an account there, so you won't have to pay for it yourself.\nWoman: That's a great idea. I'll send them the file right now."
+      },
+      "questions": [
+        {
+          "id": "toeic-p3-001-1",
+          "type": "mcq",
+          "stem_html": "What problem does the woman mention?",
+          "options": [
+            { "label": "A", "html": "A workshop has been canceled." },
+            { "label": "B", "html": "A printer is not working." },
+            { "label": "C", "html": "A manual contains errors." },
+            { "label": "D", "html": "A technician arrived late." }
+          ],
+          "answer": "B",
+          "explain_html": "Ngay câu đầu, người phụ nữ nói <i>the printer on the second floor is broken again</i>. Đáp án diễn đạt lại thành <i>is not working</i>, một kiểu paraphrase rất phổ biến ở Part 3.",
+          "tags": ["part3", "p3-detail"]
+        },
+        {
+          "id": "toeic-p3-001-2",
+          "type": "mcq",
+          "stem_html": "According to the man, when will a technician come?",
+          "options": [
+            { "label": "A", "html": "This morning" },
+            { "label": "B", "html": "This afternoon" },
+            { "label": "C", "html": "Tomorrow" },
+            { "label": "D", "html": "On Thursday" }
+          ],
+          "answer": "D",
+          "explain_html": "<i>a technician can't come until Thursday</i>, tức là sớm nhất thứ Năm. <i>This morning</i> là lúc anh ấy gọi điện (bẫy); <i>tomorrow</i> là ngày diễn ra workshop.",
+          "tags": ["part3", "p3-detail"]
+        },
+        {
+          "id": "toeic-p3-001-3",
+          "type": "mcq",
+          "stem_html": "What will the woman most likely do next?",
+          "options": [
+            { "label": "A", "html": "Call the repair service" },
+            { "label": "B", "html": "Reschedule a workshop" },
+            { "label": "C", "html": "Send a file to a copy center" },
+            { "label": "D", "html": "Open a company account" }
+          ],
+          "answer": "C",
+          "explain_html": "Câu hỏi <i>do next</i> thường có đáp án ở câu cuối: <i>I'll send them the file right now</i>, với <i>them</i> là copy center. Công ty <b>đã có</b> account nên (D) sai.",
+          "tags": ["part3", "p3-inference"]
+        }
+      ]
+    }
+  ]
+}

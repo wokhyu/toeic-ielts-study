@@ -1,0 +1,65 @@
+{
+  "sets": [
+    {
+      "id": "ielts-l1-001",
+      "section": "listening",
+      "chapter": "section-1",
+      "topic": "s1-form",
+      "stimulus": {
+        "kind": "audio",
+        "title": "Đăng ký lớp bơi. Viết KHÔNG QUÁ HAI TỪ VÀ/HOẶC MỘT SỐ cho mỗi câu.",
+        "audio_script": "Receptionist: Good morning, Riverside Sports Centre. How can I help you?\nCaller: Hi. I'd like to join one of the swimming classes for adults.\nReceptionist: Certainly. Can I take your name, please?\nCaller: It's Laura Pemberton. That's P-E-M-B-E-R-T-O-N.\nReceptionist: Thank you. And your address?\nCaller: Forty-two Oakfield Road.\nReceptionist: Is that Oakfield, O-A-K-F-I-E-L-D?\nCaller: Yes, that's right.\nReceptionist: Now, which class would you like? We have a beginners' class on Tuesday evenings and an improvers' class on Thursday mornings.\nCaller: I can already swim a little, so I'll go for the improvers. I'm free in the mornings anyway.\nReceptionist: Lovely. The course lasts ten weeks and costs eighty-five pounds. Members get a discount, but as you're not a member yet, it's the full price, I'm afraid.\nCaller: That's fine. Do I need to bring anything?\nReceptionist: Just a swimming cap. We provide towels for all our classes.\nCaller: Perfect. Thank you very much."
+      },
+      "questions": [
+        {
+          "id": "ielts-l1-001-1",
+          "type": "short",
+          "stem_html": "Surname: ______",
+          "answer": ["Pemberton"],
+          "explain_html": "Người gọi đánh vần <i>P-E-M-B-E-R-T-O-N</i>. Section 1 thường có câu đánh vần tên riêng; viết sai chính tả là mất điểm.",
+          "tags": ["listening", "form-completion", "spelling"]
+        },
+        {
+          "id": "ielts-l1-001-2",
+          "type": "short",
+          "stem_html": "Address: 42 ______ Road",
+          "answer": ["Oakfield"],
+          "explain_html": "Lễ tân đánh vần lại để xác nhận: <i>O-A-K-F-I-E-L-D</i>. Form đã có sẵn số 42 và chữ Road, nên chỉ cần viết <b>Oakfield</b>.",
+          "tags": ["listening", "form-completion", "spelling"]
+        },
+        {
+          "id": "ielts-l1-001-3",
+          "type": "short",
+          "stem_html": "Class level: ______",
+          "answer": ["improvers", "improver", "improvers'"],
+          "explain_html": "Có hai lớp: beginners (tối thứ Ba) và improvers (sáng thứ Năm). Người gọi chọn <i>I'll go for the improvers</i>. Bẫy: beginners được nhắc tới trước.",
+          "tags": ["listening", "form-completion"]
+        },
+        {
+          "id": "ielts-l1-001-4",
+          "type": "short",
+          "stem_html": "Day of class: ______",
+          "answer": ["Thursday", "Thursdays", "Thursday morning", "Thursday mornings"],
+          "explain_html": "Lớp improvers học <i>on Thursday mornings</i>. Tuesday là ngày của lớp beginners.",
+          "tags": ["listening", "form-completion"]
+        },
+        {
+          "id": "ielts-l1-001-5",
+          "type": "short",
+          "stem_html": "Cost of course: £______",
+          "answer": ["85"],
+          "explain_html": "<i>costs eighty-five pounds</i>. Hội viên được giảm giá nhưng người gọi chưa là hội viên nên trả đủ <b>85</b>. Đề đã cho sẵn ký hiệu £ nên chỉ viết số.",
+          "tags": ["listening", "form-completion"]
+        },
+        {
+          "id": "ielts-l1-001-6",
+          "type": "short",
+          "stem_html": "Bring: a swimming ______",
+          "answer": ["cap"],
+          "explain_html": "<i>Just a swimming cap. We provide towels</i>. Khăn đã được cung cấp nên không phải mang. Đề đã có sẵn chữ <i>swimming</i>, chỉ cần viết <b>cap</b>.",
+          "tags": ["listening", "form-completion"]
+        }
+      ]
+    }
+  ]
+}

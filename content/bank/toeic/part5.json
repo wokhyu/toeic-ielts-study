@@ -1,0 +1,152 @@
+{
+  "sets": [
+    {
+      "id": "toeic-p5-001",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-001-1",
+          "type": "mcq",
+          "stem_html": "The quarterly report ------- to all department heads by Friday afternoon.",
+          "options": [
+            { "label": "A", "html": "will send" },
+            { "label": "B", "html": "will be sent" },
+            { "label": "C", "html": "sending" },
+            { "label": "D", "html": "has sent" }
+          ],
+          "answer": "B",
+          "explain_html": "Chủ ngữ <i>the quarterly report</i> là vật, không tự gửi được, nên cần <b>bị động</b>: will be + V3. <i>by Friday afternoon</i> chỉ thời hạn trong tương lai. (A) và (D) là chủ động; (C) thiếu động từ chính.",
+          "tags": ["part5", "passive"]
+        },
+        {
+          "id": "toeic-p5-001-2",
+          "type": "mcq",
+          "stem_html": "All visitors are required to sign in at the front desk before they ------- the laboratory.",
+          "options": [
+            { "label": "A", "html": "enter" },
+            { "label": "B", "html": "will enter" },
+            { "label": "C", "html": "entered" },
+            { "label": "D", "html": "entering" }
+          ],
+          "answer": "A",
+          "explain_html": "Sau liên từ chỉ thời gian <i>before / when / after / as soon as</i>, dùng <b>hiện tại đơn</b> để nói về tương lai, không dùng <i>will</i>. Vì vậy chọn (A) enter.",
+          "tags": ["part5", "tense"]
+        },
+        {
+          "id": "toeic-p5-001-3",
+          "type": "mcq",
+          "stem_html": "Ms. Tanaka has worked for the company ------- more than fifteen years.",
+          "options": [
+            { "label": "A", "html": "since" },
+            { "label": "B", "html": "during" },
+            { "label": "C", "html": "for" },
+            { "label": "D", "html": "while" }
+          ],
+          "answer": "C",
+          "explain_html": "<b>for</b> + khoảng thời gian (fifteen years); <b>since</b> + mốc thời gian (since 2010). <i>during</i> đi với danh từ chỉ sự kiện (during the meeting); <i>while</i> là liên từ, theo sau phải là mệnh đề.",
+          "tags": ["part5", "prep-conj"]
+        },
+        {
+          "id": "toeic-p5-001-4",
+          "type": "mcq",
+          "stem_html": "The new software allows employees to complete their expense reports more -------.",
+          "options": [
+            { "label": "A", "html": "efficient" },
+            { "label": "B", "html": "efficiency" },
+            { "label": "C", "html": "efficiently" },
+            { "label": "D", "html": "efficiencies" }
+          ],
+          "answer": "C",
+          "explain_html": "Chỗ trống bổ nghĩa cho động từ <i>complete</i>, nên cần <b>trạng từ</b> (đuôi -ly): <i>more efficiently</i>. (A) là tính từ; (B) và (D) là danh từ.",
+          "tags": ["part5", "word-form"]
+        },
+        {
+          "id": "toeic-p5-001-5",
+          "type": "mcq",
+          "stem_html": "The conference room on the third floor ------- since last Monday because the air conditioner is broken.",
+          "options": [
+            { "label": "A", "html": "is closed" },
+            { "label": "B", "html": "has been closed" },
+            { "label": "C", "html": "closes" },
+            { "label": "D", "html": "was closing" }
+          ],
+          "answer": "B",
+          "explain_html": "Dấu hiệu <i>since last Monday</i> đòi <b>hiện tại hoàn thành</b>. Phòng họp bị đóng (bị động), nên chọn <i>has been closed</i>.",
+          "tags": ["part5", "tense", "passive"]
+        },
+        {
+          "id": "toeic-p5-001-6",
+          "type": "mcq",
+          "stem_html": "Applicants ------- résumés arrive after the deadline will not be considered for the position.",
+          "options": [
+            { "label": "A", "html": "who" },
+            { "label": "B", "html": "whose" },
+            { "label": "C", "html": "which" },
+            { "label": "D", "html": "whom" }
+          ],
+          "answer": "B",
+          "explain_html": "Sau chỗ trống là danh từ <i>résumés</i>, và résumés thuộc về applicants, nên dùng đại từ quan hệ sở hữu <b>whose</b> + danh từ. <i>who/whom</i> không đứng trước danh từ; <i>which</i> chỉ vật.",
+          "tags": ["part5", "relative"]
+        },
+        {
+          "id": "toeic-p5-001-7",
+          "type": "mcq",
+          "stem_html": "If the shipment had arrived on time, we ------- the customer's order last week.",
+          "options": [
+            { "label": "A", "html": "would complete" },
+            { "label": "B", "html": "will complete" },
+            { "label": "C", "html": "would have completed" },
+            { "label": "D", "html": "had completed" }
+          ],
+          "answer": "C",
+          "explain_html": "Mệnh đề <i>If</i> dùng <i>had arrived</i> (quá khứ hoàn thành), nói về điều không có thật trong quá khứ, nên đây là <b>câu điều kiện loại 3</b>: would have + V3. <i>last week</i> cũng xác nhận thời điểm ở quá khứ.",
+          "tags": ["part5", "conditional"]
+        },
+        {
+          "id": "toeic-p5-001-8",
+          "type": "mcq",
+          "stem_html": "Mr. Alvarez asked his assistant to reschedule the meeting because he was too busy ------- it.",
+          "options": [
+            { "label": "A", "html": "attending" },
+            { "label": "B", "html": "to attend" },
+            { "label": "C", "html": "attend" },
+            { "label": "D", "html": "attended" }
+          ],
+          "answer": "B",
+          "explain_html": "Cấu trúc <b>too + tính từ + to V</b> (quá… đến nỗi không thể): <i>too busy to attend</i>.",
+          "tags": ["part5", "verb-form"]
+        },
+        {
+          "id": "toeic-p5-001-9",
+          "type": "mcq",
+          "stem_html": "Neither the manager nor the supervisors ------- aware of the change to the delivery schedule.",
+          "options": [
+            { "label": "A", "html": "was" },
+            { "label": "B", "html": "were" },
+            { "label": "C", "html": "is" },
+            { "label": "D", "html": "being" }
+          ],
+          "answer": "B",
+          "explain_html": "Với <b>neither A nor B</b>, động từ chia theo danh từ <b>gần nhất</b> (B). <i>the supervisors</i> là số nhiều nên dùng <i>were</i>.",
+          "tags": ["part5", "agreement"]
+        },
+        {
+          "id": "toeic-p5-001-10",
+          "type": "mcq",
+          "stem_html": "Please ------- the attached form and return it to the human resources office by June 30.",
+          "options": [
+            { "label": "A", "html": "complete" },
+            { "label": "B", "html": "fill" },
+            { "label": "C", "html": "make" },
+            { "label": "D", "html": "do" }
+          ],
+          "answer": "A",
+          "explain_html": "Collocation: <b>complete a form</b> (hoặc <i>fill out / fill in a form</i>). <i>fill</i> đứng một mình không đi với <i>form</i>; <i>make / do a form</i> không tự nhiên.",
+          "tags": ["part5", "collocation"]
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,7 @@ import {
   weekSchema,
   type Week,
 } from '../src/content/schema.ts';
+import { BANK_COURSES, loadBank } from './bank-content.ts';
 
 const root = join(process.cwd(), 'content');
 const errors: string[] = [];
@@ -141,9 +142,23 @@ for (const program of ['toeic', 'ielts'] as const) {
   }
 }
 
+// Question banks (practice sets in the repo, plus mock tests in content-private/ when present)
+const bankCounts: string[] = [];
+for (const course of BANK_COURSES) {
+  const bank = loadBank(course);
+  errors.push(...bank.errors);
+  const n = bank.files.reduce(
+    (sum, f) => sum + f.file.sets.reduce((k, set) => k + set.questions.length, 0),
+    0,
+  );
+  bankCounts.push(`${course} ${n}`);
+}
+
 if (errors.length > 0) {
   console.error(`Content validation failed with ${errors.length} error(s):`);
   for (const e of errors) console.error(`  - ${e}`);
   process.exit(1);
 }
-console.log('Content OK: placement tests, 24 roadmap weeks and vocabulary decks are valid.');
+console.log(
+  `Content OK: placement tests, 24 roadmap weeks, vocabulary decks and question banks (${bankCounts.join(', ')} questions) are valid.`,
+);
