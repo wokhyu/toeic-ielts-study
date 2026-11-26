@@ -65,7 +65,7 @@ export function FlashcardsPage() {
     const { error: err } = await db()
       .from('flashcard_reviews')
       .upsert(
-        { course_id: program, card_id: card.id, ...next, last_reviewed_at: new Date().toISOString() },
+        { course_id: program, card_id: card.id, ...next, last_rating: rating },
         { onConflict: 'user_id,card_id' },
       );
     if (err) setSaveError(errorMessage(err));

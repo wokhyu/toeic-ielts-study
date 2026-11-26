@@ -1,5 +1,5 @@
 /**
- * Imports the TOEIC and IELTS question banks into Supabase.
+ * Imports the TOEIC and IELTS question banks and roadmap tasks into Supabase.
  *
  * Reads content/bank/<course>/ (practice sets, committed) and, when present,
  * content-private/ (mock tests, never committed), checks everything with the
@@ -8,11 +8,12 @@
  *
  *   SUPABASE_URL=...  SUPABASE_SERVICE_ROLE_KEY=...  npx tsx scripts/import-bank.ts [toeic|ielts]
  *
- * Runs in the bank-sync workflow on every change to content/bank/** on main.
+ * Runs in the bank-sync workflow on every change to content/bank/** or
+ * content/roadmap/** on main, and after each database migration.
  * Safe to re-run: rows are matched by their content id.
  */
 import { createClient } from '@supabase/supabase-js';
-import { BANK_COURSES, loadBank, type BankCourse } from './bank-content.ts';
+import { BANK_COURSES, loadBank, loadRoadmapTasks, type BankCourse } from './bank-content.ts';
 
 const env = (name: string, fallback?: string) => {
   const v = process.env[name] ?? fallback;
@@ -53,7 +54,11 @@ async function importCourse(course: BankCourse) {
   for (const { mock } of bank.mocks) {
     await rpc('ot_bank_upsert_mock', { p_course: course, p_mock: mock });
   }
-  console.log(`${course}: ${sets} sets, ${questions} questions, ${bank.mocks.length} mock test(s)`);
+  const tasks = loadRoadmapTasks(course);
+  await rpc('content_upsert_roadmap_tasks', { p_course: course, p_tasks: tasks });
+  console.log(
+    `${course}: ${sets} sets, ${questions} questions, ${bank.mocks.length} mock test(s), ${tasks.length} roadmap tasks`,
+  );
 }
 
 const only = process.argv[2] as BankCourse | undefined;

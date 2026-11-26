@@ -1,16 +1,22 @@
 name: bank-sync
 
-# Loads the TOEIC/IELTS practice questions in content/bank/** into Supabase.
-# Mock tests are not in the repo and are imported from a maintainer's machine.
+# Loads the TOEIC/IELTS practice questions (content/bank/**) and the roadmap
+# tasks (content/roadmap/**) into Supabase. Mock tests are not in the repo and
+# are imported from a maintainer's machine. Also runs after a successful
+# db-migrate, so content needing a new table or function is loaded right away.
 on:
   push:
     branches: [main]
     paths:
       - 'content/bank/**'
+      - 'content/roadmap/**'
       - 'scripts/import-bank.ts'
       - 'scripts/bank-content.ts'
       - 'src/content/bank-schema.ts'
       - 'src/content/bank-check.ts'
+  workflow_run:
+    workflows: [db-migrate]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -22,6 +28,7 @@ concurrency:
 
 jobs:
   import:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment: production

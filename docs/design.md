@@ -64,14 +64,19 @@ Chi tiết trong `supabase/migrations/`.
 - `profiles`: tên hiển thị, `role` learner hoặc admin. Người dùng chỉ sửa được `display_name`.
 - `enrollments`: (user, course) với trạng thái pending / approved / rejected / revoked, nhánh, ngày bắt đầu. Người học chỉ tự gửi yêu cầu (`request_enrollment`) và chỉnh nhánh/ngày bắt đầu của mình; duyệt chỉ qua `admin_set_enrollment`.
 - `task_progress`, `placement_results`, `mock_scores`, `flashcard_reviews`: dữ liệu của từng người, gắn với khóa.
+- `roadmap_tasks`: lộ trình dạng bảng tham chiếu (tuần, ngày, kỹ năng, nhánh, số phút), nạp từ `content/roadmap/**` bởi `bank-sync`. `task_progress.task_id` tham chiếu bảng này; nếu người học tích một nhiệm vụ trước khi sync kịp chạy, trigger tự thêm dòng tạm.
+- `mock_scores.source`: `self` (người học tự nhập, tự xóa được) hoặc `mock_test` (web chấm, gắn `attempt_id`, người học không sửa được).
 - `ot_*`: engine ngân hàng câu hỏi dùng chung cho mọi khóa (prefix giữ từ Ôn tập 11, đọc là "question bank"). Mỗi dòng thuộc một khóa (`course_id`); người học chỉ thấy câu của khóa mình đã được duyệt. Đáp án và giải thích nằm ở `ot_question_keys`, chỉ admin đọc trực tiếp. Người học chấm bài, xem lời giải, thi thử qua các hàm `security definer` (`ot_answer_practice`, `ot_tag_question_ids`, `ot_start_exam`, `ot_start_mock`, `ot_submit_exam`, ...). Trong lúc có bài thi đang mở, không xem được đáp án bằng chế độ luyện tập.
 - `ot_stimuli`: đoạn văn hoặc script bài nghe dùng chung cho nhiều câu (TOEIC Part 3/4/6/7, IELTS). `ot_questions.tags` dùng để luyện theo chủ điểm.
 - Thi thử: câu thuộc `pool = 'mock'` không xuất hiện khi luyện tập và chỉ hiện với người đang làm hoặc đã làm đề đó. `ot_mock_tests.sections` chứa bảng quy đổi điểm (ước lượng); khi nộp bài, điểm quy đổi tự ghi vào `mock_scores`. Script nghe vẫn đọc được trong lúc thi (trình duyệt cần nó để đọc), nên đây là chống gian lận ở mức nhóm tự học, không phải phòng thi.
+- Nhật ký học tập: `ot_responses` ghi mỗi lần trả lời (luyện tập, ôn lại, thi, thi thử) gồm câu trả lời, đúng/sai, điểm và thời gian làm. Đây là nguồn cho trang Tiến bộ và phân tích của admin; `ot_question_stats` chỉ là bảng tóm tắt, kèm lịch ôn câu sai (`next_due`: sau 1 ngày, rồi 3 và 7 ngày; đúng 3 lần liền thì ra khỏi danh sách ôn). `flashcard_review_log` ghi mỗi lần ôn thẻ. View `learner_activity` gộp tất cả theo ngày giờ Việt Nam. Không ai ghi trực tiếp vào các bảng này: chỉ các hàm và trigger ghi.
+- `admin_audit_log`: thao tác của admin (duyệt khóa, đổi quyền, sửa đáp án). `achievements`: huy hiệu.
+- Chuẩn database được kiểm tra trong CI (`supabase/tests/standards.test.ts`): mọi foreign key có index, policy RLS gọi `auth.uid()` và `is_admin()` qua `(select …)`, mọi bảng bật RLS và có comment, hàm `security definer` cố định `search_path`, và API chỉ gọi được đúng danh sách hàm cho phép.
 - Nhập nội dung: `ot_bank_upsert_taxonomy`, `ot_bank_upsert_set`, `ot_bank_upsert_mock` chỉ gọi được bằng service role và upsert theo `ext_id`, nên chạy lại bao nhiêu lần cũng được.
 - Hàm admin: `admin_list_users`, `admin_set_enrollment`, `admin_set_role` (không tự hạ quyền chính mình), `ot_admin_set_key`.
 - `get_leaderboard(course)`: số nhiệm vụ đã xong, số ngày có học và streak (theo giờ Việt Nam) của những người cùng khóa.
 
-Nội dung TOEIC/IELTS là file JSON tĩnh bundle cùng frontend; database chỉ lưu id nhiệm vụ và id thẻ. Câu hỏi Ôn tập 11 KHÔNG nằm trong repo: chúng được nạp vào Supabase bằng `scripts/import-on-tap-11.ts`.
+Nội dung TOEIC/IELTS là file JSON tĩnh bundle cùng frontend; database lưu id thẻ, còn nhiệm vụ lộ trình có bản sao ở `roadmap_tasks` để phân tích. Câu hỏi Ôn tập 11 KHÔNG nằm trong repo: chúng được nạp vào Supabase bằng `scripts/import-on-tap-11.ts`.
 
 ## 6. Giới hạn của gói miễn phí
 
