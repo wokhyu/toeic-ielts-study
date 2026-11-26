@@ -11,140 +11,4463 @@
           "type": "mcq",
           "stem_html": "The quarterly report ------- to all department heads by Friday afternoon.",
           "options": [
-            { "label": "A", "html": "will send" },
-            { "label": "B", "html": "will be sent" },
-            { "label": "C", "html": "sending" },
-            { "label": "D", "html": "has sent" }
+            {
+              "label": "A",
+              "html": "will send"
+            },
+            {
+              "label": "B",
+              "html": "has sent"
+            },
+            {
+              "label": "C",
+              "html": "sending"
+            },
+            {
+              "label": "D",
+              "html": "will be sent"
+            }
           ],
-          "answer": "B",
-          "explain_html": "Chủ ngữ <i>the quarterly report</i> là vật, không tự gửi được, nên cần <b>bị động</b>: will be + V3. <i>by Friday afternoon</i> chỉ thời hạn trong tương lai. (A) và (D) là chủ động; (C) thiếu động từ chính.",
-          "tags": ["part5", "passive"]
+          "answer": "D",
+          "explain_html": "Chủ ngữ <i>the quarterly report</i> là vật, không tự gửi được, nên cần <b>bị động</b>: will be + V3. <i>by Friday afternoon</i> chỉ thời hạn trong tương lai. (A) và (B) là chủ động; (C) thiếu động từ chính.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
         },
         {
           "id": "toeic-p5-001-2",
           "type": "mcq",
           "stem_html": "All visitors are required to sign in at the front desk before they ------- the laboratory.",
           "options": [
-            { "label": "A", "html": "enter" },
-            { "label": "B", "html": "will enter" },
-            { "label": "C", "html": "entered" },
-            { "label": "D", "html": "entering" }
+            {
+              "label": "A",
+              "html": "entered"
+            },
+            {
+              "label": "B",
+              "html": "will enter"
+            },
+            {
+              "label": "C",
+              "html": "enter"
+            },
+            {
+              "label": "D",
+              "html": "entering"
+            }
           ],
-          "answer": "A",
-          "explain_html": "Sau liên từ chỉ thời gian <i>before / when / after / as soon as</i>, dùng <b>hiện tại đơn</b> để nói về tương lai, không dùng <i>will</i>. Vì vậy chọn (A) enter.",
-          "tags": ["part5", "tense"]
+          "answer": "C",
+          "explain_html": "Sau liên từ chỉ thời gian <i>before / when / after / as soon as</i>, dùng <b>hiện tại đơn</b> để nói về tương lai, không dùng <i>will</i>. Vì vậy chọn (C) enter.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
         },
         {
           "id": "toeic-p5-001-3",
           "type": "mcq",
           "stem_html": "Ms. Tanaka has worked for the company ------- more than fifteen years.",
           "options": [
-            { "label": "A", "html": "since" },
-            { "label": "B", "html": "during" },
-            { "label": "C", "html": "for" },
-            { "label": "D", "html": "while" }
+            {
+              "label": "A",
+              "html": "for"
+            },
+            {
+              "label": "B",
+              "html": "during"
+            },
+            {
+              "label": "C",
+              "html": "since"
+            },
+            {
+              "label": "D",
+              "html": "while"
+            }
           ],
-          "answer": "C",
+          "answer": "A",
           "explain_html": "<b>for</b> + khoảng thời gian (fifteen years); <b>since</b> + mốc thời gian (since 2010). <i>during</i> đi với danh từ chỉ sự kiện (during the meeting); <i>while</i> là liên từ, theo sau phải là mệnh đề.",
-          "tags": ["part5", "prep-conj"]
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
         },
         {
           "id": "toeic-p5-001-4",
           "type": "mcq",
           "stem_html": "The new software allows employees to complete their expense reports more -------.",
           "options": [
-            { "label": "A", "html": "efficient" },
-            { "label": "B", "html": "efficiency" },
-            { "label": "C", "html": "efficiently" },
-            { "label": "D", "html": "efficiencies" }
+            {
+              "label": "A",
+              "html": "efficient"
+            },
+            {
+              "label": "B",
+              "html": "efficiency"
+            },
+            {
+              "label": "C",
+              "html": "efficiently"
+            },
+            {
+              "label": "D",
+              "html": "efficiencies"
+            }
           ],
           "answer": "C",
           "explain_html": "Chỗ trống bổ nghĩa cho động từ <i>complete</i>, nên cần <b>trạng từ</b> (đuôi -ly): <i>more efficiently</i>. (A) là tính từ; (B) và (D) là danh từ.",
-          "tags": ["part5", "word-form"]
+          "tags": [
+            "part5",
+            "word-form"
+          ]
         },
         {
           "id": "toeic-p5-001-5",
           "type": "mcq",
           "stem_html": "The conference room on the third floor ------- since last Monday because the air conditioner is broken.",
           "options": [
-            { "label": "A", "html": "is closed" },
-            { "label": "B", "html": "has been closed" },
-            { "label": "C", "html": "closes" },
-            { "label": "D", "html": "was closing" }
+            {
+              "label": "A",
+              "html": "is closed"
+            },
+            {
+              "label": "B",
+              "html": "has been closed"
+            },
+            {
+              "label": "C",
+              "html": "closes"
+            },
+            {
+              "label": "D",
+              "html": "was closing"
+            }
           ],
           "answer": "B",
           "explain_html": "Dấu hiệu <i>since last Monday</i> đòi <b>hiện tại hoàn thành</b>. Phòng họp bị đóng (bị động), nên chọn <i>has been closed</i>.",
-          "tags": ["part5", "tense", "passive"]
+          "tags": [
+            "part5",
+            "tense",
+            "passive"
+          ]
         },
         {
           "id": "toeic-p5-001-6",
           "type": "mcq",
           "stem_html": "Applicants ------- résumés arrive after the deadline will not be considered for the position.",
           "options": [
-            { "label": "A", "html": "who" },
-            { "label": "B", "html": "whose" },
-            { "label": "C", "html": "which" },
-            { "label": "D", "html": "whom" }
+            {
+              "label": "A",
+              "html": "who"
+            },
+            {
+              "label": "B",
+              "html": "which"
+            },
+            {
+              "label": "C",
+              "html": "whose"
+            },
+            {
+              "label": "D",
+              "html": "whom"
+            }
           ],
-          "answer": "B",
+          "answer": "C",
           "explain_html": "Sau chỗ trống là danh từ <i>résumés</i>, và résumés thuộc về applicants, nên dùng đại từ quan hệ sở hữu <b>whose</b> + danh từ. <i>who/whom</i> không đứng trước danh từ; <i>which</i> chỉ vật.",
-          "tags": ["part5", "relative"]
+          "tags": [
+            "part5",
+            "relative"
+          ]
         },
         {
           "id": "toeic-p5-001-7",
           "type": "mcq",
           "stem_html": "If the shipment had arrived on time, we ------- the customer's order last week.",
           "options": [
-            { "label": "A", "html": "would complete" },
-            { "label": "B", "html": "will complete" },
-            { "label": "C", "html": "would have completed" },
-            { "label": "D", "html": "had completed" }
+            {
+              "label": "A",
+              "html": "would complete"
+            },
+            {
+              "label": "B",
+              "html": "would have completed"
+            },
+            {
+              "label": "C",
+              "html": "will complete"
+            },
+            {
+              "label": "D",
+              "html": "had completed"
+            }
           ],
-          "answer": "C",
+          "answer": "B",
           "explain_html": "Mệnh đề <i>If</i> dùng <i>had arrived</i> (quá khứ hoàn thành), nói về điều không có thật trong quá khứ, nên đây là <b>câu điều kiện loại 3</b>: would have + V3. <i>last week</i> cũng xác nhận thời điểm ở quá khứ.",
-          "tags": ["part5", "conditional"]
+          "tags": [
+            "part5",
+            "conditional"
+          ]
         },
         {
           "id": "toeic-p5-001-8",
           "type": "mcq",
           "stem_html": "Mr. Alvarez asked his assistant to reschedule the meeting because he was too busy ------- it.",
           "options": [
-            { "label": "A", "html": "attending" },
-            { "label": "B", "html": "to attend" },
-            { "label": "C", "html": "attend" },
-            { "label": "D", "html": "attended" }
+            {
+              "label": "A",
+              "html": "attending"
+            },
+            {
+              "label": "B",
+              "html": "to attend"
+            },
+            {
+              "label": "C",
+              "html": "attend"
+            },
+            {
+              "label": "D",
+              "html": "attended"
+            }
           ],
           "answer": "B",
           "explain_html": "Cấu trúc <b>too + tính từ + to V</b> (quá… đến nỗi không thể): <i>too busy to attend</i>.",
-          "tags": ["part5", "verb-form"]
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
         },
         {
           "id": "toeic-p5-001-9",
           "type": "mcq",
           "stem_html": "Neither the manager nor the supervisors ------- aware of the change to the delivery schedule.",
           "options": [
-            { "label": "A", "html": "was" },
-            { "label": "B", "html": "were" },
-            { "label": "C", "html": "is" },
-            { "label": "D", "html": "being" }
+            {
+              "label": "A",
+              "html": "were"
+            },
+            {
+              "label": "B",
+              "html": "was"
+            },
+            {
+              "label": "C",
+              "html": "is"
+            },
+            {
+              "label": "D",
+              "html": "being"
+            }
           ],
-          "answer": "B",
-          "explain_html": "Với <b>neither A nor B</b>, động từ chia theo danh từ <b>gần nhất</b> (B). <i>the supervisors</i> là số nhiều nên dùng <i>were</i>.",
-          "tags": ["part5", "agreement"]
+          "answer": "A",
+          "explain_html": "Với <b>neither A nor B</b>, động từ chia theo danh từ <b>gần nhất</b> (A). <i>the supervisors</i> là số nhiều nên dùng <i>were</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
         },
         {
           "id": "toeic-p5-001-10",
           "type": "mcq",
           "stem_html": "Please ------- the attached form and return it to the human resources office by June 30.",
           "options": [
-            { "label": "A", "html": "complete" },
-            { "label": "B", "html": "fill" },
-            { "label": "C", "html": "make" },
-            { "label": "D", "html": "do" }
+            {
+              "label": "A",
+              "html": "make"
+            },
+            {
+              "label": "B",
+              "html": "fill"
+            },
+            {
+              "label": "C",
+              "html": "complete"
+            },
+            {
+              "label": "D",
+              "html": "do"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Collocation: <b>complete a form</b> (hoặc <i>fill out / fill in a form</i>). <i>fill</i> đứng một mình không đi với <i>form</i>; <i>make / do a form</i> không tự nhiên.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-002",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-002-1",
+          "type": "mcq",
+          "stem_html": "Ms. Rivera gave a very ------- presentation on the company's expansion plans.",
+          "options": [
+            {
+              "label": "A",
+              "html": "inform"
+            },
+            {
+              "label": "B",
+              "html": "informative"
+            },
+            {
+              "label": "C",
+              "html": "information"
+            },
+            {
+              "label": "D",
+              "html": "informatively"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Trước danh từ <i>presentation</i> và sau trạng từ <i>very</i> cần một <b>tính từ</b>: <i>informative</i> (giàu thông tin).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-2",
+          "type": "mcq",
+          "stem_html": "The ------- of the new warehouse is expected to take eighteen months.",
+          "options": [
+            {
+              "label": "A",
+              "html": "construct"
+            },
+            {
+              "label": "B",
+              "html": "constructed"
+            },
+            {
+              "label": "C",
+              "html": "constructive"
+            },
+            {
+              "label": "D",
+              "html": "construction"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau mạo từ <i>The</i> và trước giới từ <i>of</i> cần <b>danh từ</b>: <i>construction</i>.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-3",
+          "type": "mcq",
+          "stem_html": "Customers can pay their bills ------- through the bank's mobile application.",
+          "options": [
+            {
+              "label": "A",
+              "html": "securely"
+            },
+            {
+              "label": "B",
+              "html": "security"
+            },
+            {
+              "label": "C",
+              "html": "secure"
+            },
+            {
+              "label": "D",
+              "html": "secured"
+            }
           ],
           "answer": "A",
-          "explain_html": "Collocation: <b>complete a form</b> (hoặc <i>fill out / fill in a form</i>). <i>fill</i> đứng một mình không đi với <i>form</i>; <i>make / do a form</i> không tự nhiên.",
-          "tags": ["part5", "collocation"]
+          "explain_html": "Bổ nghĩa cho động từ <i>pay</i> cần <b>trạng từ</b>: <i>securely</i> (một cách an toàn).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-4",
+          "type": "mcq",
+          "stem_html": "The marketing team is ------- that sales will increase after the advertising campaign.",
+          "options": [
+            {
+              "label": "A",
+              "html": "confident"
+            },
+            {
+              "label": "B",
+              "html": "confidence"
+            },
+            {
+              "label": "C",
+              "html": "confidently"
+            },
+            {
+              "label": "D",
+              "html": "confide"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau động từ <i>be</i> (is) cần <b>tính từ</b> làm bổ ngữ: <i>be confident that…</i> (tin chắc rằng).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-5",
+          "type": "mcq",
+          "stem_html": "Our technicians respond ------- to all service requests received before noon.",
+          "options": [
+            {
+              "label": "A",
+              "html": "prompt"
+            },
+            {
+              "label": "B",
+              "html": "prompted"
+            },
+            {
+              "label": "C",
+              "html": "promptness"
+            },
+            {
+              "label": "D",
+              "html": "promptly"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Bổ nghĩa cho động từ <i>respond</i> cần <b>trạng từ</b>: <i>respond promptly</i> (phản hồi nhanh chóng).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-6",
+          "type": "mcq",
+          "stem_html": "Please submit your travel receipts for ------- within two weeks of your return.",
+          "options": [
+            {
+              "label": "A",
+              "html": "reimbursement"
+            },
+            {
+              "label": "B",
+              "html": "reimbursed"
+            },
+            {
+              "label": "C",
+              "html": "reimbursable"
+            },
+            {
+              "label": "D",
+              "html": "reimburse"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau giới từ <i>for</i> cần <b>danh từ</b>: <i>reimbursement</i> (việc hoàn tiền).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-7",
+          "type": "mcq",
+          "stem_html": "The hotel's conference facilities are ------- to guests at no extra charge.",
+          "options": [
+            {
+              "label": "A",
+              "html": "avail"
+            },
+            {
+              "label": "B",
+              "html": "availability"
+            },
+            {
+              "label": "C",
+              "html": "available"
+            },
+            {
+              "label": "D",
+              "html": "availably"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau <i>are</i> và trước <i>to</i> cần <b>tính từ</b>: <i>be available to sb</i> (có sẵn cho ai).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-8",
+          "type": "mcq",
+          "stem_html": "Mr. Chen was praised for his ------- to the success of the merger.",
+          "options": [
+            {
+              "label": "A",
+              "html": "contribute"
+            },
+            {
+              "label": "B",
+              "html": "contributed"
+            },
+            {
+              "label": "C",
+              "html": "contributor"
+            },
+            {
+              "label": "D",
+              "html": "contribution"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau tính từ sở hữu <i>his</i> cần danh từ. <i>contribution to</i> (sự đóng góp vào) hợp nghĩa; <i>contributor</i> là người đóng góp, không đi với cấu trúc này.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-9",
+          "type": "mcq",
+          "stem_html": "The financial report was ------- reviewed by two independent auditors.",
+          "options": [
+            {
+              "label": "A",
+              "html": "care"
+            },
+            {
+              "label": "B",
+              "html": "careful"
+            },
+            {
+              "label": "C",
+              "html": "carefulness"
+            },
+            {
+              "label": "D",
+              "html": "carefully"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Giữa trợ động từ <i>was</i> và phân từ <i>reviewed</i> cần <b>trạng từ</b>: <i>carefully</i>.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-002-10",
+          "type": "mcq",
+          "stem_html": "Interested ------- should send a cover letter and résumé to the personnel office.",
+          "options": [
+            {
+              "label": "A",
+              "html": "applicants"
+            },
+            {
+              "label": "B",
+              "html": "apply"
+            },
+            {
+              "label": "C",
+              "html": "applications"
+            },
+            {
+              "label": "D",
+              "html": "applied"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Chỗ trống là chủ ngữ chỉ người (<i>should send a cover letter</i>): <i>applicants</i> (ứng viên). <i>applications</i> là đơn, không thể tự gửi thư.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-003",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-003-1",
+          "type": "mcq",
+          "stem_html": "Due to ------- demand, the bakery has extended its opening hours on weekends.",
+          "options": [
+            {
+              "label": "A",
+              "html": "increase"
+            },
+            {
+              "label": "B",
+              "html": "increasingly"
+            },
+            {
+              "label": "C",
+              "html": "increasing"
+            },
+            {
+              "label": "D",
+              "html": "increases"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Trước danh từ <i>demand</i> cần tính từ; phân từ <i>increasing</i> đóng vai trò tính từ: <i>increasing demand</i> (nhu cầu ngày càng tăng).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-2",
+          "type": "mcq",
+          "stem_html": "The new policy will be ------- to all employees starting next quarter.",
+          "options": [
+            {
+              "label": "A",
+              "html": "apply"
+            },
+            {
+              "label": "B",
+              "html": "applicably"
+            },
+            {
+              "label": "C",
+              "html": "applicable"
+            },
+            {
+              "label": "D",
+              "html": "application"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau <i>be</i> cần tính từ: <i>be applicable to</i> (áp dụng cho).",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-3",
+          "type": "mcq",
+          "stem_html": "The museum's ------- exhibit features paintings from local artists.",
+          "options": [
+            {
+              "label": "A",
+              "html": "late"
+            },
+            {
+              "label": "B",
+              "html": "lately"
+            },
+            {
+              "label": "C",
+              "html": "lateness"
+            },
+            {
+              "label": "D",
+              "html": "latest"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Trước danh từ <i>exhibit</i> cần tính từ; <i>latest</i> (mới nhất) hợp nghĩa. <i>lately</i> là trạng từ.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-4",
+          "type": "mcq",
+          "stem_html": "Ms. Okafor manages the department ------- and has reduced costs by ten percent.",
+          "options": [
+            {
+              "label": "A",
+              "html": "effect"
+            },
+            {
+              "label": "B",
+              "html": "effective"
+            },
+            {
+              "label": "C",
+              "html": "effectiveness"
+            },
+            {
+              "label": "D",
+              "html": "effectively"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Bổ nghĩa cho động từ <i>manages</i> cần trạng từ: <i>effectively</i>.",
+          "tags": [
+            "part5",
+            "word-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-5",
+          "type": "mcq",
+          "stem_html": "Mr. Patel ------- the Singapore office since it opened in 2019.",
+          "options": [
+            {
+              "label": "A",
+              "html": "manages"
+            },
+            {
+              "label": "B",
+              "html": "managed"
+            },
+            {
+              "label": "C",
+              "html": "has managed"
+            },
+            {
+              "label": "D",
+              "html": "will manage"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>since + mốc thời gian</i> là dấu hiệu của <b>hiện tại hoàn thành</b>: <i>has managed</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-6",
+          "type": "mcq",
+          "stem_html": "The shipment ------- yesterday, so it should reach the client by Thursday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "leaves"
+            },
+            {
+              "label": "B",
+              "html": "will leave"
+            },
+            {
+              "label": "C",
+              "html": "has left"
+            },
+            {
+              "label": "D",
+              "html": "left"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>yesterday</i> là mốc quá khứ xác định nên dùng <b>quá khứ đơn</b>. Hiện tại hoàn thành không đi với <i>yesterday</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-7",
+          "type": "mcq",
+          "stem_html": "By the time the director arrives, the team ------- the room for the presentation.",
+          "options": [
+            {
+              "label": "A",
+              "html": "prepares"
+            },
+            {
+              "label": "B",
+              "html": "has been preparing"
+            },
+            {
+              "label": "C",
+              "html": "prepared"
+            },
+            {
+              "label": "D",
+              "html": "will have prepared"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>By the time + hiện tại đơn</i> là dấu hiệu của <b>tương lai hoàn thành</b>: việc chuẩn bị sẽ xong trước khi giám đốc đến.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-8",
+          "type": "mcq",
+          "stem_html": "The sales figures for last month ------- on the company intranet every Monday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "post"
+            },
+            {
+              "label": "B",
+              "html": "are posted"
+            },
+            {
+              "label": "C",
+              "html": "posting"
+            },
+            {
+              "label": "D",
+              "html": "were posted"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>every Monday</i> nói thói quen nên dùng hiện tại; số liệu không tự đăng nên cần bị động: <i>are posted</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-9",
+          "type": "mcq",
+          "stem_html": "Ms. Duval ------- the training session when the fire alarm went off.",
+          "options": [
+            {
+              "label": "A",
+              "html": "leads"
+            },
+            {
+              "label": "B",
+              "html": "has led"
+            },
+            {
+              "label": "C",
+              "html": "was leading"
+            },
+            {
+              "label": "D",
+              "html": "will lead"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Một hành động đang diễn ra thì bị hành động khác (<i>went off</i>, quá khứ đơn) xen vào, nên dùng <b>quá khứ tiếp diễn</b>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-003-10",
+          "type": "mcq",
+          "stem_html": "The company ------- a new factory in Vietnam next year, according to the press release.",
+          "options": [
+            {
+              "label": "A",
+              "html": "opened"
+            },
+            {
+              "label": "B",
+              "html": "has opened"
+            },
+            {
+              "label": "C",
+              "html": "is going to open"
+            },
+            {
+              "label": "D",
+              "html": "was opening"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>next year</i> chỉ tương lai và đây là kế hoạch đã được công bố, nên dùng <b>be going to</b>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-004",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-004-1",
+          "type": "mcq",
+          "stem_html": "Before joining our firm, Mr. Kim ------- as an engineer for a large automotive company.",
+          "options": [
+            {
+              "label": "A",
+              "html": "had worked"
+            },
+            {
+              "label": "B",
+              "html": "has worked"
+            },
+            {
+              "label": "C",
+              "html": "works"
+            },
+            {
+              "label": "D",
+              "html": "will work"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Một việc xảy ra trước một mốc khác trong quá khứ (trước khi gia nhập công ty) dùng <b>quá khứ hoàn thành</b>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-2",
+          "type": "mcq",
+          "stem_html": "Every year, the foundation ------- scholarships to twenty outstanding students.",
+          "options": [
+            {
+              "label": "A",
+              "html": "awards"
+            },
+            {
+              "label": "B",
+              "html": "award"
+            },
+            {
+              "label": "C",
+              "html": "is awarded"
+            },
+            {
+              "label": "D",
+              "html": "awarding"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Every year</i> là thói quen nên dùng hiện tại đơn; chủ ngữ số ít <i>the foundation</i> nên chia <i>awards</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-3",
+          "type": "mcq",
+          "stem_html": "The research team ------- the results of the survey for three weeks, and they will finish soon.",
+          "options": [
+            {
+              "label": "A",
+              "html": "analyzes"
+            },
+            {
+              "label": "B",
+              "html": "has been analyzing"
+            },
+            {
+              "label": "C",
+              "html": "analyzed"
+            },
+            {
+              "label": "D",
+              "html": "will analyze"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>for three weeks</i> cộng việc chưa xong (<i>will finish soon</i>) là dấu hiệu của <b>hiện tại hoàn thành tiếp diễn</b>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-4",
+          "type": "mcq",
+          "stem_html": "As soon as the contract ------- , we will begin the installation.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will be signed"
+            },
+            {
+              "label": "B",
+              "html": "is signed"
+            },
+            {
+              "label": "C",
+              "html": "signed"
+            },
+            {
+              "label": "D",
+              "html": "signing"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau <i>as soon as</i> dùng hiện tại thay cho tương lai; hợp đồng được ký nên dùng bị động: <i>is signed</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-5",
+          "type": "mcq",
+          "stem_html": "The keynote speaker ------- at 9 A.M. tomorrow, so please be seated by 8:50.",
+          "options": [
+            {
+              "label": "A",
+              "html": "arrived"
+            },
+            {
+              "label": "B",
+              "html": "has arrived"
+            },
+            {
+              "label": "C",
+              "html": "arrives"
+            },
+            {
+              "label": "D",
+              "html": "was arriving"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Lịch trình cố định (thời khóa biểu, sự kiện) có thể dùng <b>hiện tại đơn</b> để nói về tương lai: <i>arrives at 9 A.M. tomorrow</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-6",
+          "type": "mcq",
+          "stem_html": "Last quarter, our online sales ------- by 15 percent compared with the previous year.",
+          "options": [
+            {
+              "label": "A",
+              "html": "rose"
+            },
+            {
+              "label": "B",
+              "html": "rise"
+            },
+            {
+              "label": "C",
+              "html": "have risen"
+            },
+            {
+              "label": "D",
+              "html": "will rise"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Last quarter</i> là thời điểm đã kết thúc trong quá khứ nên dùng quá khứ đơn: <i>rose</i>.",
+          "tags": [
+            "part5",
+            "tense"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-7",
+          "type": "mcq",
+          "stem_html": "All meeting rooms must ------- at least one day in advance.",
+          "options": [
+            {
+              "label": "A",
+              "html": "reserve"
+            },
+            {
+              "label": "B",
+              "html": "have reserved"
+            },
+            {
+              "label": "C",
+              "html": "reserving"
+            },
+            {
+              "label": "D",
+              "html": "be reserved"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Phòng họp được đặt (bị động). Sau động từ khuyết thiếu <i>must</i> dùng <b>be + V3</b>: <i>must be reserved</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-8",
+          "type": "mcq",
+          "stem_html": "The new safety regulations ------- to all staff during yesterday's meeting.",
+          "options": [
+            {
+              "label": "A",
+              "html": "were explained"
+            },
+            {
+              "label": "B",
+              "html": "explained"
+            },
+            {
+              "label": "C",
+              "html": "have explained"
+            },
+            {
+              "label": "D",
+              "html": "explaining"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Quy định được giải thích (bị động), thời điểm là quá khứ (<i>yesterday</i>): <i>were explained</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-9",
+          "type": "mcq",
+          "stem_html": "Several improvements ------- to the software since the last update.",
+          "options": [
+            {
+              "label": "A",
+              "html": "have been made"
+            },
+            {
+              "label": "B",
+              "html": "have made"
+            },
+            {
+              "label": "C",
+              "html": "made"
+            },
+            {
+              "label": "D",
+              "html": "are making"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>since the last update</i> là dấu hiệu hiện tại hoàn thành; cải tiến được thực hiện (bị động): <i>have been made</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-004-10",
+          "type": "mcq",
+          "stem_html": "Applications that are not ------- by the deadline will not be reviewed.",
+          "options": [
+            {
+              "label": "A",
+              "html": "receive"
+            },
+            {
+              "label": "B",
+              "html": "receiving"
+            },
+            {
+              "label": "C",
+              "html": "received"
+            },
+            {
+              "label": "D",
+              "html": "receipt"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đơn được nhận (bị động): <i>are not received</i>. Sau <i>be</i> trong câu bị động dùng V3.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-005",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-005-1",
+          "type": "mcq",
+          "stem_html": "The annual awards ceremony ------- in the main ballroom of the Hotel Grand.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will be held"
+            },
+            {
+              "label": "B",
+              "html": "will hold"
+            },
+            {
+              "label": "C",
+              "html": "is holding"
+            },
+            {
+              "label": "D",
+              "html": "holds"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Buổi lễ được tổ chức (bị động): <i>will be held</i>. Chủ ngữ <i>ceremony</i> không thể tự tổ chức.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-2",
+          "type": "mcq",
+          "stem_html": "Visitors ------- to wear safety helmets at all times inside the factory.",
+          "options": [
+            {
+              "label": "A",
+              "html": "are required"
+            },
+            {
+              "label": "B",
+              "html": "require"
+            },
+            {
+              "label": "C",
+              "html": "requiring"
+            },
+            {
+              "label": "D",
+              "html": "have required"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Cấu trúc <i>be required to V</i> (được yêu cầu làm gì): <i>Visitors are required to wear…</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-3",
+          "type": "mcq",
+          "stem_html": "The broken elevator ------- by a technician at the moment, so please use the stairs.",
+          "options": [
+            {
+              "label": "A",
+              "html": "is repairing"
+            },
+            {
+              "label": "B",
+              "html": "is being repaired"
+            },
+            {
+              "label": "C",
+              "html": "repaired"
+            },
+            {
+              "label": "D",
+              "html": "has repaired"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>at the moment</i> là dấu hiệu tiếp diễn; thang máy được sửa (bị động): <i>is being repaired</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-4",
+          "type": "mcq",
+          "stem_html": "Ms. Lopez ------- employee of the month for her excellent customer service.",
+          "options": [
+            {
+              "label": "A",
+              "html": "named"
+            },
+            {
+              "label": "B",
+              "html": "has named"
+            },
+            {
+              "label": "C",
+              "html": "was named"
+            },
+            {
+              "label": "D",
+              "html": "naming"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Cô ấy được bầu (bị động): <i>was named employee of the month</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-5",
+          "type": "mcq",
+          "stem_html": "The documents you requested ------- to your office by courier this afternoon.",
+          "options": [
+            {
+              "label": "A",
+              "html": "delivered"
+            },
+            {
+              "label": "B",
+              "html": "will be delivered"
+            },
+            {
+              "label": "C",
+              "html": "will deliver"
+            },
+            {
+              "label": "D",
+              "html": "are delivering"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Tài liệu được giao (bị động), thời gian tương lai (<i>this afternoon</i>, việc chưa xảy ra): <i>will be delivered</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-6",
+          "type": "mcq",
+          "stem_html": "The factory ------- with solar panels to reduce its energy costs.",
+          "options": [
+            {
+              "label": "A",
+              "html": "has equipped"
+            },
+            {
+              "label": "B",
+              "html": "has been equipped"
+            },
+            {
+              "label": "C",
+              "html": "equipping"
+            },
+            {
+              "label": "D",
+              "html": "is equip"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Nhà máy được trang bị (bị động): <i>has been equipped with</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-7",
+          "type": "mcq",
+          "stem_html": "Customers who ------- by the delay will receive a full refund.",
+          "options": [
+            {
+              "label": "A",
+              "html": "were affected"
+            },
+            {
+              "label": "B",
+              "html": "affected"
+            },
+            {
+              "label": "C",
+              "html": "affecting"
+            },
+            {
+              "label": "D",
+              "html": "have affect"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Khách hàng bị ảnh hưởng (bị động) trong mệnh đề quan hệ: <i>who were affected by</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-8",
+          "type": "mcq",
+          "stem_html": "The final decision ------- until all the department managers have been consulted.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will not make"
+            },
+            {
+              "label": "B",
+              "html": "is not making"
+            },
+            {
+              "label": "C",
+              "html": "will not be made"
+            },
+            {
+              "label": "D",
+              "html": "not made"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Quyết định được đưa ra (bị động): <i>will not be made</i>.",
+          "tags": [
+            "part5",
+            "passive"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-9",
+          "type": "mcq",
+          "stem_html": "Each of the candidates ------- interviewed by a panel of three managers.",
+          "options": [
+            {
+              "label": "A",
+              "html": "were"
+            },
+            {
+              "label": "B",
+              "html": "was"
+            },
+            {
+              "label": "C",
+              "html": "are"
+            },
+            {
+              "label": "D",
+              "html": "have"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Each of + danh từ số nhiều</i> vẫn đi với động từ <b>số ít</b>: <i>Each of the candidates was…</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-005-10",
+          "type": "mcq",
+          "stem_html": "The number of applicants for the position ------- higher than expected.",
+          "options": [
+            {
+              "label": "A",
+              "html": "were"
+            },
+            {
+              "label": "B",
+              "html": "have been"
+            },
+            {
+              "label": "C",
+              "html": "are"
+            },
+            {
+              "label": "D",
+              "html": "was"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>The number of</i> (số lượng) đi với động từ số ít. Khác với <i>A number of</i> (nhiều) đi với số nhiều.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-006",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-006-1",
+          "type": "mcq",
+          "stem_html": "A number of employees ------- asked for more flexible working hours.",
+          "options": [
+            {
+              "label": "A",
+              "html": "has"
+            },
+            {
+              "label": "B",
+              "html": "is"
+            },
+            {
+              "label": "C",
+              "html": "have"
+            },
+            {
+              "label": "D",
+              "html": "was"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>A number of + danh từ số nhiều</i> (nhiều…) đi với động từ <b>số nhiều</b>: <i>have asked</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-2",
+          "type": "mcq",
+          "stem_html": "Ms. Ito asked the staff to submit ------- timesheets by Friday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "they"
+            },
+            {
+              "label": "B",
+              "html": "their"
+            },
+            {
+              "label": "C",
+              "html": "them"
+            },
+            {
+              "label": "D",
+              "html": "theirs"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Trước danh từ <i>timesheets</i> cần <b>tính từ sở hữu</b>: <i>their</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-3",
+          "type": "mcq",
+          "stem_html": "The manager and her assistant ------- attending the trade fair in Berlin next week.",
+          "options": [
+            {
+              "label": "A",
+              "html": "is"
+            },
+            {
+              "label": "B",
+              "html": "was"
+            },
+            {
+              "label": "C",
+              "html": "are"
+            },
+            {
+              "label": "D",
+              "html": "has"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Hai chủ ngữ nối bằng <i>and</i> là số nhiều: <i>are attending</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-4",
+          "type": "mcq",
+          "stem_html": "Mr. Gomez prefers to review the contracts ------- rather than asking his assistant.",
+          "options": [
+            {
+              "label": "A",
+              "html": "he"
+            },
+            {
+              "label": "B",
+              "html": "him"
+            },
+            {
+              "label": "C",
+              "html": "his"
+            },
+            {
+              "label": "D",
+              "html": "himself"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>himself</i> (tự mình) nhấn mạnh việc tự làm. Các đại từ còn lại không đứng được ở vị trí này.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-5",
+          "type": "mcq",
+          "stem_html": "Either the director or the board members ------- the final approval for the budget.",
+          "options": [
+            {
+              "label": "A",
+              "html": "gives"
+            },
+            {
+              "label": "B",
+              "html": "has given"
+            },
+            {
+              "label": "C",
+              "html": "is giving"
+            },
+            {
+              "label": "D",
+              "html": "give"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Với <i>Either A or B</i>, động từ chia theo B (gần nhất): <i>the board members</i> là số nhiều nên dùng <i>give</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-6",
+          "type": "mcq",
+          "stem_html": "The information in these brochures ------- updated every six months.",
+          "options": [
+            {
+              "label": "A",
+              "html": "is"
+            },
+            {
+              "label": "B",
+              "html": "are"
+            },
+            {
+              "label": "C",
+              "html": "were"
+            },
+            {
+              "label": "D",
+              "html": "have been"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>information</i> là danh từ <b>không đếm được</b>, nên đi với động từ số ít: <i>is updated</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-7",
+          "type": "mcq",
+          "stem_html": "If you have any questions about the new benefits package, please contact ------- in human resources.",
+          "options": [
+            {
+              "label": "A",
+              "html": "we"
+            },
+            {
+              "label": "B",
+              "html": "ours"
+            },
+            {
+              "label": "C",
+              "html": "our"
+            },
+            {
+              "label": "D",
+              "html": "us"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau động từ <i>contact</i> cần <b>tân ngữ</b>: <i>us</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-8",
+          "type": "mcq",
+          "stem_html": "One of the most popular items on our menu ------- the grilled salmon.",
+          "options": [
+            {
+              "label": "A",
+              "html": "is"
+            },
+            {
+              "label": "B",
+              "html": "are"
+            },
+            {
+              "label": "C",
+              "html": "were"
+            },
+            {
+              "label": "D",
+              "html": "being"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Chủ ngữ chính là <i>One</i> (số ít), không phải <i>items</i>: <i>One of … is…</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-9",
+          "type": "mcq",
+          "stem_html": "The committee members presented ------- recommendations to the board on Tuesday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "its"
+            },
+            {
+              "label": "B",
+              "html": "theirs"
+            },
+            {
+              "label": "C",
+              "html": "their"
+            },
+            {
+              "label": "D",
+              "html": "them"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>members</i> là số nhiều nên dùng tính từ sở hữu <i>their</i> trước danh từ.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-006-10",
+          "type": "mcq",
+          "stem_html": "Neither of the proposals ------- the budget requirements set by the finance department.",
+          "options": [
+            {
+              "label": "A",
+              "html": "meet"
+            },
+            {
+              "label": "B",
+              "html": "meets"
+            },
+            {
+              "label": "C",
+              "html": "are meeting"
+            },
+            {
+              "label": "D",
+              "html": "have met"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Neither of + danh từ số nhiều</i> thường đi với động từ số ít trong văn viết trang trọng: <i>meets</i>.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-007",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-007-1",
+          "type": "mcq",
+          "stem_html": "Mr. Brown's suggestions were more practical than ------- of the other consultants.",
+          "options": [
+            {
+              "label": "A",
+              "html": "that"
+            },
+            {
+              "label": "B",
+              "html": "those"
+            },
+            {
+              "label": "C",
+              "html": "these"
+            },
+            {
+              "label": "D",
+              "html": "this"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Dùng <i>those</i> để thay cho danh từ số nhiều đã nhắc (<i>suggestions</i>), tránh lặp từ.",
+          "tags": [
+            "part5",
+            "agreement"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-2",
+          "type": "mcq",
+          "stem_html": "The seminar was postponed ------- the speaker's flight was canceled.",
+          "options": [
+            {
+              "label": "A",
+              "html": "because of"
+            },
+            {
+              "label": "B",
+              "html": "because"
+            },
+            {
+              "label": "C",
+              "html": "despite"
+            },
+            {
+              "label": "D",
+              "html": "although"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau chỗ trống là một mệnh đề (<i>the speaker's flight was canceled</i>), nên cần liên từ chỉ lý do: <i>because</i>. <i>because of</i> chỉ đi với danh từ.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-3",
+          "type": "mcq",
+          "stem_html": "------- the heavy rain, the outdoor concert continued as planned.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Although"
+            },
+            {
+              "label": "B",
+              "html": "Because"
+            },
+            {
+              "label": "C",
+              "html": "Despite"
+            },
+            {
+              "label": "D",
+              "html": "Even though"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau chỗ trống là cụm danh từ (<i>the heavy rain</i>), nên dùng giới từ <i>Despite</i>. <i>Although / Even though</i> cần mệnh đề.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-4",
+          "type": "mcq",
+          "stem_html": "The report must be completed ------- the end of the month.",
+          "options": [
+            {
+              "label": "A",
+              "html": "since"
+            },
+            {
+              "label": "B",
+              "html": "until"
+            },
+            {
+              "label": "C",
+              "html": "by"
+            },
+            {
+              "label": "D",
+              "html": "within"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>by + thời hạn</i>: xong trước hoặc vào lúc đó. <i>until</i> dùng cho hành động kéo dài liên tục đến một mốc.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-5",
+          "type": "mcq",
+          "stem_html": "Please keep your receipt ------- you need to return the product.",
+          "options": [
+            {
+              "label": "A",
+              "html": "unless"
+            },
+            {
+              "label": "B",
+              "html": "although"
+            },
+            {
+              "label": "C",
+              "html": "so that"
+            },
+            {
+              "label": "D",
+              "html": "in case"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>in case</i> = phòng khi. Giữ hóa đơn phòng khi cần trả hàng.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-6",
+          "type": "mcq",
+          "stem_html": "The store will remain open ------- the renovation work is being carried out.",
+          "options": [
+            {
+              "label": "A",
+              "html": "while"
+            },
+            {
+              "label": "B",
+              "html": "during"
+            },
+            {
+              "label": "C",
+              "html": "since"
+            },
+            {
+              "label": "D",
+              "html": "for"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau chỗ trống là mệnh đề nên cần liên từ: <i>while</i> (trong khi). <i>during</i> chỉ đi với danh từ.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-7",
+          "type": "mcq",
+          "stem_html": "The new employees will receive training ------- their first week at the company.",
+          "options": [
+            {
+              "label": "A",
+              "html": "while"
+            },
+            {
+              "label": "B",
+              "html": "when"
+            },
+            {
+              "label": "C",
+              "html": "during"
+            },
+            {
+              "label": "D",
+              "html": "as"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau chỗ trống là cụm danh từ (<i>their first week</i>), nên dùng giới từ <i>during</i>.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-8",
+          "type": "mcq",
+          "stem_html": "------- you register before May 1, you will receive a 20 percent discount.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Whether"
+            },
+            {
+              "label": "B",
+              "html": "Unless"
+            },
+            {
+              "label": "C",
+              "html": "Despite"
+            },
+            {
+              "label": "D",
+              "html": "If"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Điều kiện: nếu đăng ký trước 1/5 thì được giảm giá. <i>Unless</i> (trừ khi) làm ngược nghĩa.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-9",
+          "type": "mcq",
+          "stem_html": "The package arrived late; -------, all the items inside were in good condition.",
+          "options": [
+            {
+              "label": "A",
+              "html": "therefore"
+            },
+            {
+              "label": "B",
+              "html": "moreover"
+            },
+            {
+              "label": "C",
+              "html": "because"
+            },
+            {
+              "label": "D",
+              "html": "however"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Hai ý tương phản (đến muộn nhưng hàng vẫn tốt), nên dùng trạng từ nối <i>however</i>.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-007-10",
+          "type": "mcq",
+          "stem_html": "Our office is located ------- the bank and the post office on Main Street.",
+          "options": [
+            {
+              "label": "A",
+              "html": "among"
+            },
+            {
+              "label": "B",
+              "html": "through"
+            },
+            {
+              "label": "C",
+              "html": "between"
+            },
+            {
+              "label": "D",
+              "html": "across"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>between A and B</i>: nằm giữa hai địa điểm.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-008",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-008-1",
+          "type": "mcq",
+          "stem_html": "------- the hotel and the conference center offer free parking for guests.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Both"
+            },
+            {
+              "label": "B",
+              "html": "Either"
+            },
+            {
+              "label": "C",
+              "html": "Neither"
+            },
+            {
+              "label": "D",
+              "html": "Not only"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Cấu trúc <i>Both A and B</i> (cả A và B), động từ số nhiều <i>offer</i>.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-2",
+          "type": "mcq",
+          "stem_html": "Ms. Novak will not approve the purchase ------- she sees a detailed cost estimate.",
+          "options": [
+            {
+              "label": "A",
+              "html": "because"
+            },
+            {
+              "label": "B",
+              "html": "if"
+            },
+            {
+              "label": "C",
+              "html": "unless"
+            },
+            {
+              "label": "D",
+              "html": "so"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>unless</i> = trừ khi. Cô ấy chỉ duyệt khi thấy bảng dự toán chi tiết.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-3",
+          "type": "mcq",
+          "stem_html": "The training manual is available ------- in print and online.",
+          "options": [
+            {
+              "label": "A",
+              "html": "both"
+            },
+            {
+              "label": "B",
+              "html": "either"
+            },
+            {
+              "label": "C",
+              "html": "neither"
+            },
+            {
+              "label": "D",
+              "html": "whether"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>both … and …</i> đi theo cặp: <i>both in print and online</i>.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-4",
+          "type": "mcq",
+          "stem_html": "Sales increased last quarter, ------- the company hired ten new employees.",
+          "options": [
+            {
+              "label": "A",
+              "html": "although"
+            },
+            {
+              "label": "B",
+              "html": "but"
+            },
+            {
+              "label": "C",
+              "html": "so"
+            },
+            {
+              "label": "D",
+              "html": "unless"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Quan hệ nguyên nhân – kết quả (doanh số tăng nên tuyển thêm người): <i>so</i>.",
+          "tags": [
+            "part5",
+            "prep-conj"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-5",
+          "type": "mcq",
+          "stem_html": "The employee ------- designed the new logo has won several awards.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "who"
+            },
+            {
+              "label": "C",
+              "html": "whom"
+            },
+            {
+              "label": "D",
+              "html": "whose"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Thay cho danh từ chỉ người làm chủ ngữ của <i>designed</i>: <i>who</i>.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-6",
+          "type": "mcq",
+          "stem_html": "The conference room, ------- can hold up to 50 people, is on the fifth floor.",
+          "options": [
+            {
+              "label": "A",
+              "html": "that"
+            },
+            {
+              "label": "B",
+              "html": "who"
+            },
+            {
+              "label": "C",
+              "html": "which"
+            },
+            {
+              "label": "D",
+              "html": "where"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Mệnh đề quan hệ không xác định (có dấu phẩy) chỉ vật dùng <i>which</i>; không dùng <i>that</i> sau dấu phẩy.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-7",
+          "type": "mcq",
+          "stem_html": "This is the restaurant ------- the company holds its annual dinner.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "where"
+            },
+            {
+              "label": "C",
+              "html": "who"
+            },
+            {
+              "label": "D",
+              "html": "whose"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Thay cho nơi chốn, theo sau là mệnh đề đầy đủ (<i>the company holds its annual dinner</i>): <i>where</i>.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-8",
+          "type": "mcq",
+          "stem_html": "The consultant ------- we hired last year helped us reduce shipping costs.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "whose"
+            },
+            {
+              "label": "C",
+              "html": "whom"
+            },
+            {
+              "label": "D",
+              "html": "where"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Thay cho người làm tân ngữ của <i>hired</i>: <i>whom</i> (hoặc <i>who/that</i>).",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-9",
+          "type": "mcq",
+          "stem_html": "Employees ------- work more than 40 hours a week will receive overtime pay.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "whom"
+            },
+            {
+              "label": "C",
+              "html": "whose"
+            },
+            {
+              "label": "D",
+              "html": "who"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Chỉ người, làm chủ ngữ của <i>work</i>: <i>who</i>.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-008-10",
+          "type": "mcq",
+          "stem_html": "The product, ------- price was reduced last week, is now our best seller.",
+          "options": [
+            {
+              "label": "A",
+              "html": "whose"
+            },
+            {
+              "label": "B",
+              "html": "that"
+            },
+            {
+              "label": "C",
+              "html": "which"
+            },
+            {
+              "label": "D",
+              "html": "who"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau chỗ trống là danh từ <i>price</i> thuộc về product, nên dùng <i>whose</i> + danh từ.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-009",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-009-1",
+          "type": "mcq",
+          "stem_html": "Mr. Hale, ------- has led the sales team for a decade, will retire in May.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "who"
+            },
+            {
+              "label": "C",
+              "html": "whom"
+            },
+            {
+              "label": "D",
+              "html": "whose"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Mệnh đề quan hệ không xác định (giữa hai dấu phẩy) chỉ người, làm chủ ngữ của <i>has led</i>: <i>who</i>.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-2",
+          "type": "mcq",
+          "stem_html": "The city ------- our headquarters is located offers tax benefits to new businesses.",
+          "options": [
+            {
+              "label": "A",
+              "html": "where"
+            },
+            {
+              "label": "B",
+              "html": "which"
+            },
+            {
+              "label": "C",
+              "html": "whose"
+            },
+            {
+              "label": "D",
+              "html": "what"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau chỗ trống là mệnh đề đầy đủ (<i>our headquarters is located</i>), danh từ đứng trước là nơi chốn, nên dùng <i>where</i> (= in which).",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-3",
+          "type": "mcq",
+          "stem_html": "Anyone ------- would like to attend the workshop should register by Friday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "who"
+            },
+            {
+              "label": "B",
+              "html": "whom"
+            },
+            {
+              "label": "C",
+              "html": "which"
+            },
+            {
+              "label": "D",
+              "html": "whose"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Anyone</i> chỉ người, làm chủ ngữ của <i>would like</i>: <i>who</i>.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-4",
+          "type": "mcq",
+          "stem_html": "The reason ------- the meeting was rescheduled has not been announced.",
+          "options": [
+            {
+              "label": "A",
+              "html": "why"
+            },
+            {
+              "label": "B",
+              "html": "where"
+            },
+            {
+              "label": "C",
+              "html": "which"
+            },
+            {
+              "label": "D",
+              "html": "whose"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the reason why</i> + mệnh đề: lý do mà…",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-5",
+          "type": "mcq",
+          "stem_html": "This is the most efficient printer ------- we have ever purchased.",
+          "options": [
+            {
+              "label": "A",
+              "html": "what"
+            },
+            {
+              "label": "B",
+              "html": "who"
+            },
+            {
+              "label": "C",
+              "html": "whose"
+            },
+            {
+              "label": "D",
+              "html": "that"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau so sánh nhất (<i>the most efficient</i>) thường dùng <i>that</i>. <i>what</i> không đứng sau danh từ.",
+          "tags": [
+            "part5",
+            "relative"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-6",
+          "type": "mcq",
+          "stem_html": "If you ------- any problems with your order, please call our customer service line.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will have"
+            },
+            {
+              "label": "B",
+              "html": "have"
+            },
+            {
+              "label": "C",
+              "html": "had"
+            },
+            {
+              "label": "D",
+              "html": "would have"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu điều kiện loại 1 (mệnh đề chính là câu mệnh lệnh <i>please call</i>): mệnh đề <i>If</i> dùng hiện tại đơn.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-7",
+          "type": "mcq",
+          "stem_html": "If we had more staff, we ------- open the store on Sundays.",
+          "options": [
+            {
+              "label": "A",
+              "html": "can"
+            },
+            {
+              "label": "B",
+              "html": "have"
+            },
+            {
+              "label": "C",
+              "html": "will"
+            },
+            {
+              "label": "D",
+              "html": "could"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>If we had</i> (quá khứ đơn) nói điều không có thật ở hiện tại, nên là điều kiện loại 2: <i>could / would + V</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-8",
+          "type": "mcq",
+          "stem_html": "------- you need further assistance, please do not hesitate to contact me.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Would"
+            },
+            {
+              "label": "B",
+              "html": "Should"
+            },
+            {
+              "label": "C",
+              "html": "Were"
+            },
+            {
+              "label": "D",
+              "html": "Had"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đảo ngữ điều kiện loại 1: <i>Should you need…</i> = <i>If you need…</i>. Câu này rất hay gặp ở cuối email trang trọng.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-9",
+          "type": "mcq",
+          "stem_html": "Had the client approved the design earlier, the project ------- on schedule.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will finish"
+            },
+            {
+              "label": "B",
+              "html": "finishes"
+            },
+            {
+              "label": "C",
+              "html": "would have finished"
+            },
+            {
+              "label": "D",
+              "html": "had finished"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Had the client approved</i> là đảo ngữ của <i>If the client had approved</i> (loại 3), nên mệnh đề chính dùng <i>would have + V3</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-009-10",
+          "type": "mcq",
+          "stem_html": "Unless the weather -------, the company picnic will take place on Saturday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will worsen"
+            },
+            {
+              "label": "B",
+              "html": "worsens"
+            },
+            {
+              "label": "C",
+              "html": "worsened"
+            },
+            {
+              "label": "D",
+              "html": "worsening"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Unless</i> = if… not, theo quy tắc loại 1: mệnh đề điều kiện dùng hiện tại đơn, không dùng <i>will</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-010",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-010-1",
+          "type": "mcq",
+          "stem_html": "The manager insisted that every employee ------- the safety training.",
+          "options": [
+            {
+              "label": "A",
+              "html": "completes"
+            },
+            {
+              "label": "B",
+              "html": "complete"
+            },
+            {
+              "label": "C",
+              "html": "completed"
+            },
+            {
+              "label": "D",
+              "html": "completing"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau <i>insist / recommend / suggest / require that</i>, động từ ở dạng <b>nguyên mẫu không to</b> (câu giả định), kể cả khi chủ ngữ số ít: <i>every employee complete</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-2",
+          "type": "mcq",
+          "stem_html": "It is essential that the documents ------- before the meeting begins.",
+          "options": [
+            {
+              "label": "A",
+              "html": "be signed"
+            },
+            {
+              "label": "B",
+              "html": "are signed"
+            },
+            {
+              "label": "C",
+              "html": "signing"
+            },
+            {
+              "label": "D",
+              "html": "to sign"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>It is essential / important / necessary that</i> + chủ ngữ + V nguyên mẫu (giả định). Tài liệu được ký nên dùng bị động: <i>be signed</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-3",
+          "type": "mcq",
+          "stem_html": "If Ms. Park were available, she ------- the presentation herself.",
+          "options": [
+            {
+              "label": "A",
+              "html": "will give"
+            },
+            {
+              "label": "B",
+              "html": "gives"
+            },
+            {
+              "label": "C",
+              "html": "gave"
+            },
+            {
+              "label": "D",
+              "html": "would give"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>If … were</i> là điều kiện loại 2, nên mệnh đề chính dùng <i>would + V</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-4",
+          "type": "mcq",
+          "stem_html": "Provided that the materials arrive on time, construction ------- next week.",
+          "options": [
+            {
+              "label": "A",
+              "html": "began"
+            },
+            {
+              "label": "B",
+              "html": "would begin"
+            },
+            {
+              "label": "C",
+              "html": "will begin"
+            },
+            {
+              "label": "D",
+              "html": "beginning"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Provided that</i> (miễn là) dùng như <i>if</i> loại 1: mệnh đề điều kiện ở hiện tại, mệnh đề chính <i>will + V</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-5",
+          "type": "mcq",
+          "stem_html": "The director recommended that the budget ------- by ten percent.",
+          "options": [
+            {
+              "label": "A",
+              "html": "is reduced"
+            },
+            {
+              "label": "B",
+              "html": "be reduced"
+            },
+            {
+              "label": "C",
+              "html": "reducing"
+            },
+            {
+              "label": "D",
+              "html": "reduces"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau <i>recommend that</i> dùng câu giả định (V nguyên mẫu); ngân sách bị cắt giảm nên dùng bị động: <i>be reduced</i>.",
+          "tags": [
+            "part5",
+            "conditional"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-6",
+          "type": "mcq",
+          "stem_html": "This year's conference attracted ------- participants than last year's.",
+          "options": [
+            {
+              "label": "A",
+              "html": "more"
+            },
+            {
+              "label": "B",
+              "html": "much"
+            },
+            {
+              "label": "C",
+              "html": "many"
+            },
+            {
+              "label": "D",
+              "html": "most"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Có <i>than</i> nên cần so sánh hơn: <i>more participants than</i>.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-7",
+          "type": "mcq",
+          "stem_html": "The new model is ------- of the three laptops we tested.",
+          "options": [
+            {
+              "label": "A",
+              "html": "lighter"
+            },
+            {
+              "label": "B",
+              "html": "the lightest"
+            },
+            {
+              "label": "C",
+              "html": "lightest"
+            },
+            {
+              "label": "D",
+              "html": "most light"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "So sánh trong nhóm từ ba trở lên (<i>of the three</i>) dùng so sánh nhất có <i>the</i>: <i>the lightest</i>.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-8",
+          "type": "mcq",
+          "stem_html": "Our new delivery service is twice as ------- as the old one.",
+          "options": [
+            {
+              "label": "A",
+              "html": "fastest"
+            },
+            {
+              "label": "B",
+              "html": "faster"
+            },
+            {
+              "label": "C",
+              "html": "fast"
+            },
+            {
+              "label": "D",
+              "html": "fastly"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Cấu trúc so sánh bội số <i>twice as + tính từ nguyên mẫu + as</i>. <i>fastly</i> không tồn tại.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-9",
+          "type": "mcq",
+          "stem_html": "The longer you wait to book, the ------- the tickets will be.",
+          "options": [
+            {
+              "label": "A",
+              "html": "expensive"
+            },
+            {
+              "label": "B",
+              "html": "expensively"
+            },
+            {
+              "label": "C",
+              "html": "most expensive"
+            },
+            {
+              "label": "D",
+              "html": "more expensive"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "So sánh kép <i>the + so sánh hơn…, the + so sánh hơn…</i> (càng… càng…).",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-010-10",
+          "type": "mcq",
+          "stem_html": "Mr. Davis is considering ------- his consulting business to Toronto.",
+          "options": [
+            {
+              "label": "A",
+              "html": "move"
+            },
+            {
+              "label": "B",
+              "html": "to move"
+            },
+            {
+              "label": "C",
+              "html": "moving"
+            },
+            {
+              "label": "D",
+              "html": "moved"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>consider + V-ing</i>. Các động từ khác cũng đi với V-ing: avoid, suggest, finish, delay, mind.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-011",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-grammar",
+      "questions": [
+        {
+          "id": "toeic-p5-011-1",
+          "type": "mcq",
+          "stem_html": "The company plans ------- three new branches next year.",
+          "options": [
+            {
+              "label": "A",
+              "html": "open"
+            },
+            {
+              "label": "B",
+              "html": "opening"
+            },
+            {
+              "label": "C",
+              "html": "to open"
+            },
+            {
+              "label": "D",
+              "html": "opened"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>plan + to V</i>. Tương tự: decide, hope, agree, expect, intend + to V.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-2",
+          "type": "mcq",
+          "stem_html": "We look forward to ------- with you on this project.",
+          "options": [
+            {
+              "label": "A",
+              "html": "work"
+            },
+            {
+              "label": "B",
+              "html": "works"
+            },
+            {
+              "label": "C",
+              "html": "worked"
+            },
+            {
+              "label": "D",
+              "html": "working"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Trong <i>look forward to</i>, <i>to</i> là giới từ, nên theo sau là V-ing.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-3",
+          "type": "mcq",
+          "stem_html": "Please remember ------- the lights before leaving the office.",
+          "options": [
+            {
+              "label": "A",
+              "html": "to turn off"
+            },
+            {
+              "label": "B",
+              "html": "turning off"
+            },
+            {
+              "label": "C",
+              "html": "turn off"
+            },
+            {
+              "label": "D",
+              "html": "turned off"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>remember to V</i>: nhớ để làm một việc (chưa làm). <i>remember V-ing</i>: nhớ là đã làm. Đây là lời nhắc nên dùng <i>to turn off</i>.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-4",
+          "type": "mcq",
+          "stem_html": "The supervisor had the technician ------- the copier.",
+          "options": [
+            {
+              "label": "A",
+              "html": "repairing"
+            },
+            {
+              "label": "B",
+              "html": "repair"
+            },
+            {
+              "label": "C",
+              "html": "repaired"
+            },
+            {
+              "label": "D",
+              "html": "to repair"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Cấu trúc nhờ ai làm gì: <i>have + người + V nguyên mẫu</i>. (Nếu là vật thì dùng <i>have + vật + V3</i>: have the copier repaired.)",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-5",
+          "type": "mcq",
+          "stem_html": "Ms. Lee is used to ------- long hours during the busy season.",
+          "options": [
+            {
+              "label": "A",
+              "html": "work"
+            },
+            {
+              "label": "B",
+              "html": "works"
+            },
+            {
+              "label": "C",
+              "html": "worked"
+            },
+            {
+              "label": "D",
+              "html": "working"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>be used to + V-ing</i>: quen với việc gì. Đừng nhầm với <i>used to + V</i> (đã từng).",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-6",
+          "type": "mcq",
+          "stem_html": "The new procedure is ------- complicated than the old one.",
+          "options": [
+            {
+              "label": "A",
+              "html": "little"
+            },
+            {
+              "label": "B",
+              "html": "less"
+            },
+            {
+              "label": "C",
+              "html": "least"
+            },
+            {
+              "label": "D",
+              "html": "fewer"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Có <i>than</i>, kèm tính từ dài <i>complicated</i>: <i>less complicated than</i> (ít phức tạp hơn). <i>fewer</i> đi với danh từ đếm được.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-7",
+          "type": "mcq",
+          "stem_html": "Visitors are not allowed ------- photographs inside the gallery.",
+          "options": [
+            {
+              "label": "A",
+              "html": "take"
+            },
+            {
+              "label": "B",
+              "html": "taking"
+            },
+            {
+              "label": "C",
+              "html": "to take"
+            },
+            {
+              "label": "D",
+              "html": "taken"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>be allowed to V</i>: được phép làm gì.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-8",
+          "type": "mcq",
+          "stem_html": "The report was so detailed ------- the board approved it without changes.",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "as"
+            },
+            {
+              "label": "C",
+              "html": "than"
+            },
+            {
+              "label": "D",
+              "html": "that"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Cấu trúc <i>so + tính từ + that</i> (quá… đến nỗi…).",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-9",
+          "type": "mcq",
+          "stem_html": "Customers appreciate ------- their orders tracked in real time.",
+          "options": [
+            {
+              "label": "A",
+              "html": "having"
+            },
+            {
+              "label": "B",
+              "html": "have"
+            },
+            {
+              "label": "C",
+              "html": "to have"
+            },
+            {
+              "label": "D",
+              "html": "had"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>appreciate + V-ing</i>: <i>appreciate having…</i>.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        },
+        {
+          "id": "toeic-p5-011-10",
+          "type": "mcq",
+          "stem_html": "Of all the applicants, Ms. Wong has ------- experience in international marketing.",
+          "options": [
+            {
+              "label": "A",
+              "html": "the most"
+            },
+            {
+              "label": "B",
+              "html": "much"
+            },
+            {
+              "label": "C",
+              "html": "more"
+            },
+            {
+              "label": "D",
+              "html": "many"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Of all the applicants</i> là so sánh trong cả nhóm, nên dùng so sánh nhất: <i>the most experience</i>.",
+          "tags": [
+            "part5",
+            "verb-form"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-012",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-vocab",
+      "questions": [
+        {
+          "id": "toeic-p5-012-1",
+          "type": "mcq",
+          "stem_html": "The company decided to ------- a survey to measure customer satisfaction.",
+          "options": [
+            {
+              "label": "A",
+              "html": "say"
+            },
+            {
+              "label": "B",
+              "html": "conduct"
+            },
+            {
+              "label": "C",
+              "html": "give"
+            },
+            {
+              "label": "D",
+              "html": "hold"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Collocation: <b>conduct a survey / a study / research</b> (tiến hành khảo sát).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-2",
+          "type": "mcq",
+          "stem_html": "Mr. Ford will ------- a speech at the opening ceremony.",
+          "options": [
+            {
+              "label": "A",
+              "html": "tell"
+            },
+            {
+              "label": "B",
+              "html": "say"
+            },
+            {
+              "label": "C",
+              "html": "deliver"
+            },
+            {
+              "label": "D",
+              "html": "speak"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>deliver / give a speech</b>. <i>speak</i> là nội động từ (speak at the ceremony), không đi trực tiếp với <i>a speech</i>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-3",
+          "type": "mcq",
+          "stem_html": "Please ------- attention to the safety instructions posted near the exits.",
+          "options": [
+            {
+              "label": "A",
+              "html": "give"
+            },
+            {
+              "label": "B",
+              "html": "pay"
+            },
+            {
+              "label": "C",
+              "html": "take"
+            },
+            {
+              "label": "D",
+              "html": "make"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Collocation: <b>pay attention to</b> (chú ý tới).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-4",
+          "type": "mcq",
+          "stem_html": "The two companies ------- an agreement after months of negotiations.",
+          "options": [
+            {
+              "label": "A",
+              "html": "arrived"
+            },
+            {
+              "label": "B",
+              "html": "got"
+            },
+            {
+              "label": "C",
+              "html": "came"
+            },
+            {
+              "label": "D",
+              "html": "reached"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>reach an agreement</b> (đạt được thỏa thuận). <i>arrive</i> và <i>come</i> cần giới từ (arrive at / come to an agreement).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-5",
+          "type": "mcq",
+          "stem_html": "Employees must ------- the deadline for submitting expense reports.",
+          "options": [
+            {
+              "label": "A",
+              "html": "keep"
+            },
+            {
+              "label": "B",
+              "html": "meet"
+            },
+            {
+              "label": "C",
+              "html": "hold"
+            },
+            {
+              "label": "D",
+              "html": "do"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>meet a deadline</b> (kịp hạn chót). Ngược lại là <i>miss a deadline</i>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-6",
+          "type": "mcq",
+          "stem_html": "The team is working hard to ------- customer expectations.",
+          "options": [
+            {
+              "label": "A",
+              "html": "raise"
+            },
+            {
+              "label": "B",
+              "html": "exceed"
+            },
+            {
+              "label": "C",
+              "html": "grow"
+            },
+            {
+              "label": "D",
+              "html": "lift"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>exceed expectations</b> (vượt kỳ vọng). Hoặc <i>meet expectations</i> (đáp ứng kỳ vọng).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-7",
+          "type": "mcq",
+          "stem_html": "The marketing director will ------- a decision about the campaign by Monday.",
+          "options": [
+            {
+              "label": "A",
+              "html": "do"
+            },
+            {
+              "label": "B",
+              "html": "give"
+            },
+            {
+              "label": "C",
+              "html": "make"
+            },
+            {
+              "label": "D",
+              "html": "set"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>make a decision</b>. Phân biệt make (tạo ra: decision, mistake, offer, reservation) và do (làm: research, business, a favor).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-8",
+          "type": "mcq",
+          "stem_html": "Our hotel is within walking ------- of the convention center.",
+          "options": [
+            {
+              "label": "A",
+              "html": "range"
+            },
+            {
+              "label": "B",
+              "html": "space"
+            },
+            {
+              "label": "C",
+              "html": "length"
+            },
+            {
+              "label": "D",
+              "html": "distance"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>within walking distance of</b>: có thể đi bộ tới.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-9",
+          "type": "mcq",
+          "stem_html": "Ms. Grant is ------- charge of the new branch.",
+          "options": [
+            {
+              "label": "A",
+              "html": "on"
+            },
+            {
+              "label": "B",
+              "html": "at"
+            },
+            {
+              "label": "C",
+              "html": "for"
+            },
+            {
+              "label": "D",
+              "html": "in"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>be in charge of</b>: phụ trách.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-012-10",
+          "type": "mcq",
+          "stem_html": "The new policy will take ------- on January 1.",
+          "options": [
+            {
+              "label": "A",
+              "html": "effect"
+            },
+            {
+              "label": "B",
+              "html": "affect"
+            },
+            {
+              "label": "C",
+              "html": "action"
+            },
+            {
+              "label": "D",
+              "html": "part"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>take effect</b>: có hiệu lực. <i>affect</i> là động từ (ảnh hưởng), không đứng sau <i>take</i>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-013",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-vocab",
+      "questions": [
+        {
+          "id": "toeic-p5-013-1",
+          "type": "mcq",
+          "stem_html": "Please ------- a reservation at least 24 hours in advance.",
+          "options": [
+            {
+              "label": "A",
+              "html": "do"
+            },
+            {
+              "label": "B",
+              "html": "take"
+            },
+            {
+              "label": "C",
+              "html": "make"
+            },
+            {
+              "label": "D",
+              "html": "put"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>make a reservation</b> (đặt chỗ).",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-2",
+          "type": "mcq",
+          "stem_html": "All employees are ------- to a 15-minute break every four hours.",
+          "options": [
+            {
+              "label": "A",
+              "html": "allowed"
+            },
+            {
+              "label": "B",
+              "html": "entitled"
+            },
+            {
+              "label": "C",
+              "html": "able"
+            },
+            {
+              "label": "D",
+              "html": "permitted"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>be entitled to + danh từ</b>: có quyền được hưởng. <i>allowed / permitted / able</i> đi với <i>to + V</i>, không đi với danh từ.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-3",
+          "type": "mcq",
+          "stem_html": "The supplier is responsible ------- delivering the materials on time.",
+          "options": [
+            {
+              "label": "A",
+              "html": "for"
+            },
+            {
+              "label": "B",
+              "html": "to"
+            },
+            {
+              "label": "C",
+              "html": "of"
+            },
+            {
+              "label": "D",
+              "html": "with"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>be responsible for + V-ing / danh từ</b>: chịu trách nhiệm về.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-4",
+          "type": "mcq",
+          "stem_html": "Mr. Ross is interested ------- joining the volunteer program.",
+          "options": [
+            {
+              "label": "A",
+              "html": "for"
+            },
+            {
+              "label": "B",
+              "html": "on"
+            },
+            {
+              "label": "C",
+              "html": "at"
+            },
+            {
+              "label": "D",
+              "html": "in"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>be interested in + V-ing</b>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-5",
+          "type": "mcq",
+          "stem_html": "The proposal was approved ------- a majority of board members.",
+          "options": [
+            {
+              "label": "A",
+              "html": "by"
+            },
+            {
+              "label": "B",
+              "html": "from"
+            },
+            {
+              "label": "C",
+              "html": "of"
+            },
+            {
+              "label": "D",
+              "html": "with"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Trong câu bị động, người thực hiện đứng sau <b>by</b>: <i>approved by a majority</i>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-6",
+          "type": "mcq",
+          "stem_html": "The museum is closed to the public ------- further notice.",
+          "options": [
+            {
+              "label": "A",
+              "html": "by"
+            },
+            {
+              "label": "B",
+              "html": "until"
+            },
+            {
+              "label": "C",
+              "html": "for"
+            },
+            {
+              "label": "D",
+              "html": "since"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>until further notice</b>: cho đến khi có thông báo mới.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-7",
+          "type": "mcq",
+          "stem_html": "Ms. Kaur is ------- of organizing the event herself.",
+          "options": [
+            {
+              "label": "A",
+              "html": "able"
+            },
+            {
+              "label": "B",
+              "html": "competent"
+            },
+            {
+              "label": "C",
+              "html": "possible"
+            },
+            {
+              "label": "D",
+              "html": "capable"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>be capable of + V-ing</b>. <i>able</i> đi với <i>to V</i>; <i>competent</i> đi với <i>at / in</i>.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-8",
+          "type": "mcq",
+          "stem_html": "The hotel staff went out of their ------- to make the guests comfortable.",
+          "options": [
+            {
+              "label": "A",
+              "html": "road"
+            },
+            {
+              "label": "B",
+              "html": "path"
+            },
+            {
+              "label": "C",
+              "html": "way"
+            },
+            {
+              "label": "D",
+              "html": "course"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Thành ngữ <b>go out of one's way to V</b>: cố gắng hết sức, làm hơn mức cần để giúp ai.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-9",
+          "type": "mcq",
+          "stem_html": "Sales have risen steadily ------- the past three years.",
+          "options": [
+            {
+              "label": "A",
+              "html": "at"
+            },
+            {
+              "label": "B",
+              "html": "on"
+            },
+            {
+              "label": "C",
+              "html": "by"
+            },
+            {
+              "label": "D",
+              "html": "over"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>over the past + khoảng thời gian</b>, thường đi với hiện tại hoàn thành: trong suốt mấy năm qua.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        },
+        {
+          "id": "toeic-p5-013-10",
+          "type": "mcq",
+          "stem_html": "Our customer service team is available ------- the clock.",
+          "options": [
+            {
+              "label": "A",
+              "html": "around"
+            },
+            {
+              "label": "B",
+              "html": "about"
+            },
+            {
+              "label": "C",
+              "html": "along"
+            },
+            {
+              "label": "D",
+              "html": "across"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>around the clock</b>: suốt 24 giờ.",
+          "tags": [
+            "part5",
+            "collocation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-014",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-vocab",
+      "questions": [
+        {
+          "id": "toeic-p5-014-1",
+          "type": "mcq",
+          "stem_html": "The factory had to ------- production temporarily because of a shortage of parts.",
+          "options": [
+            {
+              "label": "A",
+              "html": "expand"
+            },
+            {
+              "label": "B",
+              "html": "suspend"
+            },
+            {
+              "label": "C",
+              "html": "attract"
+            },
+            {
+              "label": "D",
+              "html": "deliver"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>suspend</b> = tạm ngừng. Hợp với <i>temporarily</i> và nguyên nhân thiếu linh kiện.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-2",
+          "type": "mcq",
+          "stem_html": "Due to ------- weather conditions, all flights have been delayed.",
+          "options": [
+            {
+              "label": "A",
+              "html": "eager"
+            },
+            {
+              "label": "B",
+              "html": "complete"
+            },
+            {
+              "label": "C",
+              "html": "generous"
+            },
+            {
+              "label": "D",
+              "html": "severe"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>severe weather</b> = thời tiết khắc nghiệt. Các từ còn lại không đi với <i>weather</i>.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-3",
+          "type": "mcq",
+          "stem_html": "Please read the contract carefully before you ------- it.",
+          "options": [
+            {
+              "label": "A",
+              "html": "write"
+            },
+            {
+              "label": "B",
+              "html": "mark"
+            },
+            {
+              "label": "C",
+              "html": "draw"
+            },
+            {
+              "label": "D",
+              "html": "sign"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>sign a contract</b> = ký hợp đồng.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-4",
+          "type": "mcq",
+          "stem_html": "The company offers a ------- salary and excellent benefits.",
+          "options": [
+            {
+              "label": "A",
+              "html": "competitive"
+            },
+            {
+              "label": "B",
+              "html": "talkative"
+            },
+            {
+              "label": "C",
+              "html": "reluctant"
+            },
+            {
+              "label": "D",
+              "html": "tentative"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>competitive salary</b> = mức lương cạnh tranh, cụm rất hay gặp trong tin tuyển dụng.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-5",
+          "type": "mcq",
+          "stem_html": "Mr. Abe was ------- to the position of regional manager last month.",
+          "options": [
+            {
+              "label": "A",
+              "html": "proposed"
+            },
+            {
+              "label": "B",
+              "html": "produced"
+            },
+            {
+              "label": "C",
+              "html": "promoted"
+            },
+            {
+              "label": "D",
+              "html": "provided"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<b>be promoted to</b> = được thăng chức lên.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-6",
+          "type": "mcq",
+          "stem_html": "The new shopping center is expected to ------- thousands of visitors each week.",
+          "options": [
+            {
+              "label": "A",
+              "html": "attract"
+            },
+            {
+              "label": "B",
+              "html": "attend"
+            },
+            {
+              "label": "C",
+              "html": "attempt"
+            },
+            {
+              "label": "D",
+              "html": "attach"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>attract visitors</b> = thu hút khách. Các từ còn lại có hình thức gần giống nhưng khác nghĩa: attach (đính kèm), attend (tham dự), attempt (cố gắng).",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-7",
+          "type": "mcq",
+          "stem_html": "All employees must wear their identification ------- while in the building.",
+          "options": [
+            {
+              "label": "A",
+              "html": "labels"
+            },
+            {
+              "label": "B",
+              "html": "badges"
+            },
+            {
+              "label": "C",
+              "html": "tickets"
+            },
+            {
+              "label": "D",
+              "html": "receipts"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>identification badge</b> = thẻ đeo nhận diện nhân viên.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-8",
+          "type": "mcq",
+          "stem_html": "The hotel provides free ------- to and from the airport.",
+          "options": [
+            {
+              "label": "A",
+              "html": "transportation"
+            },
+            {
+              "label": "B",
+              "html": "transaction"
+            },
+            {
+              "label": "C",
+              "html": "translation"
+            },
+            {
+              "label": "D",
+              "html": "transition"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>transportation</b> = phương tiện đưa đón. Các từ còn lại: giao dịch, bản dịch, sự chuyển tiếp.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-9",
+          "type": "mcq",
+          "stem_html": "Our sales representatives will ------- you with a detailed price estimate.",
+          "options": [
+            {
+              "label": "A",
+              "html": "inform"
+            },
+            {
+              "label": "B",
+              "html": "explain"
+            },
+            {
+              "label": "C",
+              "html": "describe"
+            },
+            {
+              "label": "D",
+              "html": "provide"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>provide sb with sth</b> = cung cấp cho ai cái gì. <i>explain / describe</i> không có cấu trúc + người + with.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-014-10",
+          "type": "mcq",
+          "stem_html": "The board of directors will ------- the proposal at its next meeting.",
+          "options": [
+            {
+              "label": "A",
+              "html": "talk"
+            },
+            {
+              "label": "B",
+              "html": "discuss"
+            },
+            {
+              "label": "C",
+              "html": "argue"
+            },
+            {
+              "label": "D",
+              "html": "speak"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>discuss</b> là ngoại động từ, đi trực tiếp với tân ngữ (không có <i>about</i>). <i>talk / speak / argue</i> phải đi kèm <i>about</i>.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toeic-p5-015",
+      "section": "reading",
+      "chapter": "part-5",
+      "topic": "p5-vocab",
+      "questions": [
+        {
+          "id": "toeic-p5-015-1",
+          "type": "mcq",
+          "stem_html": "The package should be ------- with care because it contains glass.",
+          "options": [
+            {
+              "label": "A",
+              "html": "handled"
+            },
+            {
+              "label": "B",
+              "html": "harmed"
+            },
+            {
+              "label": "C",
+              "html": "hosted"
+            },
+            {
+              "label": "D",
+              "html": "hired"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>handle with care</b> = xử lý cẩn thận, câu thường in trên kiện hàng dễ vỡ.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-2",
+          "type": "mcq",
+          "stem_html": "The position requires a ------- of five years of experience in accounting.",
+          "options": [
+            {
+              "label": "A",
+              "html": "minor"
+            },
+            {
+              "label": "B",
+              "html": "minimal"
+            },
+            {
+              "label": "C",
+              "html": "minimize"
+            },
+            {
+              "label": "D",
+              "html": "minimum"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>a minimum of + số lượng</b> = tối thiểu. Sau <i>a</i> và trước <i>of</i> cần danh từ.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-3",
+          "type": "mcq",
+          "stem_html": "The restaurant is so popular that ------- are recommended on weekends.",
+          "options": [
+            {
+              "label": "A",
+              "html": "reserves"
+            },
+            {
+              "label": "B",
+              "html": "reservations"
+            },
+            {
+              "label": "C",
+              "html": "reservoirs"
+            },
+            {
+              "label": "D",
+              "html": "resources"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>reservations</b> = đặt bàn trước.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-4",
+          "type": "mcq",
+          "stem_html": "Ms. Silva will ------- the training sessions for new staff.",
+          "options": [
+            {
+              "label": "A",
+              "html": "overlook"
+            },
+            {
+              "label": "B",
+              "html": "overcome"
+            },
+            {
+              "label": "C",
+              "html": "overtake"
+            },
+            {
+              "label": "D",
+              "html": "oversee"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>oversee</b> = giám sát, phụ trách. Lưu ý <i>overlook</i> nghĩa là bỏ sót hoặc nhìn ra (phong cảnh).",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-5",
+          "type": "mcq",
+          "stem_html": "Please ------- that all windows are closed before you leave.",
+          "options": [
+            {
+              "label": "A",
+              "html": "assure"
+            },
+            {
+              "label": "B",
+              "html": "insure"
+            },
+            {
+              "label": "C",
+              "html": "sure"
+            },
+            {
+              "label": "D",
+              "html": "ensure"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<b>ensure that…</b> = đảm bảo rằng. <i>assure</i> cần người làm tân ngữ (assure sb that); <i>insure</i> là mua bảo hiểm.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-6",
+          "type": "mcq",
+          "stem_html": "The company's profits increased ------- after the launch of its new product line.",
+          "options": [
+            {
+              "label": "A",
+              "html": "approximately"
+            },
+            {
+              "label": "B",
+              "html": "dramatically"
+            },
+            {
+              "label": "C",
+              "html": "previously"
+            },
+            {
+              "label": "D",
+              "html": "exactly"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>increase dramatically</b> = tăng mạnh. <i>approximately</i> đi với con số; <i>previously</i> không hợp với <i>after</i>.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-7",
+          "type": "mcq",
+          "stem_html": "Thank you for your ------- order. It will be shipped within two business days.",
+          "options": [
+            {
+              "label": "A",
+              "html": "lately"
+            },
+            {
+              "label": "B",
+              "html": "formerly"
+            },
+            {
+              "label": "C",
+              "html": "recent"
+            },
+            {
+              "label": "D",
+              "html": "ago"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Trước danh từ <i>order</i> cần tính từ: <i>recent</i> (gần đây). Ba từ còn lại là trạng từ.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-8",
+          "type": "mcq",
+          "stem_html": "The conference room is ------- for meetings of up to 30 people.",
+          "options": [
+            {
+              "label": "A",
+              "html": "suitable"
+            },
+            {
+              "label": "B",
+              "html": "eligible"
+            },
+            {
+              "label": "C",
+              "html": "reliable"
+            },
+            {
+              "label": "D",
+              "html": "capable"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>suitable for</b> = phù hợp cho. <i>eligible for</i> dùng cho người đủ điều kiện; <i>capable of</i> dùng cho năng lực.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-9",
+          "type": "mcq",
+          "stem_html": "The hiring committee will ------- the candidates' qualifications carefully.",
+          "options": [
+            {
+              "label": "A",
+              "html": "estimate"
+            },
+            {
+              "label": "B",
+              "html": "evaluate"
+            },
+            {
+              "label": "C",
+              "html": "elevate"
+            },
+            {
+              "label": "D",
+              "html": "eliminate"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<b>evaluate</b> = đánh giá. <i>estimate</i> là ước tính (giá, số lượng).",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
+        },
+        {
+          "id": "toeic-p5-015-10",
+          "type": "mcq",
+          "stem_html": "Due to high demand, the product is temporarily out of -------.",
+          "options": [
+            {
+              "label": "A",
+              "html": "stock"
+            },
+            {
+              "label": "B",
+              "html": "supply"
+            },
+            {
+              "label": "C",
+              "html": "storage"
+            },
+            {
+              "label": "D",
+              "html": "store"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<b>out of stock</b> = hết hàng.",
+          "tags": [
+            "part5",
+            "vocab"
+          ]
         }
       ]
     }

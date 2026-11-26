@@ -16,44 +16,1489 @@
           "type": "mcq",
           "stem_html": "What problem does the woman mention?",
           "options": [
-            { "label": "A", "html": "A workshop has been canceled." },
-            { "label": "B", "html": "A printer is not working." },
-            { "label": "C", "html": "A manual contains errors." },
-            { "label": "D", "html": "A technician arrived late." }
+            {
+              "label": "A",
+              "html": "A workshop has been canceled."
+            },
+            {
+              "label": "B",
+              "html": "A manual contains errors."
+            },
+            {
+              "label": "C",
+              "html": "A printer is not working."
+            },
+            {
+              "label": "D",
+              "html": "A technician arrived late."
+            }
           ],
-          "answer": "B",
+          "answer": "C",
           "explain_html": "Ngay câu đầu, người phụ nữ nói <i>the printer on the second floor is broken again</i>. Đáp án diễn đạt lại thành <i>is not working</i>, một kiểu paraphrase rất phổ biến ở Part 3.",
-          "tags": ["part3", "p3-detail"]
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
         },
         {
           "id": "toeic-p3-001-2",
           "type": "mcq",
           "stem_html": "According to the man, when will a technician come?",
           "options": [
-            { "label": "A", "html": "This morning" },
-            { "label": "B", "html": "This afternoon" },
-            { "label": "C", "html": "Tomorrow" },
-            { "label": "D", "html": "On Thursday" }
+            {
+              "label": "A",
+              "html": "This morning"
+            },
+            {
+              "label": "B",
+              "html": "This afternoon"
+            },
+            {
+              "label": "C",
+              "html": "Tomorrow"
+            },
+            {
+              "label": "D",
+              "html": "On Thursday"
+            }
           ],
           "answer": "D",
           "explain_html": "<i>a technician can't come until Thursday</i>, tức là sớm nhất thứ Năm. <i>This morning</i> là lúc anh ấy gọi điện (bẫy); <i>tomorrow</i> là ngày diễn ra workshop.",
-          "tags": ["part3", "p3-detail"]
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
         },
         {
           "id": "toeic-p3-001-3",
           "type": "mcq",
           "stem_html": "What will the woman most likely do next?",
           "options": [
-            { "label": "A", "html": "Call the repair service" },
-            { "label": "B", "html": "Reschedule a workshop" },
-            { "label": "C", "html": "Send a file to a copy center" },
-            { "label": "D", "html": "Open a company account" }
+            {
+              "label": "A",
+              "html": "Call the repair service"
+            },
+            {
+              "label": "B",
+              "html": "Send a file to a copy center"
+            },
+            {
+              "label": "C",
+              "html": "Reschedule a workshop"
+            },
+            {
+              "label": "D",
+              "html": "Open a company account"
+            }
           ],
-          "answer": "C",
+          "answer": "B",
           "explain_html": "Câu hỏi <i>do next</i> thường có đáp án ở câu cuối: <i>I'll send them the file right now</i>, với <i>them</i> là copy center. Công ty <b>đã có</b> account nên (D) sai.",
-          "tags": ["part3", "p3-inference"]
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
         }
       ]
+    },
+    {
+      "id": "toeic-p3-002",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-002-1",
+          "type": "mcq",
+          "stem_html": "What are the speakers mainly discussing?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Hiring new staff"
+            },
+            {
+              "label": "B",
+              "html": "The cost of a training course"
+            },
+            {
+              "label": "C",
+              "html": "Changing the time of a meeting"
+            },
+            {
+              "label": "D",
+              "html": "A new sales target"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Ngay câu đầu: khách hàng muốn <i>move our meeting from Wednesday to Thursday</i>, tức là đổi lịch họp.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-002-2",
+          "type": "mcq",
+          "stem_html": "Why is the man unavailable on Thursday morning?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He will be meeting another client."
+            },
+            {
+              "label": "B",
+              "html": "He will be traveling."
+            },
+            {
+              "label": "C",
+              "html": "He will be preparing a report."
+            },
+            {
+              "label": "D",
+              "html": "He will be attending a training session."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Thursday morning I'm at the safety training</i>. Đáp án paraphrase thành <i>attending a training session</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-002-3",
+          "type": "mcq",
+          "stem_html": "What does the man ask the woman to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Ask a coworker to bring some figures"
+            },
+            {
+              "label": "B",
+              "html": "Call Brightline Foods"
+            },
+            {
+              "label": "C",
+              "html": "Print some documents"
+            },
+            {
+              "label": "D",
+              "html": "Reserve a restaurant"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>could you ask Jenny to bring the latest sales figures?</i> Jenny là đồng nghiệp, nên đáp án viết thành <i>a coworker</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại giữa hai đồng nghiệp",
+        "audio_script": "Woman: Kevin, the people from Brightline Foods just called. They'd like to move our meeting from Wednesday to Thursday. Would that work for you?\nMan: Thursday morning I'm at the safety training all morning, but I'm free after lunch.\nWoman: Then let's say two o'clock. I'll book conference room five.\nMan: Sounds good. And could you ask Jenny to bring the latest sales figures? They'll probably want to see them.\nWoman: Sure, I'll send her a message now."
+      }
+    },
+    {
+      "id": "toeic-p3-003",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-003-1",
+          "type": "mcq",
+          "stem_html": "What problem does the man report?",
+          "options": [
+            {
+              "label": "A",
+              "html": "His room key does not work."
+            },
+            {
+              "label": "B",
+              "html": "An air conditioner is broken."
+            },
+            {
+              "label": "C",
+              "html": "His room is too noisy."
+            },
+            {
+              "label": "D",
+              "html": "He was charged twice."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the air conditioner doesn't seem to be working</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-003-2",
+          "type": "mcq",
+          "stem_html": "Why can't the problem be fixed immediately?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A part must be ordered."
+            },
+            {
+              "label": "B",
+              "html": "Maintenance staff are not working now."
+            },
+            {
+              "label": "C",
+              "html": "The hotel is fully booked."
+            },
+            {
+              "label": "D",
+              "html": "The manager is not available."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Our maintenance staff have gone home for the night</i>: nhân viên kỹ thuật đã về.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-003-3",
+          "type": "mcq",
+          "stem_html": "What does the woman offer to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Give the man a discount"
+            },
+            {
+              "label": "B",
+              "html": "Call a taxi for the man"
+            },
+            {
+              "label": "C",
+              "html": "Move the man to a different room"
+            },
+            {
+              "label": "D",
+              "html": "Bring the man a fan"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I can move you there at no extra charge</i>: chuyển sang phòng suite ở tầng 9.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại tại quầy lễ tân khách sạn",
+        "audio_script": "Man: Good evening. I'm in room 512, and the air conditioner doesn't seem to be working. It's really warm in there.\nWoman: I'm very sorry about that, sir. Our maintenance staff have gone home for the night, so it can't be repaired until tomorrow morning.\nMan: Oh, that's a problem. I have an early meeting and I need to get some sleep.\nWoman: I understand. We have a suite available on the ninth floor. I can move you there at no extra charge, and someone will help you with your luggage.\nMan: That would be great. Thank you."
+      }
+    },
+    {
+      "id": "toeic-p3-004",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-004-1",
+          "type": "mcq",
+          "stem_html": "Why is the woman calling?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To complain about a late delivery"
+            },
+            {
+              "label": "B",
+              "html": "To ask about a job opening"
+            },
+            {
+              "label": "C",
+              "html": "To book a training room"
+            },
+            {
+              "label": "D",
+              "html": "To place a food order"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Người phụ nữ gọi để <i>order lunch for a training day</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-004-2",
+          "type": "mcq",
+          "stem_html": "Why will the woman not pay for delivery?",
+          "options": [
+            {
+              "label": "A",
+              "html": "She has a discount coupon."
+            },
+            {
+              "label": "B",
+              "html": "She will pick up the food herself."
+            },
+            {
+              "label": "C",
+              "html": "Her order is above a certain amount."
+            },
+            {
+              "label": "D",
+              "html": "She is a regular customer."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>since your order is over two hundred dollars, delivery is free</i>: đơn trên một mức tiền nhất định.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-004-3",
+          "type": "mcq",
+          "stem_html": "What will the man send this afternoon?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A menu"
+            },
+            {
+              "label": "B",
+              "html": "A bill"
+            },
+            {
+              "label": "C",
+              "html": "A confirmation"
+            },
+            {
+              "label": "D",
+              "html": "A list of participants"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I'll e-mail you a confirmation this afternoon</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại qua điện thoại với công ty cung cấp suất ăn",
+        "audio_script": "Woman: Hello, this is Sandra from Pellman Architects. I'd like to order lunch for a training day next Friday. There'll be about thirty people.\nMan: Certainly. Would you like our sandwich platters or hot meals?\nWoman: Sandwich platters, please. But around ten of the participants are vegetarian.\nMan: No problem. We'll include a vegetarian platter. And since your order is over two hundred dollars, delivery is free.\nWoman: Great. Could you deliver it by eleven thirty? The break starts at noon.\nMan: Of course. I'll e-mail you a confirmation this afternoon."
+      }
+    },
+    {
+      "id": "toeic-p3-005",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-005-1",
+          "type": "mcq",
+          "stem_html": "What does the man want to know?",
+          "options": [
+            {
+              "label": "A",
+              "html": "How to book a business trip"
+            },
+            {
+              "label": "B",
+              "html": "Where to find a taxi"
+            },
+            {
+              "label": "C",
+              "html": "How to get money back for expenses"
+            },
+            {
+              "label": "D",
+              "html": "When his manager will return"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I'm not sure how to get reimbursed for my travel expenses</i>. <i>reimbursed</i> = được hoàn tiền.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-005-2",
+          "type": "mcq",
+          "stem_html": "What problem does the man mention?",
+          "options": [
+            {
+              "label": "A",
+              "html": "He missed a flight."
+            },
+            {
+              "label": "B",
+              "html": "He lost a receipt."
+            },
+            {
+              "label": "C",
+              "html": "He cannot log in to a portal."
+            },
+            {
+              "label": "D",
+              "html": "He was charged too much."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>What if I lost one of the receipts? I can't find my taxi receipt</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-005-3",
+          "type": "mcq",
+          "stem_html": "What will the man probably do this afternoon?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Upload a presentation"
+            },
+            {
+              "label": "B",
+              "html": "Take a taxi to the airport"
+            },
+            {
+              "label": "C",
+              "html": "Speak with his manager"
+            },
+            {
+              "label": "D",
+              "html": "Call a hotel"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I'll talk to Mr. Hayes this afternoon</i>. Mr. Hayes là quản lý, người phải ký vào bản giải trình.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại giữa nhân viên mới và đồng nghiệp",
+        "audio_script": "Man: Hi, Grace. I just got back from my first business trip, and I'm not sure how to get reimbursed for my travel expenses.\nWoman: It's all done online now. You log in to the company portal, fill in the expense form, and upload pictures of your receipts.\nMan: What if I lost one of the receipts? I can't find my taxi receipt from the airport.\nWoman: In that case, you'll need to write a short explanation and have your manager sign it.\nMan: OK, I'll talk to Mr. Hayes this afternoon."
+      }
+    },
+    {
+      "id": "toeic-p3-006",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-006-1",
+          "type": "mcq",
+          "stem_html": "What position are the applicants applying for?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Sales manager"
+            },
+            {
+              "label": "B",
+              "html": "Receptionist"
+            },
+            {
+              "label": "C",
+              "html": "Auditor"
+            },
+            {
+              "label": "D",
+              "html": "Accountant"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>the applicants for the accounting position</i>. Đây là vị trí kế toán; <i>audit</i> chỉ là lý do tuần sau bận.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-006-2",
+          "type": "mcq",
+          "stem_html": "Why is next week busy for the man?",
+          "options": [
+            {
+              "label": "A",
+              "html": "An audit is taking place."
+            },
+            {
+              "label": "B",
+              "html": "He will be on vacation."
+            },
+            {
+              "label": "C",
+              "html": "He is moving offices."
+            },
+            {
+              "label": "D",
+              "html": "He is attending a conference."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>Next week is busy because of the audit</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-006-3",
+          "type": "mcq",
+          "stem_html": "What does the man ask the woman to send him?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A meeting agenda"
+            },
+            {
+              "label": "B",
+              "html": "Some résumés"
+            },
+            {
+              "label": "C",
+              "html": "A list of questions"
+            },
+            {
+              "label": "D",
+              "html": "A training schedule"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>please send me their résumés before the weekend</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại về việc sắp xếp phỏng vấn",
+        "audio_script": "Woman: Mr. Lindqvist, I've narrowed the applicants for the accounting position down to three. When would you like to interview them?\nMan: Next week is busy because of the audit. Could we do all three interviews on Monday the fourteenth?\nWoman: That should be possible. I'll contact them today. Would you like me to schedule them in the morning?\nMan: Yes, starting at nine, with an hour for each candidate. And please send me their résumés before the weekend."
+      }
+    },
+    {
+      "id": "toeic-p3-007",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-007-1",
+          "type": "mcq",
+          "stem_html": "Where most likely are the speakers?",
+          "options": [
+            {
+              "label": "A",
+              "html": "At a hotel"
+            },
+            {
+              "label": "B",
+              "html": "At a parking garage"
+            },
+            {
+              "label": "C",
+              "html": "At a car rental counter"
+            },
+            {
+              "label": "D",
+              "html": "At a repair shop"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Khách có <i>reservation for a compact car</i> và nhận chìa khóa xe, nên đây là quầy thuê xe.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-007-2",
+          "type": "mcq",
+          "stem_html": "What problem does the woman mention?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The type of car requested is not available."
+            },
+            {
+              "label": "B",
+              "html": "A reservation was canceled."
+            },
+            {
+              "label": "C",
+              "html": "The price has increased."
+            },
+            {
+              "label": "D",
+              "html": "A car needs to be repaired."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>all our compact cars were returned late today, so none are ready</i>: loại xe đã đặt không có sẵn.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-007-3",
+          "type": "mcq",
+          "stem_html": "What is the man concerned about?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Finding a gas station"
+            },
+            {
+              "label": "B",
+              "html": "The cost of insurance"
+            },
+            {
+              "label": "C",
+              "html": "Returning the car on time"
+            },
+            {
+              "label": "D",
+              "html": "Parking in the city center"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>Is it difficult to park a midsize car downtown?</i>, tức là lo chuyện đỗ xe ở trung tâm.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại tại quầy thuê xe",
+        "audio_script": "Man: Hi, I have a reservation for a compact car under the name Moreau.\nWoman: Let me see... Yes, Mr. Moreau. I'm afraid all our compact cars were returned late today, so none are ready. But I can give you a midsize car for the same price.\nMan: That's fine. Is it difficult to park a midsize car downtown?\nWoman: Not really. And the hotels downtown all have parking garages. Here's the key. The car is in space twenty-three, just outside that door."
+      }
+    },
+    {
+      "id": "toeic-p3-008",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-008-1",
+          "type": "mcq",
+          "stem_html": "What event are the speakers planning?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A product launch"
+            },
+            {
+              "label": "B",
+              "html": "A job fair"
+            },
+            {
+              "label": "C",
+              "html": "A board meeting"
+            },
+            {
+              "label": "D",
+              "html": "A customer service workshop"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>a room for the customer service workshop</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-008-2",
+          "type": "mcq",
+          "stem_html": "Look at the graphic. Which room will the man reserve?<br><table><tr><th>Room</th><th>Seats</th><th>Projector</th></tr><tr><td>Room 101</td><td>20</td><td>Yes</td></tr><tr><td>Room 204</td><td>50</td><td>No</td></tr><tr><td>Room 310</td><td>45</td><td>Yes</td></tr><tr><td>Auditorium</td><td>300</td><td>Yes</td></tr></table>",
+          "options": [
+            {
+              "label": "A",
+              "html": "Room 101"
+            },
+            {
+              "label": "B",
+              "html": "Room 204"
+            },
+            {
+              "label": "C",
+              "html": "Room 310"
+            },
+            {
+              "label": "D",
+              "html": "Auditorium"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Cần phòng đủ cho 40 người, có máy chiếu, và không phải Room 101 hay Auditorium. Room 204 không có máy chiếu, nên chọn <b>Room 310</b>. Dạng câu có bảng biểu cần kết hợp lời nói với bảng.",
+          "tags": [
+            "part3",
+            "p3-graphic"
+          ]
+        },
+        {
+          "id": "toeic-p3-008-3",
+          "type": "mcq",
+          "stem_html": "What will the woman do next?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Buy a projector"
+            },
+            {
+              "label": "B",
+              "html": "Inform the participants"
+            },
+            {
+              "label": "C",
+              "html": "Call a caterer"
+            },
+            {
+              "label": "D",
+              "html": "Print the handouts"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I'll let the participants know</i> = thông báo cho người tham dự.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại về việc chọn phòng cho buổi hội thảo",
+        "audio_script": "Woman: Pablo, we need a room for the customer service workshop on the twentieth. We're expecting about forty people.\nMan: Let me check the list. Room 101 is too small, and the auditorium is much too big for forty.\nWoman: What about the other two?\nMan: Both are big enough, but we'll need a projector, and only one of them has one. I'll reserve that one.\nWoman: Perfect. I'll let the participants know."
+      }
+    },
+    {
+      "id": "toeic-p3-009",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-009-1",
+          "type": "mcq",
+          "stem_html": "What is wrong with the headphones?",
+          "options": [
+            {
+              "label": "A",
+              "html": "They are the wrong color."
+            },
+            {
+              "label": "B",
+              "html": "One side does not work."
+            },
+            {
+              "label": "C",
+              "html": "They are too large."
+            },
+            {
+              "label": "D",
+              "html": "They were damaged in shipping."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the left side stopped working</i>: một bên không hoạt động.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-009-2",
+          "type": "mcq",
+          "stem_html": "Why can't the woman get a cash refund?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The item was on sale."
+            },
+            {
+              "label": "B",
+              "html": "The return period has ended."
+            },
+            {
+              "label": "C",
+              "html": "She does not have a receipt."
+            },
+            {
+              "label": "D",
+              "html": "The headphones were used."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>Without a receipt, I can't give you a cash refund</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-009-3",
+          "type": "mcq",
+          "stem_html": "What will the woman most likely do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Receive store credit"
+            },
+            {
+              "label": "B",
+              "html": "Choose a different brand"
+            },
+            {
+              "label": "C",
+              "html": "Come back with the receipt"
+            },
+            {
+              "label": "D",
+              "html": "Exchange the item for the same model"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>A new pair would be fine. I like this model</i>: đổi lấy một chiếc mới cùng mẫu.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại tại cửa hàng điện tử",
+        "audio_script": "Woman: Hi, I bought these headphones here last week, but the left side stopped working. I'd like to return them.\nMan: I'm sorry to hear that. Do you have the receipt?\nWoman: Unfortunately, no. I think I threw it away.\nMan: Without a receipt, I can't give you a cash refund, but I can exchange them for a new pair or give you store credit.\nWoman: A new pair would be fine. I like this model."
+      }
+    },
+    {
+      "id": "toeic-p3-010",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-010-1",
+          "type": "mcq",
+          "stem_html": "What is the woman waiting for?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Information from another office"
+            },
+            {
+              "label": "B",
+              "html": "Approval from a manager"
+            },
+            {
+              "label": "C",
+              "html": "A new computer"
+            },
+            {
+              "label": "D",
+              "html": "A meeting room booking"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>I'm still waiting for the figures from the Madrid office</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-010-2",
+          "type": "mcq",
+          "stem_html": "What does the woman imply when she says, \"I've got their manager's direct number\"?",
+          "options": [
+            {
+              "label": "A",
+              "html": "She has lost the manager's e-mail address."
+            },
+            {
+              "label": "B",
+              "html": "She will contact the manager herself."
+            },
+            {
+              "label": "C",
+              "html": "She wants the man to make a call."
+            },
+            {
+              "label": "D",
+              "html": "She has already received the figures."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu nói ngụ ý cô ấy sẽ <b>tự gọi thẳng</b> cho quản lý văn phòng Madrid để hối thúc. Đây là dạng câu hỏi ý định (implied meaning), phải dựa vào ngữ cảnh.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        },
+        {
+          "id": "toeic-p3-010-3",
+          "type": "mcq",
+          "stem_html": "What does the man offer to do?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Write part of the report"
+            },
+            {
+              "label": "B",
+              "html": "Request more time"
+            },
+            {
+              "label": "C",
+              "html": "Attend a board meeting"
+            },
+            {
+              "label": "D",
+              "html": "Travel to Madrid"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I'll ask for a short extension</i>. <i>extension</i> = gia hạn, tức là xin thêm thời gian.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại về báo cáo cuối quý",
+        "audio_script": "Man: Rita, are you going to be able to finish the quarterly report by Friday?\nWoman: I'm trying, but I'm still waiting for the figures from the Madrid office. They said they'd send them on Monday, and they still haven't.\nMan: Hmm. Mr. Watanabe needs the report for the board meeting next Tuesday.\nWoman: Well, I've got their manager's direct number.\nMan: Good. If you still don't have the data by Thursday, let me know and I'll ask for a short extension."
+      }
+    },
+    {
+      "id": "toeic-p3-011",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-011-1",
+          "type": "mcq",
+          "stem_html": "What is the woman sending?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Product samples"
+            },
+            {
+              "label": "B",
+              "html": "Some documents"
+            },
+            {
+              "label": "C",
+              "html": "A gift"
+            },
+            {
+              "label": "D",
+              "html": "A computer"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>It contains some product samples</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-011-2",
+          "type": "mcq",
+          "stem_html": "Look at the graphic. Which service will the woman most likely choose?<br><table><tr><th>Service</th><th>Delivery time</th><th>Price</th></tr><tr><td>Express</td><td>1 day</td><td>$45</td></tr><tr><td>Priority</td><td>2 days</td><td>$30</td></tr><tr><td>Standard</td><td>3 days</td><td>$18</td></tr><tr><td>Economy</td><td>6 days</td><td>$9</td></tr></table>",
+          "options": [
+            {
+              "label": "A",
+              "html": "Standard"
+            },
+            {
+              "label": "B",
+              "html": "Priority"
+            },
+            {
+              "label": "C",
+              "html": "Express"
+            },
+            {
+              "label": "D",
+              "html": "Economy"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Gửi thứ Hai, phải tới trước thứ Năm, tức là tối đa 3 ngày, và cần rẻ nhất. Economy (6 ngày) quá chậm, nên chọn <b>Standard</b> ($18).",
+          "tags": [
+            "part3",
+            "p3-graphic"
+          ]
+        },
+        {
+          "id": "toeic-p3-011-3",
+          "type": "mcq",
+          "stem_html": "Why does the woman decline insurance?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is too expensive."
+            },
+            {
+              "label": "B",
+              "html": "The package already has insurance."
+            },
+            {
+              "label": "C",
+              "html": "She is in a hurry."
+            },
+            {
+              "label": "D",
+              "html": "The items are not valuable."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>The samples aren't valuable</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại tại bưu cục",
+        "audio_script": "Woman: Hi, I need to send this package to our client in Busan. It contains some product samples.\nMan: Sure. How quickly does it need to get there?\nWoman: It has to arrive by Thursday, but I'd like to keep the cost as low as possible.\nMan: Today's Monday, so the cheapest option that arrives by Thursday is this one. Would you like to add insurance?\nWoman: No, thanks. The samples aren't valuable."
+      }
+    },
+    {
+      "id": "toeic-p3-012",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-012-1",
+          "type": "mcq",
+          "stem_html": "What will happen this weekend?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A company will move to a new location."
+            },
+            {
+              "label": "B",
+              "html": "A computer system will be upgraded."
+            },
+            {
+              "label": "C",
+              "html": "A sale will take place."
+            },
+            {
+              "label": "D",
+              "html": "New employees will start work."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the move to the new office this weekend</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-012-2",
+          "type": "mcq",
+          "stem_html": "By when must employees pack their desks?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Thursday afternoon"
+            },
+            {
+              "label": "B",
+              "html": "Friday at five"
+            },
+            {
+              "label": "C",
+              "html": "Saturday at eight"
+            },
+            {
+              "label": "D",
+              "html": "Sunday evening"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>Everyone has to pack their desks by Friday at five</i>. Saturday at eight là giờ công ty chuyển nhà tới (bẫy).",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-012-3",
+          "type": "mcq",
+          "stem_html": "Why is the man relieved?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The move has been postponed."
+            },
+            {
+              "label": "B",
+              "html": "He will not have to work on Saturday."
+            },
+            {
+              "label": "C",
+              "html": "The IT team will protect the data."
+            },
+            {
+              "label": "D",
+              "html": "He has been given a larger office."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Anh ấy lo mất dữ liệu; nghe nói đội IT sẽ sao lưu thì nói <i>That's a relief</i>.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại về việc chuyển văn phòng",
+        "audio_script": "Man: Hi, Lena. Is everything ready for the move to the new office this weekend?\nWoman: Almost. The moving company is coming at eight on Saturday. Everyone has to pack their desks by Friday at five.\nMan: What about the computers? I'm worried about losing data.\nWoman: The IT team will disconnect and pack all the computers themselves on Friday evening. They'll also back up all the files first.\nMan: That's a relief. I'll start packing my desk this afternoon, then."
+      }
+    },
+    {
+      "id": "toeic-p3-013",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-013-1",
+          "type": "mcq",
+          "stem_html": "What is the purpose of the dinner?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A company anniversary"
+            },
+            {
+              "label": "B",
+              "html": "A birthday celebration"
+            },
+            {
+              "label": "C",
+              "html": "A retirement party"
+            },
+            {
+              "label": "D",
+              "html": "A client meeting"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>for my company's anniversary dinner</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-013-2",
+          "type": "mcq",
+          "stem_html": "What does the woman say about the private room?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is fully booked."
+            },
+            {
+              "label": "B",
+              "html": "It can hold up to ten people."
+            },
+            {
+              "label": "C",
+              "html": "It is on the top floor."
+            },
+            {
+              "label": "D",
+              "html": "It requires a minimum charge."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "<i>there's a minimum charge of five hundred dollars</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-013-3",
+          "type": "mcq",
+          "stem_html": "What will the man do by Thursday?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Send menu choices"
+            },
+            {
+              "label": "B",
+              "html": "Pay a deposit"
+            },
+            {
+              "label": "C",
+              "html": "Confirm the number of guests"
+            },
+            {
+              "label": "D",
+              "html": "Visit the restaurant"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>let us know your choices by Thursday</i>: gửi lựa chọn món.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại đặt bàn nhà hàng",
+        "audio_script": "Woman: Good afternoon, Harbor View Restaurant.\nMan: Hi. I'd like to book a table for twelve people this Saturday evening for my company's anniversary dinner.\nWoman: For a group that size, we recommend our private dining room. It has a view of the harbor, but there's a minimum charge of five hundred dollars.\nMan: That should be fine. Can we choose the menu in advance?\nWoman: Yes, I'll e-mail you our group menu, and you can let us know your choices by Thursday."
+      }
+    },
+    {
+      "id": "toeic-p3-014",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-office",
+      "questions": [
+        {
+          "id": "toeic-p3-014-1",
+          "type": "mcq",
+          "stem_html": "What are the speakers discussing?",
+          "options": [
+            {
+              "label": "A",
+              "html": "A new product design"
+            },
+            {
+              "label": "B",
+              "html": "The results of an advertising campaign"
+            },
+            {
+              "label": "C",
+              "html": "A customer complaint"
+            },
+            {
+              "label": "D",
+              "html": "A hiring plan"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>the results of our spring advertising campaign</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-014-2",
+          "type": "mcq",
+          "stem_html": "What surprised the man?",
+          "options": [
+            {
+              "label": "A",
+              "html": "The campaign ended early."
+            },
+            {
+              "label": "B",
+              "html": "TV ads were very cheap."
+            },
+            {
+              "label": "C",
+              "html": "Sales decreased in the spring."
+            },
+            {
+              "label": "D",
+              "html": "Social media brought in most new customers."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Quảng cáo TV tốn nhiều nhất, nhưng <i>most new customers said they found us through social media</i>.",
+          "tags": [
+            "part3",
+            "p3-inference"
+          ]
+        },
+        {
+          "id": "toeic-p3-014-3",
+          "type": "mcq",
+          "stem_html": "What will the man do on Monday?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Meet a new client"
+            },
+            {
+              "label": "B",
+              "html": "Launch a summer campaign"
+            },
+            {
+              "label": "C",
+              "html": "Present a proposal"
+            },
+            {
+              "label": "D",
+              "html": "Film a TV ad"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>I'll prepare a proposal … and present it at Monday's meeting</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại về kết quả chiến dịch quảng cáo",
+        "audio_script": "Woman: Have you seen the results of our spring advertising campaign?\nMan: Yes, I was surprised. The TV ads cost the most, but most new customers said they found us through social media.\nWoman: Interesting. So maybe we should spend more on social media for the summer campaign.\nMan: I agree. I'll prepare a proposal with a new budget and present it at Monday's meeting."
+      }
+    },
+    {
+      "id": "toeic-p3-015",
+      "section": "listening",
+      "chapter": "part-3",
+      "topic": "p3-service",
+      "questions": [
+        {
+          "id": "toeic-p3-015-1",
+          "type": "mcq",
+          "stem_html": "Why is the man traveling to Westfield?",
+          "options": [
+            {
+              "label": "A",
+              "html": "To visit a friend"
+            },
+            {
+              "label": "B",
+              "html": "To attend a meeting"
+            },
+            {
+              "label": "C",
+              "html": "To go sightseeing"
+            },
+            {
+              "label": "D",
+              "html": "To start a new job"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>I need to get to Westfield for a meeting at eleven</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        },
+        {
+          "id": "toeic-p3-015-2",
+          "type": "mcq",
+          "stem_html": "Look at the graphic. Which train will the man most likely take?<br><table><tr><th>Departs</th><th>Arrives in Westfield</th></tr><tr><td>9:15</td><td>10:45</td></tr><tr><td>9:25</td><td>10:55</td></tr><tr><td>9:40</td><td>11:10</td></tr><tr><td>10:00</td><td>11:30</td></tr></table>",
+          "options": [
+            {
+              "label": "A",
+              "html": "9:15"
+            },
+            {
+              "label": "B",
+              "html": "9:25"
+            },
+            {
+              "label": "C",
+              "html": "9:40"
+            },
+            {
+              "label": "D",
+              "html": "10:00"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Chuyến sớm nhất là 9:15 nhưng <i>is already full today</i>, nên phải đi chuyến kế tiếp là <b>9:25</b> (tới nơi 10:55, kịp cuộc họp lúc 11 giờ). Bẫy: chọn ngay chuyến sớm nhất mà không nghe tiếp.",
+          "tags": [
+            "part3",
+            "p3-graphic"
+          ]
+        },
+        {
+          "id": "toeic-p3-015-3",
+          "type": "mcq",
+          "stem_html": "What does the woman say about the 9:15 train?",
+          "options": [
+            {
+              "label": "A",
+              "html": "It is full."
+            },
+            {
+              "label": "B",
+              "html": "It has been canceled."
+            },
+            {
+              "label": "C",
+              "html": "It is delayed."
+            },
+            {
+              "label": "D",
+              "html": "It leaves from another platform."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>the nine fifteen train is already full today</i>.",
+          "tags": [
+            "part3",
+            "p3-detail"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "audio",
+        "title": "Hội thoại tại ga tàu",
+        "audio_script": "Man: Excuse me, I need to get to Westfield for a meeting at eleven. Which train should I take?\nWoman: Let me see. It's ten past nine now. The journey takes about an hour and a half.\nMan: So I should take the earliest one I can, then.\nWoman: Yes, but the nine fifteen train is already full today. You'll have to take the next one.\nMan: OK. That still gives me enough time. Thanks."
+      }
     }
   ]
 }

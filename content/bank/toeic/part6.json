@@ -18,7 +18,7 @@
           "options": [
             {
               "label": "A",
-              "html": "repaves"
+              "html": "being repaved"
             },
             {
               "label": "B",
@@ -26,15 +26,15 @@
             },
             {
               "label": "C",
-              "html": "being repaved"
+              "html": "repaves"
             },
             {
               "label": "D",
               "html": "to repave"
             }
           ],
-          "answer": "C",
-          "explain_html": "Mặt đường không tự trải nhựa được, nên cần bị động. Việc này đang diễn ra trong khoảng 3–7/6, nên dùng bị động tiếp diễn: <i>while the surface is <b>being repaved</b></i>. (A) và (D) sai cấu trúc sau <i>is</i>; (B) <i>is repaving</i> là chủ động.",
+          "answer": "A",
+          "explain_html": "Mặt đường không tự trải nhựa được, nên cần bị động. Việc này đang diễn ra trong khoảng 3–7/6, nên dùng bị động tiếp diễn: <i>while the surface is <b>being repaved</b></i>. (C) và (D) sai cấu trúc sau <i>is</i>; (B) <i>is repaving</i> là chủ động.",
           "tags": [
             "part6",
             "passive",
@@ -111,18 +111,18 @@
             },
             {
               "label": "B",
-              "html": "patiently"
+              "html": "patience"
             },
             {
               "label": "C",
-              "html": "patience"
+              "html": "patiently"
             },
             {
               "label": "D",
               "html": "patients"
             }
           ],
-          "answer": "C",
+          "answer": "B",
           "explain_html": "Sau tính từ sở hữu <i>your</i> cần một danh từ. <i>thank you for your <b>patience</b></i> (cảm ơn sự kiên nhẫn) là cách viết quen thuộc trong thông báo. <i>patients</i> nghĩa là bệnh nhân.",
           "tags": [
             "part6",
@@ -131,6 +131,1457 @@
           ]
         }
       ]
+    },
+    {
+      "id": "toeic-p6-002",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-002-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "launch"
+            },
+            {
+              "label": "B",
+              "html": "launches"
+            },
+            {
+              "label": "C",
+              "html": "launched"
+            },
+            {
+              "label": "D",
+              "html": "launching"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Sau động từ khuyết thiếu <i>will</i> dùng động từ nguyên mẫu: <i>will launch</i>.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-002-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "However"
+            },
+            {
+              "label": "B",
+              "html": "Otherwise"
+            },
+            {
+              "label": "C",
+              "html": "In addition"
+            },
+            {
+              "label": "D",
+              "html": "Even so"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu trước nói đặt thêm thùng phân loại, câu này nói thêm một thay đổi nữa (bỏ thùng rác nhỏ). Hai ý bổ sung cho nhau nên dùng <i>In addition</i>.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-002-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3)",
+          "options": [
+            {
+              "label": "A",
+              "html": "careful"
+            },
+            {
+              "label": "B",
+              "html": "carefully"
+            },
+            {
+              "label": "C",
+              "html": "care"
+            },
+            {
+              "label": "D",
+              "html": "caring"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Bổ nghĩa cho động từ <i>sort</i> cần trạng từ: <i>carefully</i>.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-002-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "The kitchen will be closed for repairs next week."
+            },
+            {
+              "label": "B",
+              "html": "Our new office opened in March."
+            },
+            {
+              "label": "C",
+              "html": "A short guide explaining what can be recycled is attached."
+            },
+            {
+              "label": "D",
+              "html": "Plastic cups are no longer sold in the cafeteria."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Ngay trước đó là yêu cầu nhân viên phân loại rác, nên câu tiếp hợp lý nhất là “kèm theo hướng dẫn những gì tái chế được”. Các câu còn lại không nối tiếp ý phân loại rác.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Memo",
+        "html": "<p><b>To:</b> All employees<br><b>From:</b> Office Manager<br><b>Subject:</b> New recycling program</p><p>Starting May 1, Delmont Consulting will <b>(1)</b> ------- a new recycling program in all of its offices. Blue bins for paper and green bins for plastic will be placed in every kitchen. <b>(2)</b> -------, the small trash cans under each desk will be removed.</p><p>Employees are asked to sort their waste <b>(3)</b> -------. <b>(4)</b> -------. Thank you for helping us make our workplace greener.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-003",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-003-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "confirmed"
+            },
+            {
+              "label": "B",
+              "html": "confirming"
+            },
+            {
+              "label": "C",
+              "html": "confirmation"
+            },
+            {
+              "label": "D",
+              "html": "confirms"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Câu cần động từ chính, chia theo chủ ngữ số ít <i>This e-mail</i> ở hiện tại: <i>confirms</i>.",
+          "tags": [
+            "part6",
+            "tense",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-003-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "from"
+            },
+            {
+              "label": "B",
+              "html": "at"
+            },
+            {
+              "label": "C",
+              "html": "during"
+            },
+            {
+              "label": "D",
+              "html": "between"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Cấu trúc <i>between … and …</i>. Nếu dùng <i>from</i> thì phải là <i>from … to …</i>.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-003-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Unfortunately, we are fully booked on those dates."
+            },
+            {
+              "label": "B",
+              "html": "Free parking is also available to all hotel guests."
+            },
+            {
+              "label": "C",
+              "html": "Your flight has been changed to June 15."
+            },
+            {
+              "label": "D",
+              "html": "The restaurant is closed for the season."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn văn đang liệt kê các tiện ích đi kèm phòng (bữa sáng), nên câu tiếp nói thêm về bãi đỗ xe miễn phí là hợp lý. (A) và (D) mâu thuẫn với nội dung email.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-003-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "welcome"
+            },
+            {
+              "label": "B",
+              "html": "welcoming"
+            },
+            {
+              "label": "C",
+              "html": "welcomed"
+            },
+            {
+              "label": "D",
+              "html": "be welcomed"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>look forward to + V-ing</i>: <i>look forward to welcoming you</i>.",
+          "tags": [
+            "part6",
+            "verb-form",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Email",
+        "html": "<p>Dear Ms. Albrecht,</p><p>Thank you for choosing the Seaview Inn. This e-mail <b>(1)</b> ------- your reservation for two nights, June 12 to June 14. Your room includes breakfast, which is served daily <b>(2)</b> ------- 6:30 and 10:00 A.M. in the Garden Restaurant. <b>(3)</b> -------.</p><p>If you plan to arrive after 11 P.M., please let us know in advance so that we can arrange a late check-in. We look forward to <b>(4)</b> ------- you.</p><p>Front Desk, Seaview Inn</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-004",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-004-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "family-owned"
+            },
+            {
+              "label": "B",
+              "html": "owning"
+            },
+            {
+              "label": "C",
+              "html": "owner"
+            },
+            {
+              "label": "D",
+              "html": "owns"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Giữa mạo từ <i>a</i> và danh từ <i>business</i> cần tính từ ghép: <i>a family-owned business</i> (doanh nghiệp gia đình).",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-004-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "include"
+            },
+            {
+              "label": "B",
+              "html": "included"
+            },
+            {
+              "label": "C",
+              "html": "includes"
+            },
+            {
+              "label": "D",
+              "html": "including"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Hai vế song song cùng dùng chung <i>will</i>: <i>will be larger … and (will) include</i>, nên dùng nguyên mẫu <i>include</i>.",
+          "tags": [
+            "part6",
+            "tense",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-004-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "It will also sell the bakery's popular sourdough bread and fruit tarts."
+            },
+            {
+              "label": "B",
+              "html": "The shopping center closed last year."
+            },
+            {
+              "label": "C",
+              "html": "Customers can no longer order cakes online."
+            },
+            {
+              "label": "D",
+              "html": "Ms. Mendes has decided to close the Hill Street store."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Đoạn đang mô tả cửa hàng mới (rộng hơn, có chỗ ngồi), nên câu tiếp mô tả thêm sản phẩm bán ở đó là hợp lý. (D) mâu thuẫn, vì nhân viên mới sẽ được đào tạo ở cửa hàng Hill Street. (B) mâu thuẫn với việc mở cửa hàng ở trung tâm đó.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-004-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "prior to"
+            },
+            {
+              "label": "B",
+              "html": "before"
+            },
+            {
+              "label": "C",
+              "html": "during"
+            },
+            {
+              "label": "D",
+              "html": "despite"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau chỗ trống là mệnh đề (<i>the new location opens</i>), nên cần liên từ <i>before</i>. <i>prior to / during / despite</i> chỉ đi với danh từ.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Bài báo",
+        "html": "<p><b>Rosedale Bakery to Open Second Location</b></p><p>Rosedale Bakery, a <b>(1)</b> ------- business on Hill Street for over thirty years, will open a second store in the Northgate Shopping Center next month. Owner Carla Mendes said the decision was made after customers repeatedly asked for a location closer to the north side of town.</p><p>The new store will be larger than the original one and <b>(2)</b> ------- a seating area for up to forty customers. <b>(3)</b> -------. Ms. Mendes plans to hire fifteen new employees, who will be trained at the Hill Street store <b>(4)</b> ------- the new location opens.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-005",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-005-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "during"
+            },
+            {
+              "label": "B",
+              "html": "while"
+            },
+            {
+              "label": "C",
+              "html": "because of"
+            },
+            {
+              "label": "D",
+              "html": "despite"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau chỗ trống là mệnh đề nên cần liên từ: <i>while</i> (trong khi). <i>during</i> chỉ đi với danh từ.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-005-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "use"
+            },
+            {
+              "label": "B",
+              "html": "used"
+            },
+            {
+              "label": "C",
+              "html": "using"
+            },
+            {
+              "label": "D",
+              "html": "uses"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>returned using the drop box</i>: được trả bằng cách dùng thùng. V-ing chỉ cách thức, bổ sung cho động từ chính.",
+          "tags": [
+            "part6",
+            "verb-form",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-005-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "The new children's section opened last year."
+            },
+            {
+              "label": "B",
+              "html": "Please bring your books to the second floor."
+            },
+            {
+              "label": "C",
+              "html": "Our hours will be extended to midnight during the closure."
+            },
+            {
+              "label": "D",
+              "html": "In addition, the library's Web site will remain available for online renewals."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Câu trước nói việc vẫn trả sách được trong thời gian đóng cửa; câu này nói thêm dịch vụ khác vẫn dùng được (gia hạn online). (C) và (B) mâu thuẫn với việc thư viện đóng cửa.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-005-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "inconveniently"
+            },
+            {
+              "label": "B",
+              "html": "inconvenient"
+            },
+            {
+              "label": "C",
+              "html": "inconvenience"
+            },
+            {
+              "label": "D",
+              "html": "inconvenienced"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau <i>any</i> cần danh từ: <i>any inconvenience</i>. Đây là câu xin lỗi rất quen thuộc trong thông báo.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thông báo",
+        "html": "<p><b>Notice to Library Members</b></p><p>The Oakridge Public Library will be closed from August 1 to August 20 <b>(1)</b> ------- the children's section is renovated. During this time, books can still be returned <b>(2)</b> ------- the drop box at the main entrance. <b>(3)</b> -------.</p><p>Members who have books due during the closure will not be charged late fees. We apologize for any <b>(4)</b> ------- this may cause.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-006",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-006-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "every"
+            },
+            {
+              "label": "B",
+              "html": "each"
+            },
+            {
+              "label": "C",
+              "html": "everything"
+            },
+            {
+              "label": "D",
+              "html": "all of"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>everything (that) you need</i>: mọi thứ bạn cần. <i>every / each</i> phải đi kèm danh từ; <i>all of</i> phải đi với danh từ xác định hoặc đại từ.",
+          "tags": [
+            "part6",
+            "vocab",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-006-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "suit"
+            },
+            {
+              "label": "B",
+              "html": "suited"
+            },
+            {
+              "label": "C",
+              "html": "suiting"
+            },
+            {
+              "label": "D",
+              "html": "suits"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Mệnh đề quan hệ rút gọn dạng bị động: <i>a program (which is) suited to your goals</i> = chương trình phù hợp với mục tiêu của bạn.",
+          "tags": [
+            "part6",
+            "passive",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-006-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "The pool will be closed permanently next month."
+            },
+            {
+              "label": "B",
+              "html": "Personal trainers are not available to new members."
+            },
+            {
+              "label": "C",
+              "html": "We are open 24 hours a day, so you can exercise whenever it suits you."
+            },
+            {
+              "label": "D",
+              "html": "Our gym was sold to a new owner in 2010."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Quảng cáo đang nêu lợi ích của phòng tập, nên câu mở cửa 24/7 nối tiếp tự nhiên. (B) mâu thuẫn với câu trước; (A) không hợp với một quảng cáo.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-006-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "by"
+            },
+            {
+              "label": "B",
+              "html": "for"
+            },
+            {
+              "label": "C",
+              "html": "with"
+            },
+            {
+              "label": "D",
+              "html": "at"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "<i>with 30 days' notice</i>: kèm báo trước 30 ngày.",
+          "tags": [
+            "part6",
+            "collocation",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Quảng cáo",
+        "html": "<p><b>Get Fit at PowerLine Gym!</b></p><p>Whether you are a beginner or an experienced athlete, PowerLine Gym has <b>(1)</b> ------- you need. Our facilities include a pool, a sauna, and more than eighty exercise machines. All new members receive two free sessions with a personal trainer, who will create a program <b>(2)</b> ------- to your goals. <b>(3)</b> -------.</p><p>Sign up before March 31 and pay no joining fee. Memberships can be canceled at any time <b>(4)</b> ------- 30 days' notice.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-007",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-007-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "discuss"
+            },
+            {
+              "label": "B",
+              "html": "discussion"
+            },
+            {
+              "label": "C",
+              "html": "discussing"
+            },
+            {
+              "label": "D",
+              "html": "discussed"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Cụm rút gọn <i>As discussed</i> = như đã trao đổi (mức lương <b>được</b> bàn trong buổi phỏng vấn).",
+          "tags": [
+            "part6",
+            "passive",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-007-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "which"
+            },
+            {
+              "label": "B",
+              "html": "when"
+            },
+            {
+              "label": "C",
+              "html": "where"
+            },
+            {
+              "label": "D",
+              "html": "what"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Thay cho nơi chốn (<i>the human resources office</i>), theo sau là mệnh đề đầy đủ: <i>where</i>.",
+          "tags": [
+            "part6",
+            "relative",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-007-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Unfortunately, the position has already been filled."
+            },
+            {
+              "label": "B",
+              "html": "Your interview has been scheduled for next week."
+            },
+            {
+              "label": "C",
+              "html": "After that, your manager, Ms. Tran, will show you around the department."
+            },
+            {
+              "label": "D",
+              "html": "We received over 200 applications for this job."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đoạn đang mô tả ngày làm việc đầu tiên theo trình tự, và <i>After that</i> nối tiếp hợp lý. (A) và (B) mâu thuẫn với một thư mời nhận việc.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-007-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "accept"
+            },
+            {
+              "label": "B",
+              "html": "acceptable"
+            },
+            {
+              "label": "C",
+              "html": "acceptance"
+            },
+            {
+              "label": "D",
+              "html": "accepting"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau tính từ sở hữu <i>your</i> cần danh từ: <i>your acceptance of this offer</i>.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thư mời nhận việc",
+        "html": "<p>Dear Mr. Haddad,</p><p>I am pleased to offer you the position of Marketing Assistant at Corvan Industries. As <b>(1)</b> ------- during your interview, your starting salary will be $42,000 per year.</p><p>Your first day of work will be Monday, September 4. On that day, please report to the human resources office at 9:00 A.M., <b>(2)</b> ------- you will complete some paperwork and receive your employee ID card. <b>(3)</b> -------.</p><p>Please sign and return the enclosed contract by August 25 to confirm your <b>(4)</b> ------- of this offer.</p><p>Sincerely,<br>Laura Chen, Human Resources</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-008",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-008-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "because"
+            },
+            {
+              "label": "B",
+              "html": "although"
+            },
+            {
+              "label": "C",
+              "html": "so that"
+            },
+            {
+              "label": "D",
+              "html": "due to"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau chỗ trống là cụm danh từ (<i>scheduled maintenance</i>), nên dùng giới từ chỉ lý do <i>due to</i>. <i>because</i> cần mệnh đề.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-008-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "The new e-mail system was installed two years ago."
+            },
+            {
+              "label": "B",
+              "html": "We recommend finishing any urgent correspondence before Saturday evening."
+            },
+            {
+              "label": "C",
+              "html": "Saturday's company picnic has been canceled."
+            },
+            {
+              "label": "D",
+              "html": "Please send all important messages during the maintenance period."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Câu trước nói không gửi được email trong thời gian bảo trì, nên lời khuyên gửi việc gấp trước tối thứ Bảy là hợp lý. (D) mâu thuẫn.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-008-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3)",
+          "options": [
+            {
+              "label": "A",
+              "html": "during"
+            },
+            {
+              "label": "B",
+              "html": "later"
+            },
+            {
+              "label": "C",
+              "html": "despite"
+            },
+            {
+              "label": "D",
+              "html": "after"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau chỗ trống là mệnh đề (<i>the work is complete</i>), nên cần liên từ <i>after</i>. <i>later</i> là trạng từ; <i>despite / during</i> đi với danh từ.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-008-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "understand"
+            },
+            {
+              "label": "B",
+              "html": "understanding"
+            },
+            {
+              "label": "C",
+              "html": "understood"
+            },
+            {
+              "label": "D",
+              "html": "understandable"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau <i>your</i> cần danh từ: <i>We appreciate your understanding</i>.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Email nội bộ",
+        "html": "<p>To all staff:</p><p>Please be aware that the company's e-mail system will be unavailable this Saturday from 10 P.M. to 2 A.M. <b>(1)</b> ------- scheduled maintenance. During this period, you will not be able to send or receive messages. <b>(2)</b> -------.</p><p>Any messages sent to you during the maintenance will be delivered once the system is back online. If you still experience problems <b>(3)</b> ------- the work is complete, please contact the IT help desk at extension 411. We appreciate your <b>(4)</b> -------.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-009",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-009-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "will permit"
+            },
+            {
+              "label": "B",
+              "html": "have permitted"
+            },
+            {
+              "label": "C",
+              "html": "permitting"
+            },
+            {
+              "label": "D",
+              "html": "will be permitted"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Nhân viên <b>được cho phép</b> (bị động): <i>be permitted to V</i>. Có <i>Beginning next month</i> nên dùng tương lai.",
+          "tags": [
+            "part6",
+            "passive",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-009-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "profession"
+            },
+            {
+              "label": "B",
+              "html": "professional"
+            },
+            {
+              "label": "C",
+              "html": "professionally"
+            },
+            {
+              "label": "D",
+              "html": "professionalism"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Bổ nghĩa cho động từ <i>dress</i> cần trạng từ: <i>dress professionally</i>.",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-009-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "The company will provide new uniforms."
+            },
+            {
+              "label": "B",
+              "html": "The survey was also sent to our clients."
+            },
+            {
+              "label": "C",
+              "html": "Casual clothing should still be neat and suitable for the office."
+            },
+            {
+              "label": "D",
+              "html": "Fridays will become a day off."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Câu sau bắt đầu bằng <i>For example, jeans are acceptable, but shorts… are not</i>, tức là ví dụ cho một quy định về trang phục thường ngày. Chỉ (C) dẫn được vào ví dụ đó.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-009-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "unsurely"
+            },
+            {
+              "label": "B",
+              "html": "uncertainty"
+            },
+            {
+              "label": "C",
+              "html": "unsure"
+            },
+            {
+              "label": "D",
+              "html": "doubt"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Sau <i>be</i> cần tính từ: <i>be unsure whether…</i> (không chắc liệu…).",
+          "tags": [
+            "part6",
+            "vocab",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Memo",
+        "html": "<p><b>To:</b> All employees<br><b>Subject:</b> Dress code update</p><p>Beginning next month, employees <b>(1)</b> ------- to wear casual clothing on Fridays. This change is a result of a staff survey, in which most employees said they would appreciate a more relaxed dress code. However, employees who are meeting with clients on Fridays should continue to dress <b>(2)</b> -------.</p><p><b>(3)</b> -------. For example, jeans are acceptable, but shorts and sandals are not. If you are <b>(4)</b> ------- whether an item of clothing is appropriate, please ask your supervisor.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-010",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-010-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "during"
+            },
+            {
+              "label": "B",
+              "html": "when"
+            },
+            {
+              "label": "C",
+              "html": "while"
+            },
+            {
+              "label": "D",
+              "html": "until"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Sau chỗ trống là mệnh đề chỉ thời điểm (lúc ông đến): <i>when you arrived</i>. <i>during</i> chỉ đi với danh từ.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-010-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "On the other hand"
+            },
+            {
+              "label": "B",
+              "html": "Otherwise"
+            },
+            {
+              "label": "C",
+              "html": "In contrast"
+            },
+            {
+              "label": "D",
+              "html": "As a result"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Vì có sự cố nên khách sạn đã rà soát lại lịch dọn phòng. Đây là quan hệ nguyên nhân – kết quả: <i>As a result</i>.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-010-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Your review was posted on our Web site in 2015."
+            },
+            {
+              "label": "B",
+              "html": "Our hotel will close permanently next week."
+            },
+            {
+              "label": "C",
+              "html": "We regret that we cannot offer any compensation."
+            },
+            {
+              "label": "D",
+              "html": "We hope this change will prevent similar problems in the future."
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Nối tiếp ý vừa thay đổi lịch dọn phòng. (C) mâu thuẫn với khoản credit $50 ở câu sau; (B) mâu thuẫn với “lần lưu trú sau”.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-010-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "participating"
+            },
+            {
+              "label": "B",
+              "html": "participation"
+            },
+            {
+              "label": "C",
+              "html": "participate"
+            },
+            {
+              "label": "D",
+              "html": "participated"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Trước danh từ <i>hotels</i> cần tính từ: <i>participating hotels</i> (các khách sạn tham gia chương trình).",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Email phản hồi đánh giá của khách",
+        "html": "<p>Dear Mr. Novak,</p><p>Thank you for taking the time to review your recent stay at the Brookside Hotel. We were sorry to read that your room was not ready <b>(1)</b> ------- you arrived. This is not the level of service we aim to provide.</p><p><b>(2)</b> -------, we have reviewed our cleaning schedule to make sure that rooms are ready by the official check-in time. <b>(3)</b> -------. We have also added a credit of $50 to your account, which can be used toward a future stay at any of our <b>(4)</b> ------- hotels.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-011",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-011-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "opened"
+            },
+            {
+              "label": "B",
+              "html": "will open"
+            },
+            {
+              "label": "C",
+              "html": "has opened"
+            },
+            {
+              "label": "D",
+              "html": "was opening"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>next Monday</i> chỉ tương lai: <i>will open</i>.",
+          "tags": [
+            "part6",
+            "tense",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-011-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "It will also be the first Weston Bank branch to open on Saturdays."
+            },
+            {
+              "label": "B",
+              "html": "The branch closed after only two years."
+            },
+            {
+              "label": "C",
+              "html": "Ms. Cho will retire next month."
+            },
+            {
+              "label": "D",
+              "html": "Customers must now pay a fee to enter any branch."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Câu trước liệt kê dịch vụ của chi nhánh, câu này nói thêm một điểm mới (mở cửa thứ Bảy). (B) mâu thuẫn với việc sắp khai trương.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-011-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3)",
+          "options": [
+            {
+              "label": "A",
+              "html": "during"
+            },
+            {
+              "label": "B",
+              "html": "while"
+            },
+            {
+              "label": "C",
+              "html": "when"
+            },
+            {
+              "label": "D",
+              "html": "among"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Trước cụm danh từ <i>the first week</i> dùng giới từ <i>during</i>.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-011-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "who"
+            },
+            {
+              "label": "B",
+              "html": "whose"
+            },
+            {
+              "label": "C",
+              "html": "which"
+            },
+            {
+              "label": "D",
+              "html": "whom"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Thay cho người (Emily Cho), làm chủ ngữ của <i>has worked</i>: <i>who</i>.",
+          "tags": [
+            "part6",
+            "relative",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Thông cáo báo chí",
+        "html": "<p><b>Weston Bank to Open New Branch</b></p><p>Weston Bank <b>(1)</b> ------- its newest branch at 450 Lake Street next Monday, June 3. The branch will offer a full range of services, including personal and business accounts, loans, and financial advice. <b>(2)</b> -------.</p><p>To celebrate the opening, the branch will give a free reusable shopping bag to every visitor <b>(3)</b> ------- the first week. \"We are excited to serve the Lakeside community,\" said branch manager Emily Cho, <b>(4)</b> ------- has worked for Weston Bank for twelve years.</p>"
+      }
+    },
+    {
+      "id": "toeic-p6-012",
+      "section": "reading",
+      "chapter": "part-6",
+      "topic": "p6-text",
+      "questions": [
+        {
+          "id": "toeic-p6-012-1",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (1)",
+          "options": [
+            {
+              "label": "A",
+              "html": "active"
+            },
+            {
+              "label": "B",
+              "html": "activation"
+            },
+            {
+              "label": "C",
+              "html": "actively"
+            },
+            {
+              "label": "D",
+              "html": "activate"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Sau <i>To</i> (chỉ mục đích) cần động từ nguyên mẫu: <i>To activate</i> (kích hoạt).",
+          "tags": [
+            "part6",
+            "word-form",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-012-2",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (2)",
+          "options": [
+            {
+              "label": "A",
+              "html": "located"
+            },
+            {
+              "label": "B",
+              "html": "locate"
+            },
+            {
+              "label": "C",
+              "html": "locating"
+            },
+            {
+              "label": "D",
+              "html": "location"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>be located</i> = nằm ở (bị động): số seri <b>được đặt</b> dưới đáy máy.",
+          "tags": [
+            "part6",
+            "passive",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-012-3",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (3): chọn câu phù hợp nhất với đoạn văn.",
+          "options": [
+            {
+              "label": "A",
+              "html": "You will then receive a confirmation e-mail within 24 hours."
+            },
+            {
+              "label": "B",
+              "html": "The coffee maker is not covered by any warranty."
+            },
+            {
+              "label": "C",
+              "html": "Our stores are closed on national holidays."
+            },
+            {
+              "label": "D",
+              "html": "Serial numbers are not required for registration."
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Nối tiếp các bước đăng ký: nhập số seri, rồi nhận email xác nhận. (B) và (D) mâu thuẫn với đoạn văn.",
+          "tags": [
+            "part6",
+            "p6-context"
+          ]
+        },
+        {
+          "id": "toeic-p6-012-4",
+          "type": "mcq",
+          "stem_html": "Chỗ trống (4)",
+          "options": [
+            {
+              "label": "A",
+              "html": "despite"
+            },
+            {
+              "label": "B",
+              "html": "because"
+            },
+            {
+              "label": "C",
+              "html": "so that"
+            },
+            {
+              "label": "D",
+              "html": "unless"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Giữ hóa đơn <b>vì</b> có thể cần khi sửa chữa bảo hành: <i>because</i> + mệnh đề.",
+          "tags": [
+            "part6",
+            "prep-conj",
+            "p6-context"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Hướng dẫn đăng ký bảo hành",
+        "html": "<p>Thank you for purchasing a Kestrel coffee maker. To <b>(1)</b> ------- your two-year warranty, please register your product within 30 days of purchase.</p><p>Registration is quick and easy. Simply visit our Web site and enter the serial number, which is <b>(2)</b> ------- on the bottom of the machine. <b>(3)</b> -------. Registered customers will also receive information about special offers and new products.</p><p>Please keep your receipt <b>(4)</b> ------- you may need it for warranty repairs.</p>"
+      }
     }
   ]
 }
