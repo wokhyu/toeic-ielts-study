@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
 import { tagLabel } from '../../content/bank.ts';
@@ -105,6 +105,12 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
   const [bookmarked, setBookmarked] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  // Time on the question, from first render to "Kiểm tra", stored with the answer.
+  const shownAt = useRef(0);
+
+  useEffect(() => {
+    shownAt.current = Date.now();
+  }, []);
 
   useEffect(() => {
     if (!userId) return;
@@ -121,7 +127,13 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
     setError(null);
     try {
       setReveal(
-        unwrap(await db().rpc('ot_answer_practice', { p_question: q.id, p_response: response })) as Reveal,
+        unwrap(
+          await db().rpc('ot_answer_practice', {
+            p_question: q.id,
+            p_response: response,
+            p_time_ms: shownAt.current ? Date.now() - shownAt.current : null,
+          }),
+        ) as Reveal,
       );
     } catch (e) {
       setError(errorMessage(e));

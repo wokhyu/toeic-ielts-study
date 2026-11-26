@@ -90,13 +90,13 @@ Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambrid
 
 ## CI/CD
 
-| Workflow         | Khi nào chạy                                                              | Việc                                                                                              |
-| ---------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| `ci.yml`         | Mỗi PR, và mỗi lần push lên nhánh khác `main`                             | lint, format, typecheck, test kèm coverage, validate content, build                               |
-| `deploy.yml`     | Push lên `main`, hoặc chạy tay                                            | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                    |
-| `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                  |
-| `keep-alive.yml` | 2 ngày một lần, hoặc chạy tay                                             | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng |
-| `bank-sync.yml`  | Push lên `main` có thay đổi trong `content/bank/**`, hoặc chạy tay        | Nạp câu hỏi luyện tập TOEIC/IELTS lên Supabase (upsert, chạy lại được)                            |
+| Workflow         | Khi nào chạy                                                                                                                      | Việc                                                                                                  |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `ci.yml`         | Mỗi PR, và mỗi lần push lên nhánh khác `main`                                                                                     | lint, format, typecheck, test kèm coverage, validate content, build                                   |
+| `deploy.yml`     | Push lên `main`, hoặc chạy tay                                                                                                    | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                        |
+| `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay                                                         | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                      |
+| `keep-alive.yml` | 2 ngày một lần, hoặc chạy tay                                                                                                     | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng     |
+| `bank-sync.yml`  | Push lên `main` có thay đổi trong `content/bank/**` hoặc `content/roadmap/**`, sau mỗi lần `db-migrate` thành công, hoặc chạy tay | Nạp câu hỏi luyện tập TOEIC/IELTS và danh sách nhiệm vụ lộ trình lên Supabase (upsert, chạy lại được) |
 
 Dependabot cập nhật dependency npm và GitHub Actions mỗi tuần. TypeScript bản major được bỏ qua cho tới khi `typescript-eslint` hỗ trợ.
 

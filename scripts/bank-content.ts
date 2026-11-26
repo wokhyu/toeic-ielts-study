@@ -10,6 +10,7 @@ import {
   type BankMock,
   type BankTaxonomy,
 } from '../src/content/bank-schema.ts';
+import { weekSchema } from '../src/content/schema.ts';
 
 export const BANK_COURSES = ['toeic', 'ielts'] as const;
 export type BankCourse = (typeof BANK_COURSES)[number];
@@ -79,4 +80,24 @@ export function loadBank(course: BankCourse, root = process.cwd()): BankContent 
 
   if (taxonomy) errors.push(...checkBank(course, taxonomy, files, mocks));
   return { course, taxonomy, files, mocks, errors };
+}
+
+/** Roadmap tasks of one course as reference rows for the roadmap_tasks table. */
+export function loadRoadmapTasks(course: BankCourse, root = process.cwd()) {
+  const dir = join(root, 'content', 'roadmap', course);
+  return jsonFiles(dir).flatMap((file) => {
+    const week = weekSchema.parse(JSON.parse(readFileSync(file, 'utf8')));
+    return week.days.flatMap((d) =>
+      d.tasks.map((t) => ({
+        id: t.id,
+        week: week.week,
+        day: d.day,
+        skill: t.skill,
+        track: t.track,
+        minutes: t.minutes,
+        title: t.title,
+        group_activity: t.group_activity,
+      })),
+    );
+  });
 }

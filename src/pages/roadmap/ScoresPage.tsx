@@ -194,9 +194,13 @@ export function ScoresPage() {
                     ))}
                     <td className="p-2 font-semibold">{r.total}</td>
                     <td className="p-2 text-right">
-                      <Button variant="ghost" onClick={() => void remove(r.id)}>
-                        Xóa
-                      </Button>
+                      {r.source === 'mock_test' ? (
+                        <span className="text-xs text-slate-500">Chấm trên web</span>
+                      ) : (
+                        <Button variant="ghost" onClick={() => void remove(r.id)}>
+                          Xóa
+                        </Button>
+                      )}
                     </td>
                   </tr>
                 ))}

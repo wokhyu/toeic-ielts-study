@@ -40,6 +40,9 @@ export interface MockScore {
   speaking: number | null;
   total: number;
   taken_at: string;
+  /** self: typed in by the learner; mock_test: graded by a mock test on the site. */
+  source: 'self' | 'mock_test';
+  attempt_id: number | null;
 }
 
 export interface PlacementResult {
@@ -61,6 +64,7 @@ export interface FlashcardReview {
   reps: number;
   due_date: string;
   last_reviewed_at: string;
+  last_rating: 'again' | 'hard' | 'good' | 'easy' | null;
 }
 
 export interface AdminUserRow {
