@@ -16,70 +16,1676 @@
           "type": "mcq",
           "stem_html": "Questions 1–4: Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.<br><br>1. The number of registered hives in London grew by more than 100% between 2008 and 2018.",
           "options": [
-            { "label": "TRUE", "html": "" },
-            { "label": "FALSE", "html": "" },
-            { "label": "NOT GIVEN", "html": "" }
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
           ],
           "answer": "TRUE",
           "explain_html": "Đoạn A: <i>more than doubled between 2008 and 2018</i>. Tăng hơn gấp đôi tức là tăng hơn 100%, nên câu này <b>TRUE</b>, chỉ là đã được paraphrase.",
-          "tags": ["reading", "tfng"]
+          "tags": [
+            "reading",
+            "tfng"
+          ]
         },
         {
           "id": "ielts-r1-001-2",
           "type": "mcq",
           "stem_html": "2. Most urban beekeepers in London work in offices.",
           "options": [
-            { "label": "TRUE", "html": "" },
-            { "label": "FALSE", "html": "" },
-            { "label": "NOT GIVEN", "html": "" }
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
           ],
           "answer": "NOT GIVEN",
           "explain_html": "Bài chỉ nói <i>Many of the new beekeepers are office workers</i>. <i>Many</i> không phải <i>most</i>, và cũng không nói riêng về London. Bài không đủ thông tin để khẳng định hay phủ định, nên là <b>NOT GIVEN</b>. Đây là bẫy hay gặp: từ chỉ lượng (many / most / all).",
-          "tags": ["reading", "tfng"]
+          "tags": [
+            "reading",
+            "tfng"
+          ]
         },
         {
           "id": "ielts-r1-001-3",
           "type": "mcq",
           "stem_html": "3. Pesticides are used more frequently in cities than on farms.",
           "options": [
-            { "label": "TRUE", "html": "" },
-            { "label": "FALSE", "html": "" },
-            { "label": "NOT GIVEN", "html": "" }
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
           ],
           "answer": "FALSE",
           "explain_html": "Đoạn B: <i>pesticides are used <b>less often</b> in cities than on farms</i>, ngược hẳn với câu đề bài, nên <b>FALSE</b>. Khác với NOT GIVEN: ở đây bài có thông tin, nhưng thông tin đó trái ngược.",
-          "tags": ["reading", "tfng"]
+          "tags": [
+            "reading",
+            "tfng"
+          ]
         },
         {
           "id": "ielts-r1-001-4",
           "type": "mcq",
           "stem_html": "4. Honey from cities has been found to contain more varieties of pollen than honey from the countryside.",
           "options": [
-            { "label": "TRUE", "html": "" },
-            { "label": "FALSE", "html": "" },
-            { "label": "NOT GIVEN", "html": "" }
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
           ],
           "answer": "TRUE",
           "explain_html": "Đoạn B: <i>honey produced in cities contains a greater mix of pollen types than honey from rural areas</i>. Trong câu đề, <i>more varieties</i> = <i>greater mix of types</i> và <i>countryside</i> = <i>rural areas</i>, nên <b>TRUE</b>.",
-          "tags": ["reading", "tfng"]
+          "tags": [
+            "reading",
+            "tfng"
+          ]
         },
         {
           "id": "ielts-r1-001-5",
           "type": "short",
           "stem_html": "Questions 5–6: Complete the sentences. Choose ONE WORD ONLY from the passage.<br><br>5. Honeybees compete with wild bees for the same ______.",
-          "answer": ["flowers"],
+          "answer": [
+            "flowers"
+          ],
           "explain_html": "Đoạn C: <i>Honeybees compete with wild bees for the same <b>flowers</b></i>. Câu đề giữ nguyên cấu trúc, chỉ cần tìm đúng câu trong bài. <i>food</i> xuất hiện ở câu sau nhưng không đi với <i>the same</i>.",
-          "tags": ["reading", "sentence-completion"]
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
         },
         {
           "id": "ielts-r1-001-6",
           "type": "short",
           "stem_html": "6. Conservation groups say that a window box planted with lavender or ______ can support many wild insects.",
-          "answer": ["thyme"],
+          "answer": [
+            "thyme"
+          ],
           "explain_html": "Đoạn D: <i>a single window box filled with lavender or <b>thyme</b></i>. Chú ý chính tả: t-h-y-m-e.",
-          "tags": ["reading", "sentence-completion"]
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
         }
       ]
+    },
+    {
+      "id": "ielts-r1-002",
+      "section": "reading",
+      "chapter": "passage-1",
+      "topic": "p1-mixed",
+      "questions": [
+        {
+          "id": "ielts-r1-002-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–6: Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.<br><br>1. The ancient Romans wrote with a tool made of graphite.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "FALSE",
+          "explain_html": "Đoạn A: người La Mã dùng <i>a stylus, often made of lead</i>, tức là bằng chì, không phải graphite. Graphite chỉ được phát hiện ở thế kỷ 16.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-2",
+          "type": "mcq",
+          "stem_html": "2. Modern pencils contain a small amount of lead.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "FALSE",
+          "explain_html": "Đoạn A: <i>modern pencils contain no lead at all</i>. Thông tin trái ngược nên là FALSE.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-3",
+          "type": "mcq",
+          "stem_html": "3. The first people to use Borrowdale graphite were people who kept sheep.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "TRUE",
+          "explain_html": "Đoạn B: <i>Local shepherds first used the soft black material</i>. <i>shepherds</i> = người chăn cừu.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-4",
+          "type": "mcq",
+          "stem_html": "4. The Borrowdale mine was the largest graphite mine in Europe.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Bài chỉ nói mỏ có giá trị và graphite nơi khác kém chất lượng, không so sánh kích thước. Đừng suy diễn từ <i>a large deposit</i>.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-5",
+          "type": "mcq",
+          "stem_html": "5. Conté developed his method because France could not obtain English graphite.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "TRUE",
+          "explain_html": "Đoạn D: <i>during a war that cut France off from English supplies</i>. Chiến tranh làm Pháp mất nguồn graphite Anh, nên Conté tìm giải pháp.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-6",
+          "type": "mcq",
+          "stem_html": "6. Yellow pencils are more popular in Europe than in North America.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Bài chỉ nói màu vàng phổ biến nhất ở Bắc Mỹ, không nói gì về châu Âu.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-7",
+          "type": "short",
+          "stem_html": "Questions 7–13: Complete the notes. Choose ONE WORD ONLY from the passage.<br><br>7. Early users held graphite by wrapping it in string or ______.",
+          "answer": [
+            "sheepskin"
+          ],
+          "explain_html": "Đoạn B: <i>wrapping sticks of it in string or sheepskin</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-8",
+          "type": "short",
+          "stem_html": "8. The Borrowdale mine was sometimes ______ to stop theft.",
+          "answer": [
+            "flooded"
+          ],
+          "explain_html": "Đoạn C: <i>at times it was deliberately flooded to prevent theft</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-9",
+          "type": "short",
+          "stem_html": "9. Graphite from other parts of Europe ______ when it was cut.",
+          "answer": [
+            "crumbled"
+          ],
+          "explain_html": "Đoạn C: <i>crumbled when it was cut into sticks</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-10",
+          "type": "short",
+          "stem_html": "10. Conté mixed powdered graphite with ______.",
+          "answer": [
+            "clay"
+          ],
+          "explain_html": "Đoạn D: <i>mixing powdered graphite with clay</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-11",
+          "type": "short",
+          "stem_html": "11. The mixture was then baked in a ______.",
+          "answer": [
+            "kiln"
+          ],
+          "explain_html": "Đoạn D: <i>baking the mixture in a kiln</i> (lò nung).",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-12",
+          "type": "short",
+          "stem_html": "12. Unpainted pencils displayed the quality of the ______.",
+          "answer": [
+            "wood"
+          ],
+          "explain_html": "Đoạn E: <i>to show off the quality of the wood</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r1-002-13",
+          "type": "short",
+          "stem_html": "13. Pencils can be used in extreme cold and zero ______.",
+          "answer": [
+            "gravity"
+          ],
+          "explain_html": "Đoạn F: <i>Pencils work in extreme cold and in zero gravity</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "The Humble Pencil",
+        "html": "<p><b>A</b> For a tool that most people use without a second thought, the pencil has a surprisingly long history. Before pencils existed, writers in ancient Rome used a thin metal rod called a stylus, often made of lead, to leave light marks on papyrus. This is why the writing core of a pencil is still called \"lead\" in English, even though modern pencils contain no lead at all.</p>\n<p><b>B</b> The story of the modern pencil began in the 1560s, when a large deposit of graphite was discovered near Borrowdale in northern England. Local shepherds first used the soft black material to mark their sheep. Graphite left a darker line than lead and was easy to remove, so it soon became popular with artists. Because graphite breaks easily, people began wrapping sticks of it in string or sheepskin to hold it.</p>\n<p><b>C</b> The Borrowdale graphite was so valuable that the mine was guarded, and at times it was deliberately flooded to prevent theft. England had what was effectively a monopoly on pencil production for almost two hundred years, as the graphite found elsewhere in Europe was of poorer quality and crumbled when it was cut into sticks.</p>\n<p><b>D</b> A solution came from France. In 1795, during a war that cut France off from English supplies, an army officer named Nicolas-Jacques Conté developed a method of mixing powdered graphite with clay and baking the mixture in a kiln. By changing the proportion of clay, he could make pencils that were harder or softer. This process is still used today, and it is the reason pencils are graded with letters such as H for hard and B for black.</p>\n<p><b>E</b> Pencils were originally sold unpainted, to show off the quality of the wood. In the 1890s, however, some manufacturers began painting their pencils yellow. At the time, the best graphite came from China, and yellow was associated with Chinese royalty. The colour suggested luxury and quality, and in North America it remains the most common colour for pencils today.</p>\n<p><b>F</b> Although digital devices have replaced pencils for many purposes, around fourteen billion pencils are still produced every year. Pencils work in extreme cold and in zero gravity, and astronauts have taken them on space missions. They are also cheap, and their marks can easily be erased, an advantage that no pen has ever fully matched.</p>"
+      }
+    },
+    {
+      "id": "ielts-r2-001",
+      "section": "reading",
+      "chapter": "passage-2",
+      "topic": "p2-mixed",
+      "questions": [
+        {
+          "id": "ielts-r2-001-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–6: Choose the correct heading for each paragraph from the list of headings.<br><br>1. Paragraph A",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "iv",
+          "explain_html": "Đoạn A nói quan điểm cũ (sleep là trạng thái thụ động) <i>has changed dramatically</i>, tức là thay đổi trong tư duy khoa học.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-2",
+          "type": "mcq",
+          "stem_html": "2. Paragraph B",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "i",
+          "explain_html": "Thí nghiệm năm 1924, nhưng các nhà nghiên cứu khi đó chỉ kết luận rằng giấc ngủ <i>merely protected memories</i>. Đây là cách hiểu hẹp, đúng với heading i.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-3",
+          "type": "mcq",
+          "stem_html": "3. Paragraph C",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "iii",
+          "explain_html": "Hippocampus <i>\"replay\" patterns of activity recorded during the day</i>: não lặp lại trải nghiệm ban ngày.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-4",
+          "type": "mcq",
+          "stem_html": "4. Paragraph D",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "vii",
+          "explain_html": "<i>Different stages of sleep may support different kinds of memory</i>: giấc ngủ sâu cho kiến thức, REM cho kỹ năng.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-5",
+          "type": "mcq",
+          "stem_html": "5. Paragraph E",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "ii",
+          "explain_html": "<i>practical implications, especially for students … before an exam</i>: lời khuyên cho người ôn thi.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-6",
+          "type": "mcq",
+          "stem_html": "6. Paragraph F",
+          "options": [
+            {
+              "label": "i",
+              "html": "An early study that was interpreted narrowly"
+            },
+            {
+              "label": "ii",
+              "html": "Advice for people preparing for tests"
+            },
+            {
+              "label": "iii",
+              "html": "How the brain repeats the day's experiences"
+            },
+            {
+              "label": "iv",
+              "html": "A change in scientific thinking about sleep"
+            },
+            {
+              "label": "v",
+              "html": "Unresolved questions about dreaming"
+            },
+            {
+              "label": "vi",
+              "html": "The link between diet and sleep quality"
+            },
+            {
+              "label": "vii",
+              "html": "Separate roles for different types of sleep"
+            },
+            {
+              "label": "viii",
+              "html": "The dangers of sleeping pills"
+            }
+          ],
+          "answer": "v",
+          "explain_html": "<i>Not all questions have been answered … disagree about why we dream</i>. Heading vi và viii là bẫy, bài không nhắc tới.",
+          "tags": [
+            "reading",
+            "headings"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-7",
+          "type": "mcq",
+          "stem_html": "Questions 7–10: Complete the summary using the list of words A–H.<br><br>In 1924, researchers found that students remembered more after sleep, but they thought sleep only <b>(7)</b> ______ memories.",
+          "options": [
+            {
+              "label": "A",
+              "html": "protected"
+            },
+            {
+              "label": "B",
+              "html": "cortex"
+            },
+            {
+              "label": "C",
+              "html": "skills"
+            },
+            {
+              "label": "D",
+              "html": "memories"
+            },
+            {
+              "label": "E",
+              "html": "damaged"
+            },
+            {
+              "label": "F",
+              "html": "facts"
+            },
+            {
+              "label": "G",
+              "html": "hippocampus"
+            },
+            {
+              "label": "H",
+              "html": "dreams"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Đoạn B: <i>sleep merely protected memories from interference</i>.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-8",
+          "type": "mcq",
+          "stem_html": "Later research showed that during deep sleep the hippocampus replays activity, which helps move information to the <b>(8)</b> ______.",
+          "options": [
+            {
+              "label": "A",
+              "html": "protected"
+            },
+            {
+              "label": "B",
+              "html": "cortex"
+            },
+            {
+              "label": "C",
+              "html": "skills"
+            },
+            {
+              "label": "D",
+              "html": "memories"
+            },
+            {
+              "label": "E",
+              "html": "damaged"
+            },
+            {
+              "label": "F",
+              "html": "facts"
+            },
+            {
+              "label": "G",
+              "html": "hippocampus"
+            },
+            {
+              "label": "H",
+              "html": "dreams"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn C: <i>help transfer information to the cortex</i>. G (hippocampus) là nơi <b>bắt đầu</b>, không phải nơi chuyển tới.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-9",
+          "type": "mcq",
+          "stem_html": "REM sleep may be especially important for learning <b>(9)</b> ______.",
+          "options": [
+            {
+              "label": "A",
+              "html": "protected"
+            },
+            {
+              "label": "B",
+              "html": "cortex"
+            },
+            {
+              "label": "C",
+              "html": "skills"
+            },
+            {
+              "label": "D",
+              "html": "memories"
+            },
+            {
+              "label": "E",
+              "html": "damaged"
+            },
+            {
+              "label": "F",
+              "html": "facts"
+            },
+            {
+              "label": "G",
+              "html": "hippocampus"
+            },
+            {
+              "label": "H",
+              "html": "dreams"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đoạn D: REM <i>may matter more for skills</i>. F (facts) gắn với giấc ngủ sâu, là bẫy.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-10",
+          "type": "mcq",
+          "stem_html": "A night without sleep can greatly reduce our ability to form new <b>(10)</b> ______.",
+          "options": [
+            {
+              "label": "A",
+              "html": "protected"
+            },
+            {
+              "label": "B",
+              "html": "cortex"
+            },
+            {
+              "label": "C",
+              "html": "skills"
+            },
+            {
+              "label": "D",
+              "html": "memories"
+            },
+            {
+              "label": "E",
+              "html": "damaged"
+            },
+            {
+              "label": "F",
+              "html": "facts"
+            },
+            {
+              "label": "G",
+              "html": "hippocampus"
+            },
+            {
+              "label": "H",
+              "html": "dreams"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Đoạn E: <i>reduce the ability to form new memories by as much as forty percent</i>.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-11",
+          "type": "mcq",
+          "stem_html": "Questions 11–13: Choose the correct letter, A, B, C or D.<br><br>11. What did the experiments with rats show?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Rats dream about the mazes they have run through."
+            },
+            {
+              "label": "B",
+              "html": "Rats learn mazes faster after sleeping."
+            },
+            {
+              "label": "C",
+              "html": "Patterns of brain activity were repeated faster during sleep."
+            },
+            {
+              "label": "D",
+              "html": "The hippocampus is inactive during sleep."
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đoạn C: chuỗi hoạt động thần kinh <i>being repeated, at higher speed, while they slept</i>. Bài không nói chuột mơ (A) hay học nhanh hơn (B).",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-12",
+          "type": "mcq",
+          "stem_html": "12. According to paragraph D, people trained in a typing task",
+          "options": [
+            {
+              "label": "A",
+              "html": "needed more practice the next day."
+            },
+            {
+              "label": "B",
+              "html": "improved by about a fifth after sleeping."
+            },
+            {
+              "label": "C",
+              "html": "forgot about twenty percent overnight."
+            },
+            {
+              "label": "D",
+              "html": "performed worse in the morning."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>improved by about twenty percent after a night's sleep</i>. 20% = một phần năm. (C) dùng đúng con số nhưng ngược nghĩa.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r2-001-13",
+          "type": "mcq",
+          "stem_html": "13. What does the writer say about dreams?",
+          "options": [
+            {
+              "label": "A",
+              "html": "They clearly improve memory."
+            },
+            {
+              "label": "B",
+              "html": "Scientists hold different views about their purpose."
+            },
+            {
+              "label": "C",
+              "html": "They occur mainly in deep sleep."
+            },
+            {
+              "label": "D",
+              "html": "They were first studied in 1924."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn F: <i>Scientists still disagree about why we dream</i>, kèm hai quan điểm khác nhau. (C) sai vì giấc mơ chủ yếu xảy ra trong REM.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Sleep and Memory",
+        "html": "<p><b>A</b> For most of the twentieth century, scientists regarded sleep as a passive state, a period in which the brain simply switched off to rest. That view has changed dramatically. Researchers now believe that sleep plays an active role in learning, and in particular in consolidation, the process by which new memories become stable and long-lasting.</p>\n<p><b>B</b> Some of the earliest evidence came from a simple experiment in 1924. Two American psychologists, John Jenkins and Karl Dallenbach, asked students to learn lists of nonsense syllables and then tested them either after a period of sleep or after the same period awake. The students remembered far more after sleeping. At the time, the researchers concluded that sleep merely protected memories from interference by new information. It was not until much later that scientists suspected sleep might strengthen memories directly.</p>\n<p><b>C</b> Modern studies suggest how this happens. During deep sleep, the hippocampus, a region involved in forming new memories, appears to \"replay\" patterns of activity recorded during the day. In experiments with rats, scientists have observed the sequence of nerve-cell activity produced as the animals ran through a maze being repeated, at higher speed, while they slept. This replay is thought to help transfer information to the cortex, where long-term memories are stored.</p>\n<p><b>D</b> Different stages of sleep may support different kinds of memory. Deep, slow-wave sleep seems particularly important for facts and events, while rapid eye movement (REM) sleep, when most dreaming occurs, may matter more for skills and emotional memories. In one study, people who were trained in a new motor task, typing a sequence of keys, improved by about twenty percent after a night's sleep, without any further practice.</p>\n<p><b>E</b> These findings have practical implications, especially for students. Staying up all night before an exam may be one of the least effective ways to prepare. Research shows that a single night without sleep can reduce the ability to form new memories by as much as forty percent. Even a daytime nap of sixty to ninety minutes, if it includes deep sleep, can improve performance on memory tests.</p>\n<p><b>F</b> Not all questions have been answered, however. Scientists still disagree about why we dream, and whether dreams themselves play any part in memory. Some argue that dreams are simply a side effect of the brain's activity during REM sleep. Others believe that dreams allow us to rehearse difficult situations safely. As measurement techniques improve, researchers hope to settle these debates.</p>"
+      }
+    },
+    {
+      "id": "ielts-r2-002",
+      "section": "reading",
+      "chapter": "passage-2",
+      "topic": "p2-mixed",
+      "questions": [
+        {
+          "id": "ielts-r2-002-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–4: Match each statement with the correct person, A–D.<br>A Henry Ford · B Laura Mendez · C Tom Erikson · D Priya Shah<br><br>1. Free time can help people concentrate better at work.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Henry Ford"
+            },
+            {
+              "label": "B",
+              "html": "Laura Mendez"
+            },
+            {
+              "label": "C",
+              "html": "Tom Erikson"
+            },
+            {
+              "label": "D",
+              "html": "Priya Shah"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đoạn C: Erikson nói ngày nghỉ thêm <i>improves their concentration at work</i>.",
+          "tags": [
+            "reading",
+            "matching-features"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-2",
+          "type": "mcq",
+          "stem_html": "2. Workers with more leisure time will spend more money.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Henry Ford"
+            },
+            {
+              "label": "B",
+              "html": "Laura Mendez"
+            },
+            {
+              "label": "C",
+              "html": "Tom Erikson"
+            },
+            {
+              "label": "D",
+              "html": "Priya Shah"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Đoạn A: Ford cho rằng <i>workers with more free time would buy more products</i>.",
+          "tags": [
+            "reading",
+            "matching-features"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-3",
+          "type": "mcq",
+          "stem_html": "3. The results of trials may not apply to all businesses.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Henry Ford"
+            },
+            {
+              "label": "B",
+              "html": "Laura Mendez"
+            },
+            {
+              "label": "C",
+              "html": "Tom Erikson"
+            },
+            {
+              "label": "D",
+              "html": "Priya Shah"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Đoạn D: Shah nói <i>the results may not apply to the wider economy</i>.",
+          "tags": [
+            "reading",
+            "matching-features"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-4",
+          "type": "mcq",
+          "stem_html": "4. Working longer hours on fewer days can make people tired.",
+          "options": [
+            {
+              "label": "A",
+              "html": "Henry Ford"
+            },
+            {
+              "label": "B",
+              "html": "Laura Mendez"
+            },
+            {
+              "label": "C",
+              "html": "Tom Erikson"
+            },
+            {
+              "label": "D",
+              "html": "Priya Shah"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn E: Mendez nói tuần “nén” (<i>compressed</i>) <i>often leads to tiredness</i>. Tên Mendez xuất hiện ở cả đoạn C và E; dạng bài này cần quét tên người khắp bài.",
+          "tags": [
+            "reading",
+            "matching-features"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-5",
+          "type": "mcq",
+          "stem_html": "Questions 5–9: Do the following statements agree with the claims of the writer? Choose YES, NO or NOT GIVEN.<br><br>5. The five-day working week has existed for several centuries.",
+          "options": [
+            {
+              "label": "YES",
+              "html": ""
+            },
+            {
+              "label": "NO",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NO",
+          "explain_html": "Đoạn A: <i>less than a century old</i>. Ngược với câu đề nên là NO.",
+          "tags": [
+            "reading",
+            "ynng"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-6",
+          "type": "mcq",
+          "stem_html": "6. The UK trial was larger than any previous four-day-week experiment.",
+          "options": [
+            {
+              "label": "YES",
+              "html": ""
+            },
+            {
+              "label": "NO",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Bài nói đây là thí nghiệm <i>best-known</i> (nổi tiếng nhất), không nói là lớn nhất. Đừng nhầm hai ý này.",
+          "tags": [
+            "reading",
+            "ynng"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-7",
+          "type": "mcq",
+          "stem_html": "7. Governments should make the four-day week compulsory.",
+          "options": [
+            {
+              "label": "YES",
+              "html": ""
+            },
+            {
+              "label": "NO",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NO",
+          "explain_html": "Đoạn F: <i>It would be a mistake for governments to force a four-day week on all employers</i>.",
+          "tags": [
+            "reading",
+            "ynng"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-8",
+          "type": "mcq",
+          "stem_html": "8. Some organisations could work fewer hours without their results suffering.",
+          "options": [
+            {
+              "label": "YES",
+              "html": ""
+            },
+            {
+              "label": "NO",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "YES",
+          "explain_html": "Đoạn F: <i>many organisations could reduce working hours without harming their results</i>.",
+          "tags": [
+            "reading",
+            "ynng"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-9",
+          "type": "mcq",
+          "stem_html": "9. Employees on a four-day week should receive a higher hourly wage.",
+          "options": [
+            {
+              "label": "YES",
+              "html": ""
+            },
+            {
+              "label": "NO",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Tác giả không bày tỏ quan điểm về mức lương theo giờ. Bài chỉ nói trong thử nghiệm ở Anh, lương không bị cắt.",
+          "tags": [
+            "reading",
+            "ynng"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-10",
+          "type": "short",
+          "stem_html": "Questions 10–13: Complete the sentences. Choose ONE WORD ONLY from the passage.<br><br>10. Employees in the UK trial received no reduction in their ______.",
+          "answer": [
+            "pay"
+          ],
+          "explain_html": "Đoạn B: <i>without any cut in pay</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-11",
+          "type": "short",
+          "stem_html": "11. Staff in the trial reported less ______ and fewer sick days.",
+          "answer": [
+            "stress"
+          ],
+          "explain_html": "Đoạn B: <i>lower levels of stress and fewer sick days</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-12",
+          "type": "short",
+          "stem_html": "12. Hospitals and shops would need to hire more ______ to cover the extra day.",
+          "answer": [
+            "staff"
+          ],
+          "explain_html": "Đoạn D: <i>covering the missing hours would require hiring more staff</i>.",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        },
+        {
+          "id": "ielts-r2-002-13",
+          "type": "short",
+          "stem_html": "13. Some companies ______ days off so that they remain open five days a week.",
+          "answer": [
+            "stagger"
+          ],
+          "explain_html": "Đoạn E: <i>Others stagger days off</i> (xếp ngày nghỉ so le).",
+          "tags": [
+            "reading",
+            "sentence-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Is Four the New Five?",
+        "html": "<p><b>A</b> The idea that people should work five days a week is less than a century old. In 1926, the American car maker Henry Ford introduced a five-day, forty-hour week in his factories, arguing that workers with more free time would buy more products. Today, a growing number of companies are asking whether the time has come for another reduction.</p>\n<p><b>B</b> The best-known recent experiment took place in the United Kingdom in 2022, when around sixty companies allowed their staff to work four days a week for six months without any cut in pay. The trial was organised by a non-profit group and studied by researchers from several universities. At the end, most of the companies chose to continue with the shorter week, and staff reported lower levels of stress and fewer sick days.</p>\n<p><b>C</b> Supporters argue that the benefits go beyond happier employees. Economist Laura Mendez points out that when people have less time, they tend to cut unnecessary meetings and focus on the tasks that matter. \"Many office workers are only truly productive for a few hours a day,\" she says. \"A shorter week forces organisations to remove waste.\" Psychologist Tom Erikson adds that the extra day off gives people time for exercise and family, which in turn improves their concentration at work.</p>\n<p><b>D</b> Critics, however, warn that the model does not suit every industry. Hospitals, schools and shops cannot simply close for an extra day, and covering the missing hours would require hiring more staff. Business consultant Priya Shah argues that the trials so far have mainly involved small office-based firms that chose to take part, so the results may not apply to the wider economy. \"Companies that volunteer for an experiment like this are usually the ones that expect it to work,\" she says.</p>\n<p><b>E</b> There are also different ways of reducing working time. Some companies give everyone the same day off, usually Friday. Others stagger days off so that the business stays open five days a week. A few have tried a \"compressed\" week, in which employees work the same number of hours in four longer days, but Mendez says this approach often leads to tiredness and loses many of the benefits.</p>\n<p><b>F</b> In my view, the evidence so far is encouraging but incomplete. It would be a mistake for governments to force a four-day week on all employers. However, the trials suggest that many organisations could reduce working hours without harming their results, and for them, the experiment is clearly worth trying.</p>"
+      }
+    },
+    {
+      "id": "ielts-r3-001",
+      "section": "reading",
+      "chapter": "passage-3",
+      "topic": "p3-mixed",
+      "questions": [
+        {
+          "id": "ielts-r3-001-1",
+          "type": "mcq",
+          "stem_html": "Questions 1–5: Choose the correct letter, A, B, C or D.<br><br>1. Pfungst discovered that Clever Hans",
+          "options": [
+            {
+              "label": "A",
+              "html": "had been trained by his owner to cheat."
+            },
+            {
+              "label": "B",
+              "html": "was responding to signals from his questioner."
+            },
+            {
+              "label": "C",
+              "html": "could count only small numbers."
+            },
+            {
+              "label": "D",
+              "html": "performed better without an audience."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn A: con ngựa phản ứng với <i>tiny, unconscious changes in the posture and facial expression of his questioner</i>. Chữ <i>unconscious</i> cho thấy không ai cố tình gian lận, nên (A) sai. (D) ngược với bài.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-2",
+          "type": "mcq",
+          "stem_html": "2. According to paragraph C, how accurately animals compare two quantities depends on",
+          "options": [
+            {
+              "label": "A",
+              "html": "the difference between the two groups."
+            },
+            {
+              "label": "B",
+              "html": "the ratio between the two groups."
+            },
+            {
+              "label": "C",
+              "html": "the species of animal."
+            },
+            {
+              "label": "D",
+              "html": "the amount of training they receive."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>depends not on the absolute difference … but on their ratio</i>. (A) là bẫy được bài phủ định trực tiếp.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-3",
+          "type": "mcq",
+          "stem_html": "3. Why does the writer mention that Weber's law appears in many animals?",
+          "options": [
+            {
+              "label": "A",
+              "html": "to suggest that number sense has an ancient origin"
+            },
+            {
+              "label": "B",
+              "html": "to show that fish are as intelligent as monkeys"
+            },
+            {
+              "label": "C",
+              "html": "to criticise earlier experiments"
+            },
+            {
+              "label": "D",
+              "html": "to explain how children learn mathematics"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "<i>which suggests that the underlying mechanism evolved long ago</i>: cơ chế có nguồn gốc rất xa xưa. Câu hỏi mục đích của tác giả thường có đáp án nằm ở mệnh đề ngay sau dữ kiện.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-4",
+          "type": "mcq",
+          "stem_html": "4. What did critics say about Alex the parrot?",
+          "options": [
+            {
+              "label": "A",
+              "html": "His results had been invented."
+            },
+            {
+              "label": "B",
+              "html": "His training made him unlike wild parrots."
+            },
+            {
+              "label": "C",
+              "html": "He could only recognise colours."
+            },
+            {
+              "label": "D",
+              "html": "He could count well beyond six."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn D: <i>Alex had received thousands of hours of training … his abilities told us little about parrots in the wild</i>.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-5",
+          "type": "mcq",
+          "stem_html": "5. What is the main point of paragraph G?",
+          "options": [
+            {
+              "label": "A",
+              "html": "Humans are born with exact number skills."
+            },
+            {
+              "label": "B",
+              "html": "Symbols allow humans to represent exact quantities."
+            },
+            {
+              "label": "C",
+              "html": "Some languages have too many number words."
+            },
+            {
+              "label": "D",
+              "html": "Animals are able to learn written numerals."
+            }
+          ],
+          "answer": "B",
+          "explain_html": "<i>What appears to be uniquely human is the use of symbols … that allow us to represent exact quantities</i>. (A) sai vì khả năng bẩm sinh chỉ là <b>ước lượng</b>.",
+          "tags": [
+            "reading",
+            "mcq-reading"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-6",
+          "type": "mcq",
+          "stem_html": "Questions 6–9: Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.<br><br>6. Oskar Pfungst was a member of the original panel of experts.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "NOT GIVEN",
+          "explain_html": "Bài nhắc tới hội đồng chuyên gia và Pfungst riêng rẽ, không nói ông có trong hội đồng ban đầu hay không.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-7",
+          "type": "mcq",
+          "stem_html": "7. Lions decide whether to attack partly by comparing group sizes.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "TRUE",
+          "explain_html": "Đoạn E: sư tử <i>compare the number of roars they hear with the number of lions in their own group before deciding whether to attack</i>.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-8",
+          "type": "mcq",
+          "stem_html": "8. All researchers accept that the bees in the 2018 study understood the concept of zero.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "FALSE",
+          "explain_html": "Đoạn F: <i>Some researchers remain cautious</i>, tức là không phải ai cũng chấp nhận. Từ tuyệt đối <i>All</i> là dấu hiệu cần kiểm tra kỹ.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-9",
+          "type": "mcq",
+          "stem_html": "9. Adults in communities without words for large numbers can easily match exact large quantities.",
+          "options": [
+            {
+              "label": "TRUE",
+              "html": ""
+            },
+            {
+              "label": "FALSE",
+              "html": ""
+            },
+            {
+              "label": "NOT GIVEN",
+              "html": ""
+            }
+          ],
+          "answer": "FALSE",
+          "explain_html": "Đoạn G: <i>adults find it difficult to match exact quantities larger than that</i>.",
+          "tags": [
+            "reading",
+            "tfng"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-10",
+          "type": "mcq",
+          "stem_html": "Questions 10–13: Complete the summary using the list of words A–H.<br><br>Many animals have a number sense that is largely <b>(10)</b> ______ and follows Weber's law.",
+          "options": [
+            {
+              "label": "A",
+              "html": "approximate"
+            },
+            {
+              "label": "B",
+              "html": "precise"
+            },
+            {
+              "label": "C",
+              "html": "brain"
+            },
+            {
+              "label": "D",
+              "html": "pulses"
+            },
+            {
+              "label": "E",
+              "html": "symbols"
+            },
+            {
+              "label": "F",
+              "html": "roars"
+            },
+            {
+              "label": "G",
+              "html": "training"
+            },
+            {
+              "label": "H",
+              "html": "colours"
+            }
+          ],
+          "answer": "A",
+          "explain_html": "Đoạn C: <i>Much of this ability is approximate</i>.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-11",
+          "type": "mcq",
+          "stem_html": "Some animals, such as Alex the parrot, can make more <b>(11)</b> ______ judgements about small numbers.",
+          "options": [
+            {
+              "label": "A",
+              "html": "approximate"
+            },
+            {
+              "label": "B",
+              "html": "precise"
+            },
+            {
+              "label": "C",
+              "html": "brain"
+            },
+            {
+              "label": "D",
+              "html": "pulses"
+            },
+            {
+              "label": "E",
+              "html": "symbols"
+            },
+            {
+              "label": "F",
+              "html": "roars"
+            },
+            {
+              "label": "G",
+              "html": "training"
+            },
+            {
+              "label": "H",
+              "html": "colours"
+            }
+          ],
+          "answer": "B",
+          "explain_html": "Đoạn D: <i>capable of more precise judgements with small numbers</i>.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-12",
+          "type": "mcq",
+          "stem_html": "Female frogs may prefer males whose calls contain more <b>(12)</b> ______.",
+          "options": [
+            {
+              "label": "A",
+              "html": "approximate"
+            },
+            {
+              "label": "B",
+              "html": "precise"
+            },
+            {
+              "label": "C",
+              "html": "brain"
+            },
+            {
+              "label": "D",
+              "html": "pulses"
+            },
+            {
+              "label": "E",
+              "html": "symbols"
+            },
+            {
+              "label": "F",
+              "html": "roars"
+            },
+            {
+              "label": "G",
+              "html": "training"
+            },
+            {
+              "label": "H",
+              "html": "colours"
+            }
+          ],
+          "answer": "D",
+          "explain_html": "Đoạn E: <i>the number of pulses in a male's call</i>. F (roars) là của sư tử, là bẫy.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        },
+        {
+          "id": "ielts-r3-001-13",
+          "type": "mcq",
+          "stem_html": "Research on bees suggests that a large <b>(13)</b> ______ may not be necessary for numerical abilities.",
+          "options": [
+            {
+              "label": "A",
+              "html": "approximate"
+            },
+            {
+              "label": "B",
+              "html": "precise"
+            },
+            {
+              "label": "C",
+              "html": "brain"
+            },
+            {
+              "label": "D",
+              "html": "pulses"
+            },
+            {
+              "label": "E",
+              "html": "symbols"
+            },
+            {
+              "label": "F",
+              "html": "roars"
+            },
+            {
+              "label": "G",
+              "html": "training"
+            },
+            {
+              "label": "H",
+              "html": "colours"
+            }
+          ],
+          "answer": "C",
+          "explain_html": "Đoạn F: <i>numerical abilities may not require a large brain</i>.",
+          "tags": [
+            "reading",
+            "summary-completion"
+          ]
+        }
+      ],
+      "stimulus": {
+        "kind": "passage",
+        "title": "Counting Without Words",
+        "html": "<p><b>A</b> In the early twentieth century, a horse in Berlin named Clever Hans became famous for apparently solving arithmetic problems. Asked to add five and three, Hans would tap his hoof eight times. Crowds were astonished, and a panel of experts initially found no evidence of trickery. It was the psychologist Oskar Pfungst who eventually showed that Hans could not count at all. Instead, the horse was reacting to tiny, unconscious changes in the posture and facial expression of his questioner, who relaxed slightly when the correct number of taps was reached. When Hans could not see anyone who knew the answer, his performance collapsed.</p>\n<p><b>B</b> The case of Clever Hans made scientists deeply suspicious of claims about animal intelligence, and for decades the idea that animals might understand numbers was treated with caution. Yet carefully controlled experiments over the past fifty years have shown that many species possess what researchers call a \"number sense\": an ability to judge quantities without language or symbols.</p>\n<p><b>C</b> Much of this ability is approximate. When monkeys, fish or young children are asked to choose the larger of two groups of dots, their accuracy depends not on the absolute difference between the groups but on their ratio. Distinguishing eight dots from sixteen is easy; distinguishing fifteen from sixteen is very hard, even though the second pair differs by only one. This pattern, known as Weber's law, appears across a remarkable range of animals, which suggests that the underlying mechanism evolved long ago.</p>\n<p><b>D</b> Some animals, however, appear capable of more precise judgements with small numbers. In a well-known series of studies, the psychologist Irene Pepperberg trained an African grey parrot named Alex to say the number of objects on a tray, up to six. Alex could also answer questions such as \"How many green blocks?\" when the tray held blocks of several colours. Critics pointed out that Alex had received thousands of hours of training and argued that his abilities told us little about parrots in the wild. Pepperberg accepted that the training was unusual but maintained that it revealed abilities which the bird's brain must already have possessed.</p>\n<p><b>E</b> Why would animals need a sense of number at all? In the wild, the answer is often survival. Lions approaching a rival group appear to compare the number of roars they hear with the number of lions in their own group before deciding whether to attack. Bees can be trained to fly past a set number of landmarks to find food. And the females of some frog species choose mates according to the number of pulses in a male's call, since a longer call suggests a stronger male.</p>\n<p><b>F</b> Perhaps the most surprising recent evidence comes from insects. In 2018, researchers in Australia reported that honeybees could learn the concept of zero, understanding that an empty set is smaller than a set containing one item. Since bees have fewer than a million brain cells, compared with around eighty-six billion in humans, the finding suggests that numerical abilities may not require a large brain. Some researchers remain cautious, noting that the bees might have been responding to other features of the images, such as the total area covered by shapes. The authors, however, say they controlled for such factors.</p>\n<p><b>G</b> What does all this mean for human mathematics? Most researchers agree that our approximate number sense is inherited from our animal ancestors. What appears to be uniquely human is the use of symbols, words and written numerals, that allow us to represent exact quantities of any size. Without such symbols, even humans struggle: studies of communities whose languages have no words for numbers above three or four have found that adults find it difficult to match exact quantities larger than that.</p>"
+      }
     }
   ]
 }

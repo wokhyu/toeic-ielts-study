@@ -48,6 +48,10 @@ export function checkBank(
           if (!labels.includes(q.answer)) errors.push(`${at}: answer "${q.answer}" is not an option`);
         }
         if (!set.stimulus && !q.stem_html.trim()) errors.push(`${at}: needs a stem or a shared stimulus`);
+        // The grader reads "," as a decimal point (on-tap-11 convention), so 24,000 would mean 24.
+        if (q.type === 'short' && q.answer.some((a) => /\d,\d{3}\b/.test(a))) {
+          errors.push(`${at}: write numbers without thousands separators (24000, not 24,000)`);
+        }
         // Stand-alone questions (Part 5) must not repeat; questions about a passage often share wording.
         const stem = q.stem_html.trim().toLowerCase();
         if (!set.stimulus && stem.length > 30) {
