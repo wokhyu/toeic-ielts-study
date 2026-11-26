@@ -4,30 +4,41 @@ import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap } from '../../lib/useAsync.ts';
+import { useBank } from './context.ts';
 import { hasAnswer, idsFrom, loadQuestions, type OtQuestion, type Response, type Reveal } from './data.ts';
 import { QuestionView } from './QuestionView.tsx';
+import { StimulusView } from './StimulusView.tsx';
 
 const BATCH = 20;
 
-/** Keyed by topic so every topic starts with fresh state. */
-export function OtPracticePage() {
-  const topicId = Number(useParams().topicId);
-  return <TopicPractice key={topicId} topicId={topicId} />;
+/** Practice by topic (`chu-de/:topicId`) or by tag (`the/:tag`). Keyed so each one starts fresh. */
+export function PracticePage() {
+  const params = useParams();
+  const tag = params.tag;
+  const topicId = tag ? undefined : Number(params.topicId);
+  return <Practice key={tag ? `tag:${tag}` : `topic:${topicId}`} tag={tag} topicId={topicId} />;
 }
 
-function TopicPractice({ topicId }: { topicId: number }) {
+function Practice({ tag, topicId }: { tag?: string; topicId?: number }) {
+  const { course, base } = useBank();
   const [queue, setQueue] = useState<OtQuestion[]>([]);
   const [offset, setOffset] = useState(0);
   const [pos, setPos] = useState(0);
-  const [topicName, setTopicName] = useState('');
+  const [title, setTitle] = useState(tag ?? '');
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   // State updates happen only after the request resolves, so this is safe to call from an effect.
   const fetchBatch = useCallback(
     (from: number) =>
-      Promise.resolve(db().rpc('ot_topic_question_ids', { p_topic: topicId, p_limit: BATCH, p_offset: from }))
-        .then((res) => loadQuestions(idsFrom(unwrap(res), 'ot_topic_question_ids')))
+      Promise.resolve(
+        tag
+          ? db().rpc('ot_tag_question_ids', { p_course: course, p_tag: tag, p_limit: BATCH })
+          : db().rpc('ot_topic_question_ids', { p_topic: topicId, p_limit: BATCH, p_offset: from }),
+      )
+        .then((res) =>
+          loadQuestions(idsFrom(unwrap(res), tag ? 'ot_tag_question_ids' : 'ot_topic_question_ids')),
+        )
         .then(
           (questions) => {
             setQueue(questions);
@@ -37,17 +48,19 @@ function TopicPractice({ topicId }: { topicId: number }) {
           (e: unknown) => setError(errorMessage(e)),
         )
         .finally(() => setLoading(false)),
-    [topicId],
+    [course, tag, topicId],
   );
 
   useEffect(() => {
     void fetchBatch(0);
-    void db()
-      .from('ot_topics')
-      .select('name')
-      .eq('id', topicId)
-      .maybeSingle()
-      .then(({ data }) => setTopicName((data?.name as string) ?? ''));
+    if (topicId !== undefined) {
+      void db()
+        .from('ot_topics')
+        .select('name')
+        .eq('id', topicId)
+        .maybeSingle()
+        .then(({ data }) => setTitle((data?.name as string) ?? ''));
+    }
   }, [fetchBatch, topicId]);
 
   const next = () => {
@@ -56,7 +69,7 @@ function TopicPractice({ topicId }: { topicId: number }) {
       return;
     }
     setLoading(true);
-    void fetchBatch(queue.length < BATCH ? 0 : offset + BATCH);
+    void fetchBatch(tag || queue.length < BATCH ? 0 : offset + BATCH);
   };
 
   const q = queue[pos];
@@ -64,16 +77,16 @@ function TopicPractice({ topicId }: { topicId: number }) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-3 text-sm">
-        <Link to="/c/on-tap-11" className="text-indigo-700 hover:underline">
+        <Link to={base} className="text-indigo-700 hover:underline">
           ← Chủ đề
         </Link>
-        <span className="font-medium">{topicName}</span>
+        <span className="font-medium">{title}</span>
       </div>
       {error && <ErrorBox message={error} />}
       {loading ? (
         <Spinner />
       ) : !q ? (
-        <Card>Chủ đề này chưa có câu hỏi.</Card>
+        <Card>Chưa có câu hỏi cho phần này.</Card>
       ) : (
         <PracticeCard key={q.id} q={q} index={offset + pos + 1} onNext={next} />
       )}
@@ -81,9 +94,10 @@ function TopicPractice({ topicId }: { topicId: number }) {
   );
 }
 
-/** Keyed by question id, so the answer and solution reset for each new question. */
+/** Keyed by question id, so the answer and explanation reset for each new question. */
 function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNext(): void }) {
   const { session } = useAuth();
+  const { course } = useBank();
   const userId = session?.user.id;
   const [response, setResponse] = useState<Response>(null);
   const [reveal, setReveal] = useState<Reveal | null>(null);
@@ -121,30 +135,39 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
     else setBookmarked(Boolean(data));
   };
 
+  const passage = q.stimulus?.kind === 'passage';
+  const checkLabel =
+    q.type === 'essay' ? (course === 'on-tap-11' ? 'Xem lời giải' : 'Xem giải thích') : 'Kiểm tra';
+
   return (
     <Card>
-      <QuestionView q={q} index={index} response={response} onChange={setResponse} reveal={reveal} />
-      {error && (
-        <div className="mt-3">
-          <ErrorBox message={error} />
+      <div className={passage ? 'grid gap-4 md:grid-cols-2' : 'space-y-4'}>
+        {q.stimulus && <StimulusView stimulus={q.stimulus} showTranscript={Boolean(reveal)} />}
+        <div>
+          <QuestionView q={q} index={index} response={response} onChange={setResponse} reveal={reveal} />
+          {error && (
+            <div className="mt-3">
+              <ErrorBox message={error} />
+            </div>
+          )}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {!reveal ? (
+              <Button onClick={() => void check()} disabled={busy || !hasAnswer(q, response)}>
+                {checkLabel}
+              </Button>
+            ) : (
+              <Button onClick={onNext}>Câu tiếp</Button>
+            )}
+            {!reveal && (
+              <Button variant="ghost" onClick={onNext}>
+                Bỏ qua
+              </Button>
+            )}
+            <Button variant="ghost" onClick={() => void toggleBookmark()}>
+              {bookmarked ? '★ Đã đánh dấu' : '☆ Đánh dấu'}
+            </Button>
+          </div>
         </div>
-      )}
-      <div className="mt-4 flex flex-wrap gap-2">
-        {!reveal ? (
-          <Button onClick={() => void check()} disabled={busy || !hasAnswer(q, response)}>
-            {q.type === 'essay' ? 'Xem lời giải' : 'Kiểm tra'}
-          </Button>
-        ) : (
-          <Button onClick={onNext}>Câu tiếp</Button>
-        )}
-        {!reveal && (
-          <Button variant="ghost" onClick={onNext}>
-            Bỏ qua
-          </Button>
-        )}
-        <Button variant="ghost" onClick={() => void toggleBookmark()}>
-          {bookmarked ? '★ Đã đánh dấu' : '☆ Đánh dấu'}
-        </Button>
       </div>
     </Card>
   );

@@ -1,15 +1,23 @@
 import { useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button, Card, ErrorBox, Field, inputClass, Spinner } from '../../components/ui.tsx';
+import { Badge, Button, Card, ErrorBox, Field, inputClass, Spinner } from '../../components/ui.tsx';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { useAsync } from '../../lib/useAsync.ts';
-import { loadTopicTree, toTree, TYPE_LABEL, type QuestionType } from './data.ts';
+import { useBank } from './context.ts';
+import { loadMockTests, loadTopicTree, toTree, TYPE_LABEL, type QuestionType } from './data.ts';
 
-const TYPES: QuestionType[] = ['mcq', 'truefalse', 'short'];
+const OT_TYPES: QuestionType[] = ['mcq', 'truefalse', 'short'];
 
-export function OtExamSetupPage() {
+export function ExamSetupPage() {
   const navigate = useNavigate();
-  const load = useCallback(async () => toTree(await loadTopicTree()), []);
+  const { course, base } = useBank();
+  const load = useCallback(async () => {
+    const [rows, mocks] = await Promise.all([
+      loadTopicTree(course),
+      course === 'on-tap-11' ? Promise.resolve([]) : loadMockTests(course),
+    ]);
+    return { tree: toTree(rows), mocks };
+  }, [course]);
   const { data, loading, error } = useAsync(load);
   const [topics, setTopics] = useState<Set<number>>(new Set());
   const [count, setCount] = useState(20);
@@ -28,6 +36,15 @@ export function OtExamSetupPage() {
     return next;
   };
 
+  const startMock = async (testId: string) => {
+    setBusy(true);
+    setStartError(null);
+    const { data: id, error: err } = await db().rpc('ot_start_mock', { p_test: testId });
+    setBusy(false);
+    if (err) setStartError(errorMessage(err));
+    else navigate(`${base}/thi-thu/${id}`);
+  };
+
   const start = async () => {
     setBusy(true);
     setStartError(null);
@@ -35,7 +52,7 @@ export function OtExamSetupPage() {
       p_topic_ids: [...topics],
       p_count: count,
       p_minutes: minutes,
-      p_types: [...types],
+      p_types: course === 'on-tap-11' ? [...types] : ['mcq', 'short'],
     });
     setBusy(false);
     if (err) {
@@ -44,15 +61,40 @@ export function OtExamSetupPage() {
       );
       return;
     }
-    navigate(`/c/on-tap-11/thi-thu/${id}`);
+    navigate(`${base}/thi-thu/${id}`);
   };
 
   return (
     <div className="space-y-4">
+      {(data?.mocks ?? []).length > 0 && (
+        <Card>
+          <h2 className="mb-1 font-semibold">Đề thi thử</h2>
+          <p className="mb-3 text-sm text-slate-600">
+            Làm như thi thật: bấm giờ, mỗi bài nghe chỉ phát 1 lần. Điểm quy đổi là ước lượng và tự lưu vào
+            biểu đồ điểm.
+          </p>
+          <ul className="divide-y divide-slate-100">
+            {data?.mocks.map((m) => (
+              <li key={m.id} className="flex flex-wrap items-center gap-3 py-2 text-sm">
+                <span className="flex-1 font-medium">{m.title}</span>
+                {m.week && <Badge>Tuần {m.week}</Badge>}
+                <span className="text-slate-500">
+                  {m.minutes} phút · {m.sections.map((s) => s.label).join(' + ')}
+                </span>
+                <Button onClick={() => void startMock(m.id)} disabled={busy}>
+                  Bắt đầu
+                </Button>
+              </li>
+            ))}
+          </ul>
+        </Card>
+      )}
       <Card>
-        <h2 className="mb-3 font-semibold">1. Chọn chủ đề</h2>
+        <h2 className="mb-3 font-semibold">
+          {course === 'on-tap-11' ? '1. Chọn chủ đề' : 'Tự tạo bài thi: chọn chủ đề'}
+        </h2>
         <div className="space-y-4">
-          {(data ?? []).map((s) => (
+          {(data?.tree ?? []).map((s) => (
             <div key={s.id}>
               <p className="mb-1 text-sm font-semibold">{s.name}</p>
               {s.chapters.map((c) => {
@@ -116,20 +158,22 @@ export function OtExamSetupPage() {
             onChange={(e) => setMinutes(Number(e.target.value))}
           />
         </Field>
-        <div className="text-sm">
-          <span className="mb-1 block font-medium text-slate-700">Dạng câu</span>
-          {TYPES.map((t) => (
-            <label key={t} className="mr-3 inline-flex items-center gap-1">
-              <input
-                type="checkbox"
-                className="accent-indigo-600"
-                checked={types.has(t)}
-                onChange={() => setTypes((set) => toggle(set, t))}
-              />
-              {TYPE_LABEL[t]}
-            </label>
-          ))}
-        </div>
+        {course === 'on-tap-11' && (
+          <div className="text-sm">
+            <span className="mb-1 block font-medium text-slate-700">Dạng câu</span>
+            {OT_TYPES.map((t) => (
+              <label key={t} className="mr-3 inline-flex items-center gap-1">
+                <input
+                  type="checkbox"
+                  className="accent-indigo-600"
+                  checked={types.has(t)}
+                  onChange={() => setTypes((set) => toggle(set, t))}
+                />
+                {TYPE_LABEL[t]}
+              </label>
+            ))}
+          </div>
+        )}
       </Card>
       {startError && <ErrorBox message={startError} />}
       <Button onClick={() => void start()} disabled={busy || topics.size === 0 || types.size === 0}>

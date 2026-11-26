@@ -63,6 +63,11 @@ export function RoadmapLayout({ program, preview }: { program: Program; preview:
             Hôm nay
           </NavLink>
         )}
+        {!preview && (
+          <NavLink to={`${base}/luyen`} className={tab}>
+            Luyện đề
+          </NavLink>
+        )}
         <NavLink to={`${base}/lo-trinh`} className={tab}>
           Lộ trình
         </NavLink>

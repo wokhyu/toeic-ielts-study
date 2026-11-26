@@ -1,13 +1,17 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
 import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { groupByStimulus } from '../../lib/bank.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
+import { useBank } from './context.ts';
 import { hasAnswer, idsFrom, loadQuestions, type Response } from './data.ts';
 import { QuestionView } from './QuestionView.tsx';
+import { StimulusView } from './StimulusView.tsx';
 
 interface Attempt {
   id: number;
+  mode: 'exam' | 'mock';
   deadline_at: string | null;
   submitted_at: string | null;
 }
@@ -18,9 +22,10 @@ function formatClock(ms: number) {
   return `${m}:${String(s % 60).padStart(2, '0')}`;
 }
 
-export function OtExamPage() {
+export function ExamPage() {
   const attemptId = Number(useParams().attemptId);
   const navigate = useNavigate();
+  const { base } = useBank();
   const [responses, setResponses] = useState<Record<number, Response>>({});
   const [now, setNow] = useState(() => Date.now());
   const [saveError, setSaveError] = useState<string | null>(null);
@@ -29,7 +34,11 @@ export function OtExamPage() {
 
   const load = useCallback(async () => {
     const attempt = unwrap(
-      await db().from('ot_attempts').select('id, deadline_at, submitted_at').eq('id', attemptId).single(),
+      await db()
+        .from('ot_attempts')
+        .select('id, mode, deadline_at, submitted_at')
+        .eq('id', attemptId)
+        .single(),
     ) as Attempt;
     const ids = idsFrom(
       unwrap(await db().rpc('ot_attempt_questions', { p_attempt: attemptId })),
@@ -58,11 +67,10 @@ export function OtExamPage() {
       setSaveError(errorMessage(err));
       return;
     }
-    navigate(`/c/on-tap-11/ket-qua/${attemptId}`, { replace: true });
-  }, [attemptId, navigate]);
+    navigate(`${base}/ket-qua/${attemptId}`, { replace: true });
+  }, [attemptId, base, navigate]);
 
   const deadline = data?.attempt.deadline_at ? new Date(data.attempt.deadline_at).getTime() : null;
-
   const finished = Boolean(data?.attempt.submitted_at);
 
   // Tick the clock and submit automatically once time is up.
@@ -79,7 +87,7 @@ export function OtExamPage() {
   if (loading) return <Spinner />;
   if (error) return <ErrorBox message={error} />;
   if (!data) return null;
-  if (data.attempt.submitted_at) return <Navigate to={`/c/on-tap-11/ket-qua/${attemptId}`} replace />;
+  if (data.attempt.submitted_at) return <Navigate to={`${base}/ket-qua/${attemptId}`} replace />;
 
   const change = async (questionId: number, r: Response) => {
     setResponses((m) => ({ ...m, [questionId]: r }));
@@ -96,6 +104,7 @@ export function OtExamPage() {
   const answered = data.questions.filter(
     (q) => hasAnswer(q, responses[q.id] ?? null) && q.type !== 'essay',
   ).length;
+  const mock = data.attempt.mode === 'mock';
 
   return (
     <div className="space-y-4">
@@ -113,15 +122,29 @@ export function OtExamPage() {
         </Button>
       </Card>
       {saveError && <ErrorBox message={saveError} />}
-      {data.questions.map((q, i) => (
-        <Card key={q.id}>
-          <QuestionView
-            q={q}
-            index={i + 1}
-            response={responses[q.id] ?? null}
-            onChange={(r) => void change(q.id, r)}
-            disabled={submitting}
-          />
+      {groupByStimulus(data.questions).map((g) => (
+        <Card key={g.items[0].q.id}>
+          <div className={g.stimulus?.kind === 'passage' ? 'grid gap-4 md:grid-cols-2' : 'space-y-4'}>
+            {g.stimulus && (
+              <StimulusView
+                stimulus={g.stimulus}
+                exam={mock}
+                playKey={`plays:${attemptId}:${g.stimulus.id}`}
+              />
+            )}
+            <div className="space-y-5">
+              {g.items.map(({ q, index }) => (
+                <QuestionView
+                  key={q.id}
+                  q={q}
+                  index={index}
+                  response={responses[q.id] ?? null}
+                  onChange={(r) => void change(q.id, r)}
+                  disabled={submitting}
+                />
+              ))}
+            </div>
+          </div>
         </Card>
       ))}
     </div>
