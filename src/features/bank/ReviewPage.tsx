@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { Button, Card, Chip, EmptyState, ErrorBox, Spinner } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
@@ -47,12 +47,12 @@ export function ReviewPage() {
   return (
     <div className="space-y-4">
       <div className="flex gap-2">
-        <Button variant={tab === 'wrong' ? 'primary' : 'secondary'} onClick={() => setTab('wrong')}>
+        <Chip active={tab === 'wrong'} onClick={() => setTab('wrong')}>
           Câu làm sai
-        </Button>
-        <Button variant={tab === 'bookmarks' ? 'primary' : 'secondary'} onClick={() => setTab('bookmarks')}>
+        </Chip>
+        <Chip active={tab === 'bookmarks'} onClick={() => setTab('bookmarks')}>
           Câu đã đánh dấu
-        </Button>
+        </Chip>
       </div>
       {revealError && <ErrorBox message={revealError} />}
       {loading ? (
@@ -60,7 +60,14 @@ export function ReviewPage() {
       ) : error ? (
         <ErrorBox message={error} />
       ) : (data ?? []).length === 0 ? (
-        <Card>{tab === 'wrong' ? 'Chưa có câu nào làm sai.' : 'Chưa đánh dấu câu nào.'}</Card>
+        <EmptyState
+          title={tab === 'wrong' ? 'Chưa có câu nào làm sai' : 'Chưa đánh dấu câu nào'}
+          mood={tab === 'wrong' ? 'cheer' : 'happy'}
+        >
+          {tab === 'wrong'
+            ? 'Làm sai câu nào, câu đó sẽ hiện ở đây để bạn ôn lại.'
+            : 'Bấm “Đánh dấu” khi luyện tập để lưu câu hay hoặc câu khó.'}
+        </EmptyState>
       ) : (
         (data ?? []).map((q, i) => (
           <Card key={q.id}>

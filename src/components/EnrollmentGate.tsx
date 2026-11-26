@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../lib/auth-context.ts';
 import { db, errorMessage } from '../lib/supabase.ts';
 import { STATUS_LABEL, type CourseId } from '../lib/types.ts';
+import { Mascot } from './art/Mascot.tsx';
 import { Badge, Button, Card, ErrorBox } from './ui.tsx';
 
 export function EnrollButton({ course }: { course: CourseId }) {
@@ -38,15 +39,18 @@ export function EnrollmentGate({ course }: { course: CourseId }) {
   const info = courses.find((c) => c.id === course);
   const e = enrollmentFor(course);
   return (
-    <Card className="max-w-xl">
-      <h1 className="text-lg font-semibold">{info?.title ?? course}</h1>
-      <p className="mt-1 text-sm text-slate-600">
-        {e?.status === 'pending'
-          ? 'Yêu cầu của bạn đang chờ quản trị viên duyệt. Khi được duyệt, bạn sẽ vào được khóa học này.'
-          : 'Bạn chưa được duyệt vào khóa học này. Gửi yêu cầu để quản trị viên xem xét.'}
-      </p>
-      <div className="mt-4">
-        <EnrollButton course={course} />
+    <Card className="flex max-w-xl items-start gap-4">
+      <Mascot mood={e?.status === 'pending' ? 'sleepy' : 'thinking'} size={72} decorative />
+      <div>
+        <h1 className="text-lg font-semibold">{info?.title ?? course}</h1>
+        <p className="mt-1 text-sm text-ink-soft">
+          {e?.status === 'pending'
+            ? 'Yêu cầu của bạn đã được gửi và đang chờ quản trị viên duyệt. Bé Cú sẽ mở cửa ngay khi được duyệt nhé!'
+            : 'Bạn chưa được duyệt vào khóa học này. Gửi yêu cầu để quản trị viên xem xét.'}
+        </p>
+        <div className="mt-4">
+          <EnrollButton course={course} />
+        </div>
       </div>
     </Card>
   );

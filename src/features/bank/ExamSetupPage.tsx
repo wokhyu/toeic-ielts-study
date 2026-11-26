@@ -69,16 +69,16 @@ export function ExamSetupPage() {
       {(data?.mocks ?? []).length > 0 && (
         <Card>
           <h2 className="mb-1 font-semibold">Đề thi thử</h2>
-          <p className="mb-3 text-sm text-slate-600">
+          <p className="mb-3 text-sm text-ink-soft">
             Làm như thi thật: bấm giờ, mỗi bài nghe chỉ phát 1 lần. Điểm quy đổi là ước lượng và tự lưu vào
             biểu đồ điểm.
           </p>
-          <ul className="divide-y divide-slate-100">
+          <ul className="divide-y divide-line">
             {data?.mocks.map((m) => (
               <li key={m.id} className="flex flex-wrap items-center gap-3 py-2 text-sm">
                 <span className="flex-1 font-medium">{m.title}</span>
                 {m.week && <Badge>Tuần {m.week}</Badge>}
-                <span className="text-slate-500">
+                <span className="text-ink-muted">
                   {m.minutes} phút · {m.sections.map((s) => s.label).join(' + ')}
                 </span>
                 <Button onClick={() => void startMock(m.id)} disabled={busy}>
@@ -105,7 +105,7 @@ export function ExamSetupPage() {
                     <label className="flex items-center gap-2 text-sm font-medium">
                       <input
                         type="checkbox"
-                        className="accent-indigo-600"
+                        className="accent-brand"
                         checked={allOn}
                         onChange={() =>
                           setTopics((set) => {
@@ -119,14 +119,14 @@ export function ExamSetupPage() {
                     </label>
                     <div className="ml-6 grid gap-1 sm:grid-cols-2">
                       {c.topics.map((t) => (
-                        <label key={t.topic_id} className="flex items-center gap-2 text-sm text-slate-700">
+                        <label key={t.topic_id} className="flex items-center gap-2 text-sm text-ink-soft">
                           <input
                             type="checkbox"
-                            className="accent-indigo-600"
+                            className="accent-brand"
                             checked={topics.has(t.topic_id)}
                             onChange={() => setTopics((set) => toggle(set, t.topic_id))}
                           />
-                          {t.topic_name} <span className="text-xs text-slate-400">({t.total})</span>
+                          {t.topic_name} <span className="text-xs text-ink-faint">({t.total})</span>
                         </label>
                       ))}
                     </div>
@@ -160,12 +160,12 @@ export function ExamSetupPage() {
         </Field>
         {course === 'on-tap-11' && (
           <div className="text-sm">
-            <span className="mb-1 block font-medium text-slate-700">Dạng câu</span>
+            <span className="mb-1 block font-medium text-ink-soft">Dạng câu</span>
             {OT_TYPES.map((t) => (
               <label key={t} className="mr-3 inline-flex items-center gap-1">
                 <input
                   type="checkbox"
-                  className="accent-indigo-600"
+                  className="accent-brand"
                   checked={types.has(t)}
                   onChange={() => setTypes((set) => toggle(set, t))}
                 />

@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { Mascot } from '../../components/art/Mascot.tsx';
+import { Confetti } from '../../components/effects.tsx';
+import { IconArrowLeft, IconArrowRight, IconBookmark } from '../../components/icons.tsx';
+import { Button, Card, EmptyState, ErrorBox, Spinner } from '../../components/ui.tsx';
 import { tagLabel } from '../../content/bank.ts';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
@@ -11,6 +14,13 @@ import { QuestionView } from './QuestionView.tsx';
 import { StimulusView } from './StimulusView.tsx';
 
 const BATCH = 20;
+
+const PRAISE = ['Chính xác!', 'Giỏi quá!', 'Tuyệt vời!', 'Đúng rồi, tiếp nào!', 'Bé Cú phục bạn luôn!'];
+const NUDGE = [
+  'Chưa đúng rồi, xem giải thích nhé.',
+  'Sai một chút thôi, đọc lời giải rồi thử câu sau.',
+  'Không sao, câu này sẽ quay lại để bạn ôn.',
+];
 
 /** Practice by topic (`chu-de/:topicId`) or by tag (`the/:tag`). Keyed so each one starts fresh. */
 export function PracticePage() {
@@ -78,16 +88,18 @@ function Practice({ tag, topicId }: { tag?: string; topicId?: number }) {
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-3 text-sm">
-        <Link to={base} className="text-indigo-700 hover:underline">
-          ← Chủ đề
+        <Link to={base} className="inline-flex items-center gap-1 text-brand-ink hover:underline">
+          <IconArrowLeft size={15} /> Chủ đề
         </Link>
-        <span className="font-medium">{title}</span>
+        <span className="font-semibold text-ink">{title}</span>
       </div>
       {error && <ErrorBox message={error} />}
       {loading ? (
         <Spinner />
       ) : !q ? (
-        <Card>Chưa có câu hỏi cho phần này.</Card>
+        <EmptyState title="Phần này chưa có câu hỏi">
+          Bé Cú đang soạn thêm. Bạn quay lại danh sách chủ đề và chọn phần khác nhé.
+        </EmptyState>
       ) : (
         <PracticeCard key={q.id} q={q} index={offset + pos + 1} onNext={next} />
       )}
@@ -152,36 +164,61 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
   const checkLabel =
     q.type === 'essay' ? (course === 'on-tap-11' ? 'Xem lời giải' : 'Xem giải thích') : 'Kiểm tra';
 
+  const verdict = reveal && q.type !== 'essay' ? reveal.is_correct : null;
+
   return (
-    <Card>
-      <div className={passage ? 'grid gap-4 md:grid-cols-2' : 'space-y-4'}>
-        {q.stimulus && <StimulusView stimulus={q.stimulus} showTranscript={Boolean(reveal)} />}
-        <div>
-          <QuestionView q={q} index={index} response={response} onChange={setResponse} reveal={reveal} />
-          {error && (
-            <div className="mt-3">
-              <ErrorBox message={error} />
+    <div className={`relative ${verdict === false ? 'animate-shake' : ''}`}>
+      <Confetti fire={verdict === true ? index : 0} />
+      <Card>
+        <div className={passage ? 'grid gap-4 md:grid-cols-2' : 'space-y-4'}>
+          {q.stimulus && <StimulusView stimulus={q.stimulus} showTranscript={Boolean(reveal)} />}
+          <div>
+            <QuestionView q={q} index={index} response={response} onChange={setResponse} reveal={reveal} />
+            {verdict !== null && (
+              <div
+                className={`mt-4 flex items-center gap-3 rounded-2xl p-3 ${verdict ? 'bg-ok-soft' : 'bg-accent-soft'}`}
+                role="status"
+              >
+                <span className="animate-pop">
+                  <Mascot mood={verdict ? 'cheer' : 'oops'} size={48} decorative />
+                </span>
+                <p className={`text-sm font-medium ${verdict ? 'text-ok-ink' : 'text-accent-ink'}`}>
+                  {(verdict ? PRAISE : NUDGE)[index % (verdict ? PRAISE.length : NUDGE.length)]}
+                </p>
+              </div>
+            )}
+            {error && (
+              <div className="mt-3">
+                <ErrorBox message={error} />
+              </div>
+            )}
+            <div className="mt-4 flex flex-wrap gap-2">
+              {!reveal ? (
+                <Button onClick={() => void check()} disabled={busy || !hasAnswer(q, response)}>
+                  {checkLabel}
+                </Button>
+              ) : (
+                <Button onClick={onNext}>
+                  Câu tiếp <IconArrowRight size={16} />
+                </Button>
+              )}
+              {!reveal && (
+                <Button variant="ghost" onClick={onNext}>
+                  Bỏ qua
+                </Button>
+              )}
+              <Button
+                variant="ghost"
+                onClick={() => void toggleBookmark()}
+                aria-pressed={bookmarked}
+                className={bookmarked ? 'text-accent-ink' : ''}
+              >
+                <IconBookmark size={16} filled={bookmarked} /> {bookmarked ? 'Đã đánh dấu' : 'Đánh dấu'}
+              </Button>
             </div>
-          )}
-          <div className="mt-4 flex flex-wrap gap-2">
-            {!reveal ? (
-              <Button onClick={() => void check()} disabled={busy || !hasAnswer(q, response)}>
-                {checkLabel}
-              </Button>
-            ) : (
-              <Button onClick={onNext}>Câu tiếp</Button>
-            )}
-            {!reveal && (
-              <Button variant="ghost" onClick={onNext}>
-                Bỏ qua
-              </Button>
-            )}
-            <Button variant="ghost" onClick={() => void toggleBookmark()}>
-              {bookmarked ? '★ Đã đánh dấu' : '☆ Đánh dấu'}
-            </Button>
           </div>
         </div>
-      </div>
-    </Card>
+      </Card>
+    </div>
   );
 }

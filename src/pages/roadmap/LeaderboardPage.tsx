@@ -5,6 +5,7 @@ import { db } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
 import { useAuth } from '../../lib/auth-context.ts';
 import { useRoadmap } from './context.ts';
+import { IconFlame } from '../../components/icons.tsx';
 
 interface Row {
   user_id: string;
@@ -30,12 +31,12 @@ export function LeaderboardPage() {
 
   return (
     <Card className="overflow-x-auto">
-      <p className="mb-3 text-sm text-slate-600">
+      <p className="mb-3 text-sm text-ink-soft">
         Xếp theo chuỗi ngày học liên tiếp (streak), sau đó theo số nhiệm vụ đã xong. Chỉ tính thành viên đã
         được duyệt vào khóa.
       </p>
       <table className="w-full text-left text-sm">
-        <thead className="text-slate-500">
+        <thead className="text-ink-muted">
           <tr>
             <th className="p-2">#</th>
             <th className="p-2">Thành viên</th>
@@ -50,13 +51,28 @@ export function LeaderboardPage() {
           {(data ?? []).map((r, i) => (
             <tr
               key={r.user_id}
-              className={`border-t border-slate-100 ${r.user_id === session?.user.id ? 'bg-indigo-50' : ''}`}
+              className={`border-t border-line ${r.user_id === session?.user.id ? 'bg-brand-soft' : ''}`}
             >
-              <td className="p-2">{i + 1}</td>
+              <td className="p-2 font-semibold">
+                {i < 3 ? (
+                  <span
+                    className={`grid h-7 w-7 place-items-center rounded-full text-xs ${
+                      ['bg-butter text-ink', 'bg-muted text-ink', 'bg-accent-soft text-accent-ink'][i]
+                    }`}
+                    aria-label={`Hạng ${i + 1}`}
+                  >
+                    {i + 1}
+                  </span>
+                ) : (
+                  i + 1
+                )}
+              </td>
               <td className="p-2 font-medium">{r.display_name}</td>
               <td className="p-2">{r.track ?? '—'}</td>
               <td className="p-2">
-                <Badge color={r.streak > 0 ? 'yellow' : 'gray'}>🔥 {r.streak}</Badge>
+                <Badge color={r.streak > 0 ? 'coral' : 'gray'}>
+                  <IconFlame size={13} /> {r.streak} ngày
+                </Badge>
               </td>
               <td className="p-2">{r.tasks_done}</td>
               <td className="p-2">{r.active_days}</td>

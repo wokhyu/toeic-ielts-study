@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Navigate, useNavigate, useParams } from 'react-router-dom';
-import { Button, Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { IconClock } from '../../components/icons.tsx';
+import { Button, Card, ErrorBox, ProgressBar, Spinner } from '../../components/ui.tsx';
 import { groupByStimulus } from '../../lib/bank.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
@@ -108,18 +109,34 @@ export function ExamPage() {
 
   return (
     <div className="space-y-4">
-      <Card className="sticky top-2 z-10 flex flex-wrap items-center justify-between gap-3">
-        <span className="text-sm">
-          Đã làm {answered}/{data.questions.length} câu
-        </span>
-        {deadline && (
-          <span className={`font-mono text-lg ${deadline - now < 60_000 ? 'text-rose-600' : ''}`}>
-            {formatClock(deadline - now)}
+      <Card className="sticky top-16 z-20 space-y-2.5">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <span className="text-sm font-medium text-ink-soft">
+            Đã làm <b className="text-ink">{answered}</b>/{data.questions.length} câu
           </span>
-        )}
-        <Button onClick={() => void submit()} disabled={submitting}>
-          Nộp bài
-        </Button>
+          {deadline && (
+            <span
+              className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1 font-mono text-lg font-semibold ${
+                deadline - now < 60_000
+                  ? 'animate-pulse bg-bad-soft text-bad-ink'
+                  : deadline - now < 5 * 60_000
+                    ? 'bg-warn-soft text-warn-ink'
+                    : 'bg-brand-soft text-brand-ink'
+              }`}
+              role="timer"
+              aria-label={`Còn ${formatClock(deadline - now)}`}
+            >
+              <IconClock size={18} /> {formatClock(deadline - now)}
+            </span>
+          )}
+          <Button onClick={() => void submit()} disabled={submitting}>
+            Nộp bài
+          </Button>
+        </div>
+        <ProgressBar
+          value={data.questions.length ? (answered / data.questions.length) * 100 : 0}
+          label="Số câu đã làm"
+        />
       </Card>
       {saveError && <ErrorBox message={saveError} />}
       {groupByStimulus(data.questions).map((g) => (
