@@ -147,11 +147,14 @@ const bankCounts: string[] = [];
 for (const course of BANK_COURSES) {
   const bank = loadBank(course);
   errors.push(...bank.errors);
-  const n = bank.files.reduce(
-    (sum, f) => sum + f.file.sets.reduce((k, set) => k + set.questions.length, 0),
-    0,
-  );
-  bankCounts.push(`${course} ${n}`);
+  const count = (pool: string) =>
+    bank.files.reduce(
+      (sum, f) =>
+        sum + f.file.sets.filter((s) => s.pool === pool).reduce((k, s) => k + s.questions.length, 0),
+      0,
+    );
+  const mock = count('mock');
+  bankCounts.push(`${course} ${count('practice')}${mock ? ` + ${mock} mock` : ''}`);
 }
 
 if (errors.length > 0) {
