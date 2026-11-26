@@ -3,6 +3,7 @@ import { Link, Navigate, useLocation, useNavigate } from 'react-router-dom';
 import { Button, Card, ErrorBox, Field, inputClass } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage, isSupabaseConfigured } from '../../lib/supabase.ts';
+import { AuthHeader } from './AuthHeader.tsx';
 
 export function LoginPage() {
   const { session } = useAuth();
@@ -43,7 +44,7 @@ export function LoginPage() {
 
   return (
     <Card className="mx-auto max-w-sm">
-      <h1 className="mb-4 text-xl font-semibold">Đăng nhập</h1>
+      <AuthHeader mood="happy" title="Chào mừng quay lại!" subtitle="Đăng nhập để học tiếp cùng nhóm." />
       <form className="space-y-3" onSubmit={(e) => void submit(e)}>
         <Field label="Email">
           <input
@@ -64,16 +65,16 @@ export function LoginPage() {
           />
         </Field>
         {error && <ErrorBox message={error} />}
-        {resetSent && <p className="text-sm text-emerald-700">Đã gửi email đặt lại mật khẩu.</p>}
+        {resetSent && <p className="text-sm text-ok-ink">Đã gửi email đặt lại mật khẩu.</p>}
         <Button type="submit" className="w-full" disabled={busy || !isSupabaseConfigured}>
           Đăng nhập
         </Button>
       </form>
       <div className="mt-4 flex justify-between text-sm">
-        <button type="button" className="text-indigo-700 hover:underline" onClick={() => void forgot()}>
+        <button type="button" className="text-brand-ink hover:underline" onClick={() => void forgot()}>
           Quên mật khẩu
         </button>
-        <Link to="/dang-ky" className="text-indigo-700 hover:underline">
+        <Link to="/dang-ky" className="text-brand-ink hover:underline">
           Tạo tài khoản
         </Link>
       </div>

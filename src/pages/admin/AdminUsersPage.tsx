@@ -56,7 +56,7 @@ export function AdminUsersPage() {
         actions={
           <Link
             to="/admin/duyet-dap-an"
-            className="rounded-lg bg-white px-3 py-2 text-sm font-medium ring-1 ring-slate-300"
+            className="rounded-lg bg-surface px-3 py-2 text-sm font-medium ring-1 ring-line-strong"
           >
             Duyệt đáp án on-tap-11
           </Link>
@@ -67,9 +67,9 @@ export function AdminUsersPage() {
       <Card>
         <h2 className="mb-3 font-semibold">Yêu cầu chờ duyệt</h2>
         {pending.length === 0 ? (
-          <p className="text-sm text-slate-500">Không có yêu cầu nào.</p>
+          <p className="text-sm text-ink-muted">Không có yêu cầu nào.</p>
         ) : (
-          <ul className="divide-y divide-slate-100">
+          <ul className="divide-y divide-line">
             {pending.map(({ user, enrollment }) => (
               <li
                 key={`${user.id}-${enrollment.course_id}`}
@@ -78,12 +78,12 @@ export function AdminUsersPage() {
                 <div className="flex-1">
                   <Link
                     to={`/admin/nguoi-dung/${user.id}`}
-                    className="font-medium text-indigo-700 hover:underline"
+                    className="font-medium text-brand-ink hover:underline"
                   >
                     {user.display_name}
                   </Link>{' '}
-                  <span className="text-slate-500">{user.email}</span>
-                  <div className="text-slate-600">
+                  <span className="text-ink-muted">{user.email}</span>
+                  <div className="text-ink-soft">
                     {courseTitle(enrollment.course_id)} · gửi{' '}
                     {formatDateVN(toDateVN(enrollment.requested_at))}
                   </div>
@@ -112,7 +112,7 @@ export function AdminUsersPage() {
           />
         </div>
         <table className="w-full min-w-[640px] text-left text-sm">
-          <thead className="text-slate-500">
+          <thead className="text-ink-muted">
             <tr>
               <th className="p-2">Tên</th>
               <th className="p-2">Email</th>
@@ -123,20 +123,20 @@ export function AdminUsersPage() {
           </thead>
           <tbody>
             {filtered.map((u) => (
-              <tr key={u.id} className="border-t border-slate-100 align-top">
+              <tr key={u.id} className="border-t border-line align-top">
                 <td className="p-2">
                   <Link
                     to={`/admin/nguoi-dung/${u.id}`}
-                    className="font-medium text-indigo-700 hover:underline"
+                    className="font-medium text-brand-ink hover:underline"
                   >
                     {u.display_name || '(chưa đặt tên)'}
                   </Link>
                 </td>
-                <td className="p-2 text-slate-600">{u.email}</td>
+                <td className="p-2 text-ink-soft">{u.email}</td>
                 <td className="p-2">{u.role === 'admin' ? <Badge color="blue">Admin</Badge> : 'Học viên'}</td>
                 <td className="p-2">
                   <div className="flex flex-wrap gap-1">
-                    {u.enrollments.length === 0 && <span className="text-slate-400">—</span>}
+                    {u.enrollments.length === 0 && <span className="text-ink-faint">—</span>}
                     {u.enrollments.map((e) => (
                       <Badge key={e.course_id} color={STATUS_COLOR[e.status]}>
                         {e.course_id}
@@ -145,7 +145,7 @@ export function AdminUsersPage() {
                     ))}
                   </div>
                 </td>
-                <td className="p-2 text-slate-600">
+                <td className="p-2 text-ink-soft">
                   {u.last_sign_in_at ? formatDateVN(toDateVN(u.last_sign_in_at)) : '—'}
                 </td>
               </tr>

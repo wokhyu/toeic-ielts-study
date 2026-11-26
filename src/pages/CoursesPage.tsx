@@ -1,6 +1,10 @@
 import { Link } from 'react-router-dom';
 import { EnrollButton } from '../components/EnrollmentGate.tsx';
-import { Card, PageHeader } from '../components/ui.tsx';
+import { CourseArt } from '../components/art/CourseArt.tsx';
+import { Mascot } from '../components/art/Mascot.tsx';
+import { IconArrowRight } from '../components/icons.tsx';
+import { buttonClass } from '../components/styles.ts';
+import { Card } from '../components/ui.tsx';
 import { useAuth } from '../lib/auth-context.ts';
 import { enterPath, type Course } from '../lib/types.ts';
 
@@ -29,49 +33,70 @@ const FALLBACK: Course[] = [
   },
 ];
 
+const TAGLINE: Record<string, string> = {
+  toeic: 'Nghe & Đọc · 990 điểm',
+  ielts: '4 kỹ năng · Band 9',
+  'on-tap-11': 'Toán · Lý · Hóa',
+};
+
 export function CoursesPage() {
-  const { session, courses, enrollmentFor, isAdmin } = useAuth();
+  const { session, profile, courses, enrollmentFor, isAdmin } = useAuth();
   const list = courses.length > 0 ? courses : FALLBACK;
+  const name = profile?.display_name?.trim().split(/\s+/).pop();
 
   return (
-    <div>
-      <PageHeader
-        title="Khóa học"
-        subtitle={
-          session
-            ? 'Gửi yêu cầu vào khóa học. Quản trị viên duyệt xong là bạn vào học được.'
-            : 'Đăng ký tài khoản để gửi yêu cầu vào khóa học.'
-        }
-      />
-      <div className="grid gap-4 md:grid-cols-3">
+    <div className="space-y-6">
+      <Card variant="hero" className="flex items-center gap-4 overflow-hidden">
+        <span className="animate-float">
+          <Mascot mood={session ? 'cheer' : 'happy'} size={88} decorative />
+        </span>
+        <div>
+          <h1 className="text-2xl font-semibold tracking-tight text-ink">
+            {session ? `Chào ${name ?? 'bạn'}!` : 'Học nhóm cùng Bé Cú'}
+          </h1>
+          <p className="mt-1 text-sm text-ink-soft">
+            {session
+              ? 'Chọn khóa học để bắt đầu. Khóa mới cần quản trị viên duyệt trước khi vào học.'
+              : 'Lộ trình TOEIC, IELTS và ngân hàng câu hỏi lớp 11. Đăng ký tài khoản để gửi yêu cầu vào khóa học.'}
+          </p>
+        </div>
+      </Card>
+      <div className="grid gap-5 md:grid-cols-3">
         {list.map((c) => {
           const approved = isAdmin || enrollmentFor(c.id)?.status === 'approved';
           return (
-            <Card key={c.id} className="flex flex-col">
-              <h2 className="text-lg font-semibold">{c.title}</h2>
-              <p className="mt-1 flex-1 text-sm text-slate-600">{c.description}</p>
-              <div className="mt-4 flex flex-wrap items-center gap-3">
-                {session && approved && (
-                  <Link
-                    to={enterPath(c.id)}
-                    className="rounded-lg bg-indigo-600 px-3.5 py-2 text-sm font-medium text-white"
-                  >
-                    Vào học
-                  </Link>
-                )}
-                {session && !isAdmin && <EnrollButton course={c.id} />}
-                {!session && (
-                  <Link to="/dang-ky" className="text-sm font-medium text-indigo-700 underline">
-                    Đăng ký để học
-                  </Link>
-                )}
-                {c.kind === 'roadmap' && (
-                  <Link to={`/xem-truoc/${c.id}/lo-trinh`} className="text-sm text-slate-600 underline">
-                    Xem trước lộ trình
-                  </Link>
-                )}
+            <article
+              key={c.id}
+              className="group flex flex-col overflow-hidden rounded-[var(--radius-card)] bg-surface shadow-soft ring-1 ring-line transition hover:-translate-y-0.5 hover:shadow-lift"
+            >
+              <CourseArt course={c.id} className="h-28 w-full" />
+              <div className="flex flex-1 flex-col p-5">
+                <p className="text-xs font-medium tracking-wide text-accent-ink uppercase">{TAGLINE[c.id]}</p>
+                <h2 className="mt-1 text-lg font-semibold text-ink">{c.title}</h2>
+                <p className="mt-1 flex-1 text-sm text-ink-soft">{c.description}</p>
+                <div className="mt-4 flex flex-wrap items-center gap-3">
+                  {session && approved && (
+                    <Link to={enterPath(c.id)} className={buttonClass('primary')}>
+                      Vào học <IconArrowRight size={16} />
+                    </Link>
+                  )}
+                  {session && !isAdmin && <EnrollButton course={c.id} />}
+                  {!session && (
+                    <Link to="/dang-ky" className={buttonClass('primary')}>
+                      Đăng ký để học
+                    </Link>
+                  )}
+                  {c.kind === 'roadmap' && (
+                    <Link
+                      to={`/xem-truoc/${c.id}/lo-trinh`}
+                      className="text-sm font-medium text-brand-ink hover:underline"
+                    >
+                      Xem trước lộ trình
+                    </Link>
+                  )}
+                </div>
               </div>
-            </Card>
+            </article>
           );
         })}
       </div>

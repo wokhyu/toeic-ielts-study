@@ -1,6 +1,6 @@
 import { useCallback, useState, type FormEvent } from 'react';
 import { CartesianGrid, Legend, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
-import { Button, Card, ErrorBox, Field, inputClass, Spinner } from '../../components/ui.tsx';
+import { Button, Card, EmptyState, ErrorBox, Field, inputClass, Spinner } from '../../components/ui.tsx';
 import { formatDateVN, todayVN } from '../../lib/dates.ts';
 import { ieltsOverall } from '../../lib/scores.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
@@ -82,7 +82,7 @@ export function ScoresPage() {
         <p className="text-sm">
           Làm đề full test vào Thứ 7 tuần 4, 8, 12 rồi nhập điểm ở đây. Nguồn đề:{' '}
           <a
-            className="text-indigo-700 underline"
+            className="text-brand-ink underline"
             href={SOURCES[program].url}
             target="_blank"
             rel="noreferrer"
@@ -142,25 +142,65 @@ export function ScoresPage() {
       ) : error ? (
         <ErrorBox message={error} />
       ) : rows.length === 0 ? (
-        <Card>Chưa có lần thi thử nào.</Card>
+        <EmptyState title="Chưa có điểm thi thử nào" mood="thinking">
+          Làm đề thi thử trên web hoặc nhập điểm đề ngoài ở form phía trên. Biểu đồ tiến bộ sẽ hiện ở đây.
+        </EmptyState>
       ) : (
         <>
           <Card>
             <div className="h-64">
               <ResponsiveContainer width="100%" height="100%">
-                <LineChart data={chart} margin={{ left: -10, right: 10 }}>
-                  <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-                  <XAxis dataKey="label" fontSize={12} />
-                  <YAxis fontSize={12} domain={program === 'toeic' ? [0, 990] : [0, 9]} />
-                  <Tooltip />
-                  <Legend />
-                  <Line type="monotone" dataKey="total" name="Tổng" stroke="#4f46e5" strokeWidth={2} />
-                  {fields.map((f, i) => (
+                <LineChart data={chart} margin={{ top: 8, left: -10, right: 12 }}>
+                  <CartesianGrid vertical={false} stroke="var(--color-grid)" />
+                  <XAxis
+                    dataKey="label"
+                    fontSize={12}
+                    tick={{ fill: 'var(--color-ink-muted)' }}
+                    axisLine={{ stroke: 'var(--color-axis)' }}
+                    tickLine={false}
+                  />
+                  <YAxis
+                    fontSize={12}
+                    domain={program === 'toeic' ? [0, 990] : [0, 9]}
+                    tick={{ fill: 'var(--color-ink-muted)' }}
+                    axisLine={false}
+                    tickLine={false}
+                  />
+                  <Tooltip
+                    cursor={{ stroke: 'var(--color-axis)' }}
+                    contentStyle={{
+                      background: 'var(--color-surface)',
+                      border: '1px solid var(--color-line)',
+                      borderRadius: 12,
+                      boxShadow: 'var(--shadow-soft)',
+                      fontSize: 13,
+                    }}
+                    labelStyle={{ color: 'var(--color-ink-muted)' }}
+                    itemStyle={{ color: 'var(--color-ink)' }}
+                  />
+                  <Legend
+                    iconType="plainline"
+                    formatter={(value: string) => (
+                      <span style={{ color: 'var(--color-ink-soft)' }}>{value}</span>
+                    )}
+                  />
+                  {['total', ...fields].map((f, i) => (
                     <Line
                       key={f}
                       type="monotone"
                       dataKey={f}
-                      stroke={['#0ea5e9', '#10b981', '#f59e0b', '#ef4444'][i]}
+                      name={f === 'total' ? 'Tổng' : f[0].toUpperCase() + f.slice(1)}
+                      stroke={`var(--color-series-${i + 1})`}
+                      strokeWidth={2}
+                      strokeLinecap="round"
+                      dot={{
+                        r: 4,
+                        strokeWidth: 2,
+                        stroke: 'var(--color-surface)',
+                        fill: `var(--color-series-${i + 1})`,
+                      }}
+                      activeDot={{ r: 6, strokeWidth: 2, stroke: 'var(--color-surface)' }}
+                      connectNulls
                     />
                   ))}
                 </LineChart>
@@ -169,7 +209,7 @@ export function ScoresPage() {
           </Card>
           <Card className="overflow-x-auto">
             <table className="w-full text-left text-sm">
-              <thead className="text-slate-500">
+              <thead className="text-ink-muted">
                 <tr>
                   <th className="p-2">Ngày</th>
                   <th className="p-2">Tuần</th>
@@ -184,7 +224,7 @@ export function ScoresPage() {
               </thead>
               <tbody>
                 {rows.map((r) => (
-                  <tr key={r.id} className="border-t border-slate-100">
+                  <tr key={r.id} className="border-t border-line">
                     <td className="p-2">{formatDateVN(r.taken_at)}</td>
                     <td className="p-2">{r.week ?? '—'}</td>
                     {fields.map((f) => (
@@ -195,7 +235,7 @@ export function ScoresPage() {
                     <td className="p-2 font-semibold">{r.total}</td>
                     <td className="p-2 text-right">
                       {r.source === 'mock_test' ? (
-                        <span className="text-xs text-slate-500">Chấm trên web</span>
+                        <span className="text-xs text-ink-muted">Chấm trên web</span>
                       ) : (
                         <Button variant="ghost" onClick={() => void remove(r.id)}>
                           Xóa

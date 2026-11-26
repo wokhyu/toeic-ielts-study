@@ -56,6 +56,17 @@ Kết luận áp dụng:
 - **Ôn tập 11** (`/c/on-tap-11/...`): cây chủ đề kèm tiến độ, luyện tập theo chủ đề, thi thử (chọn chủ đề, số câu, thời gian, dạng câu), kết quả và xem lại bài, ôn lại câu sai.
 - **Admin** (`/admin`): yêu cầu đang chờ duyệt, danh sách người dùng; `/admin/nguoi-dung/:id`: quyền, trạng thái từng khóa, tiến độ chi tiết; `/admin/duyet-dap-an`: gán đáp án cho câu Ôn tập 11 còn thiếu.
 
+## 4b. Giao diện
+
+- Phong cách "ấm áp, có minh họa": nền kem, màu chính teal, màu nhấn coral, font Lexend (Google Fonts, có tiếng Việt).
+- Màu chỉ dùng qua token theo vai trò trong `src/index.css` (`canvas`, `surface`, `ink`, `brand`, `accent`, `ok`, `warn`, `bad`, `series-1…5`), không gọi thẳng bậc màu của Tailwind. Chế độ tối là một khối ghi đè token dưới `[data-theme='dark']`.
+- Chế độ tối: mặc định theo cài đặt máy, nút mặt trời/mặt trăng trên header lưu lựa chọn vào localStorage (`src/lib/theme.ts`; script trong `index.html` áp dụng trước khi React chạy để không nháy).
+- Mascot "Bé Cú" (`src/components/art/Mascot.tsx`) và hình minh họa từng khóa (`CourseArt.tsx`) là SVG tự vẽ, tô bằng token nên tự đổi theo sáng/tối. Icon trong `src/components/icons.tsx` cũng tự vẽ.
+- Component dùng chung trong `src/components/ui.tsx`: Button, Card (`plain`/`soft`/`hero`), Badge, Chip, StatTile, ProgressBar, ProgressRing, EmptyState, Skeleton, InfoHint (giải thích thuật ngữ), Spinner có mascot.
+- Hiệu ứng: đúng thì có confetti và mascot cổ vũ, sai thì thẻ rung nhẹ và phần giải thích được làm nổi, tích nhiệm vụ có confetti, flashcard lật 3D. Tất cả tắt khi máy bật "giảm chuyển động".
+- Biểu đồ: dải màu `series-1…5` theo thứ tự cố định, đã kiểm tra phân biệt được với người mù màu ở cả nền sáng lẫn tối; nét 2px, lưới mảnh, luôn có chú giải và bảng số liệu đi kèm.
+- Trạng thái (đúng/sai/cảnh báo) luôn có icon hoặc chữ đi kèm, không chỉ dựa vào màu.
+
 ## 5. Phân quyền và database
 
 Chi tiết trong `supabase/migrations/`.

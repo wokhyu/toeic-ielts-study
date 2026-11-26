@@ -27,7 +27,7 @@ export function AdminReviewPage() {
 
   return (
     <div className="space-y-4">
-      <Link to="/admin" className="text-sm text-indigo-700 hover:underline">
+      <Link to="/admin" className="text-sm text-brand-ink hover:underline">
         ← Quản trị
       </Link>
       <PageHeader
@@ -54,7 +54,7 @@ export function AdminReviewPage() {
         <ErrorBox message={error} />
       ) : (
         <>
-          <p className="text-sm text-slate-600">Còn {data?.count ?? 0} câu.</p>
+          <p className="text-sm text-ink-soft">Còn {data?.count ?? 0} câu.</p>
           {(data?.questions ?? []).map((q) => (
             <ReviewItem key={q.id} q={q} onDone={reload} />
           ))}
@@ -133,7 +133,7 @@ function ReviewItem({ q, onDone }: { q: OtQuestion; onDone(): void }) {
                   key={String(v)}
                   type="button"
                   onClick={() => setTf({ ...tf, [o.label]: v })}
-                  className={`rounded px-2 py-0.5 text-xs ring-1 ${tf[o.label] === v ? 'bg-indigo-600 text-white' : 'ring-slate-300'}`}
+                  className={`rounded px-2 py-0.5 text-xs ring-1 ${tf[o.label] === v ? 'bg-brand text-on-solid' : 'ring-line-strong'}`}
                 >
                   {v ? 'Đúng' : 'Sai'}
                 </button>
@@ -142,7 +142,7 @@ function ReviewItem({ q, onDone }: { q: OtQuestion; onDone(): void }) {
         ))}
         {q.type === 'short' && (
           <input
-            className="w-48 rounded border border-slate-300 px-2 py-1"
+            className="w-48 rounded border border-line-strong px-2 py-1"
             placeholder="Đáp số"
             value={short}
             onChange={(e) => setShort(e.target.value)}

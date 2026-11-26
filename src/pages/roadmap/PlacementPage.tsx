@@ -128,14 +128,14 @@ export function PlacementPage() {
         )}
         <Card>
           <h2 className="font-semibold">Tôi đã có điểm thi thật</h2>
-          <p className="mt-1 text-sm text-slate-600">Điểm {program.toUpperCase()} trong 12 tháng gần nhất.</p>
+          <p className="mt-1 text-sm text-ink-soft">Điểm {program.toUpperCase()} trong 12 tháng gần nhất.</p>
           <Button className="mt-4" variant="secondary" onClick={() => setMode('real')}>
             Nhập điểm
           </Button>
         </Card>
         <Card>
           <h2 className="font-semibold">Tôi chưa biết trình độ</h2>
-          <p className="mt-1 text-sm text-slate-600">
+          <p className="mt-1 text-sm text-ink-soft">
             {questions.length} câu trắc nghiệm{program === 'ielts' ? ' + tự chấm Writing/Speaking' : ''},
             khoảng 40 phút. Phần Listening được đọc bằng giọng máy.
           </p>
@@ -184,15 +184,15 @@ export function PlacementPage() {
             {t.label} · mục tiêu {t.target}
           </h2>
           {result.correct !== undefined && (
-            <p className="mt-1 text-sm text-slate-600">
+            <p className="mt-1 text-sm text-ink-soft">
               Đúng {result.correct}/{questions.length} câu.
             </p>
           )}
-          <p className="mt-2 text-xs text-slate-500">{scoring.note}</p>
+          <p className="mt-2 text-xs text-ink-muted">{scoring.note}</p>
           {canSave && (
             <Link
               to={`/c/${program}/hom-nay`}
-              className="mt-4 inline-block text-sm font-medium text-indigo-700 underline"
+              className="mt-4 inline-block text-sm font-medium text-brand-ink underline"
             >
               Xem nhiệm vụ hôm nay
             </Link>
@@ -218,7 +218,7 @@ export function PlacementPage() {
               )}
             </div>
             {first.passage && (
-              <pre className="mb-4 whitespace-pre-wrap rounded-lg bg-slate-50 p-3 font-sans text-sm leading-relaxed">
+              <pre className="mb-4 whitespace-pre-wrap rounded-lg bg-subtle p-3 font-sans text-sm leading-relaxed">
                 {first.passage}
               </pre>
             )}
@@ -234,7 +234,7 @@ export function PlacementPage() {
                         <input
                           type="radio"
                           name={q.id}
-                          className="mt-0.5 accent-indigo-600"
+                          className="mt-0.5 accent-brand"
                           checked={answers[q.id] === LETTERS[i]}
                           onChange={() => setAnswers((a) => ({ ...a, [q.id]: LETTERS[i] }))}
                         />
@@ -266,7 +266,7 @@ export function PlacementPage() {
             onChange={(e) => setEssay(e.target.value)}
             placeholder="Viết bài ở đây (không bắt buộc)"
           />
-          <p className="mt-1 text-xs text-slate-500">{essay.trim().split(/\s+/).filter(Boolean).length} từ</p>
+          <p className="mt-1 text-xs text-ink-muted">{essay.trim().split(/\s+/).filter(Boolean).length} từ</p>
           <Rubric criteria={productiveTest.writing.rubric} value={writingLevel} onChange={setWritingLevel} />
 
           <div className="mt-5 text-sm">
@@ -291,7 +291,7 @@ export function PlacementPage() {
       )}
 
       <Card className="sticky bottom-2 flex flex-wrap items-center justify-between gap-3">
-        <span className="text-sm text-slate-600">
+        <span className="text-sm text-ink-soft">
           Đã trả lời {answeredCount}/{questions.length} câu
         </span>
         {error && <ErrorBox message={error} />}
@@ -316,7 +316,7 @@ function Rubric({
     <div className="mt-3 overflow-x-auto">
       <table className="w-full min-w-[560px] text-left text-xs">
         <thead>
-          <tr className="text-slate-500">
+          <tr className="text-ink-muted">
             <th className="p-1.5">Tiêu chí</th>
             <th className="p-1.5">Mức A</th>
             <th className="p-1.5">Mức B</th>
@@ -325,7 +325,7 @@ function Rubric({
         </thead>
         <tbody>
           {criteria.map((c) => (
-            <tr key={c.name} className="border-t border-slate-100 align-top">
+            <tr key={c.name} className="border-t border-line align-top">
               <td className="p-1.5 font-medium">{c.name}</td>
               <td className="p-1.5">{c.levels.A}</td>
               <td className="p-1.5">{c.levels.B}</td>
@@ -338,12 +338,7 @@ function Rubric({
         Mức tổng thể gần nhất:
         {(['A', 'B', 'C'] as const).map((t) => (
           <label key={t} className="flex items-center gap-1">
-            <input
-              type="radio"
-              checked={value === t}
-              onChange={() => onChange(t)}
-              className="accent-indigo-600"
-            />{' '}
+            <input type="radio" checked={value === t} onChange={() => onChange(t)} className="accent-brand" />{' '}
             {t}
           </label>
         ))}
@@ -360,16 +355,16 @@ function AnswerReview({ questions, answers }: { questions: PlacementQuestion[]; 
         {questions.map((q, i) => {
           const ok = answers[q.id] === q.answer;
           return (
-            <li key={q.id} className="border-t border-slate-100 pt-3">
+            <li key={q.id} className="border-t border-line pt-3">
               <p>
                 <b>{i + 1}.</b> {q.question}{' '}
                 <Badge color={ok ? 'green' : 'red'}>
                   {ok ? 'Đúng' : `Sai (chọn ${answers[q.id] ?? '—'}, đáp án ${q.answer})`}
                 </Badge>
               </p>
-              <p className="mt-1 text-slate-600">{q.explain_vi}</p>
+              <p className="mt-1 text-ink-soft">{q.explain_vi}</p>
               {q.audio_script && (
-                <details className="mt-1 text-slate-500">
+                <details className="mt-1 text-ink-muted">
                   <summary className="cursor-pointer">Script</summary>
                   <pre className="whitespace-pre-wrap font-sans">{q.audio_script}</pre>
                 </details>

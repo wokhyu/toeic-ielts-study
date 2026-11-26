@@ -23,7 +23,7 @@ export function StimulusView({
 
   if (stimulus.kind === 'audio') {
     return (
-      <div className="space-y-2 rounded-lg bg-slate-50 p-3">
+      <div className="space-y-2 rounded-2xl bg-lilac-soft/60 p-3.5 ring-1 ring-line">
         {stimulus.title && <p className="text-sm font-medium">{stimulus.title}</p>}
         <ListenPlayer
           script={stimulus.audio_script ?? ''}
@@ -34,8 +34,8 @@ export function StimulusView({
         {stimulus.html && <Rich html={stimulus.html} />}
         {showTranscript && stimulus.audio_script && (
           <details className="text-sm">
-            <summary className="cursor-pointer font-medium text-slate-700">Xem script</summary>
-            <p className="mt-2 whitespace-pre-line leading-relaxed text-slate-700">{stimulus.audio_script}</p>
+            <summary className="cursor-pointer font-medium text-ink-soft">Xem script</summary>
+            <p className="mt-2 whitespace-pre-line leading-relaxed text-ink-soft">{stimulus.audio_script}</p>
           </details>
         )}
       </div>
@@ -43,7 +43,7 @@ export function StimulusView({
   }
 
   return (
-    <div className="max-h-[70vh] overflow-y-auto rounded-lg bg-slate-50 p-3 text-[15px] leading-relaxed">
+    <div className="max-h-[70vh] overflow-y-auto rounded-2xl bg-subtle p-4 text-[15px] leading-relaxed ring-1 ring-line">
       {stimulus.title && <p className="mb-2 font-medium">{stimulus.title}</p>}
       <Rich html={stimulus.html} />
     </div>

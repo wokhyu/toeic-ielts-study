@@ -1,6 +1,9 @@
 import { useCallback } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Card, ErrorBox, Spinner } from '../../components/ui.tsx';
+import { Mascot } from '../../components/art/Mascot.tsx';
+import { Confetti } from '../../components/effects.tsx';
+import { buttonClass } from '../../components/styles.ts';
+import { Card, ProgressRing, Spinner, ErrorBox } from '../../components/ui.tsx';
 import { groupByStimulus } from '../../lib/bank.ts';
 import { db } from '../../lib/supabase.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
@@ -43,15 +46,37 @@ export function ResultPage() {
   const byId = new Map(data.rows.map((r) => [r.question_id, r]));
   const correct = data.rows.filter((r) => r.is_correct).length;
   const sections = data.attempt.config?.sections;
+  const graded = data.rows.filter((r) => r.is_correct !== null).length;
+  const ratio = graded > 0 ? (correct / graded) * 100 : 0;
+  const mood = ratio >= 80 ? 'cheer' : ratio >= 50 ? 'happy' : 'thinking';
+  const message =
+    ratio >= 80
+      ? 'Xuất sắc! Bạn nắm phần này rất chắc.'
+      : ratio >= 50
+        ? 'Khá lắm! Xem lại các câu sai bên dưới để lên điểm nhé.'
+        : 'Bắt đầu vậy là tốt rồi. Đọc kỹ lời giải, các câu sai sẽ quay lại ở mục Ôn lại.';
 
   return (
     <div className="space-y-4">
-      <Card>
-        <p className="text-3xl font-semibold">{attemptScore(course, data.attempt)}</p>
+      <Card variant="hero" className="relative overflow-hidden">
+        <Confetti fire={ratio >= 80 ? attemptId : 0} pieces={26} />
+        <div className="flex flex-wrap items-center gap-4">
+          <Mascot mood={mood} size={84} decorative />
+          <div className="mr-auto">
+            <p className="text-sm text-ink-soft">Kết quả</p>
+            <p className="text-3xl font-semibold text-ink">{attemptScore(course, data.attempt)}</p>
+            <p className="mt-1 text-sm text-ink-soft">{message}</p>
+          </div>
+          {graded > 0 && (
+            <ProgressRing value={ratio} size={84} stroke={9} label="Tỉ lệ câu đúng">
+              {correct}/{graded}
+            </ProgressRing>
+          )}
+        </div>
         {sections && (
           <div className="mt-3 grid gap-2 sm:grid-cols-2">
             {Object.entries(sections).map(([key, s]) => (
-              <div key={key} className="rounded-lg bg-slate-50 p-3 text-sm">
+              <div key={key} className="rounded-2xl bg-surface p-3 text-sm ring-1 ring-line">
                 <p className="font-medium">{s.label}</p>
                 <p>
                   {s.raw}/{s.max} câu đúng · quy đổi{' '}
@@ -59,18 +84,23 @@ export function ResultPage() {
                 </p>
               </div>
             ))}
-            <p className="text-xs text-slate-500 sm:col-span-2">
+            <p className="text-xs text-ink-muted sm:col-span-2">
               Điểm quy đổi là ước lượng theo bảng của đề này, không phải điểm thi chính thức. Đã lưu vào trang
               Điểm thi thử.
             </p>
           </div>
         )}
-        <p className="mt-2 text-sm text-slate-600">
-          Đúng {correct}/{data.rows.length} câu.{' '}
-          <Link to={`${base}/thi-thu`} className="text-indigo-700 underline">
+        <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-ink-soft">
+          <span>
+            Đúng {correct}/{data.rows.length} câu.
+          </span>
+          <Link to={`${base}/thi-thu`} className={buttonClass('secondary', 'sm')}>
             Thi bài khác
           </Link>
-        </p>
+          <Link to={`${base}/on-lai`} className={buttonClass('soft', 'sm')}>
+            Ôn lại câu sai
+          </Link>
+        </div>
       </Card>
       {groupByStimulus(data.questions).map((g) => (
         <Card key={g.items[0].q.id}>

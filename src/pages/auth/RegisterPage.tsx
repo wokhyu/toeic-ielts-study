@@ -3,6 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { Button, Card, ErrorBox, Field, inputClass } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { db, errorMessage, isSupabaseConfigured } from '../../lib/supabase.ts';
+import { AuthHeader } from './AuthHeader.tsx';
 
 export function RegisterPage() {
   const { session } = useAuth();
@@ -43,8 +44,8 @@ export function RegisterPage() {
   if (sent) {
     return (
       <Card className="mx-auto max-w-sm">
-        <h1 className="text-xl font-semibold">Kiểm tra email</h1>
-        <p className="mt-2 text-sm text-slate-600">
+        <AuthHeader mood="cheer" title="Kiểm tra email nhé" />
+        <p className="mt-2 text-sm text-ink-soft">
           Đã gửi link xác nhận tới <b>{email}</b>. Bấm link trong email rồi đăng nhập, sau đó chọn khóa học
           muốn đăng ký.
         </p>
@@ -54,7 +55,11 @@ export function RegisterPage() {
 
   return (
     <Card className="mx-auto max-w-sm">
-      <h1 className="mb-4 text-xl font-semibold">Tạo tài khoản</h1>
+      <AuthHeader
+        mood="cheer"
+        title="Tạo tài khoản"
+        subtitle="Vài giây thôi, rồi gửi yêu cầu vào khóa học."
+      />
       <form className="space-y-3" onSubmit={(e) => void submit(e)}>
         <Field label="Tên hiển thị">
           <input
@@ -90,7 +95,7 @@ export function RegisterPage() {
       </form>
       <p className="mt-4 text-sm">
         Đã có tài khoản?{' '}
-        <Link to="/dang-nhap" className="text-indigo-700 hover:underline">
+        <Link to="/dang-nhap" className="text-brand-ink hover:underline">
           Đăng nhập
         </Link>
       </p>

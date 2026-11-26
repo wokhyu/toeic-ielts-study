@@ -3,7 +3,7 @@ import { speak, speakScript, speechSupported, stopSpeaking } from '../lib/speech
 import { Button } from './ui.tsx';
 
 const Unsupported = () => (
-  <span className="text-xs text-slate-500">Trình duyệt không hỗ trợ đọc. Hãy dùng Chrome hoặc Edge.</span>
+  <span className="text-xs text-ink-muted">Trình duyệt không hỗ trợ đọc. Hãy dùng Chrome hoặc Edge.</span>
 );
 
 export function SpeakButton({ text, lang, label = 'Nghe' }: { text: string; lang: string; label?: string }) {
@@ -80,10 +80,10 @@ export function ListenPlayer({
         </Button>
       )}
       {left === null ? (
-        <label className="flex items-center gap-1 text-xs text-slate-600">
+        <label className="flex items-center gap-1 text-xs text-ink-soft">
           Tốc độ
           <select
-            className="rounded border border-slate-300 px-1 py-0.5"
+            className="rounded-md border border-line-strong bg-surface px-1.5 py-0.5 text-ink"
             value={rate}
             onChange={(e) => setRate(Number(e.target.value))}
           >
@@ -93,7 +93,7 @@ export function ListenPlayer({
           </select>
         </label>
       ) : (
-        <span className="text-xs text-slate-600">
+        <span className="text-xs text-ink-soft">
           {left > 0 ? `Còn ${left} lượt nghe` : 'Đã hết lượt nghe'}
         </span>
       )}

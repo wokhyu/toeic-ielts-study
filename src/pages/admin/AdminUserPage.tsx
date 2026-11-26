@@ -144,7 +144,7 @@ export function AdminUserPage() {
 
   return (
     <div className="space-y-5">
-      <Link to="/admin" className="text-sm text-indigo-700 hover:underline">
+      <Link to="/admin" className="text-sm text-brand-ink hover:underline">
         ← Danh sách người dùng
       </Link>
       <PageHeader
@@ -230,7 +230,7 @@ function CourseCard({
 
       <div className="mt-3 flex flex-wrap items-end gap-2 text-sm">
         <label>
-          <span className="mb-1 block text-xs text-slate-500">Trạng thái</span>
+          <span className="mb-1 block text-xs text-ink-muted">Trạng thái</span>
           <select
             className={inputClass}
             value={status}
@@ -246,7 +246,7 @@ function CourseCard({
         {isRoadmap && (
           <>
             <label>
-              <span className="mb-1 block text-xs text-slate-500">Nhánh</span>
+              <span className="mb-1 block text-xs text-ink-muted">Nhánh</span>
               <select
                 className={inputClass}
                 value={track}
@@ -259,7 +259,7 @@ function CourseCard({
               </select>
             </label>
             <label>
-              <span className="mb-1 block text-xs text-slate-500">Ngày bắt đầu</span>
+              <span className="mb-1 block text-xs text-ink-muted">Ngày bắt đầu</span>
               <input
                 type="date"
                 className={inputClass}
@@ -302,7 +302,7 @@ function RoadmapProgress({
   const due = cards.filter((c) => c.due_date <= today).length;
 
   if (!track) {
-    return <p className="mt-4 text-sm text-slate-500">Chưa xếp nhánh, chưa có tiến độ lộ trình.</p>;
+    return <p className="mt-4 text-sm text-ink-muted">Chưa xếp nhánh, chưa có tiến độ lộ trình.</p>;
   }
 
   const total = allTasks(roadmaps[program], track).length;
@@ -353,7 +353,7 @@ function RoadmapProgress({
             return (
               <div key={w.week} title={`Tuần ${w.week}: ${c.done}/${c.total}`}>
                 <ProgressBar value={percent(c.done, c.total)} />
-                <p className="mt-0.5 text-center text-[11px] text-slate-500">T{w.week}</p>
+                <p className="mt-0.5 text-center text-[11px] text-ink-muted">T{w.week}</p>
               </div>
             );
           })}
@@ -372,14 +372,14 @@ function RoadmapProgress({
       <div>
         <p className="font-medium">Điểm thi thử</p>
         {mocks.length === 0 ? (
-          <p className="text-slate-500">Chưa nhập lần nào.</p>
+          <p className="text-ink-muted">Chưa nhập lần nào.</p>
         ) : (
           <ul className="mt-1 space-y-0.5">
             {mocks.map((m) => (
               <li key={m.id}>
                 {formatDateVN(m.taken_at)}
                 {m.week ? ` (tuần ${m.week})` : ''}: <b>{m.total}</b>{' '}
-                <span className="text-slate-500">
+                <span className="text-ink-muted">
                   L {m.listening ?? '—'} · R {m.reading ?? '—'}
                   {program === 'ielts' && ` · W ${m.writing ?? '—'} · S ${m.speaking ?? '—'}`}
                 </span>
@@ -413,12 +413,12 @@ function OtProgress({ detail }: { detail: Detail }) {
       <div>
         <p className="font-medium">Bài thi thử</p>
         {ot.attempts.length === 0 ? (
-          <p className="text-slate-500">Chưa thi lần nào.</p>
+          <p className="text-ink-muted">Chưa thi lần nào.</p>
         ) : (
           <ul className="mt-1 space-y-0.5">
             {ot.attempts.map((a) => (
               <li key={a.id}>
-                <Link to={`/c/on-tap-11/ket-qua/${a.id}`} className="text-indigo-700 hover:underline">
+                <Link to={`/c/on-tap-11/ket-qua/${a.id}`} className="text-brand-ink hover:underline">
                   {formatDateVN(toDateVN(a.submitted_at))}
                 </Link>
                 : {toTen(a.score, a.max_score)}/10
@@ -433,10 +433,10 @@ function OtProgress({ detail }: { detail: Detail }) {
 
 function Stat({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
-    <div className="rounded-lg bg-slate-50 p-3">
-      <p className="text-xs text-slate-500">{label}</p>
+    <div className="rounded-lg bg-subtle p-3">
+      <p className="text-xs text-ink-muted">{label}</p>
       <p className="text-lg font-semibold">{value}</p>
-      {sub && <p className="text-xs text-slate-500">{sub}</p>}
+      {sub && <p className="text-xs text-ink-muted">{sub}</p>}
     </div>
   );
 }

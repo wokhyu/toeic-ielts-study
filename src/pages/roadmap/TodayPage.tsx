@@ -1,5 +1,16 @@
 import { useState } from 'react';
-import { Badge, Button, Card, ErrorBox, ProgressBar, Spinner } from '../../components/ui.tsx';
+import { Mascot } from '../../components/art/Mascot.tsx';
+import {
+  Badge,
+  Button,
+  Card,
+  Chip,
+  EmptyState,
+  ErrorBox,
+  ProgressRing,
+  selectClass,
+  Spinner,
+} from '../../components/ui.tsx';
 import { roadmaps } from '../../content/index.ts';
 import { useAuth } from '../../lib/auth-context.ts';
 import { formatDateVN, nextMonday, todayVN } from '../../lib/dates.ts';
@@ -36,13 +47,18 @@ export function TodayPage() {
 
   if (!startDate) {
     return (
-      <Card>
-        <p className="text-sm">Chọn ngày bắt đầu lộ trình (nên là thứ Hai).</p>
-        <Button className="mt-3" onClick={() => void setStart(nextMonday(today))}>
-          Bắt đầu từ thứ Hai {formatDateVN(nextMonday(today))}
-        </Button>
+      <EmptyState
+        title="Sẵn sàng bắt đầu chưa?"
+        mood="cheer"
+        action={
+          <Button onClick={() => void setStart(nextMonday(today))}>
+            Bắt đầu từ thứ Hai {formatDateVN(nextMonday(today))}
+          </Button>
+        }
+      >
+        Chọn ngày bắt đầu lộ trình 12 tuần, nên là một ngày thứ Hai.
         {saveError && <ErrorBox message={saveError} />}
-      </Card>
+      </EmptyState>
     );
   }
 
@@ -53,16 +69,28 @@ export function TodayPage() {
   return (
     <div className="space-y-4">
       {pos?.status === 'not_started' && (
-        <Card>Lộ trình bắt đầu ngày {formatDateVN(startDate)}. Bạn có thể xem trước nhiệm vụ tuần 1.</Card>
+        <Card variant="hero" className="flex items-center gap-3">
+          <Mascot mood="happy" size={56} decorative />
+          <p className="text-sm">
+            Lộ trình bắt đầu ngày <b>{formatDateVN(startDate)}</b>. Trong lúc chờ, bạn có thể xem trước nhiệm
+            vụ tuần 1.
+          </p>
+        </Card>
       )}
       {pos?.status === 'finished' && (
-        <Card>Bạn đã đi hết 12 tuần. Xem lại các tuần bên dưới hoặc ở tab Lộ trình.</Card>
+        <Card variant="hero" className="flex items-center gap-3">
+          <Mascot mood="cheer" size={56} decorative />
+          <p className="text-sm">
+            Bạn đã đi hết 12 tuần, giỏi quá! Xem lại các tuần bên dưới hoặc ở tab Lộ trình.
+          </p>
+        </Card>
       )}
 
       <Card>
         <div className="flex flex-wrap items-center gap-2">
           <select
-            className="rounded-md border border-slate-300 px-2 py-1 text-sm"
+            className={selectClass}
+            aria-label="Chọn tuần"
             value={week}
             onChange={(e) => setWeek(Number(e.target.value))}
           >
@@ -74,28 +102,34 @@ export function TodayPage() {
           </select>
           <div className="flex flex-wrap gap-1">
             {DAY_NAMES.map((name, i) => (
-              <button
+              <Chip
                 key={name}
-                type="button"
+                active={day === i + 1}
                 onClick={() => setDay(i + 1)}
-                className={`rounded-md px-2.5 py-1 text-sm ${day === i + 1 ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700'} ${pos?.week === week && pos.day === i + 1 ? 'ring-2 ring-amber-400' : ''}`}
+                className={pos?.week === week && pos.day === i + 1 ? 'ring-2 ring-accent' : ''}
+                title={pos?.week === week && pos.day === i + 1 ? 'Hôm nay' : undefined}
               >
                 {name}
-              </button>
+              </Chip>
             ))}
           </div>
         </div>
-        <p className="mt-3 text-sm text-slate-600">
-          {w.phase} · Tuần {week}: {completion.done}/{completion.total} nhiệm vụ
-        </p>
-        <div className="mt-2">
-          <ProgressBar value={percent(completion.done, completion.total)} />
+        <div className="mt-4 flex items-center gap-4">
+          <ProgressRing value={percent(completion.done, completion.total)} label={`Tiến độ tuần ${week}`} />
+          <div>
+            <p className="font-semibold text-ink">
+              Tuần {week} · {w.phase}
+            </p>
+            <p className="text-sm text-ink-soft">
+              Đã xong {completion.done}/{completion.total} nhiệm vụ
+            </p>
+          </div>
         </div>
         <dl className="mt-3 grid gap-1 text-sm sm:grid-cols-2">
           {Object.entries(w.focus).map(([k, v]) => (
             <div key={k}>
-              <dt className="inline font-medium capitalize text-slate-700">{k}: </dt>
-              <dd className="inline text-slate-600">{v}</dd>
+              <dt className="inline font-medium capitalize text-ink-soft">{k}: </dt>
+              <dd className="inline text-ink-soft">{v}</dd>
             </div>
           ))}
         </dl>
@@ -109,12 +143,15 @@ export function TodayPage() {
           {day <= 6 && <Badge>{minutesOf(tasks)} phút</Badge>}
         </div>
         {day === 7 ? (
-          <p className="text-sm text-slate-600">Chủ nhật nghỉ. Nghỉ ngơi cũng là một phần của lộ trình.</p>
+          <div className="flex items-center gap-3 rounded-2xl bg-subtle p-4">
+            <Mascot mood="sleepy" size={56} decorative />
+            <p className="text-sm text-ink-soft">Chủ nhật nghỉ. Nghỉ ngơi cũng là một phần của lộ trình.</p>
+          </div>
         ) : (
           <TaskList tasks={tasks} done={done} onToggle={preview ? undefined : (id) => void toggle(id)} />
         )}
         {day === 6 && (
-          <p className="mt-3 text-xs text-slate-500">Thứ 7 là buổi học nhóm, có thể bỏ qua nếu bận.</p>
+          <p className="mt-3 text-xs text-ink-muted">Thứ 7 là buổi học nhóm, có thể bỏ qua nếu bận.</p>
         )}
         {error && <ErrorBox message={error} />}
       </Card>

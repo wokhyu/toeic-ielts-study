@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button, Card, ErrorBox, Field, inputClass } from '../../components/ui.tsx';
 import { db, errorMessage } from '../../lib/supabase.ts';
+import { AuthHeader } from './AuthHeader.tsx';
 
 export function ResetPasswordPage() {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ export function ResetPasswordPage() {
 
   return (
     <Card className="mx-auto max-w-sm">
-      <h1 className="mb-4 text-xl font-semibold">Đặt mật khẩu mới</h1>
+      <AuthHeader mood="thinking" title="Đặt mật khẩu mới" />
       <form className="space-y-3" onSubmit={(e) => void submit(e)}>
         <Field label="Mật khẩu mới">
           <input
