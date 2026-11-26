@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Badge, Button, Card, ErrorBox, inputClass, PageHeader, Spinner } from '../../components/ui.tsx';
+import { Badge, Button, Card, ErrorBox, inputClass, Spinner } from '../../components/ui.tsx';
 import { useAuth } from '../../lib/auth-context.ts';
 import { formatDateVN, toDateVN } from '../../lib/dates.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
@@ -50,18 +50,9 @@ export function AdminUsersPage() {
 
   return (
     <div className="space-y-5">
-      <PageHeader
-        title="Quản trị"
-        subtitle={`${data?.length ?? 0} tài khoản · ${pending.length} yêu cầu chờ duyệt`}
-        actions={
-          <Link
-            to="/admin/duyet-dap-an"
-            className="rounded-lg bg-surface px-3 py-2 text-sm font-medium ring-1 ring-line-strong"
-          >
-            Duyệt đáp án on-tap-11
-          </Link>
-        }
-      />
+      <p className="text-sm text-ink-soft">
+        {data?.length ?? 0} tài khoản · {pending.length} yêu cầu chờ duyệt
+      </p>
       {actionError && <ErrorBox message={actionError} />}
 
       <Card>

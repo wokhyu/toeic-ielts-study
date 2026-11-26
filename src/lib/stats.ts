@@ -67,3 +67,19 @@ export function formatDuration(ms: number | null | undefined): string {
   const m = Math.floor(s / 60);
   return s % 60 ? `${m} phút ${s % 60} giây` : `${m} phút`;
 }
+
+export interface DailyRow {
+  day: string;
+  answers: number;
+  tasks: number;
+  cards: number;
+}
+
+/** Every day from `from` to `to`, with zeros where nothing happened, so gaps show as gaps. */
+export function fillDays(rows: DailyRow[], from: string, to: string): DailyRow[] {
+  const by = new Map(rows.map((r) => [r.day, r]));
+  const out: DailyRow[] = [];
+  for (let d = from; d <= to; d = addDays(d, 1))
+    out.push(by.get(d) ?? { day: d, answers: 0, tasks: 0, cards: 0 });
+  return out;
+}

@@ -18,6 +18,18 @@ const AdminReviewPage = lazy(() =>
 const AdminUserPage = lazy(() =>
   import('./pages/admin/AdminUserPage.tsx').then((m) => ({ default: m.AdminUserPage })),
 );
+const AdminLayout = lazy(() =>
+  import('./pages/admin/AdminLayout.tsx').then((m) => ({ default: m.AdminLayout })),
+);
+const AdminOverviewPage = lazy(() =>
+  import('./pages/admin/AdminOverviewPage.tsx').then((m) => ({ default: m.AdminOverviewPage })),
+);
+const AdminLearnersPage = lazy(() =>
+  import('./pages/admin/AdminLearnersPage.tsx').then((m) => ({ default: m.AdminLearnersPage })),
+);
+const AdminItemsPage = lazy(() =>
+  import('./pages/admin/AdminItemsPage.tsx').then((m) => ({ default: m.AdminItemsPage })),
+);
 const AdminUsersPage = lazy(() =>
   import('./pages/admin/AdminUsersPage.tsx').then((m) => ({ default: m.AdminUsersPage })),
 );
@@ -154,31 +166,18 @@ export default function App() {
                 element={
                   <RequireAuth>
                     <RequireAdmin>
-                      <AdminUsersPage />
+                      <AdminLayout />
                     </RequireAdmin>
                   </RequireAuth>
                 }
-              />
-              <Route
-                path="admin/nguoi-dung/:userId"
-                element={
-                  <RequireAuth>
-                    <RequireAdmin>
-                      <AdminUserPage />
-                    </RequireAdmin>
-                  </RequireAuth>
-                }
-              />
-              <Route
-                path="admin/duyet-dap-an"
-                element={
-                  <RequireAuth>
-                    <RequireAdmin>
-                      <AdminReviewPage />
-                    </RequireAdmin>
-                  </RequireAuth>
-                }
-              />
+              >
+                <Route index element={<AdminOverviewPage />} />
+                <Route path="hoc-vien" element={<AdminLearnersPage />} />
+                <Route path="cau-hoi" element={<AdminItemsPage />} />
+                <Route path="tai-khoan" element={<AdminUsersPage />} />
+                <Route path="duyet-dap-an" element={<AdminReviewPage />} />
+                <Route path="nguoi-dung/:userId" element={<AdminUserPage />} />
+              </Route>
               <Route path="*" element={<Navigate to="/khoa-hoc" replace />} />
             </Route>
           </Routes>
