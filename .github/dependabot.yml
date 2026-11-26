@@ -6,6 +6,10 @@ updates:
       interval: weekly
       timezone: Asia/Ho_Chi_Minh
     open-pull-requests-limit: 5
+    ignore:
+      # typescript-eslint does not support TypeScript 7 yet; revisit when it does.
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
     commit-message:
       prefix: chore(deps)
     groups:
