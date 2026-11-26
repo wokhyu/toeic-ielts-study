@@ -48,3 +48,13 @@ export function review(prev: CardState, rating: Rating, today: string): CardStat
 export function isDue(card: Pick<CardState, 'due_date'> | undefined, today: string): boolean {
   return !card || card.due_date <= today;
 }
+
+/** Cards to review today: from weeks already reached, never seen or due. */
+export function dueCards<T extends { id: string; week: number }>(
+  cards: T[],
+  states: Map<string, Pick<CardState, 'due_date'>>,
+  currentWeek: number,
+  today: string,
+): T[] {
+  return cards.filter((c) => c.week <= Math.max(currentWeek, 1) && isDue(states.get(c.id), today));
+}

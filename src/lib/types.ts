@@ -88,3 +88,8 @@ export const STATUS_LABEL: Record<EnrollmentStatus, string> = {
 export function enterPath(course: CourseId): string {
   return course === 'on-tap-11' ? '/c/on-tap-11' : `/c/${course}/hom-nay`;
 }
+
+/** Where a course's question bank lives (TOEIC/IELTS: inside the roadmap, under "Luyện đề"). */
+export function bankBase(course: CourseId): string {
+  return course === 'on-tap-11' ? '/c/on-tap-11' : `/c/${course}/luyen`;
+}

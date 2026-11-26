@@ -6,6 +6,7 @@ import {
   IconCalendar,
   IconCards,
   IconChart,
+  IconGrowth,
   IconPencil,
   IconSparkle,
   IconTarget,
@@ -94,6 +95,9 @@ export function RoadmapLayout({ program, preview }: { program: Program; preview:
         </NavLink>
         {!preview && (
           <>
+            <NavLink to={`${base}/tien-bo`} className={tab}>
+              <IconGrowth size={15} /> Tiến bộ
+            </NavLink>
             <NavLink to={`${base}/flashcard`} className={tab}>
               <IconCards size={15} /> Flashcard
             </NavLink>

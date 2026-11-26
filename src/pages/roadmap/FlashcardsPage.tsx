@@ -4,7 +4,7 @@ import { Badge, Button, Card, EmptyState, ErrorBox, selectClass, Spinner } from 
 import { vocab } from '../../content/index.ts';
 import { todayVN } from '../../lib/dates.ts';
 import { positionOn } from '../../lib/roadmap.ts';
-import { isDue, newCard, review, type CardState, type Rating } from '../../lib/srs.ts';
+import { dueCards, newCard, review, type CardState, type Rating } from '../../lib/srs.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import type { FlashcardReview } from '../../lib/types.ts';
 import { unwrap, useAsync } from '../../lib/useAsync.ts';
@@ -47,7 +47,7 @@ export function FlashcardsPage() {
     const cards = vocab[program];
     if (week === 'due') {
       // Cards from weeks already reached that are due (new cards count as due).
-      return cards.filter((c) => c.week <= Math.max(currentWeek, 1) && isDue(states.get(c.id), today));
+      return dueCards(cards, states, currentWeek, today);
     }
     return cards.filter((c) => c.week === week);
     // `states` is intentionally read once per deck change so the queue does not reshuffle mid-session.

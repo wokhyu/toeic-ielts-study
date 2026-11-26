@@ -19,6 +19,7 @@ import { percent } from '../../lib/streak.ts';
 import { db, errorMessage } from '../../lib/supabase.ts';
 import { useRoadmap, useTaskProgress } from './context.ts';
 import { TaskList } from './TaskList.tsx';
+import { TodaySuggestions } from './TodaySuggestions.tsx';
 
 const DAY_NAMES = ['Thứ 2', 'Thứ 3', 'Thứ 4', 'Thứ 5', 'Thứ 6', 'Thứ 7', 'Chủ nhật'];
 
@@ -68,6 +69,7 @@ export function TodayPage() {
 
   return (
     <div className="space-y-4">
+      {!preview && <TodaySuggestions program={program} currentWeek={pos?.week ?? 1} today={today} />}
       {pos?.status === 'not_started' && (
         <Card variant="hero" className="flex items-center gap-3">
           <Mascot mood="happy" size={56} decorative />

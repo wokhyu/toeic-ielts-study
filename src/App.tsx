@@ -56,6 +56,12 @@ const ScoresPage = lazy(() =>
   import('./pages/roadmap/ScoresPage.tsx').then((m) => ({ default: m.ScoresPage })),
 );
 const TodayPage = lazy(() => import('./pages/roadmap/TodayPage.tsx').then((m) => ({ default: m.TodayPage })));
+const ProgressTab = lazy(() =>
+  import('./pages/roadmap/ProgressTab.tsx').then((m) => ({ default: m.ProgressTab })),
+);
+const BankProgressPage = lazy(() =>
+  import('./features/bank/BankProgressPage.tsx').then((m) => ({ default: m.BankProgressPage })),
+);
 
 /** Practice, exams and review of a course's question bank, under its own route prefix. */
 function bankRoutes() {
@@ -68,6 +74,7 @@ function bankRoutes() {
       <Route path="thi-thu/:attemptId" element={<ExamPage />} />
       <Route path="ket-qua/:attemptId" element={<ResultPage />} />
       <Route path="on-lai" element={<ReviewPage />} />
+      <Route path="tien-bo" element={<BankProgressPage />} />
     </>
   );
 }
@@ -92,6 +99,7 @@ function roadmapRoutes(program: Program) {
         <Route path="flashcard" element={<FlashcardsPage />} />
         <Route path="diem-thi-thu" element={<ScoresPage />} />
         <Route path="xep-hang" element={<LeaderboardPage />} />
+        <Route path="tien-bo" element={<ProgressTab />} />
         <Route path="luyen" element={<BankLayout course={program} base={`/c/${program}/luyen`} />}>
           {bankRoutes()}
         </Route>

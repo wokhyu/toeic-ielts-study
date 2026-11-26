@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Mascot } from '../../components/art/Mascot.tsx';
 import { Confetti } from '../../components/effects.tsx';
@@ -108,7 +108,21 @@ function Practice({ tag, topicId }: { tag?: string; topicId?: number }) {
 }
 
 /** Keyed by question id, so the answer and explanation reset for each new question. */
-function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNext(): void }) {
+export function PracticeCard({
+  q,
+  index,
+  onNext,
+  mode = 'practice',
+  extra,
+}: {
+  q: OtQuestion;
+  index: number;
+  onNext(): void;
+  /** 'review' when the question comes from the due review list; it moves the review schedule. */
+  mode?: 'practice' | 'review';
+  /** Extra buttons next to the usual ones. */
+  extra?: ReactNode;
+}) {
   const { session } = useAuth();
   const { course } = useBank();
   const userId = session?.user.id;
@@ -144,6 +158,7 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
             p_question: q.id,
             p_response: response,
             p_time_ms: shownAt.current ? Date.now() - shownAt.current : null,
+            p_mode: mode,
           }),
         ) as Reveal,
       );
@@ -215,6 +230,7 @@ function PracticeCard({ q, index, onNext }: { q: OtQuestion; index: number; onNe
               >
                 <IconBookmark size={16} filled={bookmarked} /> {bookmarked ? 'Đã đánh dấu' : 'Đánh dấu'}
               </Button>
+              {extra}
             </div>
           </div>
         </div>
