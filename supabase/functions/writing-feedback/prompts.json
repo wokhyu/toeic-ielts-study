@@ -1,0 +1,122 @@
+{
+  "w01-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The graph below shows the average number of hours per week that students at a university spent studying online and in the library between 2010 and 2022. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nLine graph: Weekly study hours per student (hours)\nCategories: 2010, 2012, 2014, 2016, 2018, 2020, 2022\nOnline: 4, 6, 8, 10, 13, 19, 16\nLibrary: 14, 13, 12, 10, 8, 3, 6"
+  },
+  "w01-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The graph below shows the percentage of households in three towns that used public bicycles at least once a month from 2015 to 2023. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nLine graph: Households using public bicycles monthly (%)\nCategories: 2015, 2017, 2019, 2021, 2023\nNorthfield: 8, 12, 18, 25, 31\nEastport: 15, 16, 15, 17, 18\nRiverton: 3, 5, 11, 20, 27"
+  },
+  "w02-a": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Some people believe that unpaid community service should be a compulsory part of high school programmes. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w02-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Employers should give more weight to practical experience than to university degrees when hiring young people. To what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w03-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The chart below shows the number of visitors to four museums in Northfield in 2005, 2015 and 2025. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nBar chart: Museum visitors (thousand visitors)\nCategories: History, Science, Art, Maritime\n2005: 120, 95, 60, 40\n2015: 110, 150, 75, 38\n2025: 90, 210, 130, 35"
+  },
+  "w03-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The chart below shows the average weekly spending on four leisure activities by people in three age groups. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nBar chart: Average weekly spending (dollars)\nCategories: Cinema, Eating out, Sport, Streaming\n18–30: 12, 35, 15, 14\n31–50: 8, 42, 20, 10\n51+: 5, 28, 9, 6"
+  },
+  "w04-a": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Some people think that children should start learning a foreign language at primary school, while others believe it is better to begin at secondary school. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w04-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Some people believe that cities should spend money on building more roads, while others think the money should go to public transport. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w05-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The pie charts below show how the residents of Eastport travelled to work in 2000 and 2020. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nPie chart(s): How residents travelled to work (%)\n2000: Car 45%, Bus 25%, Train 10%, Bicycle 8%, Walking 12%\n2020: Car 30%, Bus 20%, Train 22%, Bicycle 18%, Walking 10%"
+  },
+  "w05-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The table below shows the number of students enrolled in four language courses at a community college in 2014, 2019 and 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nTable: Students enrolled (students)\nColumns: 2014, 2019, 2024\nSpanish: 120, 150, 135\nChinese: 45, 90, 160\nFrench: 100, 85, 70\nJapanese: 60, 95, 110"
+  },
+  "w06-a": {
+    "task": 2,
+    "min_words": 250,
+    "text": "In many cities, young people are finding it increasingly difficult to afford their own homes. What are the causes of this problem, and what measures could be taken to solve it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w06-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Many people now spend several hours a day looking at screens, and this is affecting their health. What problems does this cause, and what can individuals and governments do to address them?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w07-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The diagram below shows how used glass bottles are recycled into new bottles. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nProcess diagram: Recycling glass bottles\n1. Used bottles are collected from recycling bins\n2. Bottles are taken by truck to a sorting plant\n3. Glass is sorted by colour and washed\n4. Glass is crushed into small pieces called cullet\n5. Cullet is melted in a furnace at 1,500°C\n6. Molten glass is shaped into new bottles in moulds\n7. New bottles are filled and delivered to shops"
+  },
+  "w07-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The diagram below shows the stages in the production of tea, from the plantation to the shop. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nProcess diagram: Producing tea\n1. Young leaves are picked by hand\n2. Leaves are spread out to wither in warm air for 12–18 hours\n3. Leaves are rolled to break them and release their juices\n4. Leaves are left to oxidise and turn dark\n5. Leaves are dried in hot ovens\n6. Dried tea is sorted by size and graded\n7. Tea is packed and sent to shops"
+  },
+  "w08-a": {
+    "task": 2,
+    "min_words": 250,
+    "text": "More and more people are choosing to work from home rather than in an office. Do the advantages of this development outweigh the disadvantages?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w08-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Some schools now allow students to use tablets instead of printed textbooks. What are the advantages and disadvantages of this?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w09-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The maps below show the village of Riverton in 2000 and today. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nMap(s): Riverton village (north is up)\n2000: Main road (road, centre); River (water, south); Farmland (green, north-west); Houses (building, north-east); Shop (building, north-east); Farmland (green, south); Forest (green, south-east)\nToday: Main road (road, centre); River (water, south); Supermarket (building, north-west); Car park (other, north); Houses (building, north-east); Shop (building, north-east); Houses (building, south-west); Park (green, south); School (building, south-east); Bridge (road, south)"
+  },
+  "w09-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The maps below show a university campus before and after a redevelopment project. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nMap(s): University campus (north is up)\nBefore: Entrance road (road, centre); Library (building, north-west); Lecture halls (building, north); Car park (other, north-east); Sports field (green, south-west); Cafeteria (building, south-east); Lake (water, south-east)\nAfter: Entrance road (road, centre); Library and study centre (building, north-west); Lecture halls (building, north); Bus stop (other, north-east); Bike parking (other, north-east); Student housing (building, south-west); Sports hall (building, south); Cafeteria (building, south-east); Lake (water, south-east)"
+  },
+  "w10-a": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Nowadays many people choose to buy second-hand clothes rather than new ones. Why is this happening? Is it a positive or negative development?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w10-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "In some countries, more and more people are living alone. Why is this the case? What effects does this have on society?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  },
+  "w11-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The line graph below shows the number of international tourists who visited Eastport between 2016 and 2024, and the bar chart shows the main reasons for their visits in 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nLine graph: International tourists (thousand tourists)\nCategories: 2016, 2018, 2020, 2022, 2024\nTourists: 240, 310, 90, 260, 380\n\nBar chart: Main reason for visiting, 2024 (% of tourists)\nCategories: Holiday, Business, Visiting family, Study\n2024: 52, 21, 18, 9"
+  },
+  "w11-b": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The table below shows the amount of electricity produced from four sources in Riverton in 2010 and 2024, and the pie chart shows how the electricity was used in 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nTable: Electricity produced (gigawatt hours)\nColumns: 2010, 2024\nCoal: 620, 210\nGas: 340, 380\nSolar: 15, 260\nWind: 40, 310\n\nPie chart(s): Electricity use, 2024 (%)\n2024: Homes 40%, Industry 35%, Transport 15%, Public services 10%"
+  },
+  "w12-a": {
+    "task": 1,
+    "min_words": 150,
+    "text": "The chart below shows the percentage of adults in four age groups who read printed books, e-books and audiobooks in 2024. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.\n\nBar chart: Adults who read each format (%)\nCategories: 18–29, 30–44, 45–59, 60+\nPrinted books: 48, 55, 61, 70\nE-books: 35, 38, 27, 15\nAudiobooks: 30, 26, 18, 9"
+  },
+  "w12-b": {
+    "task": 2,
+    "min_words": 250,
+    "text": "Some people think that governments should invest more in the arts, such as music and theatre, while others believe the money would be better spent on science and technology. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words."
+  }
+}

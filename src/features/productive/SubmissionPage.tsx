@@ -19,6 +19,7 @@ import {
   writingPrompt,
   type Submission,
 } from './data.ts';
+import { AiFeedback } from './AiFeedback.tsx';
 import { WritingVisual } from './WritingVisual.tsx';
 
 /** `bai/:submissionId`: the work itself, its peer reviews, and the review form for classmates. */
@@ -138,6 +139,8 @@ export function SubmissionPage() {
           </ol>
         )}
       </Card>
+
+      {mine && row.kind === 'writing' && <AiFeedback submissionId={row.id} task={prompt?.task ?? 2} />}
 
       <section className="space-y-2">
         <h2 className="font-semibold text-ink">Nhận xét của bạn cùng khóa ({reviews.length})</h2>
