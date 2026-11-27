@@ -84,7 +84,22 @@ Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambrid
 
 - Đề tự soạn nằm ở `content/prompts/`: `ielts-writing.json` (2 đề mỗi tuần; Task 1 khai báo số liệu biểu đồ trong `visuals`) và `ielts-speaking.json` (1 bộ Part 1–3 mỗi tuần). `validate-content` kiểm tra schema, số liệu biểu đồ (biểu đồ tròn cộng đủ 100%, bản đồ nằm trong khung) và mỗi tuần có đề.
 - Học viên nộp bài viết hoặc ghi âm ở tab **Viết & Nói**, bật chia sẻ để bạn cùng khóa chấm chéo theo 4 tiêu chí IELTS. Bản ghi lưu ở Supabase Storage (bucket riêng tư `speaking`, tạo bằng migration).
-- Dự định: AI nhận xét bài Writing (ước lượng band, gợi ý sửa). Nhận xét Speaking bằng AI (chuyển giọng nói thành chữ rồi chấm) để làm sau.
+- Chủ bài Writing bấm **Nhận xét bài này** để AI (Gemini API của Google AI Studio) ước lượng band 4 tiêu chí, nêu điểm mạnh, điểm cần sửa, sửa lỗi và viết lại một đoạn. Mỗi học viên có 3 lượt mỗi ngày (theo giờ Việt Nam), mỗi bài nhận xét một lần; gọi lỗi thì được trả lại lượt. Nhận xét AI chỉ chủ bài và admin xem được.
+- Để sau: AI nhận xét Speaking (chuyển giọng nói thành chữ rồi chấm).
+
+### Bật AI nhận xét (làm một lần)
+
+1. Tạo API key ở [Google AI Studio](https://aistudio.google.com/) (mục **Get API key**). Không dán key vào chat, issue hay file trong repo.
+2. Đặt key làm secret của Edge Function, chọn một trong hai cách:
+   - Supabase Dashboard → **Edge Functions** → **Secrets**: thêm `GEMINI_API_KEY`.
+   - Hoặc trong terminal của bạn: `npx supabase@3.1.0 secrets set GEMINI_API_KEY=<key> --project-ref <project-ref>` (cần `npx supabase@3.1.0 login` trước).
+
+   Tùy chọn: `GEMINI_MODEL` để đổi model (mặc định `gemini-3.8-flash`). Xem model nào có gói miễn phí và giới hạn mỗi ngày ở trang Rate limits trong AI Studio.
+
+3. Trong GitHub, environment `production`, thêm secret `SUPABASE_ACCESS_TOKEN` (Supabase → Account → Access Tokens) và `SUPABASE_PROJECT_REF` (mã project trong URL dashboard). Workflow `functions-deploy` sẽ deploy function `writing-feedback` khi `supabase/functions/**` thay đổi; lần đầu thì chạy tay: `gh workflow run functions-deploy`.
+4. Đổi số lượt mỗi ngày trong SQL Editor: `update app_settings set value = '{"writing": 5}' where key = 'ai_daily_quota';`
+
+Lưu ý: bài viết của học viên được gửi tới Google để chấm. Với gói miễn phí, Google có thể dùng dữ liệu gửi lên để cải thiện sản phẩm `[nên đọc lại điều khoản Gemini API hiện hành]`; nên báo trước cho học viên.
 
 ## Theo dõi kết quả học viên
 
@@ -107,13 +122,14 @@ Các bảng đều có nút **Xuất CSV** (mở được bằng Excel). Tài kh
 
 ## CI/CD
 
-| Workflow         | Khi nào chạy                                                                                                                      | Việc                                                                                                  |
-| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| `ci.yml`         | Mỗi PR, và mỗi lần push lên nhánh khác `main`                                                                                     | lint, format, typecheck, test kèm coverage, validate content, build                                   |
-| `deploy.yml`     | Push lên `main`, hoặc chạy tay                                                                                                    | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                        |
-| `db-migrate.yml` | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay                                                         | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                      |
-| `keep-alive.yml` | 2 ngày một lần, hoặc chạy tay                                                                                                     | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng     |
-| `bank-sync.yml`  | Push lên `main` có thay đổi trong `content/bank/**` hoặc `content/roadmap/**`, sau mỗi lần `db-migrate` thành công, hoặc chạy tay | Nạp câu hỏi luyện tập TOEIC/IELTS và danh sách nhiệm vụ lộ trình lên Supabase (upsert, chạy lại được) |
+| Workflow               | Khi nào chạy                                                                                                                      | Việc                                                                                                  |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `ci.yml`               | Mỗi PR, và mỗi lần push lên nhánh khác `main`                                                                                     | lint, format, typecheck, test kèm coverage, validate content, build                                   |
+| `deploy.yml`           | Push lên `main`, hoặc chạy tay                                                                                                    | Chạy lại các bước kiểm tra, build với secret Supabase, deploy lên GitHub Pages                        |
+| `db-migrate.yml`       | Push lên `main` có thay đổi trong `supabase/migrations/**`, hoặc chạy tay                                                         | Chạy `supabase db push` (dry-run trước, rồi push) trong environment `production`                      |
+| `keep-alive.yml`       | 2 ngày một lần, hoặc chạy tay                                                                                                     | Đọc danh sách khóa học để Supabase gói miễn phí không tự tạm dừng; báo lỗi nếu project đã bị dừng     |
+| `bank-sync.yml`        | Push lên `main` có thay đổi trong `content/bank/**` hoặc `content/roadmap/**`, sau mỗi lần `db-migrate` thành công, hoặc chạy tay | Nạp câu hỏi luyện tập TOEIC/IELTS và danh sách nhiệm vụ lộ trình lên Supabase (upsert, chạy lại được) |
+| `functions-deploy.yml` | Push lên `main` có thay đổi trong `supabase/functions/**`, hoặc chạy tay                                                          | Kiểm tra kiểu bằng Deno rồi deploy Edge Function `writing-feedback`                                   |
 
 Dependabot cập nhật dependency npm và GitHub Actions mỗi tuần. TypeScript bản major được bỏ qua cho tới khi `typescript-eslint` hỗ trợ.
 

@@ -5,7 +5,8 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['dist', 'coverage', 'courses/**/pipeline'] },
+  // Edge Functions run on Deno (Deno globals, npm: imports); their pure logic lives in core.ts, which is linted.
+  { ignores: ['dist', 'coverage', 'courses/**/pipeline', 'supabase/functions/*/index.ts'] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
     files: ['**/*.{ts,tsx}'],

@@ -15,6 +15,8 @@ const rows = async <T>(sql: string) => (await t.db.query<T>(sql)).rows;
 // Functions the browser (role authenticated) may call. Everything else is an
 // internal helper and must not be executable from the API.
 const CALLABLE = [
+  'ai_quota_status(p_kind text)',
+  'ai_quota_take(p_kind text)',
   'admin_item_analysis(p_course text, p_min integer)',
   'admin_learners(p_course text)',
   'admin_list_users()',
