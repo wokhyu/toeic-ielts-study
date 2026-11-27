@@ -6,9 +6,11 @@ import {
   placementTestSchema,
   productiveTestSchema,
   scoringSchema,
+  speakingSetsSchema,
   toeicSkills,
   vocabDeckSchema,
   weekSchema,
+  writingPromptsSchema,
   type Week,
 } from '../src/content/schema.ts';
 import { BANK_COURSES, loadBank } from './bank-content.ts';
@@ -144,6 +146,67 @@ for (const program of ['toeic', 'ielts'] as const) {
   }
 }
 
+// IELTS Writing prompts and Speaking sets
+const writingPrompts = load('prompts/ielts-writing.json', writingPromptsSchema);
+const speakingSets = load('prompts/ielts-speaking.json', speakingSetsSchema);
+if (writingPrompts) {
+  checkUnique(
+    'prompts/ielts-writing.json',
+    writingPrompts.map((p) => p.id),
+  );
+  for (const p of writingPrompts) {
+    const label = `prompts/ielts-writing.json: ${p.id}`;
+    if (!p.id.startsWith(`w${String(p.week).padStart(2, '0')}-`))
+      errors.push(`${label}: id does not match week`);
+    if ((p.task === 1) !== Boolean(p.visuals))
+      errors.push(`${label}: Task 1 needs visuals and Task 2 has none`);
+    for (const v of p.visuals ?? []) {
+      if (v.type === 'line' || v.type === 'bar') {
+        for (const s of v.series) {
+          if (s.values.length !== v.categories.length)
+            errors.push(
+              `${label}: series "${s.name}" has ${s.values.length} values for ${v.categories.length} categories`,
+            );
+        }
+      }
+      if (v.type === 'table') {
+        for (const r of v.rows) {
+          if (r.values.length !== v.columns.length)
+            errors.push(`${label}: row "${r.label}" does not match the columns`);
+        }
+      }
+      if (v.type === 'pie') {
+        for (const pie of v.pies) {
+          const sum = pie.slices.reduce((a, x) => a + x.value, 0);
+          if (Math.abs(sum - 100) > 1) errors.push(`${label}: pie "${pie.caption}" adds up to ${sum}%`);
+        }
+      }
+      if (v.type === 'map') {
+        for (const m of v.maps) {
+          for (const f of m.features) {
+            if (f.x + f.w > 100 || f.y + f.h > 60)
+              errors.push(`${label}: "${f.label}" is outside the 100 × 60 map`);
+          }
+        }
+      }
+    }
+  }
+  for (let week = 1; week <= 12; week++) {
+    if (!writingPrompts.some((p) => p.week === week))
+      errors.push(`prompts/ielts-writing.json: no prompt for week ${week}`);
+  }
+}
+if (speakingSets) {
+  checkUnique(
+    'prompts/ielts-speaking.json',
+    speakingSets.map((p) => p.id),
+  );
+  for (let week = 1; week <= 12; week++) {
+    if (!speakingSets.some((p) => p.week === week))
+      errors.push(`prompts/ielts-speaking.json: no set for week ${week}`);
+  }
+}
+
 // Question banks (practice sets in the repo, plus mock tests in content-private/ when present)
 const bankCounts: string[] = [];
 let roadmapLinks = 0;
@@ -191,6 +254,16 @@ for (const course of BANK_COURSES) {
             );
           }
         }
+        if (link.kind === 'writing' || link.kind === 'speaking' || link.kind === 'review') {
+          if (course !== 'ielts') errors.push(`${label}: ${link.kind} links exist only for IELTS`);
+          const has =
+            link.kind === 'writing'
+              ? (writingPrompts ?? []).some((p) => p.week === w.week)
+              : link.kind === 'speaking'
+                ? (speakingSets ?? []).some((p) => p.week === w.week)
+                : true;
+          if (!has) errors.push(`${label}: no ${link.kind} prompt for week ${w.week}`);
+        }
         if (link.kind === 'mock') {
           if (!d.mock_test) errors.push(`${label}: a mock link belongs on a mock test day`);
           // Mock tests live in content-private/, so only check them where they are present.
@@ -209,5 +282,5 @@ if (errors.length > 0) {
   process.exit(1);
 }
 console.log(
-  `Content OK: placement tests, 24 roadmap weeks, vocabulary decks, question banks (${bankCounts.join(', ')} questions) and ${roadmapLinks} "Làm ngay" links are valid.`,
+  `Content OK: placement tests, 24 roadmap weeks, vocabulary decks, ${writingPrompts?.length ?? 0} Writing prompts, ${speakingSets?.length ?? 0} Speaking sets, question banks (${bankCounts.join(', ')} questions) and ${roadmapLinks} "Làm ngay" links are valid.`,
 );

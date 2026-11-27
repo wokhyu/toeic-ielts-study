@@ -71,6 +71,21 @@ const TodayPage = lazy(() => import('./pages/roadmap/TodayPage.tsx').then((m) =>
 const ProgressTab = lazy(() =>
   import('./pages/roadmap/ProgressTab.tsx').then((m) => ({ default: m.ProgressTab })),
 );
+const ProductiveHubPage = lazy(() =>
+  import('./features/productive/ProductiveHubPage.tsx').then((m) => ({ default: m.ProductiveHubPage })),
+);
+const ProductiveTaskPage = lazy(() =>
+  import('./features/productive/ProductiveTaskPage.tsx').then((m) => ({ default: m.ProductiveTaskPage })),
+);
+const WritingEditorPage = lazy(() =>
+  import('./features/productive/WritingEditorPage.tsx').then((m) => ({ default: m.WritingEditorPage })),
+);
+const SpeakingPage = lazy(() =>
+  import('./features/productive/SpeakingPage.tsx').then((m) => ({ default: m.SpeakingPage })),
+);
+const SubmissionPage = lazy(() =>
+  import('./features/productive/SubmissionPage.tsx').then((m) => ({ default: m.SubmissionPage })),
+);
 const TaskPracticePage = lazy(() =>
   import('./features/bank/TaskPracticePage.tsx').then((m) => ({ default: m.TaskPracticePage })),
 );
@@ -116,6 +131,15 @@ function roadmapRoutes(program: Program) {
         <Route path="diem-thi-thu" element={<ScoresPage />} />
         <Route path="xep-hang" element={<LeaderboardPage />} />
         <Route path="tien-bo" element={<ProgressTab />} />
+        {program === 'ielts' && (
+          <>
+            <Route path="viet-noi" element={<ProductiveHubPage />} />
+            <Route path="viet-noi/nv/:taskId" element={<ProductiveTaskPage />} />
+            <Route path="viet/:promptId" element={<WritingEditorPage />} />
+            <Route path="noi/:setId" element={<SpeakingPage />} />
+            <Route path="bai/:submissionId" element={<SubmissionPage />} />
+          </>
+        )}
         <Route path="luyen" element={<BankLayout course={program} base={`/c/${program}/luyen`} />}>
           {bankRoutes()}
         </Route>

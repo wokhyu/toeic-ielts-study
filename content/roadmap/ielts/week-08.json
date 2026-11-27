@@ -160,7 +160,10 @@
           "track": "A",
           "title": "Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Advantages–Disadvantages",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w8d2t4",
@@ -168,7 +171,10 @@
           "track": "B",
           "title": "Viết bài hoàn chỉnh Task 2: dạng Advantages–Disadvantages, không giới hạn thời gian",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w8d2t5",
@@ -176,7 +182,10 @@
           "track": "C",
           "title": "Viết bài Task 2: dạng Advantages–Disadvantages trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút)",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w8d2t6",
@@ -184,7 +193,10 @@
           "track": "all",
           "title": "Luyện Part 2: tả một đồ vật: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "speaking"
+          }
         }
       ]
     },
@@ -319,7 +331,10 @@
           "track": "all",
           "title": "Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét",
           "minutes": 30,
-          "group_activity": true
+          "group_activity": true,
+          "practice": {
+            "kind": "review"
+          }
         },
         {
           "id": "ielts-w8d4t3",
@@ -449,7 +464,10 @@
           "track": "all",
           "title": "Lập dàn ý cho 2 đề Task 2: dạng Advantages–Disadvantages mới (mỗi đề 10 phút), viết 1 đoạn",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w8d5t6",

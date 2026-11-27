@@ -1,11 +1,15 @@
 import { useCallback, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { IconCheck, IconX } from '../../components/icons.tsx';
 import { Badge, Card, Chip, ErrorBox, InfoHint, Spinner } from '../../components/ui.tsx';
 import { tagLabel } from '../../content/bank.ts';
 import { roadmaps } from '../../content/index.ts';
 import type { Program, Task, Track } from '../../content/schema.ts';
+import { listSubmissions, promptTitle } from '../../features/productive/data.ts';
 import { ProgressPage } from '../../features/progress/ProgressPage.tsx';
 import { tasksFor } from '../../lib/roadmap.ts';
+import { formatDateVN } from '../../lib/dates.ts';
+import { formatBand } from '../../lib/ielts.ts';
 import { formatDuration } from '../../lib/stats.ts';
 import { db } from '../../lib/supabase.ts';
 import type { AdminUserRow, CourseId } from '../../lib/types.ts';
@@ -40,6 +44,7 @@ export function LearnerInsights({ user, doneTasks }: { user: AdminUserRow; doneT
       {roadmap && enrollment?.track && (
         <WeekSkillGrid program={course} track={enrollment.track} done={doneTasks} />
       )}
+      {course === 'ielts' && <LearnerSubmissions userId={user.id} />}
       <RecentAnswers key={`answers-${course}`} userId={user.id} course={course} />
     </section>
   );
@@ -239,6 +244,48 @@ function RecentAnswers({ userId, course }: { userId: string; course: CourseId })
             );
           })}
         </ol>
+      )}
+    </Card>
+  );
+}
+
+/** The learner's IELTS Writing and Speaking work, with the classmates' band. */
+function LearnerSubmissions({ userId }: { userId: string }) {
+  const load = useCallback(
+    async () => (await listSubmissions('all')).filter((s) => s.user_id === userId),
+    [userId],
+  );
+  const { data, loading, error } = useAsync(load);
+  return (
+    <Card>
+      <h3 className="mb-3 font-semibold text-ink">Bài Writing và Speaking</h3>
+      {loading ? (
+        <Spinner />
+      ) : error ? (
+        <ErrorBox message={error} />
+      ) : (data ?? []).length === 0 ? (
+        <p className="text-sm text-ink-muted">Chưa nộp bài nào.</p>
+      ) : (
+        <ul className="divide-y divide-line text-sm">
+          {(data ?? []).map((s) => (
+            <li key={s.id} className="flex flex-wrap items-center gap-2 py-2">
+              <Link
+                to={`/c/ielts/bai/${s.id}`}
+                className="mr-auto font-medium text-brand-ink hover:underline"
+              >
+                {promptTitle(s.kind, s.prompt_id)}
+              </Link>
+              <span className="text-xs text-ink-muted">
+                {formatDateVN(s.created_at.slice(0, 10))}
+                {s.kind === 'writing' ? ` · ${s.word_count} từ` : ''}
+                {s.shared ? '' : ' · không chia sẻ'}
+              </span>
+              <Badge color={s.peer_overall === null ? 'gray' : 'blue'}>
+                {s.reviews} lượt chấm{s.peer_overall === null ? '' : ` · band ${formatBand(s.peer_overall)}`}
+              </Badge>
+            </li>
+          ))}
+        </ul>
       )}
     </Card>
   );

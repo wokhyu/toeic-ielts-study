@@ -71,6 +71,9 @@ const miniTest = (
 });
 
 const MOCK: PracticeLink = { kind: 'mock' };
+const WRITE: PracticeLink = { kind: 'writing' };
+const SPEAK: PracticeLink = { kind: 'speaking' };
+const REVIEW: PracticeLink = { kind: 'review' };
 
 /* ------------------------------------------------------------------ TOEIC */
 
@@ -532,11 +535,11 @@ export function ieltsDays(week: number, s: IeltsWeekSpec): DraftDay[] {
     all('vocab', 'Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng)', 15),
     all('writing', `Học cấu trúc ${s.writing}: phân tích 1 bài mẫu, ghi dàn ý`, 30),
     ...tracked('writing', {
-      A: [`Viết mở bài và 1 đoạn thân bài cho ${s.writing}`, 40],
-      B: [`Viết bài hoàn chỉnh ${s.writing}, không giới hạn thời gian`, 40],
-      C: [`Viết bài ${s.writing} trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút)`, 40],
+      A: [`Viết mở bài và 1 đoạn thân bài cho ${s.writing}`, 40, WRITE],
+      B: [`Viết bài hoàn chỉnh ${s.writing}, không giới hạn thời gian`, 40, WRITE],
+      C: [`Viết bài ${s.writing} trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút)`, 40, WRITE],
     }),
-    all('speaking', `Luyện ${s.speaking}: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi`, 35),
+    all('speaking', `Luyện ${s.speaking}: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi`, 35, false, SPEAK),
   ];
 
   const day3: DraftTask[] = [
@@ -562,6 +565,7 @@ export function ieltsDays(week: number, s: IeltsWeekSpec): DraftDay[] {
       'Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét',
       30,
       true,
+      REVIEW,
     ),
     all('writing', 'Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn', 30),
     all(
@@ -602,7 +606,7 @@ export function ieltsDays(week: number, s: IeltsWeekSpec): DraftDay[] {
           ],
         })),
     all('mock', 'Chữa mini test, ghi lỗi theo dạng câu hỏi', 30),
-    all('writing', `Lập dàn ý cho 2 đề ${s.writing} mới (mỗi đề 10 phút), viết 1 đoạn`, 30),
+    all('writing', `Lập dàn ý cho 2 đề ${s.writing} mới (mỗi đề 10 phút), viết 1 đoạn`, 30, false, WRITE),
     all('vocab', 'Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc', 15),
   ];
 
