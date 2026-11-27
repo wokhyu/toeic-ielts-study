@@ -16,5 +16,5 @@
     "skipLibCheck": true,
     "types": ["node"]
   },
-  "include": ["vite.config.ts", "scripts", "supabase/tests"]
+  "include": ["vite.config.ts", "scripts", "supabase/tests", "supabase/functions/**/core*.ts"]
 }

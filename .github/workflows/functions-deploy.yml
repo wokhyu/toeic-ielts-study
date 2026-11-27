@@ -1,0 +1,50 @@
+name: functions-deploy
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'supabase/functions/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: functions-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment: production
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+      SUPABASE_CLI: supabase@3.1.0
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Check secrets
+        run: |
+          if [ -z "$SUPABASE_ACCESS_TOKEN" ] || [ -z "$SUPABASE_PROJECT_REF" ]; then
+            echo "::error::Set SUPABASE_ACCESS_TOKEN and SUPABASE_PROJECT_REF in the 'production' environment (see README)."
+            exit 1
+          fi
+
+      - name: Type-check the functions
+        run: deno check supabase/functions/writing-feedback/index.ts
+
+      # The function checks the caller's session itself (auth.getUser), so the
+      # gateway's JWT check is off; that also lets the CORS preflight through.
+      - name: Deploy writing-feedback
+        run: npx -y "$SUPABASE_CLI" functions deploy writing-feedback --project-ref "$SUPABASE_PROJECT_REF" --no-verify-jwt
