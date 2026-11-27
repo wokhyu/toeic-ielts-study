@@ -7,6 +7,7 @@ import {
   IconCards,
   IconChart,
   IconGrowth,
+  IconMic,
   IconPencil,
   IconSparkle,
   IconTarget,
@@ -85,6 +86,11 @@ export function RoadmapLayout({ program, preview }: { program: Program; preview:
         {!preview && (
           <NavLink to={`${base}/luyen`} className={tab}>
             <IconPencil size={15} /> Luyện đề
+          </NavLink>
+        )}
+        {!preview && program === 'ielts' && (
+          <NavLink to={`${base}/viet-noi`} className={tab}>
+            <IconMic size={15} /> Viết & Nói
           </NavLink>
         )}
         <NavLink to={`${base}/lo-trinh`} className={tab}>

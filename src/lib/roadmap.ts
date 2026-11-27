@@ -1,5 +1,6 @@
 import type { Task, Track, Week } from '../content/schema.ts';
 import { daysBetween } from './dates.ts';
+import { bankBase } from './types.ts';
 
 export interface StudyPosition {
   week: number; // 1..12
@@ -57,6 +58,14 @@ export function mockTaskFor(weeks: Week[], week: number): Task | undefined {
     .find((w) => w.week === week)
     ?.days.flatMap((d) => d.tasks)
     .find((t) => t.practice?.kind === 'mock');
+}
+
+/** Where a task's "Làm ngay" button goes. */
+export function taskHref(program: 'toeic' | 'ielts', task: Task): string {
+  const kind = task.practice?.kind;
+  if (kind === 'writing' || kind === 'speaking' || kind === 'review')
+    return `/c/${program}/viet-noi/nv/${task.id}`;
+  return `${bankBase(program)}/nv/${task.id}`;
 }
 
 /** Whether "Làm ngay" can open something: a mock link needs a mock test for that week. */

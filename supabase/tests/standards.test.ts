@@ -21,6 +21,7 @@ const CALLABLE = [
   'admin_overview(p_course text, p_from date, p_to date)',
   'admin_set_enrollment(p_user uuid, p_course text, p_status text, p_track text, p_start_date date)',
   'admin_set_role(p_user uuid, p_role text)',
+  'can_review(p_submission bigint)',
   'get_leaderboard(p_course text)',
   'is_admin()',
   'is_enrolled(p_course text)',
@@ -46,6 +47,9 @@ const CALLABLE = [
   'ot_topic_tree(p_course text)',
   'ot_wrong_question_ids(p_limit integer, p_course text)',
   'request_enrollment(p_course text)',
+  'speaking_file_visible(p_name text)',
+  'submission_list(p_course text, p_scope text, p_id bigint)',
+  'submission_reviews(p_submission bigint)',
 ];
 
 describe('database standards', () => {

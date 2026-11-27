@@ -80,6 +80,12 @@ Mọi câu hỏi đều là câu tự soạn, không chép đề ETS hay Cambrid
 - Part 1 của TOEIC (mô tả tranh) chưa có, vì cần ảnh.
 - Nhiệm vụ lộ trình nối với ngân hàng câu hỏi qua trường `practice` trong `scripts/roadmap-specs.ts` (chạy `npm run generate:roadmap` sau khi sửa). Trên trang Hôm nay, nhiệm vụ đó có nút **Làm ngay**; làm đủ số câu hoặc nộp bài mini test/thi thử thì nhiệm vụ tự được tích. Nếu thêm hoặc bớt câu hỏi khiến một tag không còn đủ câu, `validate-content` sẽ báo lỗi.
 
+## IELTS Writing và Speaking
+
+- Đề tự soạn nằm ở `content/prompts/`: `ielts-writing.json` (2 đề mỗi tuần; Task 1 khai báo số liệu biểu đồ trong `visuals`) và `ielts-speaking.json` (1 bộ Part 1–3 mỗi tuần). `validate-content` kiểm tra schema, số liệu biểu đồ (biểu đồ tròn cộng đủ 100%, bản đồ nằm trong khung) và mỗi tuần có đề.
+- Học viên nộp bài viết hoặc ghi âm ở tab **Viết & Nói**, bật chia sẻ để bạn cùng khóa chấm chéo theo 4 tiêu chí IELTS. Bản ghi lưu ở Supabase Storage (bucket riêng tư `speaking`, tạo bằng migration).
+- Dự định: AI nhận xét bài Writing (ước lượng band, gợi ý sửa). Nhận xét Speaking bằng AI (chuyển giọng nói thành chữ rồi chấm) để làm sau.
+
 ## Theo dõi kết quả học viên
 
 Mọi lần trả lời (luyện tập, ôn lại, thi, thi thử), mọi nhiệm vụ đã tích và mọi lượt ôn flashcard đều được lưu. Học viên xem tiến bộ của mình ở tab **Tiến bộ**. Admin vào **Quản trị** để xem:

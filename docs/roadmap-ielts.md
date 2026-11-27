@@ -47,10 +47,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–150, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Skimming, scanning và True/False/Not Given trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: biểu đồ đường (mở bài và overview): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ đường (mở bài và overview) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ đường (mở bài và overview), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: biểu đồ đường (mở bài và overview) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 1: bản thân và quê hương: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ đường (mở bài và overview) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ đường (mở bài và overview), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: biểu đồ đường (mở bài và overview) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 1: bản thân và quê hương: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -61,7 +61,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–150, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 1: điền form và ghi chú, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Câu đơn, câu ghép, câu phức", viết 8 câu áp dụng cho chủ đề "Giáo dục" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 1: bản thân và quê hương, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 1: điền form và ghi chú (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -69,7 +69,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–150, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ đường (mở bài và overview) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ đường (mở bài và overview) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -91,10 +91,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Matching Headings trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 2: dạng Opinion (đồng ý/không đồng ý): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Opinion (đồng ý/không đồng ý) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Opinion (đồng ý/không đồng ý), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 2: dạng Opinion (đồng ý/không đồng ý) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 1: công việc và học tập: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Opinion (đồng ý/không đồng ý) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Opinion (đồng ý/không đồng ý), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 2: dạng Opinion (đồng ý/không đồng ý) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 1: công việc và học tập: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -105,7 +105,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 1–2: bản đồ và trắc nghiệm, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Mệnh đề quan hệ", viết 8 câu áp dụng cho chủ đề "Công việc và nghề nghiệp" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 1: công việc và học tập, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 1–2: bản đồ và trắc nghiệm (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -113,7 +113,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Opinion (đồng ý/không đồng ý) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Opinion (đồng ý/không đồng ý) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -135,10 +135,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Sentence và Summary Completion trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: biểu đồ cột: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ cột | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ cột, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: biểu đồ cột trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 2: tả một người: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ cột · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ cột, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: biểu đồ cột trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 2: tả một người: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -149,7 +149,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 2: trắc nghiệm nhiều lựa chọn, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Câu so sánh và cách mô tả số liệu", viết 8 câu áp dụng cho chủ đề "Công nghệ" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 2: tả một người, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 2: trắc nghiệm nhiều lựa chọn (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -157,7 +157,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ cột mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ cột mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -179,10 +179,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Yes/No/Not Given trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 2: dạng Discussion (bàn hai quan điểm): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Discussion (bàn hai quan điểm) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Discussion (bàn hai quan điểm), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 2: dạng Discussion (bàn hai quan điểm) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 2: tả một địa điểm: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Discussion (bàn hai quan điểm) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Discussion (bàn hai quan điểm), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 2: dạng Discussion (bàn hai quan điểm) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 2: tả một địa điểm: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -193,7 +193,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 3: thảo luận học thuật, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Mạo từ và danh từ đếm được/không đếm được", viết 8 câu áp dụng cho chủ đề "Môi trường" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 2: tả một địa điểm, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 3: thảo luận học thuật (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -201,7 +201,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Discussion (bàn hai quan điểm) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Discussion (bàn hai quan điểm) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Thi thử IELTS lần 1: Listening 30 phút, Reading 60 phút, Writing 60 phút. Nhập điểm vào trang Điểm thi thử (nhóm) | 150 |
 | Thứ 7 | Tất cả | Thi Speaking với 1 bạn trong nhóm (15 phút), chấm chéo theo 4 tiêu chí (nhóm) | 20 |
@@ -223,10 +223,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Matching Information trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: biểu đồ tròn và bảng số liệu: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ tròn và bảng số liệu | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ tròn và bảng số liệu, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: biểu đồ tròn và bảng số liệu trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 3: câu hỏi trừu tượng: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ tròn và bảng số liệu · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ tròn và bảng số liệu, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: biểu đồ tròn và bảng số liệu trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 3: câu hỏi trừu tượng: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -237,7 +237,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 3: matching, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Câu điều kiện", viết 8 câu áp dụng cho chủ đề "Sức khỏe" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 3: câu hỏi trừu tượng, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 3: matching (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -245,7 +245,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ tròn và bảng số liệu mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ tròn và bảng số liệu mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -267,10 +267,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Multiple Choice trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 2: dạng Problem–Solution: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Problem–Solution | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Problem–Solution, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 2: dạng Problem–Solution trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 2: kể một sự kiện hoặc trải nghiệm: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Problem–Solution · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Problem–Solution, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 2: dạng Problem–Solution trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 2: kể một sự kiện hoặc trải nghiệm: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -281,7 +281,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 4: điền ghi chú bài giảng, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Câu bị động", viết 8 câu áp dụng cho chủ đề "Đô thị hóa" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 2: kể một sự kiện hoặc trải nghiệm, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 4: điền ghi chú bài giảng (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -289,7 +289,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Problem–Solution mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Problem–Solution mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -311,10 +311,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Matching Features trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: sơ đồ quy trình (process): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: sơ đồ quy trình (process) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: sơ đồ quy trình (process), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: sơ đồ quy trình (process) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 3: xã hội và chính phủ: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: sơ đồ quy trình (process) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: sơ đồ quy trình (process), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: sơ đồ quy trình (process) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 3: xã hội và chính phủ: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -325,7 +325,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Section 4: theo kịp tốc độ bài giảng, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Mệnh đề danh từ", viết 8 câu áp dụng cho chủ đề "Chính phủ và xã hội" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 3: xã hội và chính phủ, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Section 4: theo kịp tốc độ bài giảng (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -333,7 +333,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: sơ đồ quy trình (process) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: sơ đồ quy trình (process) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -355,10 +355,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Diagram và Flow-chart Labelling trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 2: dạng Advantages–Disadvantages: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Advantages–Disadvantages | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Advantages–Disadvantages, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 2: dạng Advantages–Disadvantages trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 2: tả một đồ vật: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Advantages–Disadvantages · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Advantages–Disadvantages, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 2: dạng Advantages–Disadvantages trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 2: tả một đồ vật: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -369,7 +369,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Kết hợp Section 1–4, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Thì hoàn thành trong mô tả xu hướng", viết 8 câu áp dụng cho chủ đề "Truyền thông" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 2: tả một đồ vật, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Kết hợp Section 1–4 (khoảng 1 phút), nói theo 5 lần | 20 |
@@ -377,7 +377,7 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 6 | B | Mini test: 2 section Listening + 1 passage Reading, bấm giờ · *làm trên web* | 50 |
 | Thứ 6 | C | Mini test: 2 section Listening + 2 passage Reading, bấm giờ · *làm trên web* | 60 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Advantages–Disadvantages mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Advantages–Disadvantages mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Thi thử IELTS lần 2: Listening 30 phút, Reading 60 phút, Writing 60 phút. Nhập điểm vào trang Điểm thi thử (nhóm) | 150 |
 | Thứ 7 | Tất cả | Thi Speaking với 1 bạn trong nhóm (15 phút), chấm chéo theo 4 tiêu chí (nhóm) | 20 |
@@ -399,10 +399,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Passage đầy đủ có bấm giờ trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: bản đồ (map): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: bản đồ (map) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: bản đồ (map), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: bản đồ (map) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 1–3 thi thử theo cặp: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: bản đồ (map) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: bản đồ (map), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: bản đồ (map) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 1–3 thi thử theo cặp: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -413,13 +413,13 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Đề Listening đầy đủ có bấm giờ, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Ôn câu phức và cách nối ý", viết 8 câu áp dụng cho chủ đề "Kinh tế và toàn cầu hóa" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 1–3 thi thử theo cặp, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Đề Listening đầy đủ có bấm giờ (khoảng 1 phút), nói theo 5 lần | 20 |
 | Thứ 6 | Tất cả | Làm 1 đề Listening đầy đủ (40 câu, 30 phút) và 1 passage Reading (20 phút) · *làm trên web* | 55 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: bản đồ (map) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: bản đồ (map) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -441,10 +441,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Chiến lược phân bổ 60 phút cho 3 passage trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 2: dạng Two-part question: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Two-part question | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Two-part question, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 2: dạng Two-part question trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 3: khoa học và tương lai: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 2: dạng Two-part question · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 2: dạng Two-part question, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 2: dạng Two-part question trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 3: khoa học và tương lai: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -455,13 +455,13 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Đề Listening đầy đủ: tập trung lỗi chính tả, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Ôn lỗi ngữ pháp hay gặp trong Writing", viết 8 câu áp dụng cho chủ đề "Khoa học" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 3: khoa học và tương lai, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Đề Listening đầy đủ: tập trung lỗi chính tả (khoảng 1 phút), nói theo 5 lần | 20 |
 | Thứ 6 | Tất cả | Làm 1 đề Listening đầy đủ (40 câu, 30 phút) và 1 passage Reading (20 phút) · *làm trên web* | 55 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Two-part question mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 2: dạng Two-part question mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -483,10 +483,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Đề Reading đầy đủ: chữa theo dạng câu hỏi trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1: biểu đồ kết hợp (mixed): phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ kết hợp (mixed) | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ kết hợp (mixed), không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1: biểu đồ kết hợp (mixed) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 2–3: văn hóa và nghệ thuật: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1: biểu đồ kết hợp (mixed) · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1: biểu đồ kết hợp (mixed), không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1: biểu đồ kết hợp (mixed) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 2–3: văn hóa và nghệ thuật: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -497,13 +497,13 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Đề Listening đầy đủ: chữa theo sổ lỗi, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Ôn theo sổ lỗi sai cá nhân", viết 8 câu áp dụng cho chủ đề "Văn hóa và nghệ thuật" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 2–3: văn hóa và nghệ thuật, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Đề Listening đầy đủ: chữa theo sổ lỗi (khoảng 1 phút), nói theo 5 lần | 20 |
 | Thứ 6 | Tất cả | Làm 1 đề Listening đầy đủ (40 câu, 30 phút) và 1 passage Reading (20 phút) · *làm trên web* | 55 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ kết hợp (mixed) mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1: biểu đồ kết hợp (mixed) mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Mock Speaking nhóm: mỗi người thi Part 1–3 trong 12 phút, các bạn còn lại chấm (nhóm) | 60 |
 | Thứ 7 | Tất cả | Ôn sổ lỗi Writing và từ vựng tuần, viết lại 3 câu hay nhất | 30 |
@@ -525,10 +525,10 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 2 | C | Làm 1 passage có dạng Tổng ôn các dạng câu hỏi trong 20 phút · *làm trên web* | 35 |
 | Thứ 3 | Tất cả | Ôn từ vựng tuần này trên Flashcard (chế độ lặp lại ngắt quãng) | 15 |
 | Thứ 3 | Tất cả | Học cấu trúc Task 1 và Task 2: viết đủ bài trong 60 phút: phân tích 1 bài mẫu, ghi dàn ý | 30 |
-| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1 và Task 2: viết đủ bài trong 60 phút | 40 |
-| Thứ 3 | B | Viết bài hoàn chỉnh Task 1 và Task 2: viết đủ bài trong 60 phút, không giới hạn thời gian | 40 |
-| Thứ 3 | C | Viết bài Task 1 và Task 2: viết đủ bài trong 60 phút trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) | 40 |
-| Thứ 3 | Tất cả | Luyện Part 1–3: thi thử hoàn chỉnh: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi | 35 |
+| Thứ 3 | A | Viết mở bài và 1 đoạn thân bài cho Task 1 và Task 2: viết đủ bài trong 60 phút · *làm trên web* | 40 |
+| Thứ 3 | B | Viết bài hoàn chỉnh Task 1 và Task 2: viết đủ bài trong 60 phút, không giới hạn thời gian · *làm trên web* | 40 |
+| Thứ 3 | C | Viết bài Task 1 và Task 2: viết đủ bài trong 60 phút trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút) · *làm trên web* | 40 |
+| Thứ 3 | Tất cả | Luyện Part 1–3: thi thử hoàn chỉnh: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi · *làm trên web* | 35 |
 | Thứ 4 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
 | Thứ 4 | A | Làm 1 passage mức dễ (13 câu), không giới hạn thời gian · *làm trên web* | 40 |
 | Thứ 4 | B | Làm 1 passage trong 20 phút, chữa kỹ câu sai · *làm trên web* | 40 |
@@ -539,13 +539,13 @@ Phút học mỗi ngày (Thứ 2–Thứ 6): nhánh A 120–130, nhánh B 120–
 | Thứ 4 | C | Làm 2 section Tổng ôn chiến thuật 4 Section, ghi lại lỗi chính tả · *làm trên web* | 30 |
 | Thứ 4 | Tất cả | Học "Tổng ôn toàn bộ chủ điểm", viết 8 câu áp dụng cho chủ đề "Du lịch" | 25 |
 | Thứ 5 | Tất cả | Ôn từ vựng tuần này trên Flashcard | 15 |
-| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) | 30 |
+| Thứ 5 | Tất cả | Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét (nhóm) · *làm trên web* | 30 |
 | Thứ 5 | Tất cả | Sửa bài của mình theo nhận xét được chấm chéo, viết lại 2 đoạn | 30 |
 | Thứ 5 | Tất cả | Luyện nói theo cặp qua video call: đổi vai giám khảo, hỏi Part 1–3: thi thử hoàn chỉnh, chấm theo 4 tiêu chí (nhóm) | 30 |
 | Thứ 5 | Tất cả | Shadowing 1 đoạn Tổng ôn chiến thuật 4 Section (khoảng 1 phút), nói theo 5 lần | 20 |
 | Thứ 6 | Tất cả | Làm 1 đề Listening đầy đủ (40 câu, 30 phút) và 1 passage Reading (20 phút) · *làm trên web* | 55 |
 | Thứ 6 | Tất cả | Chữa mini test, ghi lỗi theo dạng câu hỏi | 30 |
-| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1 và Task 2: viết đủ bài trong 60 phút mới (mỗi đề 10 phút), viết 1 đoạn | 30 |
+| Thứ 6 | Tất cả | Lập dàn ý cho 2 đề Task 1 và Task 2: viết đủ bài trong 60 phút mới (mỗi đề 10 phút), viết 1 đoạn · *làm trên web* | 30 |
 | Thứ 6 | Tất cả | Tự kiểm tra từ vựng tuần này, đánh dấu từ chưa thuộc | 15 |
 | Thứ 7 | Tất cả | Thi thử IELTS lần 3: Listening 30 phút, Reading 60 phút, Writing 60 phút. Nhập điểm vào trang Điểm thi thử (nhóm) | 150 |
 | Thứ 7 | Tất cả | Thi Speaking với 1 bạn trong nhóm (15 phút), chấm chéo theo 4 tiêu chí (nhóm) | 20 |

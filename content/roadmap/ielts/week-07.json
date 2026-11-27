@@ -163,7 +163,10 @@
           "track": "A",
           "title": "Viết mở bài và 1 đoạn thân bài cho Task 1: sơ đồ quy trình (process)",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w7d2t4",
@@ -171,7 +174,10 @@
           "track": "B",
           "title": "Viết bài hoàn chỉnh Task 1: sơ đồ quy trình (process), không giới hạn thời gian",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w7d2t5",
@@ -179,7 +185,10 @@
           "track": "C",
           "title": "Viết bài Task 1: sơ đồ quy trình (process) trong thời gian thi (Task 1: 20 phút, Task 2: 40 phút)",
           "minutes": 40,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w7d2t6",
@@ -187,7 +196,10 @@
           "track": "all",
           "title": "Luyện Part 3: xã hội và chính phủ: trả lời 5 câu, ghi âm, nghe lại và ghi 3 lỗi",
           "minutes": 35,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "speaking"
+          }
         }
       ]
     },
@@ -324,7 +336,10 @@
           "track": "all",
           "title": "Chấm chéo bài viết thứ 2 của 1 bạn trong nhóm theo checklist 4 tiêu chí, ghi 3 nhận xét",
           "minutes": 30,
-          "group_activity": true
+          "group_activity": true,
+          "practice": {
+            "kind": "review"
+          }
         },
         {
           "id": "ielts-w7d4t3",
@@ -454,7 +469,10 @@
           "track": "all",
           "title": "Lập dàn ý cho 2 đề Task 1: sơ đồ quy trình (process) mới (mỗi đề 10 phút), viết 1 đoạn",
           "minutes": 30,
-          "group_activity": false
+          "group_activity": false,
+          "practice": {
+            "kind": "writing"
+          }
         },
         {
           "id": "ielts-w7d5t6",

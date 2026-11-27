@@ -151,3 +151,22 @@ export const IconGrowth = (p: P) => (
     <path d="M5 20V14M10 20V10M15 20V12M20 20V5" />
   </Icon>
 );
+
+export const IconMic = (p: P) => (
+  <Icon {...p}>
+    <rect x="9" y="3" width="6" height="11" rx="3" />
+    <path d="M5 11a7 7 0 0 0 14 0M12 18v3" />
+  </Icon>
+);
+
+export const IconStop = (p: P) => (
+  <Icon {...p}>
+    <rect x="6" y="6" width="12" height="12" rx="2" />
+  </Icon>
+);
+
+export const IconVolume = (p: P) => (
+  <Icon {...p}>
+    <path d="M4 10v4h4l5 4V6L8 10H4zM16.5 8.5a5 5 0 0 1 0 7" />
+  </Icon>
+);

@@ -1,0 +1,338 @@
+[
+  {
+    "id": "s01",
+    "week": 1,
+    "topic_vi": "Quê hương và việc học",
+    "part1": [
+      "Where is your hometown?",
+      "What do you like most about living there?",
+      "Has your hometown changed much in recent years?",
+      "Would you like to live somewhere else in the future?"
+    ],
+    "part2": {
+      "cue": "Describe a teacher who had an important influence on you.",
+      "bullets": [
+        "who this teacher was",
+        "what subject they taught you",
+        "what they did that you still remember",
+        "and explain why they influenced you"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "What makes someone a good teacher?",
+      "Should teachers be paid more than they are now?",
+      "How has technology changed the way students learn?",
+      "Can online classes replace classroom teaching?"
+    ]
+  },
+  {
+    "id": "s02",
+    "week": 2,
+    "topic_vi": "Công việc và học tập",
+    "part1": [
+      "Do you work or are you a student?",
+      "Why did you choose that job or subject?",
+      "What do you find most difficult about it?",
+      "What would you like to change about your daily routine?"
+    ],
+    "part2": {
+      "cue": "Describe a job you would like to do in the future.",
+      "bullets": [
+        "what the job is",
+        "what skills it needs",
+        "how you could prepare for it",
+        "and explain why you would like to do it"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "What do young people look for when they choose a career?",
+      "Is it better to have one job for life or to change jobs often?",
+      "How might jobs change in the next twenty years?",
+      "Should schools teach practical work skills?"
+    ]
+  },
+  {
+    "id": "s03",
+    "week": 3,
+    "topic_vi": "Công nghệ",
+    "part1": [
+      "How often do you use your phone each day?",
+      "What apps do you use most?",
+      "Do you think you spend too much time online?",
+      "What technology would you find hard to live without?"
+    ],
+    "part2": {
+      "cue": "Describe a person you know who is very good with technology.",
+      "bullets": [
+        "who this person is",
+        "how you know them",
+        "what they can do with technology",
+        "and explain how they have helped you or others"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why are some people slower to learn new technology?",
+      "Has technology made people's lives easier or more stressful?",
+      "Should children be allowed to have smartphones?",
+      "What problems can technology create in the workplace?"
+    ]
+  },
+  {
+    "id": "s04",
+    "week": 4,
+    "topic_vi": "Môi trường và thiên nhiên",
+    "part1": [
+      "What kind of weather do you like best?",
+      "Do you spend much time outdoors?",
+      "Is there a park near where you live?",
+      "Did you enjoy nature trips when you were a child?"
+    ],
+    "part2": {
+      "cue": "Describe a natural place you have visited and enjoyed.",
+      "bullets": [
+        "where it is",
+        "when you went there",
+        "what you did there",
+        "and explain why you enjoyed it"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do people like to visit natural places?",
+      "How can tourism damage the environment?",
+      "Who should be responsible for protecting nature, individuals or governments?",
+      "What can be done to reduce plastic waste?"
+    ]
+  },
+  {
+    "id": "s05",
+    "week": 5,
+    "topic_vi": "Sức khỏe",
+    "part1": [
+      "How do you usually keep fit?",
+      "Do you like cooking at home?",
+      "Do you get enough sleep?",
+      "Has your diet changed since you were a child?"
+    ],
+    "part2": {
+      "cue": "Describe a healthy habit you have.",
+      "bullets": [
+        "what the habit is",
+        "when you started it",
+        "how often you do it",
+        "and explain how it helps you"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do many people find it hard to keep healthy habits?",
+      "Should governments tax unhealthy food?",
+      "Are people today healthier than in the past?",
+      "What role should schools play in teaching about health?"
+    ]
+  },
+  {
+    "id": "s06",
+    "week": 6,
+    "topic_vi": "Đô thị",
+    "part1": [
+      "Do you live in a city or the countryside?",
+      "What do you like about your neighbourhood?",
+      "How do you usually get around where you live?",
+      "Would you prefer to live in the city centre or the suburbs?"
+    ],
+    "part2": {
+      "cue": "Describe a time when you visited a busy city.",
+      "bullets": [
+        "which city it was",
+        "why you went there",
+        "what you did there",
+        "and explain how you felt about the experience"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do so many people move to big cities?",
+      "What problems does fast city growth cause?",
+      "How can cities be made better places to live?",
+      "Will more people work from small towns in the future?"
+    ]
+  },
+  {
+    "id": "s07",
+    "week": 7,
+    "topic_vi": "Chính phủ và xã hội",
+    "part1": [
+      "Do you often follow the news?",
+      "What public services do you use most?",
+      "Do you think your area is safe?",
+      "Have you ever done volunteer work?"
+    ],
+    "part2": {
+      "cue": "Describe a law or rule that you think is useful.",
+      "bullets": [
+        "what the law or rule is",
+        "where it applies",
+        "how people react to it",
+        "and explain why you think it is useful"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do some people break rules?",
+      "Should the government control what people eat or drink?",
+      "What makes a good leader?",
+      "How can ordinary people take part in decisions about their city?"
+    ]
+  },
+  {
+    "id": "s08",
+    "week": 8,
+    "topic_vi": "Truyền thông",
+    "part1": [
+      "How do you usually get the news?",
+      "Do you prefer reading or watching the news?",
+      "Do you trust the information you see on social media?",
+      "What kind of programmes did you watch as a child?"
+    ],
+    "part2": {
+      "cue": "Describe a device you use to get news or information.",
+      "bullets": [
+        "what the device is",
+        "when you got it",
+        "how you use it",
+        "and explain why it is important to you"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "How has social media changed the way people get news?",
+      "Should there be stricter rules about advertising to children?",
+      "Is it important for people to read newspapers today?",
+      "How can people tell if information online is reliable?"
+    ]
+  },
+  {
+    "id": "s09",
+    "week": 9,
+    "topic_vi": "Kinh tế và toàn cầu hóa",
+    "part1": [
+      "Do you enjoy shopping?",
+      "Do you prefer shopping online or in shops?",
+      "What was the last thing you bought?",
+      "Do you usually compare prices before buying something?"
+    ],
+    "part2": {
+      "cue": "Describe a product from another country that you like.",
+      "bullets": [
+        "what the product is",
+        "where it comes from",
+        "how you found out about it",
+        "and explain why you like it"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do people buy products from other countries?",
+      "Is globalisation good for small local businesses?",
+      "How have international companies changed your country?",
+      "Should people try to buy more local products?"
+    ]
+  },
+  {
+    "id": "s10",
+    "week": 10,
+    "topic_vi": "Khoa học",
+    "part1": [
+      "Did you like science at school?",
+      "Which science subject was the most interesting?",
+      "Do you watch programmes about science?",
+      "Would you like to visit a science museum?"
+    ],
+    "part2": {
+      "cue": "Describe a scientific discovery or invention that changed people's lives.",
+      "bullets": [
+        "what it is",
+        "when it was made",
+        "how people use it",
+        "and explain how it changed people's lives"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Should governments spend more money on scientific research?",
+      "What areas of science will be most important in the future?",
+      "Are there any dangers in scientific progress?",
+      "How can schools make science more interesting for students?"
+    ]
+  },
+  {
+    "id": "s11",
+    "week": 11,
+    "topic_vi": "Văn hóa và nghệ thuật",
+    "part1": [
+      "Do you like music?",
+      "Have you ever learned to play an instrument?",
+      "Do you often visit art galleries?",
+      "What traditional art is popular in your country?"
+    ],
+    "part2": {
+      "cue": "Describe a traditional festival in your country.",
+      "bullets": [
+        "what the festival is",
+        "when it takes place",
+        "what people do during it",
+        "and explain why it is important"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why are traditional festivals important?",
+      "Are young people less interested in traditional culture today?",
+      "How does tourism affect local culture?",
+      "Should the government support artists financially?"
+    ]
+  },
+  {
+    "id": "s12",
+    "week": 12,
+    "topic_vi": "Du lịch",
+    "part1": [
+      "Do you like travelling?",
+      "How do you usually travel long distances?",
+      "Do you prefer travelling alone or with others?",
+      "Where would you like to travel next?"
+    ],
+    "part2": {
+      "cue": "Describe a journey that you remember well.",
+      "bullets": [
+        "where you went",
+        "who you went with",
+        "what happened during the journey",
+        "and explain why you remember it"
+      ],
+      "prep_seconds": 60,
+      "talk_seconds": 120
+    },
+    "part3": [
+      "Why do people travel more today than in the past?",
+      "What are the benefits of travelling abroad when you are young?",
+      "How can tourists be more responsible?",
+      "Will people travel less in the future because of the environment?"
+    ]
+  }
+]

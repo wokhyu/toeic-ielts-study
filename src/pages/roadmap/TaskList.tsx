@@ -5,7 +5,7 @@ import { IconArrowRight, IconCheck, IconUsers } from '../../components/icons.tsx
 import { buttonClass } from '../../components/styles.ts';
 import { Badge, type BadgeColor } from '../../components/ui.tsx';
 import type { Task } from '../../content/schema.ts';
-import { canPractise } from '../../lib/roadmap.ts';
+import { canPractise, taskHref } from '../../lib/roadmap.ts';
 import type { TaskLinks } from './useTaskLinks.ts';
 
 const SKILL: Record<Task['skill'], { label: string; color: BadgeColor }> = {
@@ -101,12 +101,16 @@ function PractiseLink({ task, links }: { task: Task; links: TaskLinks }) {
       ? answered > 0
         ? `Đã làm ${Math.min(answered, link.count)}/${link.count} câu · tự tích khi đủ`
         : `Tự tích khi làm đủ ${link.count} câu`
-      : link.kind === 'exam'
-        ? 'Tự tích khi nộp bài'
-        : 'Đề thi thử trên web · tự tích khi nộp bài';
+      : link.kind === 'mock'
+        ? 'Đề thi thử trên web · tự tích khi nộp bài'
+        : link.kind === 'speaking'
+          ? 'Tự tích khi lưu bản ghi âm'
+          : link.kind === 'review'
+            ? 'Tự tích khi gửi nhận xét'
+            : 'Tự tích khi nộp bài';
   return (
     <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1">
-      <Link to={`${links.base}/nv/${task.id}`} className={buttonClass('soft', 'sm')}>
+      <Link to={taskHref(links.program, task)} className={buttonClass('soft', 'sm')}>
         {answered > 0 ? 'Làm tiếp' : 'Làm ngay'} <IconArrowRight size={14} />
       </Link>
       <span className="text-xs text-ink-muted">{hint}</span>
